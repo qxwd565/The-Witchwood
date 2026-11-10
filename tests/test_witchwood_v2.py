@@ -57,6 +57,23 @@ class WitchwoodV2Tests(unittest.TestCase):
     for f in ("armor","attack","durability","health","race","races"): self.assertNotIn(f,initial,cid+":"+f)
    if kind=="HERO": self.assertNotIn("health",initial,cid)
    self.assertIn("nativeTags",initial); self.assertIn("referencedTags",initial)
+ def test_all_11_launch_cards_and_13_initial_fields(self):
+  specs={cid:src["initialSpec"] for cid,src in self.data.items()}
+  self.assertEqual(specs["GIL_191"]["cost"],4)
+  self.assertEqual(specs["GIL_531"]["cost"],1)
+  self.assertEqual(specs["GIL_547"]["health"],4)
+  self.assertEqual(specs["GIL_584"]["races"],[])
+  self.assertEqual(specs["GIL_598"]["cost"],8)
+  self.assertEqual(specs["GIL_653"]["text"],"<b>죽음의 메아리:</b><br></br>무작위 아군 <b>속공</b> 하수인 하나에게 +2/+1을 부여합니다.")
+  self.assertEqual(specs["GIL_663"]["cost"],2)
+  self.assertEqual(specs["GIL_663"]["text"],"2/2 나무정령 셋을 내 손으로 가져옵니다.")
+  self.assertEqual(specs["GIL_663t"]["cost"],2)
+  self.assertEqual(specs["GIL_667"]["health"],5)
+  self.assertEqual(specs["GIL_667"]["text"],"<b>도발</b>, <b>죽음의 메아리:</b><br></br>내 영웅의 생명력을<br></br>4 회복시킵니다.")
+  self.assertEqual(specs["GIL_801"]["cost"],2)
+  self.assertEqual(specs["GIL_836"]["text"],"<b>전투의 함성</b> 하수인을<br></br>하나 <b>발견</b>합니다.")
+  self.assertIn("[x]",specs["GIL_667"]["nativeRawText"])
+  self.assertIn("\\n",specs["GIL_653"]["nativeRawText"])
  def test_confirmed_missing_patch_events(self):
   count=0
   for cid,src in self.data.items():
