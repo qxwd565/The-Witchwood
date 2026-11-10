@@ -80,7 +80,8 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
    current=src["current"]
    actual_diff=set()
    for role in ("ownedTags","referencedTags"):
-    before=scalar(state.get(role,[])); after=scalar(current.get(role,[]))
+    before={int(x["id"]):x for x in state.get(role,[])}
+    after={int(x["id"]):x for x in current.get(role,[])}
     actual_diff.update((role,tid) for tid in set(before)|set(after) if before.get(tid,"ABSENT")!=after.get(tid,"ABSENT"))
    observations=src.get("observations",{}).get("undatedRawTags",[])
    observed={(x["role"],int(x["tagId"])) for x in observations}
