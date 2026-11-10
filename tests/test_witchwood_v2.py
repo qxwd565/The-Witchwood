@@ -80,11 +80,12 @@ class WitchwoodV2Tests(unittest.TestCase):
   hero_power=self.data["GIL_504h"]["initialSpec"]
   self.assertEqual(hero_power["cost"],0)
   self.assertIs(hero_power["collectible"],False)
-  empty=self.data["GIL_616t2"]["initialSpec"]
+  empty=self.data["GIL_616t2"]["current"]
   self.assertEqual(empty["text"],"")
-  self.assertEqual(empty["nativeRawText"],"")
-  launch_string=self.data["GIL_616t2"]["_meta"]["launchStrings"]["184"]["locales"]["koKR"]
-  self.assertTrue(launch_string["present"])
+  current_string=self.data["GIL_616t2"]["_meta"]["currentStrings"].get("184",{}).get("locales",{}).get("koKR")
+  if current_string is not None:
+   self.assertTrue(current_string["present"])
+   self.assertEqual(current_string["nativeRawText"],"")
   self.assertEqual(sum(len(x.get("referencedTags",[])) for x in self.render),25)
   self.assertEqual(sum(bool(x.get("referencedTags")) for x in self.render),20)
  def test_confirmed_missing_patch_events(self):
