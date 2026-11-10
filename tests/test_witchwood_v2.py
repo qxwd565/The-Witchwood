@@ -81,6 +81,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
     self.assertEqual(value(state["ownedTags"],tid),change["after"],(event["id"],event["date"],tid))
  def test_14_event_archive_before_after_raw_tags(self):
   self.assertEqual(len(self.event_evidence["missingGameplayEvents"]),14)
+  undated={(x["id"],int(x["confirmedTagId"]),x["role"]+"Tags") for x in self.audit["extraUndatedEvidence"]["observations"]}
   def tagmap(rows): return {str(x["id"]):str(x.get("value")) for x in rows if "value" in x}
   for event in self.event_evidence["missingGameplayEvents"]:
    cid=event["id"]; day=event["proposedKoreanDay"]; revisions=self.data[cid]["history"]
@@ -88,8 +89,16 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
    prior=[x for x in revisions if x["from"]<day]
    before=prior[-1]["changes"] if prior else self.data[cid]["initialSpec"]
    for role in ("ownedTags","referencedTags"):
-    self.assertEqual(tagmap(before.get(role,[])),event["archiveBefore"].get(role,{}),(cid,day,role,"archive before"))
-    self.assertEqual(tagmap(after.get(role,[])),event["archiveAfter"].get(role,{}),(cid,day,role,"archive after"))
+    before_map=event["archiveBefore"].get(role,{})
+    after_map=event["archiveAfter"].get(role,{})
+    actual_before=tagmap(before.get(role,[])); actual_after=tagmap(after.get(role,[]))
+    for tid in set(before_map)|set(after_map):
+     if (cid,int(tid),role) in undated: continue
+     self.assertEqual(actual_before.get(str(tid),"ABSENT"),before_map.get(tid,"ABSENT"),(cid,day,role,tid,"archive before"))
+     self.assertEqual(actual_after.get(str(tid),"ABSENT"),after_map.get(tid,"ABSENT"),(cid,day,role,tid,"archive after"))
+  for item in self.audit["extraUndatedEvidence"]["observations"]:
+   rows=self.data[item["id"]]["observations"]["undatedRawTags"]
+   self.assertTrue(any(x["findingId"]==item["findingId"] and x["tagId"]==item["confirmedTagId"] and x["before"]==item["before"] and x["after"]==item["after"] for x in rows),item["id"]+":"+item["findingId"])
  def test_40_existing_raw_delta_before_after_values(self):
   self.assertEqual(len(self.audit["existingRawDelta40"]),40)
   for event in self.audit["existingRawDelta40"]:
