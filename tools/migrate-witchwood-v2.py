@@ -150,7 +150,6 @@ def main():
         normalized=copy.deepcopy(card); baseline=copy.deepcopy(original[cid])
         normalized_tags=copy.deepcopy(normalized.pop("nativeTags",[]))+copy.deepcopy(normalized.pop("referencedTags",[]))
         baseline_tags=copy.deepcopy(baseline.pop("nativeTags",[]))+copy.deepcopy(baseline.pop("referencedTags",[]))
-        if cid=="GIL_152": baseline_tags.append({"id":227,"name":"공격 불가","value":1})
         normalized_tags.sort(key=lambda x:x["id"]); baseline_tags.sort(key=lambda x:x["id"])
         if normalized_tags!=baseline_tags:
             actual={x["id"]:x.get("value") for x in normalized_tags}
