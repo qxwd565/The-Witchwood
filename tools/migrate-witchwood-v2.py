@@ -171,6 +171,8 @@ def main():
             raise ValueError(f"{cid}: legacy source metadata missing")
         if src["card"].get("portrait")!=original[cid].get("portrait"):raise ValueError(f"{cid}: portrait drift")
         initial=state_from(launch[cid],cid)
+        initial["nativeTags"]=named(launch[cid]["ownedTags"])
+        initial["referencedTags"]=named(launch[cid]["referencedTags"])
         first=corrected.get(RELEASE,{})
         # The old release row is a legacy current snapshot; never use it as launch state.
         old_current=copy.deepcopy(src["card"])
