@@ -29,4 +29,4 @@ for d in audit["rawReplayDiffs"]:
  assert actual==d["expected"],(d["id"],d["day"],d["tag"],actual,d["expected"])
 for d in audit["initialLogicalDiffs"]:
  assert files[d["id"]]["initialSpec"].get(d["field"],"ABSENT")==d["expected"],(d["id"],d["field"])
-print(json.dumps({"cards":156,"sparseDateRows":date_rows,"legacyIntervals":intervals,"rawDiffs":51,"logicalDiffs":22,"collectible":135,"nonCollectible":21},ensure_ascii=False))
+print(json.dumps({"cards":156,"sparseDateRows":date_rows,"datedIntervals":intervals,"undatedR005":undated_r005,"auditItems":intervals+undated_r005,"rawDiffs":51,"logicalDiffs":22,"collectible":135,"nonCollectible":21},ensure_ascii=False))
