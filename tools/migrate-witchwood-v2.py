@@ -144,7 +144,10 @@ def main():
         baseline_tags=copy.deepcopy(baseline.pop("nativeTags",[]))+copy.deepcopy(baseline.pop("referencedTags",[]))
         if cid=="GIL_152": baseline_tags.append({"id":227,"name":"공격 불가","value":1})
         normalized_tags.sort(key=lambda x:x["id"]); baseline_tags.sort(key=lambda x:x["id"])
-        if normalized_tags!=baseline_tags: raise ValueError(f"{cid}: current owned/referenced tags differ from immutable baseline plus approved GIL_152 Tag227")
+        if normalized_tags!=baseline_tags:
+            actual={x["id"]:x.get("value") for x in normalized_tags}
+            expected={x["id"]:x.get("value") for x in baseline_tags}
+            raise ValueError(f"{cid}: current tag mismatch missing={sorted(set(expected)-set(actual))} extra={sorted(set(actual)-set(expected))} changed={[(k,expected[k],actual[k]) for k in sorted(set(actual)&set(expected)) if actual[k]!=expected[k]]}")
         if normalized!=baseline: raise ValueError(f"{cid}: current card metadata changed from immutable baseline")
     # Existing 25 Undead date rows are corrected without changing their actual deltas.
     corrected={}
