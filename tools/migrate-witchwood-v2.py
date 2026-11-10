@@ -128,6 +128,7 @@ def main():
     catalog=read(ROOT/"cards.json"); records={c["id"]:c for c in catalog["cards"]}
     assert len(records)==156
     central=read(ROOT/"data/history.json")
+    research=read(ROOT/"sources/witchwood-research-v1.json")
     events=central["events"]
     assert len(events["2018-04-13"])==156
     assert sum(len(v) for d,v in events.items() if d!="2018-04-13")==40
@@ -289,13 +290,14 @@ def main():
             src["nativeRawText"]=copy.deepcopy(raw_current)
             src["current"]["nativeRawText"]=copy.deepcopy(raw_current)
         src["history"]=copy.deepcopy(revisions)
-        src["observations"]={"undated":undated}
+        src["observations"]={"undated":undated,"research":[copy.deepcopy(x) for x in research["observations"] if cid in x.get("cardIds",[])]}
         src["_meta"]={"schemaVersion":2,"timezone":"Asia/Seoul","releasedAt":RELEASE,
                       "source":"HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
                       "launchOwnedTags":copy.deepcopy(owned),"launchReferencedTags":copy.deepcopy(refs),
                       "launchStrings":copy.deepcopy(launch[cid]["strings"]),
                       "currentStrings":copy.deepcopy(current_entities[cid]["strings"]),
-                      "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"])}
+                      "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"]),
+                      "researchObservationIds":[x["id"] for x in research["observations"] if cid in x.get("cardIds",[])]}
         write(ROOT/"data"/(cid+".json"),src)
         # cards.json/render.json preserve existing fields; approved Tag addition only.
         records[cid]["nativeTags"]=copy.deepcopy(current_tags[cid])
@@ -306,7 +308,12 @@ def main():
             legacy_patches.append({"date":rev["from"],"changes":copy.deepcopy(rev["changes"]),"removedFields":copy.deepcopy(rev.get("removedFields",[]))})
     catalog["cards"]=list(records.values())
     # Generate compatibility indexes and a separate explicit date-first canonical source.
-    public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","events":{RELEASE:{}}}
+    public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","events":{RELEASE:{}},
+                    "observations":copy.deepcopy(research["observations"]),
+                    "schemaPolicy":copy.deepcopy(research["schemaPolicy"]),
+                    "rawTagAudit":copy.deepcopy(research["rawTagAudit"]),
+                    "editorial":copy.deepcopy(research["editorial"]),
+                    "relationships":copy.deepcopy(research["relationships"])}
     render=[]
     legacy={"schema":1,"set":"The Witchwood","cards":{}}
     for card in catalog["cards"]:
