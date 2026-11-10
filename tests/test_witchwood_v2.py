@@ -73,7 +73,7 @@ class WitchwoodV2Tests(unittest.TestCase):
   self.assertEqual(specs["GIL_801"]["cost"],2)
   self.assertEqual(specs["GIL_836"]["text"],"<b>전투의 함성</b> 하수인을<br></br>하나 <b>발견</b>합니다.")
   self.assertIn("[x]",specs["GIL_667"]["nativeRawText"])
-  self.assertIn("\\n",specs["GIL_653"]["nativeRawText"])
+  self.assertIn("\n",specs["GIL_653"]["nativeRawText"])
  def test_confirmed_missing_patch_events(self):
   count=0
   for cid,src in self.data.items():
