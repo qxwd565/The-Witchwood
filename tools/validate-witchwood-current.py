@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Validate current compatibility API and every published Witchwood historical interval."""
-import copy, json, re
+import base64, copy, gzip, json, re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 RELEASE="2018-04-13"
@@ -10,6 +10,10 @@ catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(RO
 date_first=read(ROOT/"data/history.json")
 research=read(ROOT/"sources/witchwood-research-v1.json")
 manifest=read(ROOT/"sources/witchwood-source-manifest.json")
+obs_b64=(ROOT/"sources/witchwood-observations-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
+obs_evidence=json.loads(gzip.decompress(base64.b64decode(obs_b64)))
+event_b64=(ROOT/"sources/witchwood-event-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
+event_evidence=json.loads(gzip.decompress(base64.b64decode(event_b64)))
 assert date_first["format"]=="date-first-delta"
 assert date_first==read(ROOT/"sources/witchwood-history-v2.json")
 assert date_first["sourceManifest"]==manifest
@@ -22,6 +26,10 @@ assert len(legacy["cards"])==156
 assert manifest["count"]==len(manifest["entries"])==40
 assert len(research["observations"])==13
 assert len(date_first["observations"])==13
+assert date_first["gameplayEvidence"]==event_evidence
+assert len(obs_evidence)==13
+assert len(event_evidence["missingGameplayEvents"])==14
+assert len(event_evidence["existingLaterEventChecks"])==40
 assert len(date_first["events"][RELEASE])==156
 assert sum(len(v) for d,v in date_first["events"].items() if d!=RELEASE)==63
 assert len(date_first["events"]["2022-11-30"])==25
@@ -53,8 +61,11 @@ for cid,old in baseline.items():
     assert source["_meta"]["portrait"]==old.get("portrait")
     assert source["_meta"]["art"]==old.get("art")
     assert source["_meta"]["current"]==source["current"]
+    assert source["_meta"]["sourceManifest"]==manifest
     assert source["card"]["nativeTags"]==expected
     assert source["current"]["nativeTags"]==expected
+    assert source["_meta"]["gameplayEvidence"]["missing"]==[x for x in event_evidence["missingGameplayEvents"] if x.get("id")==cid]
+    assert source["_meta"]["gameplayEvidence"]["existing"]==[x for x in event_evidence["existingLaterEventChecks"] if x.get("id")==cid]
     assert source["card"]["nativeTagOrigins"]==now["nativeTagOrigins"]
     assert source["current"]["nativeTagOrigins"]==now["nativeTagOrigins"]
     date_keys=sorted(k for k in source if DATE.fullmatch(k))
