@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Migrate Witchwood's central date-first archive into card-level v2 and legacy API caches."""
 from __future__ import annotations
-import copy, json, re, xml.etree.ElementTree as ET
+import base64, copy, gzip, json, re, xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -152,6 +152,17 @@ def main():
     assert len(records)==156
     research=read(ROOT/"sources/witchwood-research-v1.json")
     source_manifest=read(ROOT/"sources/witchwood-source-manifest.json")
+    evidence_b64=(ROOT/"sources/witchwood-observations-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
+    evidence_observations=json.loads(gzip.decompress(base64.b64decode(evidence_b64)))
+    if len(evidence_observations)!=13 or len(research["observations"])!=13: raise ValueError("Witchwood observation evidence must contain all 13 groups")
+    observations=[]
+    for summary,evidence in zip(research["observations"],evidence_observations):
+        if summary.get("cardIds")!=evidence.get("ids"): raise ValueError("Observation card list mismatch: "+str(summary.get("id")))
+        row=copy.deepcopy(summary)
+        row.update({"findingId":evidence["findingId"],"day":evidence.get("day"),"build":evidence.get("build"),
+                    "category":evidence.get("category"),"sources":copy.deepcopy(evidence.get("sources",[])),
+                    "archiveEvidence":copy.deepcopy(evidence.get("archiveEvidence",[]))})
+        observations.append(row)
     baseline_history_path=ROOT/"sources/baseline/data-history.json"
     baseline_history=read(baseline_history_path) if baseline_history_path.exists() else read(ROOT/"data/history.json")
     central=baseline_history
@@ -378,7 +389,7 @@ def main():
             src["current"]["nativeRawText"]=copy.deepcopy(raw_current)
             src["card"]["nativeRawText"]=copy.deepcopy(raw_current)
         src["history"]=copy.deepcopy(revisions)
-        src["observations"]={"undated":undated,"research":[copy.deepcopy(x) for x in research["observations"] if cid in x.get("cardIds",[])]}
+        src["observations"]={"undated":undated,"research":[copy.deepcopy(x) for x in observations if cid in x.get("cardIds",[])]}
         # Date-first canonical snapshots are real top-level YYYY-MM-DD keys in this same file.
         for rev in revisions:
             day=rev["from"]
@@ -401,7 +412,7 @@ def main():
                       "relationships":copy.deepcopy(research["relationships"]),"sourceManifest":copy.deepcopy(source_manifest),
                       "current":copy.deepcopy(src["current"]),
                       "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"]),
-                      "researchObservationIds":[x["id"] for x in research["observations"] if cid in x.get("cardIds",[])]}
+                      "researchObservationIds":[x["id"] for x in observations if cid in x.get("cardIds",[])]}
         write(ROOT/"data"/(cid+".json"),src)
         # cards.json/render.json preserve existing fields; approved Tag addition only.
         records[cid]["nativeTags"]=copy.deepcopy(current_tags[cid])
@@ -417,7 +428,7 @@ def main():
     # Generate compatibility indexes and a separate explicit date-first canonical source.
     public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","events":{RELEASE:{}},
                     "sourceManifest":copy.deepcopy(source_manifest),
-                    "observations":copy.deepcopy(research["observations"]),
+                    "observations":copy.deepcopy(observations),
                     "schemaPolicy":copy.deepcopy(research["schemaPolicy"]),
                     "rawTagAudit":copy.deepcopy(research["rawTagAudit"]),
                     "editorial":copy.deepcopy(research["editorial"]),
