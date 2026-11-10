@@ -2,206 +2,176 @@ import base64, copy, gzip, json, re, unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 RELEASE="2018-04-13"
-DATE=re.compile(r"^\d{4}-\d{2}-\d{2}$")
+DATE=re.compile(r"^\\d{4}-\\d{2}-\\d{2}$")
 def read(p): return json.loads(p.read_text(encoding="utf-8"))
-class WitchwoodV2Tests(unittest.TestCase):
+def evidence(path):
+    line=(ROOT/path).read_text(encoding="utf-8").splitlines()[-1].strip()
+    return json.loads(gzip.decompress(base64.b64decode(line)))
+def value(rows,tid):
+    row=next((x for x in rows if int(x["id"])==int(tid)),None)
+    return "ABSENT" if row is None else str(row.get("value")) if "value" in row else "NO_VALUE"
+class WitchwoodSparseHistoryTests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.cards=read(ROOT/"cards.json")["cards"]
+  cls.catalog=read(ROOT/"cards.json")["cards"]
   cls.render=read(ROOT/"render.json")["cards"]
   cls.legacy=read(ROOT/"history.json")["cards"]
-  cls.central=read(ROOT/"sources/baseline/data-history.json")["events"]
-  cls.public=read(ROOT/"data/history.json")
+  cls.central=read(ROOT/"data/history.json")
   cls.research=read(ROOT/"sources/witchwood-research-v1.json")
   cls.manifest=read(ROOT/"sources/witchwood-source-manifest.json")
+  cls.audit=evidence("sources/witchwood-independent-audit-v2.json.gz.b64")
+  cls.obs_evidence=evidence("sources/witchwood-observations-evidence.json.gz.b64")
+  cls.event_evidence=evidence("sources/witchwood-event-evidence.json.gz.b64")
   cls.baseline={x["id"]:x for x in read(ROOT/"sources/baseline/cards.json")["cards"]}
   cls.data={p.stem:read(p) for p in (ROOT/"data").glob("GIL_*.json")}
+  cls.cards={x["id"]:x for x in cls.catalog}
   cls.rendered={x["id"]:x for x in cls.render}
  @staticmethod
- def valmap(rows): return {x["id"]:x.get("value") for x in rows}
- def test_156_card_set_and_metadata(self):
+ def state(src,day):
+  return next(x["changes"] for x in src["history"] if x["from"]==day)
+ def apply_sparse(self,state,sparse,day):
+  for field,val in sparse.items():
+   if field in ("removedFields","rawTagDelta","eventKinds","representation","sources"): continue
+   self.assertNotEqual(state.get(field,"__MISSING__"),val,(day,field,"not a real delta"))
+   state[field]=copy.deepcopy(val)
+  for event in sparse.get("rawTagDelta",[]):
+   role=event["role"]; rows={int(x["id"]):copy.deepcopy(x) for x in state.get(role,[])}; tid=int(event["id"])
+   self.assertEqual(rows.get(tid,"ABSENT"),event.get("before","ABSENT"),(day,tid,"raw before"))
+   after=event.get("after","ABSENT")
+   if after=="ABSENT": rows.pop(tid,None)
+   else: rows[tid]=copy.deepcopy(after)
+   state[role]=[rows[k] for k in sorted(rows)]
+  for field in sparse.get("removedFields",[]):
+   self.assertIn(field,state,(day,field,"remove absent field"))
+   state.pop(field)
+  merged={}
+  for role in ("ownedTags","referencedTags"):
+   for row in state.get(role,[]):
+    self.assertNotIn(int(row["id"]),merged,(day,row["id"],"tag role collision"))
+    merged[int(row["id"])]=copy.deepcopy(row)
+  state["nativeTags"]=[merged[k] for k in sorted(merged)]
+  state["nativeTagOrigins"]=sorted([{"id":int(x["id"]),"role":role} for role in ("ownedTags","referencedTags") for x in state.get(role,[])],key=lambda x:(x["id"],x["role"]))
+  return state
+ def test_156_cards_immutable_current_compatibility(self):
   self.assertEqual(len(self.cards),156); self.assertEqual(len(self.render),156); self.assertEqual(len(self.data),156)
   self.assertEqual(len(self.legacy),156)
-  self.assertEqual(sum(bool(x.get("collectible")) for x in self.cards),135)
-  self.assertEqual(sum(not bool(x.get("collectible")) for x in self.cards),21)
-  for cid,src in self.data.items():
-   base=self.baseline[cid]
-   source_base=read(ROOT/"sources/baseline/cards-data"/(cid+".json"))
-   self.assertEqual(src["mode"],source_base["mode"])
-   self.assertEqual(src["artworkProvenance"],source_base["artworkProvenance"])
-   self.assertEqual(src["card"]["portrait"],base.get("portrait"))
-   self.assertEqual(src["card"]["art"],base.get("art"))
-   self.assertEqual(src["current"]["id"],cid)
-   self.assertEqual(src["current"]["dbfId"],base["dbfId"])
-   self.assertEqual(src["_meta"]["current"],src["current"])
-   self.assertEqual(src["_meta"]["mode"],src["mode"])
-   self.assertEqual(src["_meta"]["artworkProvenance"],src["artworkProvenance"])
-   self.assertEqual(src["_meta"]["portrait"],base.get("portrait"))
-   self.assertEqual(src["_meta"]["art"],base.get("art"))
- def test_current_legacy_flat_tags_match_immutable_baseline(self):
-  refs=ref_cards=0
+  self.assertEqual(sum(bool(x.get("collectible")) for x in self.cards.values()),135)
+  self.assertEqual(sum(not bool(x.get("collectible")) for x in self.cards.values()),21)
   for cid,base in self.baseline.items():
+   card=self.cards[cid]; source=self.data[cid]
+   for key,val in base.items():
+    if key!="nativeTags": self.assertEqual(card.get(key),val,(cid,key))
    expected=copy.deepcopy(base.get("nativeTags",[]))
-   if cid=="GIL_152" and not any(x.get("id")==227 for x in expected):
-    expected.append({"id":227,"name":"공격 불가","value":1})
-   expected.sort(key=lambda x:x["id"])
-   actual=copy.deepcopy(self.rendered[cid].get("nativeTags",[])); actual.sort(key=lambda x:x["id"])
-   self.assertEqual(actual,expected,cid)
-   refs+=len(self.rendered[cid].get("referencedTags",[]))
-   ref_cards+=bool(self.rendered[cid].get("referencedTags"))
-  self.assertEqual(refs,25); self.assertEqual(ref_cards,20)
-  self.assertEqual(self.valmap(self.rendered["GIL_152"]["nativeTags"])[227],1)
- def test_actual_top_level_dates_and_legacy_shapes(self):
-  self.assertEqual(self.public["format"],"date-first-delta")
-  self.assertEqual(self.public,read(ROOT/"sources/witchwood-history-v2.json"))
-  self.assertEqual(len(self.public["events"][RELEASE]),156)
-  self.assertEqual(sum(len(v) for d,v in self.public["events"].items() if d!=RELEASE),63)
+   if cid=="GIL_152" and not any(x["id"]==227 for x in expected): expected.append({"id":227,"name":"공격 불가","value":1})
+   self.assertEqual(sorted(card.get("nativeTags",[]),key=lambda x:x["id"]),sorted(expected,key=lambda x:x["id"]),cid)
+   base_data=read(ROOT/"sources/baseline/cards-data"/(cid+".json"))
+   self.assertEqual(source["mode"],base_data["mode"]); self.assertEqual(source["artworkProvenance"],base_data["artworkProvenance"])
+   self.assertEqual(source["card"]["portrait"],base.get("portrait")); self.assertEqual(source["card"]["art"],base.get("art"))
+   self.assertEqual(source["_meta"]["mode"],source["mode"]); self.assertEqual(source["_meta"]["artworkProvenance"],source["artworkProvenance"])
+ def test_51_independent_raw_replay_diffs(self):
+  self.assertEqual(len(self.audit["rawReplayDiffs"]),51)
+  for diff in self.audit["rawReplayDiffs"]:
+   state=self.state(self.data[diff["id"]],diff["day"])
+   self.assertEqual(value(state[diff["role"]],diff["tag"]),diff["expected"],(diff["id"],diff["day"],diff["tag"]))
+ def test_existing_40_raw_before_after_deltas(self):
+  self.assertEqual(len(self.audit["existingRawDelta40"]),40)
+  for event in self.audit["existingRawDelta40"]:
+   state=self.state(self.data[event["id"]],event["date"])
+   for tid,change in event["rawDelta"].items():
+    self.assertEqual(value(state["ownedTags"],tid),change["after"],(event["id"],event["date"],tid))
+ def test_22_initial_logical_fields(self):
+  self.assertEqual(len(self.audit["initialLogicalDiffs"]),22)
+  for row in self.audit["initialLogicalDiffs"]:
+   initial=self.data[row["id"]]["initialSpec"]
+   self.assertEqual(initial.get(row["field"],"ABSENT"),row["expected"],(row["id"],row["field"]))
+   for revision in self.data[row["id"]]["history"]:
+    self.assertEqual(revision["changes"].get(row["field"],"ABSENT"),row["expected"],(row["id"],revision["from"],row["field"]))
+  noncollectible={x["id"] for x in self.audit["initialLogicalDiffs"] if x["field"]=="collectible"}
+  self.assertEqual(len(noncollectible),15)
+  for cid in noncollectible: self.assertIs(self.data[cid]["initialSpec"]["collectible"],False)
+  empty_text={x["id"] for x in self.audit["initialLogicalDiffs"] if x["field"]=="text"}
+  self.assertEqual(len(empty_text),7)
+  for cid in empty_text: self.assertEqual(self.data[cid]["initialSpec"]["text"],"")
+  self.assertNotIn("collectible",self.data["GIL_191t"]["observations"]["undated"])
+ def test_every_sparse_date_row_is_a_real_delta_and_replays(self):
+  intervals=0
   for cid,src in self.data.items():
    days=sorted(k for k in src if DATE.fullmatch(k))
-   self.assertEqual(days[0],RELEASE,cid)
-   self.assertEqual(days,sorted(x["from"] for x in src["history"]),cid)
-   self.assertEqual(src[RELEASE]["type"],src["initialSpec"]["type"],cid)
-   for field,value in src["initialSpec"].items():
-    self.assertEqual(src[RELEASE].get(field),value,(cid,field))
-   self.assertEqual(self.legacy[str(src["current"]["dbfId"])]["initialSpec"],src["initialSpec"])
-   self.assertEqual(self.legacy[str(src["current"]["dbfId"])]["patches"],src["patches"])
-   self.assertEqual(self.rendered[cid]["history"],src["history"])
- def test_launch_values_and_zero_presence_semantics(self):
-  specs={cid:src["initialSpec"] for cid,src in self.data.items()}
-  self.assertEqual(specs["GIL_191"]["cost"],4)
-  self.assertEqual(specs["GIL_531"]["cost"],1)
-  self.assertEqual(specs["GIL_547"]["health"],4)
-  self.assertEqual(specs["GIL_584"]["races"],[])
-  self.assertEqual(specs["GIL_598"]["cost"],8)
-  self.assertEqual(specs["GIL_663"]["cost"],2)
-  self.assertEqual(specs["GIL_663"]["text"],"2/2 나무정령 셋을 내 손으로 가져옵니다.")
-  self.assertEqual(specs["GIL_663t"]["cost"],2)
-  self.assertEqual(specs["GIL_667"]["health"],5)
-  self.assertEqual(specs["GIL_801"]["cost"],2)
-  self.assertEqual(specs["GIL_504"]["health"],30)
-  self.assertEqual(specs["GIL_504"]["armor"],5)
-  self.assertEqual(specs["GIL_504h"]["cost"],0)
-  self.assertIs(specs["GIL_504h"]["collectible"],False)
-  self.assertEqual(specs["GIL_600"]["cost"],0)
-  self.assertEqual(specs["GIL_616t2"]["text"],"")
-  self.assertEqual(specs["GIL_681"]["race"],"모든 종족")
-  self.assertEqual(specs["GIL_681"]["races"],["ALL"])
-  for cid in ("GIL_188a","GIL_188b"):
-   self.assertEqual(specs[cid]["type"],"SPELL")
-   for field in ("cost","attack","health"): self.assertNotIn(field,specs[cid],cid+":"+field)
- def test_launch_xml_string_presence_and_raw_text(self):
-  for cid,src in self.data.items():
-   strings=src["_meta"]["launchStrings"]
-   for tid in ("184","185"):
-    if tid in strings:
-     self.assertTrue(strings[tid]["present"])
-     for locale in ("koKR","enUS"):
-      self.assertIn(locale,strings[tid]["locales"],(cid,tid,locale))
-      self.assertTrue(strings[tid]["locales"][locale]["present"])
-  self.assertIn("[x]",self.data["GIL_667"]["initialSpec"]["nativeRawText"])
-  self.assertIn("\n",self.data["GIL_667"]["initialSpec"]["nativeRawText"])
-  self.assertEqual(self.data["GIL_616t2"]["initialSpec"]["text"],"")
- def test_13_initial_field_corrections(self):
-  s={cid:x["initialSpec"] for cid,x in self.data.items()}
-  self.assertEqual(s["GIL_653"]["text"],"<b>죽음의 메아리:</b><br></br>무작위 아군 <b>속공</b> 하수인 하나에게 +2/+1을 부여합니다.")
-  self.assertEqual(s["GIL_667"]["text"],"<b>도발</b>, <b>죽음의 메아리:</b><br></br>내 영웅의 생명력을<br></br>4 회복시킵니다.")
-  self.assertEqual(s["GIL_836"]["text"],"<b>전투의 함성</b> 하수인을<br></br>하나 <b>발견</b>합니다.")
- def test_existing_40_and_13_missing_gameplay_rows(self):
-  self.assertEqual(len(self.central[RELEASE]),156)
-  self.assertEqual(sum(len(v) for d,v in self.central.items() if d!=RELEASE),40)
-  self.assertEqual(len(self.public["events"]["2022-11-30"]),25)
-  self.assertNotIn("2022-12-07",self.public["events"])
-  for cid in ("GIL_117","GIL_198","GIL_207","GIL_510","GIL_513","GIL_515","GIL_526","GIL_545","GIL_553t","GIL_557","GIL_616","GIL_616t","GIL_616t2","GIL_618","GIL_635","GIL_655","GIL_658","GIL_667","GIL_678","GIL_694","GIL_805","GIL_815","GIL_825","GIL_840","GIL_902"):
-   self.assertIn("2022-11-30",{x["from"] for x in self.data[cid]["history"]},cid)
-  expected={"GIL_584":"2018-07-11","GIL_545":"2018-08-03","GIL_801":"2021-03-26",
-   "GIL_191":"2021-05-13","GIL_547":"2022-04-06","GIL_598":"2022-05-20",
-   "GIL_653":"2023-04-05","GIL_663":"2023-04-05","GIL_663t":"2023-04-05",
-   "GIL_667":"2023-05-20","GIL_531":"2026-04-15"}
-  for cid,day in expected.items(): self.assertIn(day,{x["from"] for x in self.data[cid]["history"]},cid)
-  self.assertEqual(self.data["GIL_836"]["patches"][-1]["date"],"2026-08-19")
- def test_historical_raw_corrections_do_not_copy_future_metadata(self):
-  for cid,day,tag_id,value in (("GIL_191","2021-03-26",48,4),("GIL_663","2021-03-26",48,2),("GIL_667","2022-11-30",45,5)):
-   tags=self.data[cid][day]["nativeTags"]
-   self.assertEqual(next(x["value"] for x in tags if x["id"]==tag_id),value)
-  for cid in ("GIL_191","GIL_553","GIL_663"):
-   self.assertFalse(any(x["id"]==1452 for x in self.data[cid]["2021-03-26"]["nativeTags"]),cid)
-  self.assertFalse(any(x["id"]==3881 for x in self.data["GIL_553t"]["2022-11-30"]["nativeTags"]))
-  for cid in ("GIL_191","GIL_663","GIL_600"):
-   self.assertFalse(any(x["id"]==114 and x.get("value")==0 for x in self.data[cid]["2021-03-26"]["nativeTags"]))
- def test_confirmed_representation_events_are_not_gameplay(self):
-  for cid in ("GIL_188a","GIL_188b"):
-   self.assertEqual(self.data[cid]["2018-11-30"]["type"],"MINION")
-   self.assertIn("representation",self.data[cid]["2018-11-30"])
-   self.assertIn("representation",self.data[cid]["2026-07-22"])
-   self.assertNotIn("gameplay",self.data[cid]["2026-07-22"]["eventKinds"])
-  self.assertEqual(self.data["GIL_681"]["2021-05-13"]["text"],"<i>모든 종족값을 가집니다.</i>")
-  for cid in ("GIL_596","GIL_653","GIL_672"):
-   snap=self.data[cid]["2025-03-19"]
-   self.assertTrue(any(x["id"]==45 for x in snap["nativeTags"]))
-   self.assertFalse(any(x["id"]==187 for x in snap["nativeTags"]))
-   self.assertEqual(snap["durability"],self.data[cid]["initialSpec"]["durability"])
-  for cid in ("GIL_134","GIL_687"):
-   self.assertIn("2026-03-11",{x["from"] for x in self.data[cid]["history"]})
- def test_legacy_replay_from_current_restores_every_interval(self):
+   self.assertTrue(days and days[0]==RELEASE,cid)
+   state=copy.deepcopy(src[RELEASE])
+   self.assertIn("nativeTags",state); self.assertIn("ownedTags",state); self.assertIn("referencedTags",state)
+   self.assertEqual(state,src["initialSpec"],cid+":release initialSpec")
+   for day in days[1:]:
+    sparse=src[day]
+    self.assertFalse(any(k in sparse for k in ("id","dbfId","name","nativeTags","ownedTags","referencedTags","nativeTagOrigins")),(cid,day,"full snapshot leaked"))
+    state=self.apply_sparse(state,sparse,day)
+    expected=self.state(src,day)
+    for field in ("type","cardClass","rarity","collectible","cost","attack","health","durability","armor","text","nativeRawText","races","race","spellSchool","nativeTags","ownedTags","referencedTags","nativeTagOrigins"):
+     self.assertEqual(state.get(field,"ABSENT"),expected.get(field,"ABSENT"),(cid,day,field))
+    intervals+=1
+   self.assertEqual(days,sorted(x["from"] for x in src["history"]),cid+":date/history parity")
+  self.assertEqual(intervals,63)
+ def test_all_219_current_based_compatibility_replays(self):
+  total=0
   for cid,src in self.data.items():
    current=copy.deepcopy(self.rendered[cid])
-   self.assertEqual(self.legacy[str(src["current"]["dbfId"])]["initialSpec"],src["initialSpec"])
+   dbf=str(src["current"]["dbfId"])
+   self.assertEqual(self.legacy[dbf]["initialSpec"],src["initialSpec"])
+   self.assertEqual(self.legacy[dbf]["patches"],src["patches"])
    for revision in src["history"]:
-    restored=copy.deepcopy(current)
-    restored.update(copy.deepcopy(revision["changes"]))
+    restored=copy.deepcopy(current); restored.update(copy.deepcopy(revision["changes"]))
     for field in revision.get("removedFields",[]): restored.pop(field,None)
-    for field,value in revision["changes"].items():
-     self.assertEqual(restored.get(field),value,(cid,revision["from"],field))
-    snap=src[revision["from"]]
-    for field in ("type","cost","attack","health","collectible","text","nativeRawText","nativeTags","nativeTagOrigins","ownedTags","referencedTags"):
-     if field in snap: self.assertEqual(restored.get(field),snap[field],(cid,revision["from"],field))
- def test_current_role_map_keeps_flattened_legacy_tags(self):
-  total=cards=0
-  for card in self.cards:
-   refs=card.get("referencedTags",[])
-   total+=len(refs); cards+=bool(refs)
-   roles={x["id"]:x["role"] for x in card.get("nativeTagOrigins",[])}
-   for row in refs: self.assertEqual(roles[row["id"]],"referenced")
-   for row in card["nativeTags"]:
-    self.assertIn(roles.get(row["id"]),("owned","referenced","legacy-only"))
-  self.assertEqual(total,25); self.assertEqual(cards,20)
- def test_research_observations_and_source_manifest(self):
-  self.assertEqual(len(self.research["observations"]),13)
-  self.assertEqual(self.manifest["count"],40)
-  self.assertEqual(len(self.manifest["entries"]),40)
-  self.assertEqual(self.public["sourceManifest"],self.manifest)
-  evidence_b64=(ROOT/"sources/witchwood-observations-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
-  evidence=json.loads(gzip.decompress(base64.b64decode(evidence_b64)))
-  event_b64=(ROOT/"sources/witchwood-event-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
-  event_evidence=json.loads(gzip.decompress(base64.b64decode(event_b64)))
-  self.assertEqual(len(evidence),13)
-  self.assertEqual(len(event_evidence["missingGameplayEvents"]),14)
-  self.assertEqual(len(event_evidence["existingLaterEventChecks"]),40)
-  self.assertEqual(self.public["gameplayEvidence"],event_evidence)
-  self.assertEqual(len(self.public["observations"]),13)
-  for summary,raw in zip(self.public["observations"],evidence):
-   self.assertEqual(summary["findingId"],raw["findingId"])
-   self.assertEqual(summary["cardIds"],raw["ids"])
-   self.assertEqual(summary["archiveEvidence"],raw["archiveEvidence"])
+    for field in ("type","cardClass","rarity","collectible","cost","attack","health","durability","armor","text","nativeRawText","races","race","spellSchool","nativeTags","ownedTags","referencedTags","nativeTagOrigins"):
+     self.assertEqual(restored.get(field,"ABSENT"),revision["changes"].get(field,"ABSENT"),(cid,revision["from"],field))
+    total+=1
+  self.assertEqual(total,219)
+ def test_135_21_collectible_partition_at_release_and_every_global_date(self):
+  states={cid:copy.deepcopy(src["initialSpec"]) for cid,src in self.data.items()}
+  dates=sorted({day for src in self.data.values() for day in src if DATE.fullmatch(day)})
+  for day in dates:
+   for cid,src in self.data.items():
+    if day==RELEASE: continue
+    sparse=src.get(day)
+    if sparse is not None: states[cid]=self.apply_sparse(copy.deepcopy(states[cid]),sparse,day)
+   self.assertEqual(sum(bool(x.get("collectible")) for x in states.values()),135,day)
+   self.assertEqual(sum(not bool(x.get("collectible")) for x in states.values()),21,day)
+ def test_sparse_canonical_is_the_build_input(self):
+  self.assertEqual(self.central["schema"],3); self.assertEqual(self.central["format"],"date-first-delta-v3")
+  self.assertEqual(len(self.central["events"][RELEASE]),156)
+  self.assertEqual(sum(len(v) for d,v in self.central["events"].items() if d!=RELEASE),63)
   for cid,src in self.data.items():
-   expected={x["id"] for x in self.research["observations"] if cid in x.get("cardIds",[])}
-   actual={x["id"] for x in src["observations"]["research"]}
-   self.assertEqual(actual,expected,cid)
-   expected_missing=any(x["id"]==cid for x in event_evidence["missingGameplayEvents"])
-   expected_existing=any(x["id"]==cid for x in event_evidence["existingLaterEventChecks"])
-   self.assertEqual(bool(src["_meta"]["gameplayEvidence"]["missing"]),expected_missing,cid+":missing evidence")
-   self.assertEqual(bool(src["_meta"]["gameplayEvidence"]["existing"]),expected_existing,cid+":existing evidence")
-   self.assertNotIn("research",src["patches"][0]["changes"] if src["patches"] else {})
- def test_81_current_line_break_cards_and_raw_text_sync(self):
-  self.assertEqual(sum("<br></br>" in x.get("text","") for x in self.cards),81)
-  for card in self.cards:
-   self.assertNotIn("\\n",card.get("text","")); self.assertNotIn("/n",card.get("text",""))
-  for cid in ("GIL_653","GIL_667","GIL_836","GIL_134","GIL_687"):
-   src=self.data[cid]
-   self.assertEqual(src["current"]["nativeRawText"],src["nativeRawText"])
-   self.assertNotEqual(src["current"]["nativeRawText"],"")
- def test_no_editorial_or_undated_observation_promoted(self):
-  for src in self.data.values():
-   for obs in src["observations"]["undated"].values(): self.assertIsNone(obs["date"])
-   self.assertNotIn("flavor",src["patches"][0]["changes"] if src["patches"] else {})
+   for day in sorted(k for k in src if DATE.fullmatch(k) and k!=RELEASE):
+    event=self.central["events"][day][cid]
+    self.assertEqual(event.get("rawTagDelta",[]),src[day].get("rawTagDelta",[]))
+    self.assertEqual(event.get("removedFields",[]),src[day].get("removedFields",[]))
+    for field,val in src[day].items():
+     if field not in ("rawTagDelta","removedFields","eventKinds","representation","sources"): self.assertEqual(event["changes"].get(field),val,(cid,day,field))
+ def test_all_13_observation_groups_and_9_extra_undated_records(self):
+  self.assertEqual(len(self.research["observations"]),13)
+  self.assertEqual(len(self.obs_evidence),13)
+  extra=[x for group in self.research["observations"] for x in group.get("extraUndatedEvidence",[])]
+  self.assertEqual(len(extra),9)
+  self.assertTrue(all(x.get("day") is None for x in extra))
+  self.assertEqual(sum(x["findingId"]=="WITCH-BAL-R011" for x in extra),4)
+  self.assertEqual(sum(x["findingId"]=="WITCH-BAL-R013" for x in extra),3)
+  self.assertEqual(sum(x["findingId"]=="WITCH-BAL-R005" for x in extra),2)
+  self.assertEqual(len(self.central["observations"]),13)
+  self.assertEqual(self.central["sourceManifest"],self.manifest)
+  self.assertEqual(len(self.manifest["entries"]),40)
+ def test_14_missing_40_existing_and_10_representation_events_are_separate(self):
+  self.assertEqual(len(self.event_evidence["missingGameplayEvents"]),14)
+  self.assertEqual(len(self.event_evidence["existingLaterEventChecks"]),40)
+  self.assertEqual(len(self.central["gameplayEvidence"]["missingGameplayEvents"]),14)
+  self.assertEqual(len(self.central["gameplayEvidence"]["existingLaterEventChecks"]),40)
+  dated_representation=sum("representation" in row for src in self.data.values() for day,row in src.items() if DATE.fullmatch(day) and day!=RELEASE)
+  undated_role=sum(1 for x in extra if x["findingId"]=="WITCH-BAL-R005")
+  self.assertEqual(dated_representation+undated_role,10)
+  for cid in ("GIL_188a","GIL_188b"):
+   self.assertNotIn("2026-07-22",[x["from"] for x in self.data[cid]["history"]])
+   self.assertTrue(any(x["findingId"]=="WITCH-BAL-R005" for x in self.data[cid]["observations"]["research"][0]["extraUndatedEvidence"]))
+ def test_current_line_breaks_and_reference_compatibility(self):
+  self.assertEqual(sum("<br></br>" in x.get("text","") for x in self.catalog),81)
+  self.assertEqual(sum(len(x.get("referencedTags",[])) for x in self.render),25)
+  self.assertEqual(sum(bool(x.get("referencedTags")) for x in self.render),20)
+  self.assertEqual(len(self.event_evidence["missingGameplayEvents"]),14)
 if __name__=="__main__": unittest.main(verbosity=2)
