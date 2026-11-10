@@ -118,9 +118,10 @@ def state_from(entity,cid):
         for f in ("durability","armor","spellSchool"):s.pop(f,None)
     if kind=="WEAPON":
         for f in ("health","armor","race","races","spellSchool"):s.pop(f,None)
-    if kind=="HERO":s.pop("health",None)
+    if kind=="HERO":
+        for f in ("attack","health","durability","race","races","spellSchool"):s.pop(f,None)
     if kind=="HERO_POWER":
-        for f in ("health","durability","race","races","spellSchool"):s.pop(f,None)
+        for f in ("armor","attack","durability","health","race","races","spellSchool"):s.pop(f,None)
     return s
 def api_text(s): return s.replace("\n","<br></br>").replace("\r\n","<br></br>").replace("\r","<br></br>")
 
