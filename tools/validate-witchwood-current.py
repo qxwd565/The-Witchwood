@@ -33,6 +33,35 @@ for d in audit["rawReplayDiffs"]:
  assert actual==d["expected"],(d["id"],d["day"],d["tag"],actual,d["expected"])
 for d in audit["initialLogicalDiffs"]:
  assert files[d["id"]]["initialSpec"].get(d["field"],"ABSENT")==d["expected"],(d["id"],d["field"])
+for cid,want in {
+ "GIL_188a":{"45":"2","47":"4","48":"3","183":"1125","199":"2","200":"20","202":"4","203":"1"},
+ "GIL_188b":{"45":"4","47":"2","48":"3","183":"1125","199":"2","202":"4","203":"1"}
+}.items():
+ release=files[cid]["initialSpec"]
+ release_tags={str(x["id"]):str(x["value"]) for x in release["ownedTags"] if "value" in x}
+ assert release_tags.get("202")=="5" and "rarity" not in release,(cid,"launch SPELL baseline")
+ row=files[cid]["2018-11-30"]
+ assert row["type"]=="MINION" and row["rarity"]=="COMMON",(cid,"R001 logical preview")
+ state=next(x["changes"] for x in files[cid]["history"] if x["from"]=="2018-11-30")
+ actual={str(x["id"]):str(x["value"]) for x in state["ownedTags"] if "value" in x}
+ assert actual==want,(cid,"R001 exact scalar raw state",actual)
+ assert state["referencedTags"]==[],(cid,"R001 references")
+ assert all(any(int(x["id"])==tid for x in state["ownedTags"]) for tid in (184,185,342)),(cid,"preserved strings")
+ assert not any(int(x["id"]) in (190,791) for x in state["ownedTags"]),(cid,"no future keyword at R001")
+ later=next(x["changes"] for x in files[cid]["history"] if x["from"]=="2026-07-22")
+ later_tags={str(x["id"]):str(x["value"]) for x in later["ownedTags"] if "value" in x}
+ assert later["rarity"]=="COMMON" and later_tags.get("202")=="4",(cid,"R005 cumulative type/rarity")
+ assert later_tags.get("45")==want["45"] and later_tags.get("47")==want["47"] and later_tags.get("48")=="3" and later_tags.get("203")=="1",(cid,"R005 cumulative scalars")
+ assert later_tags.get("791" if cid=="GIL_188a" else "190")=="1",(cid,"R005 owned keyword")
+ generated={int(x["tagId"]) for x in files[cid]["observations"]["undatedRawTags"] if x.get("findingId") is None}
+ final=files[cid]["history"][-1]["changes"]
+ def scalar(rows): return {int(x["id"]):str(x["value"]) for x in rows if "value" in x}
+ actual_diff=set()
+ for role in ("ownedTags","referencedTags"):
+  before=scalar(final.get(role,[])); after=scalar(files[cid]["current"].get(role,[]))
+  actual_diff.update(tid for tid in set(before)|set(after) if before.get(tid,"ABSENT")!=after.get(tid,"ABSENT"))
+ explicit={int(x["tagId"]) for x in files[cid]["observations"]["undatedRawTags"] if x.get("findingId") is not None}
+ assert generated==actual_diff-explicit,(cid,"undated raw observations recomputed",generated,actual_diff,explicit)
 for cid,tid in (("GIL_188a",791),("GIL_188b",190)):
  assert "2026-07-22" in files[cid]
  row=files[cid]["2026-07-22"]
