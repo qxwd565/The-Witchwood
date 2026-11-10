@@ -121,6 +121,36 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
    self.assertEqual(later_map.get(str(expected_keyword)),"1",cid+":R005 owned keyword")
    self.assertTrue(any(x.get("findingId")=="WITCH-BAL-R001" for x in row["sources"]))
    self.assertTrue(any(x.get("findingId")=="WITCH-BAL-R005-DATE" for x in src["2026-07-22"]["sources"]))
+ def test_r001_r005_logical_preview_fields_and_legacy_current_replay(self):
+  expected={
+   "GIL_188a":{"nativeRawText":"<b>속공</b>","text":"<b>속공</b>","cost":3,"attack":4,"health":2,"races":["BEAST"],"race":"야수"},
+   "GIL_188b":{"nativeRawText":"<b>도발</b>","text":"<b>도발</b>","cost":3,"attack":2,"health":4,"races":[],"race":""}
+  }
+  for cid,fields in expected.items():
+   src=self.data[cid]
+   for day in ("2018-11-30","2026-07-22"):
+    sparse=src[day]
+    for field,value_ in fields.items():
+     self.assertEqual(sparse.get(field,"__MISSING__"),value_,(cid,day,field,"sparse logical delta"))
+    self.assertEqual(sparse["type"],"MINION",(cid,day,"type"))
+    self.assertEqual(sparse["rarity"],"COMMON",(cid,day,"rarity"))
+    revision=next(x for x in src["history"] if x["from"]==day)
+    for field,value_ in fields.items():
+     self.assertEqual(revision["changes"].get(field,"__MISSING__"),value_,(cid,day,field,"revision"))
+    self.assertEqual(revision["changes"]["type"],"MINION")
+    self.assertEqual(revision["changes"]["rarity"],"COMMON")
+    # Legacy consumers start from the published current card, then apply
+    # the dated revision changes and removals exactly as documented.
+    restored=copy.deepcopy(self.rendered[cid])
+    restored.update(copy.deepcopy(revision["changes"]))
+    for field in revision.get("removedFields",[]): restored.pop(field,None)
+    for field,value_ in fields.items():
+     self.assertEqual(restored.get(field,"__MISSING__"),value_,(cid,day,field,"current+changes/removedFields"))
+    self.assertEqual(restored.get("type"),"MINION",(cid,day,"legacy type"))
+    self.assertEqual(restored.get("rarity"),"COMMON",(cid,day,"legacy rarity"))
+   self.assertNotIn("rarity",src.get("observations",{}).get("undated",{}),(cid,"rarity must be dated"))
+   for field in ("nativeRawText","text","cost","attack","health","races","race"):
+    self.assertNotIn(field,src.get("observations",{}).get("undated",{}),(cid,field,"must not be undated"))
  def test_156_cards_immutable_current_compatibility(self):
   self.assertEqual(len(self.cards),156); self.assertEqual(len(self.render),156); self.assertEqual(len(self.data),156)
   self.assertEqual(len(self.legacy),156)
