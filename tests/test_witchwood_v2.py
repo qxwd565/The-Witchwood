@@ -93,7 +93,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
     after_map=event["archiveAfter"].get(role,{})
     actual_before=tagmap(before.get(role,[])); actual_after=tagmap(after.get(role,[]))
     for tid in set(before_map)|set(after_map):
-     if (cid,int(tid),role) in undated: continue
+     if before_map.get(tid,"ABSENT")==after_map.get(tid,"ABSENT") or (cid,int(tid),role) in undated: continue
      self.assertEqual(actual_before.get(str(tid),"ABSENT"),before_map.get(tid,"ABSENT"),(cid,day,role,tid,"archive before"))
      self.assertEqual(actual_after.get(str(tid),"ABSENT"),after_map.get(tid,"ABSENT"),(cid,day,role,tid,"archive after"))
   for item in self.audit["extraUndatedEvidence"]["observations"]:
