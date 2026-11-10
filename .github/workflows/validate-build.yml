@@ -66,7 +66,8 @@ jobs:
                           kind=t.tag.rsplit("}",1)[-1]
                           if kind not in ("Tag","ReferencedTag") or "enumID" not in t.attrib: continue
                           target=owned if kind=="Tag" else refs
-                          target[t.attrib["enumID"]]=t.attrib.get("value","NO_VALUE")
+                          if "value" in t.attrib: target[t.attrib["enumID"]]=t.attrib["value"]
+                          else: target.setdefault("__nonScalar__",[]).append(t.attrib["enumID"])
                       result=(owned,refs)
               if result is None: raise AssertionError((path,cid,"missing entity"))
               return result
@@ -80,7 +81,8 @@ jobs:
               b,br=entity("/tmp/CardDefs-witchwood-2018-11-30-before.xml",cid)
               a,ar=entity("/tmp/CardDefs-witchwood-2018-11-30-after.xml",cid)
               assert b==before[cid] and br=={},(cid,"R001 before",b,br)
-              assert a==after[cid] and ar=={},(cid,"R001 after",a,ar)
+              assert {k:v for k,v in a.items() if k!="__nonScalar__"}==after[cid] and ar=={},(cid,"R001 after",a,ar)
+              assert set(a.get("__nonScalar__",[])) >= {"184","185","342"},(cid,"R001 preserved string/internal tags",a.get("__nonScalar__"))
           print("Historical raw tags verified: R001 GIL_188a/b before and after exact; launch/current tags also verified")
           PY
       - name: Sync compatibility APIs from sparse date-first canonical source
