@@ -459,6 +459,7 @@ def main():
         date_keys=sorted(k for k in src if DATE.fullmatch(k))
         if not date_keys or date_keys[0]!=RELEASE: raise ValueError(f"{cid}: missing top-level date-first release snapshot")
         initial=copy.deepcopy(src[RELEASE])
+        for meta_field in ("removedFields","eventKinds","representation","sources"): initial.pop(meta_field,None)
         public_history["events"][RELEASE][cid]=initial
         previous=copy.deepcopy(initial)
         for day in date_keys[1:]:
