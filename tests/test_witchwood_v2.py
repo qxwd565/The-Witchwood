@@ -2,7 +2,7 @@ import base64, copy, gzip, json, re, unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 RELEASE="2018-04-13"
-DATE=re.compile(r"^\\d{4}-\\d{2}-\\d{2}$")
+DATE=re.compile(r"^\d{4}-\d{2}-\d{2}$")
 def read(p): return json.loads(p.read_text(encoding="utf-8"))
 class WitchwoodV2Tests(unittest.TestCase):
  @classmethod
@@ -99,7 +99,7 @@ class WitchwoodV2Tests(unittest.TestCase):
       self.assertIn(locale,strings[tid]["locales"],(cid,tid,locale))
       self.assertTrue(strings[tid]["locales"][locale]["present"])
   self.assertIn("[x]",self.data["GIL_667"]["initialSpec"]["nativeRawText"])
-  self.assertIn("\\n",self.data["GIL_667"]["initialSpec"]["nativeRawText"])
+  self.assertIn("\n",self.data["GIL_667"]["initialSpec"]["nativeRawText"])
   self.assertEqual(self.data["GIL_616t2"]["initialSpec"]["text"],"")
  def test_13_initial_field_corrections(self):
   s={cid:x["initialSpec"] for cid,x in self.data.items()}
