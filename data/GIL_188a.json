@@ -1586,13 +1586,6 @@
   ],
   "observations": {
     "undated": {
-      "rarity": {
-        "date": null,
-        "latestConfirmedDate": "2018-11-30",
-        "before": "ABSENT",
-        "after": "COMMON",
-        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
-      },
       "durability": {
         "date": null,
         "latestConfirmedDate": "2018-11-30",
@@ -2272,7 +2265,16 @@
           "korean-13-0-live"
         ]
       }
-    ]
+    ],
+    "nativeRawText": "<b>속공</b>",
+    "text": "<b>속공</b>",
+    "cost": 3,
+    "attack": 4,
+    "health": 2,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수"
   },
   "_meta": {
     "schemaVersion": 3,
