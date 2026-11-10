@@ -114,6 +114,20 @@ class WitchwoodV2Tests(unittest.TestCase):
     for field in entry.get("removedFields",[]): state.pop(field,None)
    self.assertEqual(state["id"],cid)
    self.assertEqual(state["dbfId"],src["current"]["dbfId"])
+ def test_research_observations_are_separate_from_gameplay_events(self):
+  research=read(ROOT/"sources/witchwood-research-v1.json")
+  public=read(ROOT/"sources/witchwood-history-v2.json")
+  self.assertEqual(len(research["observations"]),13)
+  self.assertEqual(public["observations"],research["observations"])
+  self.assertEqual(public["relationships"],research["relationships"])
+  self.assertEqual(public["editorial"],research["editorial"])
+  self.assertEqual(research["relationships"]["existingEdges"]["count"],15)
+  self.assertEqual(len(research["relationships"]["unresolved"]),7)
+  for cid,src in self.data.items():
+   expected={x["id"] for x in research["observations"] if cid in x.get("cardIds",[])}
+   actual={x["id"] for x in src["observations"]["research"]}
+   self.assertEqual(actual,expected,cid)
+   self.assertNotIn("research",src["patches"][0]["changes"] if src["patches"] else {})
  def test_no_editorial_or_undated_observation_promoted(self):
   for src in self.data.values():
    for obs in src["observations"]["undated"].values(): self.assertIsNone(obs["date"])
