@@ -365,13 +365,14 @@ def main():
                     if old_value!=new_value: slot[(role,int(tid_text))]={"before":old_value,"after":new_value}
         for day in dates:
             rep=timeline[day].get("representation",{})
-            for tid_text,change in raw_delta_map.get((cid,day),{}).items():
-                tid=int(tid_text); before=change.get("before","ABSENT"); after=change.get("after","ABSENT")
-                present=owned_state.get(tid) or refs_state.get(tid)
+            for (role,tid),change in raw_delta_map.get((cid,day),{}).items():
+                before=change.get("before","ABSENT"); after=change.get("after","ABSENT")
+                role_state=owned_state if role=="ownedTags" else refs_state
+                present=role_state.get(tid)
                 actual=str(present.get("value")) if present and "value" in present else "ABSENT"
-                if actual!=before: raise ValueError(f"{cid} {day} Tag{tid} before mismatch {actual}!={before}")
-                if after=="ABSENT": remove_owned(tid); refs_state.pop(tid,None)
-                else: set_owned(tid,scalar(str(after)))
+                if actual!=before: raise ValueError(f"{cid} {day} Tag{tid} {role} before mismatch {actual}!={before}")
+                if after=="ABSENT": role_state.pop(tid,None)
+                else: role_state[tid]={"id":tid,"name":TAG_NAMES.get(tid,f"게임 태그 {tid}"),"value":scalar(str(after))}
             for diff in audit["rawReplayDiffs"]:
                 if diff["id"]!=cid or diff["day"]!=day: continue
                 tid=int(diff["tag"]); expected=diff["expected"]
