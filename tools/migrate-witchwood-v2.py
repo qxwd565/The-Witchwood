@@ -184,6 +184,8 @@ def main():
         expected={x["id"]:x.get("value") for x in original_rows}
         if cid=="GIL_152": expected[227]=1
         if merged!=expected: raise ValueError(f"{cid}: public current tag set differs from immutable baseline plus approved Tag227")
+    if sum(len(v) for v in current_refs.values())!=25 or sum(bool(v) for v in current_refs.values())!=20:
+        raise ValueError("Current referenced-tag role audit must resolve exactly 25 tags across 20 cards")
     # Preserve all current non-tag fields byte-for-byte at the JSON-value level.
     for cid,card in records.items():
         src=read(ROOT/"data"/(cid+".json"))
