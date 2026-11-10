@@ -36,8 +36,33 @@ def flattened(owned,referenced):
     origins.sort(key=lambda x:(x["id"],x["role"]))
     return native,origins
 
-def apply_raw_delta(state,day,rows):
+def apply_raw_delta(state,day,rows,source=None):
     for event in rows:
+        if event.get("operation")=="roleTransfer":
+            tid=int(event["id"]); from_role=event["from"]; to_role=event["to"]
+            if from_role not in ("ownedTags","referencedTags") or to_role not in ("ownedTags","referencedTags") or from_role==to_role:
+                raise ValueError(f"{day}: invalid role transfer {event!r}")
+            value=copy.deepcopy(event["value"])
+            if int(value.get("id",tid))!=tid: raise ValueError(f"{day}: malformed role-transfer value")
+            evidence=[]
+            for group in (source or {}).get("observations",{}).get("research",[]):
+                if group.get("id")=="WITCH-OBS-005":
+                    evidence.extend(group.get("extraUndatedEvidence",[]))
+            observed=any(x.get("day") is None and x.get("id")==source.get("card",{}).get("id")
+                         and int(x.get("confirmedTagId",-1))==tid and x.get("role")==from_role.removesuffix("Tags")
+                         and x.get("after",{}).get("referenced",{}).get(str(tid))=="1"
+                         for x in evidence)
+            if not observed:
+                raise ValueError(f"{day}: role transfer Tag{tid} lacks its separate null-day first-observation evidence")
+            from_map=tag_index(state.get(from_role,[])); to_map=tag_index(state.get(to_role,[]))
+            existing=from_map.get(tid)
+            if existing is not None and existing!=value: raise ValueError(f"{day}: role transfer source value mismatch for Tag{tid}")
+            from_map.pop(tid,None)
+            if tid in to_map and to_map[tid]!=value: raise ValueError(f"{day}: role transfer target collision for Tag{tid}")
+            to_map[tid]=value
+            state[from_role]=[from_map[k] for k in sorted(from_map)]
+            state[to_role]=[to_map[k] for k in sorted(to_map)]
+            continue
         role=event["role"]
         if role not in ("ownedTags","referencedTags"): raise ValueError(f"{day}: invalid raw tag role {role}")
         before=event.get("before","ABSENT")
@@ -84,7 +109,7 @@ def card_history(source):
                 state[field]=copy.deepcopy(value)
             for field in removed:
                 state.pop(field,None)
-            if raw_delta: apply_raw_delta(state,day,raw_delta)
+            if raw_delta: apply_raw_delta(state,day,raw_delta,source)
             full=copy.deepcopy(state)
             events[day]={"changes":copy.deepcopy(delta),"removedFields":removed,"rawTagDelta":raw_delta,
                          "eventKinds":event_kinds,"representation":representation,"sources":sources}
