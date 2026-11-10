@@ -144,7 +144,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
     intervals+=1
    self.assertEqual(days,sorted(x["from"] for x in src["history"]),cid+":date/history parity")
   self.assertEqual(intervals,61)
- def test_all_219_current_based_compatibility_replays(self):
+ def test_219_audit_items_217_dated_replays_plus_2_undated_observations(self):
   total=0
   for cid,src in self.data.items():
    current=copy.deepcopy(self.rendered[cid])
