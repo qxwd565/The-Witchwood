@@ -74,6 +74,19 @@ class WitchwoodV2Tests(unittest.TestCase):
   self.assertEqual(specs["GIL_836"]["text"],"<b>전투의 함성</b> 하수인을<br></br>하나 <b>발견</b>합니다.")
   self.assertIn("[x]",specs["GIL_667"]["nativeRawText"])
   self.assertIn("\n",specs["GIL_653"]["nativeRawText"])
+  hagatha=self.data["GIL_504"]["initialSpec"]
+  self.assertEqual(hagatha["armor"],5)
+  self.assertEqual(next(x["value"] for x in hagatha["nativeTags"] if x["id"]==45),30)
+  hero_power=self.data["GIL_504h"]["initialSpec"]
+  self.assertEqual(hero_power["cost"],0)
+  self.assertIs(hero_power["collectible"],False)
+  empty=self.data["GIL_616t2"]["initialSpec"]
+  self.assertEqual(empty["text"],"")
+  self.assertEqual(empty["nativeRawText"],"")
+  launch_string=self.data["GIL_616t2"]["_meta"]["launchStrings"]["184"]["locales"]["koKR"]
+  self.assertTrue(launch_string["present"])
+  self.assertEqual(sum(len(x.get("referencedTags",[])) for x in self.render),25)
+  self.assertEqual(sum(bool(x.get("referencedTags")) for x in self.render),20)
  def test_confirmed_missing_patch_events(self):
   count=0
   for cid,src in self.data.items():
