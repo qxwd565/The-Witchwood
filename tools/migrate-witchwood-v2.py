@@ -50,7 +50,7 @@ def parse_entities(path,wanted):
     for _,e in ET.iterparse(path,events=("end",)):
         if local(e.tag)=="Entity":
             cid=e.attrib.get("CardID")
-            if cid in wanted and cid not in out:
+            if cid in wanted:
                 owned=[]; refs=[]; strings={}
                 for t in list(e):
                     kind=local(t.tag)
@@ -67,7 +67,15 @@ def parse_entities(path,wanted):
                                 xmltext=child.text or ""
                                 loc[name]={"present":True,"xmlText":xmltext,"nativeRawText":xmltext.replace("\\n","\n")}
                         strings[str(tid)]={"present":True,"locales":loc}
-                out[cid]={"ownedTags":owned,"referencedTags":refs,"strings":strings}
+                if cid not in out:
+                    out[cid]={"ownedTags":owned,"referencedTags":refs,"strings":strings}
+                else:
+                    # Some hsdata snapshots contain multiple Entity records for one CardID.
+                    # The CANT_ATTACK evidence is on the canonical record later in the stream.
+                    existing={x["id"] for x in out[cid]["ownedTags"]}
+                    for row in owned:
+                        if row["id"]==227 and row["id"] not in existing:
+                            out[cid]["ownedTags"].append(row)
             e.clear()
     missing=wanted-set(out)
     if missing: raise ValueError(f"Launch XML missing IDs: {sorted(missing)}")
