@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 RELEASE="2018-04-13"
-DATE=re.compile(r"^\\d{4}-\\d{2}-\\d{2}$")
+DATE=re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TAG_FIELDS={"nativeTags","ownedTags","referencedTags","nativeTagOrigins"}
 META_FIELDS={"removedFields","rawTagDelta","eventKinds","representation","sources"}
 
@@ -15,9 +15,9 @@ def read(path):
 
 def write(path,obj,compact=False):
     path.parent.mkdir(parents=True,exist_ok=True)
-    payload=json.dumps(obj,ensure_ascii=False,separators=(",",":") if compact else None,indent=None if compact else 2)+"\\n"
+    payload=json.dumps(obj,ensure_ascii=False,separators=(",",":") if compact else None,indent=None if compact else 2)+"\n"
     if not path.exists() or path.read_text(encoding="utf-8")!=payload:
-        path.write_text(payload,encoding="utf-8",newline="\\n")
+        path.write_text(payload,encoding="utf-8",newline="\n")
         return True
     return False
 
@@ -138,7 +138,7 @@ def main():
             public["events"].setdefault(day,{})[cid]=row
         expected={x["id"] for x in public["sourceManifest"].get("entries",[])}
         if not src.get("initialSpec") or not src.get("history"): raise ValueError(f"{cid}: adapter failed to build history")
-        src_path.write_text(json.dumps(src,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8",newline="\\n")
+        src_path.write_text(json.dumps(src,ensure_ascii=False,indent=2)+"\n",encoding="utf-8",newline="\n")
     # All 13 research groups and nine additional undated records are carried by the card files.
     obs_map={}
     for path in files:
