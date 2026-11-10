@@ -1,0 +1,71 @@
+name: Validate and build The Witchwood API
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: witchwood-api-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  audit-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch immutable Witchwood launch CardDefs
+        run: |
+          git init /tmp/hsdata
+          git -C /tmp/hsdata remote add origin https://github.com/HearthSim/hsdata.git
+          git -C /tmp/hsdata fetch --depth=1 origin 6317434bee453ec6e8267cbf45277c0a13da90f8
+          git -C /tmp/hsdata show 6317434bee453ec6e8267cbf45277c0a13da90f8:CardDefs.xml > /tmp/CardDefs-witchwood-launch.xml
+          sha256sum /tmp/CardDefs-witchwood-launch.xml | tee /tmp/witchwood-launch.sha256
+      - name: Audit source preservation and central timeline
+        run: |
+          python - <<'PY'
+          import json, hashlib, xml.etree.ElementTree as ET
+          from pathlib import Path
+          root=Path('.')
+          catalog=json.loads((root/'cards.json').read_text(encoding='utf-8'))
+          events=json.loads((root/'data/history.json').read_text(encoding='utf-8'))
+          cards=catalog['cards']
+          assert len(cards)==156, len(cards)
+          assert sum(bool(c.get('collectible')) for c in cards)==135
+          assert sum(not bool(c.get('collectible')) for c in cards)==21
+          dates=events['events']
+          assert len(dates['2018-04-13'])==156
+          total=sum(len(v) for d,v in dates.items() if d!='2018-04-13')
+          assert total==40, total
+          assert len(dates['2022-12-07'])==25, len(dates['2022-12-07'])
+          xml=Path('/tmp/CardDefs-witchwood-launch.xml').read_bytes()
+          root_xml=ET.fromstring(xml)
+          ids={x.findtext('CardID') for x in root_xml.findall('.//Entity')}
+          expected={c['id'] for c in cards}
+          assert expected <= ids, (len(expected-ids), sorted(expected-ids)[:10])
+          preserved=0
+          for c in cards:
+              d=json.loads((root/'data'/f"{c['id']}.json").read_text(encoding='utf-8'))
+              assert d.get('schemaVersion')==1, c['id']
+              assert d.get('mode') is not None, c['id']
+              assert isinstance(d.get('artworkProvenance'),dict), c['id']
+              assert d['card'].get('portrait')==c.get('portrait'), c['id']
+              assert d['card'].get('id')==c['id']
+              assert d['card'].get('dbfId')==c['dbfId']
+              if '<br></br>' in d['card'].get('text',''): preserved+=1
+          assert preserved==81, preserved
+          print(json.dumps({'cards':len(cards),'collectible':135,'nonCollectible':21,
+                            'releaseEvents':156,'existingEvents':total,
+                            'undeadDateRows':25,'cardsWithDisplayBreaks':preserved,
+                            'launchXmlBytes':len(xml),
+                            'launchXmlSha256':hashlib.sha256(xml).hexdigest()},ensure_ascii=False))
+          PY
