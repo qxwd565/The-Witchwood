@@ -409,7 +409,7 @@ def main():
                       "currentStrings":copy.deepcopy(current_entities[cid]["strings"]),
                       "portrait":copy.deepcopy(old_current.get("portrait")),"art":copy.deepcopy(old_current.get("art")),
                       "relations":copy.deepcopy(old_current.get("relations",old_current.get("relationships",[]))),
-                      "relationships":copy.deepcopy(research["relationships"]),"sourceManifest":copy.deepcopy(source_manifest),
+                      "relationships":copy.deepcopy(research["relationships"]),"sourceManifest":copy.deepcopy(source_manifest),"sourceManifest":copy.deepcopy(source_manifest),
                       "current":copy.deepcopy(src["current"]),
                       "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"]),
                       "researchObservationIds":[x["id"] for x in observations if cid in x.get("cardIds",[])]}
