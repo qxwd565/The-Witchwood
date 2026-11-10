@@ -221,7 +221,10 @@ def main():
         current_refs[cid]=named(current_entities[cid]["referencedTags"])
         ref_ids={x["id"] for x in current_refs[cid]}
         owned_ids={x["id"] for x in current_owned[cid]}
-        current_origins[cid]=[{"id":x["id"],"role":"referenced" if x["id"] in ref_ids else "owned" if x["id"] in owned_ids else "legacy-only"} for x in legacy_rows]
+        origin_map={tid:"owned" for tid in owned_ids}
+        origin_map.update({tid:"referenced" for tid in ref_ids})
+        for row in legacy_rows: origin_map.setdefault(row["id"],"legacy-only")
+        current_origins[cid]=[{"id":tid,"role":role} for tid,role in sorted(origin_map.items())]
         if cid=="GIL_152":
             xml_tag=next((x for x in current_entities[cid]["ownedTags"] if x["id"]==227),None)
             if not xml_tag or xml_tag.get("value")!=1: raise ValueError("Current XML does not contain owned GIL_152 CANT_ATTACK=1")
