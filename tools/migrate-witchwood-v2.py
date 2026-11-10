@@ -332,16 +332,17 @@ def main():
             roles=[{"id":tid,"role":"owned"} for tid in sorted(owned_state)]+[{"id":tid,"role":"referenced"} for tid in sorted(refs_state)]
             tag_states[day]={"nativeTags":flat,"ownedTags":[copy.deepcopy(owned_state[k]) for k in sorted(owned_state)],
                              "referencedTags":[copy.deepcopy(refs_state[k]) for k in sorted(refs_state)],"nativeTagOrigins":sorted(roles,key=lambda x:(x["id"],x["role"]))}
+        for day,hstate in states:
+            hstate["nativeTags"]=copy.deepcopy(tag_states[day]["nativeTags"])
+            hstate["ownedTags"]=copy.deepcopy(tag_states[day]["ownedTags"])
+            hstate["referencedTags"]=copy.deepcopy(tag_states[day]["referencedTags"])
+            hstate["nativeTagOrigins"]=copy.deepcopy(tag_states[day]["nativeTagOrigins"])
         # Build fully self-contained historical overrides against the public current card.
         revisions=[]
         for i,(day,hstate) in enumerate(states):
-            changes={k:copy.deepcopy(v) for k,v in hstate.items() if k not in ("nativeTags","referencedTags")}
+            changes={k:copy.deepcopy(v) for k,v in hstate.items()}
             if "text" in changes: changes["text"]=api_text(changes["text"])
-            if day in tag_states:
-                if tag_states[day]["nativeTags"]!=current_tags[cid]:
-                    changes["nativeTags"]=tag_states[day]["nativeTags"]
-                if tag_states[day]["referencedTags"]!=current_refs[cid]:
-                    changes["referencedTags"]=tag_states[day]["referencedTags"]
+
             removed=sorted(k for k in current_state if k not in hstate)
             rev={"from":day,"changes":changes}
             if i+1<len(states):rev["before"]=states[i+1][0]
