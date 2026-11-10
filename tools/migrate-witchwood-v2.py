@@ -258,11 +258,10 @@ def main():
             changes={k:copy.deepcopy(v) for k,v in hstate.items() if k not in ("nativeTags","referencedTags")}
             if "text" in changes: changes["text"]=api_text(changes["text"])
             if day in tag_states:
-                changes["nativeTags"]=tag_states[day]["nativeTags"]
-                changes["referencedTags"]=tag_states[day]["referencedTags"]
-            else:
-                changes["nativeTags"]=copy.deepcopy(current_tags[cid])
-                changes["referencedTags"]=copy.deepcopy(refs)
+                if tag_states[day]["nativeTags"]!=current_tags[cid]:
+                    changes["nativeTags"]=tag_states[day]["nativeTags"]
+                if tag_states[day]["referencedTags"]!=current_refs[cid]:
+                    changes["referencedTags"]=tag_states[day]["referencedTags"]
             removed=sorted(k for k in current_state if k not in hstate)
             rev={"from":day,"changes":changes}
             if i+1<len(states):rev["before"]=states[i+1][0]
@@ -292,13 +291,26 @@ def main():
             legacy_patches.append({"date":rev["from"],"changes":copy.deepcopy(rev["changes"]),"removedFields":copy.deepcopy(rev.get("removedFields",[]))})
     catalog["cards"]=list(records.values())
     # Generate compatibility indexes and a separate explicit date-first canonical source.
-    public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","cards":{}}
+    public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","events":{RELEASE:{}}}
     render=[]
     legacy={"schema":1,"set":"The Witchwood","cards":{}}
     for card in catalog["cards"]:
         cid=card["id"]; src=read(ROOT/"data"/(cid+".json")); dbf=str(card["dbfId"])
         legacy["cards"][dbf]={"id":cid,"initialSpec":src["initialSpec"],"patches":src["patches"]}
-        public_history["cards"][cid]={"releasedAt":RELEASE,"initial":src["initialSpec"],"events":src["patches"],"observations":src["observations"]}
+        initial=copy.deepcopy(src["initialSpec"])
+        public_history["events"][RELEASE][cid]=initial
+        previous=copy.deepcopy(initial)
+        for patch in src["patches"]:
+            following=copy.deepcopy(previous)
+            following.update(copy.deepcopy(patch["changes"]))
+            removed=list(patch.get("removedFields",[]))
+            for field in removed: following.pop(field,None)
+            delta={field:copy.deepcopy(value) for field,value in following.items()
+                   if field not in previous or previous[field]!=value}
+            removed_delta=sorted(field for field in previous if field not in following)
+            if delta or removed_delta:
+                public_history["events"].setdefault(patch["date"],{})[cid]={"changes":delta,"removedFields":removed_delta}
+            previous=following
         r={k:copy.deepcopy(v) for k,v in card.items()}
         r["history"]=copy.deepcopy(src["history"])
         r["referencedTags"]=copy.deepcopy(src["current"].get("referencedTags",[]))
