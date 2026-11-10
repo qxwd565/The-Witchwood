@@ -63,6 +63,25 @@ for cid,want in {
   actual_diff.update(tid for tid in set(before)|set(after) if before.get(tid,"ABSENT")!=after.get(tid,"ABSENT"))
  explicit={int(x["tagId"]) for x in files[cid]["observations"]["undatedRawTags"] if x.get("findingId") is not None}
  assert generated==actual_diff-explicit,(cid,"undated raw observations recomputed",generated,actual_diff,explicit)
+expected_preview={
+ "GIL_188a":{"nativeRawText":"<b>속공</b>","text":"<b>속공</b>","cost":3,"attack":4,"health":2,"races":["BEAST"],"race":"야수"},
+ "GIL_188b":{"nativeRawText":"<b>도발</b>","text":"<b>도발</b>","cost":3,"attack":2,"health":4,"races":[],"race":""}}
+render_by_id={x["id"]:x for x in render["cards"]}
+for cid,fields in expected_preview.items():
+ src=files[cid]
+ for day in ("2018-11-30","2026-07-22"):
+  sparse=src[day]
+  for field,want in fields.items(): assert sparse.get(field,"__MISSING__")==want,(cid,day,field,"sparse")
+  assert sparse["type"]=="MINION" and sparse["rarity"]=="COMMON",(cid,day,"logical type/rarity")
+  revision=next(x for x in src["history"] if x["from"]==day)
+  for field,want in fields.items(): assert revision["changes"].get(field,"__MISSING__")==want,(cid,day,field,"history")
+  assert revision["changes"]["type"]=="MINION" and revision["changes"]["rarity"]=="COMMON"
+  restored=dict(render_by_id[cid]); restored.update(revision["changes"])
+  for field in revision.get("removedFields",[]): restored.pop(field,None)
+  for field,want in fields.items(): assert restored.get(field,"__MISSING__")==want,(cid,day,field,"legacy current+changes/removedFields")
+  assert restored.get("type")=="MINION" and restored.get("rarity")=="COMMON",(cid,day,"legacy logical")
+ assert "rarity" not in src.get("observations",{}).get("undated",{})
+ for field in fields: assert field not in src.get("observations",{}).get("undated",{}),(cid,field,"false undated logical observation")
 for cid,tid in (("GIL_188a",791),("GIL_188b",190)):
  assert "2026-07-22" in files[cid]
  row=files[cid]["2026-07-22"]
