@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Synchronize compatibility APIs from the authoritative sparse per-card date-first sources."""
 from __future__ import annotations
-import copy, json, re
+import base64, copy, gzip, json, re
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -137,7 +137,6 @@ def main():
         for day,row in events.items():
             if day==RELEASE: continue
             public["events"].setdefault(day,{})[cid]=row
-        expected={x["id"] for x in public["sourceManifest"].get("entries",[])}
         if not src.get("initialSpec") or not src.get("history"): raise ValueError(f"{cid}: adapter failed to build history")
         src_path.write_text(json.dumps(src,ensure_ascii=False,indent=2)+"\n",encoding="utf-8",newline="\n")
     # All 13 research groups and nine additional undated records are carried by the card files.
@@ -148,7 +147,8 @@ def main():
             obs_map[group["id"]]=copy.deepcopy(group)
     if len(obs_map)!=13: raise ValueError(f"Expected 13 research observation groups, got {len(obs_map)}")
     public["observations"]=[obs_map[k] for k in sorted(obs_map)]
-    public["gameplayEvidence"]=read(ROOT/"data/history.json").get("gameplayEvidence",{})
+    event_b64=(ROOT/"sources/witchwood-event-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
+    public["gameplayEvidence"]=json.loads(gzip.decompress(base64.b64decode(event_b64)))
     public["schemaPolicy"]=research["schemaPolicy"]
     public["rawTagAudit"]=research["rawTagAudit"]
     public["editorial"]=research["editorial"]
