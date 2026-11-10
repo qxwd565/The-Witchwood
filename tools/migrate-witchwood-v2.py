@@ -191,7 +191,7 @@ def main():
         if src["card"].get("portrait")!=original[cid].get("portrait"):raise ValueError(f"{cid}: portrait drift")
         initial=state_from(launch[cid],cid)
         initial["id"]=cid
-        initial["dbfId"]=record["dbfId"]
+        initial["dbfId"]=card["dbfId"]
         initial["nativeTags"]=named(launch[cid]["ownedTags"])
         initial["referencedTags"]=named(launch[cid]["referencedTags"])
         first=corrected.get(RELEASE,{})
