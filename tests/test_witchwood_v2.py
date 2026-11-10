@@ -150,8 +150,14 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
     self.assertEqual(restored.get("type"),"MINION",(cid,day,"legacy type"))
     self.assertEqual(restored.get("rarity"),"COMMON",(cid,day,"legacy rarity"))
    self.assertNotIn("rarity",src.get("observations",{}).get("undated",{}),(cid,"rarity must be dated"))
-   for field in ("nativeRawText","text","cost","attack","health","races","race"):
+   for field in ("nativeRawText","text","cost","attack","health"):
     self.assertNotIn(field,src.get("observations",{}).get("undated",{}),(cid,field,"must not be undated"))
+   if cid=="GIL_188a":
+    self.assertNotIn("races",src.get("observations",{}).get("undated",{}))
+    self.assertNotIn("race",src.get("observations",{}).get("undated",{}))
+   else:
+    self.assertIsNone(src["observations"]["undated"]["races"]["date"])
+    self.assertIsNone(src["observations"]["undated"]["race"]["date"])
  def test_156_cards_immutable_current_compatibility(self):
   self.assertEqual(len(self.cards),156); self.assertEqual(len(self.render),156); self.assertEqual(len(self.data),156)
   self.assertEqual(len(self.legacy),156)
