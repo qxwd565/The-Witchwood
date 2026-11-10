@@ -1,4 +1,4 @@
-name: Validate and build The Witchwood API
+name: Sync and validate The Witchwood sparse history
 
 on:
   push:
@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  migrate-build-verify:
+  sync-build-verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -55,8 +55,6 @@ jobs:
           assert tag("/tmp/CardDefs-witchwood-current.xml","GIL_152",227)==1
           print("Historical raw tags verified: GIL_191 cost4; GIL_663 cost2; GIL_667 health5; GIL_152 CANT_ATTACK=1")
           PY
-      - name: Migrate all 156 cards from immutable launch state and central history
-        run: python tools/migrate-witchwood-v2.py
       - name: Sync compatibility APIs from sparse date-first canonical source
         run: python tools/sync-witchwood-history.py
       - name: Build cards, render, and legacy history compatibility endpoints
@@ -66,7 +64,7 @@ jobs:
           python -m py_compile tools/migrate-witchwood-v2.py tools/sync-witchwood-history.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
           python -m unittest discover -s tests -v
           python tools/validate-witchwood-current.py
-      - name: Commit migrated sources and generated compatibility APIs
+      - name: Commit synchronized sparse source and generated compatibility APIs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -92,12 +90,11 @@ jobs:
           echo "Final generated-source checkout SHA: $(git rev-parse HEAD)"
           git fetch origin main
           test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
-      - name: Re-run full migration, build, tests, and current validation with independent hash seeds
+      - name: Re-run full sparse sync, build, tests, and current validation with independent hash seeds
         run: |
           run_pipeline() {
             seed="$1"
             echo "PYTHONHASHSEED=$seed source SHA: $(git rev-parse HEAD)"
-            env PYTHONHASHSEED="$seed" python tools/migrate-witchwood-v2.py
             env PYTHONHASHSEED="$seed" python tools/sync-witchwood-history.py
             env PYTHONHASHSEED="$seed" python tools/build-witchwood-api.py
             env PYTHONHASHSEED="$seed" python -m py_compile tools/migrate-witchwood-v2.py tools/sync-witchwood-history.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
@@ -108,7 +105,7 @@ jobs:
             git diff --exit-code
             git status --short
             test -z "$(git status --porcelain --untracked-files=all)"
-            echo "PYTHONHASHSEED=$seed: migration/build/tests/current clean at $(git rev-parse HEAD)"
+            echo "PYTHONHASHSEED=$seed: sparse-sync/build/tests/current clean at $(git rev-parse HEAD)"
           }
           run_pipeline 1
           run_pipeline 8675309
