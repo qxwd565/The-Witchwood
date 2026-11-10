@@ -284,6 +284,19 @@ def main():
                 timeline.setdefault(day,{"changes":{},"sources":[],"eventKinds":[]})
                 timeline[day]["changes"].update(changes)
                 timeline[day]["eventKinds"].append("existing-confirmed")
+        for check in event_evidence["existingLaterEventChecks"]:
+            if check.get("id")==cid:
+                day=check.get("proposedKoreanDay") or check.get("recordedDate")
+                timeline.setdefault(day,{"changes":{},"sources":[],"eventKinds":[]})
+                timeline[day].setdefault("sources",[]).append({"findingId":check["findingId"],"source":check.get("archive",{}).get("source"),
+                    "build":check.get("archive",{}).get("build"),"sourceRefs":copy.deepcopy(check.get("sourceRefs",[]))})
+        for check in event_evidence["missingGameplayEvents"]:
+            if check.get("id")==cid:
+                day=check["proposedKoreanDay"]
+                timeline.setdefault(day,{"changes":{},"sources":[],"eventKinds":[]})
+                timeline[day].setdefault("sources",[]).append({"findingId":check["findingId"],
+                    "before":copy.deepcopy(check.get("archiveBefore",{}).get("source")),"after":copy.deepcopy(check.get("archiveAfter",{}).get("source")),
+                    "sourceRefs":copy.deepcopy(check.get("sourceRefs",[]))})
         for day in timeline:
             if day!=RELEASE: timeline[day].setdefault("sources",[])
         # Initial field repairs are asserted against immutable launch parsing.
@@ -416,7 +429,7 @@ def main():
                       "current":copy.deepcopy(src["current"]),
                       "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"]),
                       "researchObservationIds":[x["id"] for x in observations if cid in x.get("cardIds",[])],
-"gameplayEvidence":{"missing":[copy.deepcopy(x) for x in event_evidence["missingGameplayEvents"] if cid in x.get("cardIds",[]) or cid in x.get("ids",[])],
+"gameplayEvidence":{"missing":[copy.deepcopy(x) for x in event_evidence["missingGameplayEvents"] if x.get("id")==cid or cid in x.get("cardIds",[]) or cid in x.get("ids",[])],
 "existing":[copy.deepcopy(x) for x in event_evidence["existingLaterEventChecks"] if cid in x.get("cardIds",[]) or cid in x.get("ids",[])]}}
         write(ROOT/"data"/(cid+".json"),src)
         # cards.json/render.json preserve existing fields; approved Tag addition only.
