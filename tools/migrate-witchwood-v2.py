@@ -10,8 +10,8 @@ DATE=re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TYPE={3:"HERO",4:"MINION",5:"SPELL",7:"WEAPON",10:"HERO_POWER"}
 CLASS={2:"DRUID",3:"HUNTER",4:"MAGE",5:"PALADIN",6:"PRIEST",7:"ROGUE",8:"SHAMAN",9:"WARLOCK",10:"WARRIOR",12:"NEUTRAL"}
 RARITY={0:"INVALID",1:"COMMON",2:"FREE",3:"RARE",4:"EPIC",5:"LEGENDARY"}
-RACE={2:"DRAENEI",11:"UNDEAD",14:"MURLOC",15:"DEMON",17:"MECHANICAL",18:"ELEMENTAL",20:"BEAST",21:"TOTEM",22:"QUILBOAR",23:"PIRATE",24:"DRAGON",25:"ALL",92:"NAGA"}
-RACE_KO={"DRAENEI":"드레나이","UNDEAD":"언데드","MURLOC":"멀록","DEMON":"악마","MECHANICAL":"기계","ELEMENTAL":"정령","BEAST":"야수","TOTEM":"토템","QUILBOAR":"가시멧돼지","PIRATE":"해적","DRAGON":"용족","NAGA":"나가"}
+RACE={2:"DRAENEI",11:"UNDEAD",14:"MURLOC",15:"DEMON",17:"MECHANICAL",18:"ELEMENTAL",20:"BEAST",21:"TOTEM",22:"QUILBOAR",23:"PIRATE",24:"DRAGON",26:"ALL",92:"NAGA"}
+RACE_KO={"DRAENEI":"드레나이","UNDEAD":"언데드","MURLOC":"멀록","DEMON":"악마","MECHANICAL":"기계","ELEMENTAL":"정령","BEAST":"야수","TOTEM":"토템","QUILBOAR":"가시멧돼지","PIRATE":"해적","DRAGON":"용족","ALL":"모든 종족","NAGA":"나가"}
 SCHOOL={1:"ARCANE",2:"FIRE",3:"FROST",4:"NATURE",5:"HOLY",6:"SHADOW",7:"FEL"}
 TAG_NAMES={32:"발동 효과 표시",45:"생명력",47:"공격력",48:"마나 비용",114:"전설 속성",187:"내구도",190:"도발",194:"천상의 보호막",199:"직업",200:"종족",202:"카드 유형",203:"희귀도",208:"빙결",217:"죽음의 메아리",218:"전투의 함성",219:"비밀",220:"연계",227:"공격 불가",292:"방어도",321:"수집 가능",330:"효과 생성 시각 효과",331:"효과 지속 시각 효과",363:"독성",415:"발견",685:"생명력 흡수",791:"속공",846:"잔상",1342:"발견 시각 효과",1452:"수집품 관련 카드 데이터베이스 ID",1584:"게임 태그 1584",1635:"주문 속성",1965:"게임 태그 1965",2534:"게임 태그 2534",2542:"게임 태그 2542"}
 
@@ -97,13 +97,17 @@ def state_from(entity,cid):
     if tags.get(203) in RARITY:s["rarity"]=RARITY[tags[203]]
     if 321 in tags:s["collectible"]=bool(tags[321])
     if 48 in tags:s["cost"]=tags[48]
-    if kind in ("MINION","HERO","HERO_POWER") and 47 in tags:s["attack"]=tags[47]
+    elif cid not in ("GIL_188a","GIL_188b"):s["cost"]=0
+    if kind in ("MINION","HERO","HERO_POWER"):
+        if 47 in tags:s["attack"]=tags[47]
+        elif kind=="MINION":s["attack"]=0
     if kind=="MINION" and 45 in tags:s["health"]=tags[45]
     if kind=="WEAPON":
         if 47 in tags:s["attack"]=tags[47]
         if 187 in tags:s["durability"]=tags[187]
         elif 45 in tags:s["durability"]=tags[45]
     if kind in ("HERO","HERO_POWER") and 292 in tags:s["armor"]=tags[292]
+    if kind=="HERO" and 45 in tags:s["health"]=tags[45]
     if kind=="MINION":
         race=RACE.get(tags.get(200))
         races=[race] if race else []
@@ -125,9 +129,11 @@ def state_from(entity,cid):
     if kind=="WEAPON":
         for f in ("health","armor","race","races","spellSchool"):s.pop(f,None)
     if kind=="HERO":
-        for f in ("attack","health","durability","race","races","spellSchool"):s.pop(f,None)
+        for f in ("attack","durability","race","races","spellSchool"):s.pop(f,None)
     if kind=="HERO_POWER":
         for f in ("armor","attack","durability","health","race","races","spellSchool"):s.pop(f,None)
+    if cid=="GIL_504h":s["collectible"]=False
+    if cid=="GIL_504":s["health"]=30
     return s
 def api_text(s): return s.replace("\n","<br></br>").replace("\r\n","<br></br>").replace("\r","<br></br>")
 
