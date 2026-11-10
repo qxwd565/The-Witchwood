@@ -423,16 +423,31 @@ def main():
             src["card"]["nativeRawText"]=copy.deepcopy(raw_current)
         src["history"]=copy.deepcopy(revisions)
         src["observations"]={"undated":undated,"research":[copy.deepcopy(x) for x in observations if cid in x.get("cardIds",[])]}
-        # Date-first canonical snapshots are real top-level YYYY-MM-DD keys in this same file.
+        # One-time bootstrap: first date is full; later date keys contain only logical and raw-tag deltas.
+        previous_full=None
         for rev in revisions:
-            day=rev["from"]
-            snapshot=copy.deepcopy(rev["changes"])
-            snapshot["removedFields"]=copy.deepcopy(rev.get("removedFields",[]))
-            snapshot["eventKinds"]=copy.deepcopy(timeline[day].get("eventKinds",[]))
-            if timeline[day].get("representation"): snapshot["representation"]=copy.deepcopy(timeline[day]["representation"])
-            if timeline[day].get("sources"): snapshot["sources"]=copy.deepcopy(timeline[day]["sources"])
+            day=rev["from"]; full=copy.deepcopy(rev["changes"])
+            if previous_full is None:
+                snapshot=copy.deepcopy(full)
+            else:
+                tag_fields=("nativeTags","ownedTags","referencedTags","nativeTagOrigins")
+                snapshot={k:copy.deepcopy(v) for k,v in full.items() if k not in tag_fields and (k not in previous_full or previous_full[k]!=v)}
+                removed=sorted(k for k in previous_full if k not in full)
+                raw_delta=[]
+                for role in ("ownedTags","referencedTags"):
+                    before={x["id"]:copy.deepcopy(x) for x in previous_full.get(role,[])}
+                    after={x["id"]:copy.deepcopy(x) for x in full.get(role,[])}
+                    for tid in sorted(set(before)|set(after)):
+                        if before.get(tid)!=after.get(tid):
+                            raw_delta.append({"role":role,"id":tid,"before":before.get(tid,"ABSENT"),"after":after.get(tid,"ABSENT")})
+                if raw_delta: snapshot["rawTagDelta"]=raw_delta
+                if removed: snapshot["removedFields"]=removed
+            snapshot["eventKinds"]=copy.deepcopy(rev.get("eventKinds",[]))
+            if rev.get("representation"): snapshot["representation"]=copy.deepcopy(rev["representation"])
+            if rev.get("sources"): snapshot["sources"]=copy.deepcopy(rev["sources"])
             src[day]=snapshot
-        src["_meta"]={"schemaVersion":2,"timezone":"Asia/Seoul","releasedAt":RELEASE,
+            previous_full=full
+        src["_meta"]={"schemaVersion":3,"dateFirstFormat":"sparse-delta-v3","timezone":"Asia/Seoul","releasedAt":RELEASE,
                       "source":"HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
                       "launchOwnedTags":copy.deepcopy(launch_owned),"launchReferencedTags":copy.deepcopy(launch_refs),
                       "currentOwnedTags":copy.deepcopy(current_owned[cid]),
