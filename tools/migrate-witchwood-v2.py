@@ -202,7 +202,8 @@ def main():
         current_owned[cid]=named(current_entities[cid]["ownedTags"])
         current_refs[cid]=named(current_entities[cid]["referencedTags"])
         ref_ids={x["id"] for x in current_refs[cid]}
-        current_origins[cid]=[{"id":x["id"],"role":"referenced" if x["id"] in ref_ids else "owned"} for x in legacy_rows]
+        owned_ids={x["id"] for x in current_owned[cid]}
+        current_origins[cid]=[{"id":x["id"],"role":"referenced" if x["id"] in ref_ids else "owned" if x["id"] in owned_ids else "legacy-only"} for x in legacy_rows]
         if cid=="GIL_152":
             xml_tag=next((x for x in current_entities[cid]["ownedTags"] if x["id"]==227),None)
             if not xml_tag or xml_tag.get("value")!=1: raise ValueError("Current XML does not contain owned GIL_152 CANT_ATTACK=1")
@@ -371,6 +372,7 @@ def main():
         if raw_current is not None:
             src["nativeRawText"]=copy.deepcopy(raw_current)
             src["current"]["nativeRawText"]=copy.deepcopy(raw_current)
+            src["card"]["nativeRawText"]=copy.deepcopy(raw_current)
         src["history"]=copy.deepcopy(revisions)
         src["observations"]={"undated":undated,"research":[copy.deepcopy(x) for x in research["observations"] if cid in x.get("cardIds",[])]}
         # Date-first canonical snapshots are real top-level YYYY-MM-DD keys in this same file.
@@ -410,6 +412,7 @@ def main():
     catalog["cards"]=list(records.values())
     # Generate compatibility indexes and a separate explicit date-first canonical source.
     public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","events":{RELEASE:{}},
+                    "sourceManifest":copy.deepcopy(research.get("sourceManifest",[])),
                     "observations":copy.deepcopy(research["observations"]),
                     "schemaPolicy":copy.deepcopy(research["schemaPolicy"]),
                     "rawTagAudit":copy.deepcopy(research["rawTagAudit"]),
