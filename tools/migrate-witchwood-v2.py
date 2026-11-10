@@ -455,7 +455,7 @@ def main():
                             raw_delta.append({"role":role,"id":tid,"before":before.get(tid,"ABSENT"),"after":after.get(tid,"ABSENT")})
                 if raw_delta: snapshot["rawTagDelta"]=raw_delta
                 if removed: snapshot["removedFields"]=removed
-            snapshot["eventKinds"]=copy.deepcopy(rev.get("eventKinds",[]))
+            if rev.get("eventKinds"): snapshot["eventKinds"]=copy.deepcopy(rev["eventKinds"])
             if rev.get("representation"): snapshot["representation"]=copy.deepcopy(rev["representation"])
             if rev.get("sources"): snapshot["sources"]=copy.deepcopy(rev["sources"])
             src[day]=snapshot
