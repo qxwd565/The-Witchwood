@@ -435,7 +435,7 @@ def main():
                       "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"]),
                       "researchObservationIds":[x["id"] for x in observations if cid in x.get("cardIds",[])],
 "gameplayEvidence":{"missing":[copy.deepcopy(x) for x in event_evidence["missingGameplayEvents"] if x.get("id")==cid or cid in x.get("cardIds",[]) or cid in x.get("ids",[])],
-"existing":[copy.deepcopy(x) for x in event_evidence["existingLaterEventChecks"] if cid in x.get("cardIds",[]) or cid in x.get("ids",[])]}}
+"existing":[copy.deepcopy(x) for x in event_evidence["existingLaterEventChecks"] if x.get("id")==cid or cid in x.get("cardIds",[]) or cid in x.get("ids",[])]}}
         write(ROOT/"data"/(cid+".json"),src)
         # cards.json/render.json preserve existing fields; approved Tag addition only.
         records[cid]["nativeTags"]=copy.deepcopy(current_tags[cid])
