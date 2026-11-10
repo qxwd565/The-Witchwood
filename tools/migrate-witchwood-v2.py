@@ -336,8 +336,10 @@ def main():
         latest=states[-1][1]
         undated={}
         for field,value in current_state.items():
-            if field in latest and latest[field]!=value:
-                undated[field]={"date":None,"before":copy.deepcopy(latest[field]),"after":copy.deepcopy(value),"reason":"current cache differs from dated confirmed events; no date inferred"}
+            before=latest.get(field,"ABSENT")
+            if before!=value:
+                undated[field]={"date":None,"latestConfirmedDate":dates[-1],"before":copy.deepcopy(before),"after":copy.deepcopy(value),
+                                "reason":"Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."}
         # Reconstruct dated raw tags from launch XML and confirmed field deltas only.
         owned_state={x["id"]:copy.deepcopy(x) for x in launch_owned}
         refs_state={x["id"]:copy.deepcopy(x) for x in launch_refs}
