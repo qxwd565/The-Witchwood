@@ -16,9 +16,9 @@ assert len(audit["existingRawDelta40"])==40 and len(audit["extraUndatedEvidence"
 assert sum(bool(x.get("collectible")) for x in catalog["cards"])==135
 assert sum(not bool(x.get("collectible")) for x in catalog["cards"])==21
 intervals=sum(len(x["history"]) for x in files.values())
-assert intervals==219,intervals
+assert intervals==217,intervals
 date_rows=sum(sum(1 for k in x if re.fullmatch(r"\d{4}-\d{2}-\d{2}",k) and k!="2018-04-13") for x in files.values())
-assert date_rows==63,date_rows
+assert date_rows==61,date_rows
 for d in audit["rawReplayDiffs"]:
  rev=next(x for x in files[d["id"]]["history"] if x["from"]==d["day"])
  tag=next((x for x in rev["changes"][d["role"]] if int(x["id"])==int(d["tag"])),None)
