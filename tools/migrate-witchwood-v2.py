@@ -356,6 +356,10 @@ def main():
         src["initialSpec"]=copy.deepcopy(initial)
         src["patches"]=[{"date":rev["from"],"changes":copy.deepcopy(rev["changes"]),"removedFields":copy.deepcopy(rev.get("removedFields",[]))} for rev in revisions[1:]]
         src["current"]=copy.deepcopy(old_current)
+        src["card"]["nativeTags"]=copy.deepcopy(current_tags[cid])
+        src["card"]["referencedTags"]=copy.deepcopy(current_refs[cid])
+        src["card"]["ownedTags"]=copy.deepcopy(current_owned[cid])
+        src["card"]["nativeTagOrigins"]=copy.deepcopy(current_origins[cid])
         src["current"]["nativeTags"]=copy.deepcopy(current_tags[cid])
         src["current"]["referencedTags"]=copy.deepcopy(current_refs[cid])
         src["current"]["ownedTags"]=copy.deepcopy(current_owned[cid])
@@ -384,6 +388,7 @@ def main():
                       "currentStrings":copy.deepcopy(current_entities[cid]["strings"]),
                       "portrait":copy.deepcopy(old_current.get("portrait")),"art":copy.deepcopy(old_current.get("art")),
                       "relations":copy.deepcopy(old_current.get("relations",old_current.get("relationships",[]))),
+                      "relationships":copy.deepcopy(research["relationships"]),
                       "current":copy.deepcopy(src["current"]),
                       "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"]),
                       "researchObservationIds":[x["id"] for x in research["observations"] if cid in x.get("cardIds",[])]}
