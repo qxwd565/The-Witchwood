@@ -3,7 +3,7 @@
 import base64,gzip,json,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-DATE=re.compile(r"^\\d{4}-\\d{2}-\\d{2}$")
+DATE=re.compile(r"^\d{4}-\d{2}-\d{2}$")
 def read(p): return json.loads(p.read_text(encoding="utf-8"))
 def ev(p): return json.loads(gzip.decompress(base64.b64decode((ROOT/p).read_text(encoding="utf-8").splitlines()[-1].strip())))
 catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(ROOT/"history.json")["cards"]
