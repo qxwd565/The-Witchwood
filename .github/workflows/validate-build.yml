@@ -57,11 +57,13 @@ jobs:
           PY
       - name: Migrate all 156 cards from immutable launch state and central history
         run: python tools/migrate-witchwood-v2.py
+      - name: Sync compatibility APIs from sparse date-first canonical source
+        run: python tools/sync-witchwood-history.py
       - name: Build cards, render, and legacy history compatibility endpoints
         run: python tools/build-witchwood-api.py
       - name: Run full regression suite and current API validation
         run: |
-          python -m py_compile tools/migrate-witchwood-v2.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
+          python -m py_compile tools/migrate-witchwood-v2.py tools/sync-witchwood-history.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
           python -m unittest discover -s tests -v
           python tools/validate-witchwood-current.py
       - name: Commit migrated sources and generated compatibility APIs
@@ -72,7 +74,7 @@ jobs:
           REMOTE_HEAD="$(git rev-parse origin/main)"
           CHECKOUT_HEAD="$(git rev-parse HEAD)"
           if [ "$REMOTE_HEAD" != "$CHECKOUT_HEAD" ]; then
-            if git merge-base --is-ancestor "$CHECKOUT_HEAD" "$REMOTE_HEAD" && git diff --quiet "$CHECKOUT_HEAD" "$REMOTE_HEAD" -- cards.json render.json history.json data sources/baseline sources/witchwood-history-v2.json sources/witchwood-research-v1.json sources/witchwood-source-manifest.json; then
+            if git merge-base --is-ancestor "$CHECKOUT_HEAD" "$REMOTE_HEAD" && git diff --quiet "$CHECKOUT_HEAD" "$REMOTE_HEAD" -- cards.json render.json history.json data sources/baseline sources/witchwood-history-v2.json sources/witchwood-research-v1.json sources/witchwood-source-manifest.json sources/witchwood-independent-audit-v2.json.gz.b64; then
               echo "Remote main advanced without changing generated card sources; rebasing pending generated outputs onto $REMOTE_HEAD."
               git reset --mixed "$REMOTE_HEAD"
             else
@@ -80,7 +82,7 @@ jobs:
               exit 1
             fi
           fi
-          git add cards.json render.json history.json data/*.json sources/baseline sources/witchwood-history-v2.json sources/witchwood-source-manifest.json
+          git add cards.json render.json history.json data/*.json sources/baseline sources/witchwood-history-v2.json sources/witchwood-source-manifest.json sources/witchwood-independent-audit-v2.json.gz.b64 tools/sync-witchwood-history.py
           if git diff --cached --quiet; then
             echo "No generated source changes."
           else
@@ -96,6 +98,8 @@ jobs:
             seed="$1"
             echo "PYTHONHASHSEED=$seed source SHA: $(git rev-parse HEAD)"
             env PYTHONHASHSEED="$seed" python tools/migrate-witchwood-v2.py
+            env PYTHONHASHSEED="$seed" python tools/migrate-witchwood-v2.py
+            env PYTHONHASHSEED="$seed" python tools/sync-witchwood-history.py
             env PYTHONHASHSEED="$seed" python tools/build-witchwood-api.py
             env PYTHONHASHSEED="$seed" python -m py_compile tools/migrate-witchwood-v2.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
             env PYTHONHASHSEED="$seed" python -m unittest discover -s tests -v
