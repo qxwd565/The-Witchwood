@@ -250,6 +250,7 @@ def main():
             if "tagStorage" in clean or "nativeTagRoleChange" in clean:
                 timeline[day]["representation"].update(clean)
                 clean={k:v for k,v in clean.items() if k not in ("tagStorage","nativeTagRoleChange")}
+            timeline[day]["representation"].setdefault("category","confirmed-non-gameplay-representation")
             timeline[day]["changes"].update(clean)
             timeline[day]["eventKinds"].append("representation")
         # Existing race/school events retain only their confirmed logical deltas.
