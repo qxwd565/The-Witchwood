@@ -79,6 +79,27 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
    state=self.state(self.data[event["id"]],event["date"])
    for tid,change in event["rawDelta"].items():
     self.assertEqual(value(state["ownedTags"],tid),change["after"],(event["id"],event["date"],tid))
+ def test_14_event_archive_before_after_raw_tags(self):
+  self.assertEqual(len(self.event_evidence["missingGameplayEvents"]),14)
+  def tagmap(rows): return {str(x["id"]):str(x.get("value")) for x in rows if "value" in x}
+  for event in self.event_evidence["missingGameplayEvents"]:
+   cid=event["id"]; day=event["proposedKoreanDay"]; revisions=self.data[cid]["history"]
+   after=next(x["changes"] for x in revisions if x["from"]==day)
+   prior=[x for x in revisions if x["from"]<day]
+   before=prior[-1]["changes"] if prior else self.data[cid]["initialSpec"]
+   for role in ("ownedTags","referencedTags"):
+    self.assertEqual(tagmap(before.get(role,[])),event["archiveBefore"].get(role,{}),(cid,day,role,"archive before"))
+    self.assertEqual(tagmap(after.get(role,[])),event["archiveAfter"].get(role,{}),(cid,day,role,"archive after"))
+ def test_40_existing_raw_delta_before_after_values(self):
+  self.assertEqual(len(self.audit["existingRawDelta40"]),40)
+  for event in self.audit["existingRawDelta40"]:
+   cid=event["id"]; day=event["date"]; revisions=self.data[cid]["history"]
+   after=next(x["changes"] for x in revisions if x["from"]==day)
+   prior=[x for x in revisions if x["from"]<day]
+   before=prior[-1]["changes"] if prior else self.data[cid]["initialSpec"]
+   for tid,change in event["rawDelta"].items():
+    self.assertEqual(value(before["ownedTags"],tid),change["before"],(cid,day,tid,"before"))
+    self.assertEqual(value(after["ownedTags"],tid),change["after"],(cid,day,tid,"after"))
  def test_22_initial_logical_fields(self):
   self.assertEqual(len(self.audit["initialLogicalDiffs"]),22)
   for row in self.audit["initialLogicalDiffs"]:
