@@ -62,6 +62,7 @@ def card_history(source):
     if not date_keys or date_keys[0]!=RELEASE:
         raise ValueError(f"{source.get('card',{}).get('id')}: missing full release state")
     initial=copy.deepcopy(source[RELEASE])
+    for meta_field in META_FIELDS: initial.pop(meta_field,None)
     if any(k in initial for k in META_FIELDS):
         raise ValueError(f"{source['card']['id']}: release state contains event metadata")
     state=copy.deepcopy(initial)
