@@ -214,7 +214,8 @@ def main():
             states.append((day,copy.deepcopy(state)))
         # Preserve the current snapshot exactly; if dated evidence cannot reach it, record it as an undated observation.
         current_state={k:copy.deepcopy(v) for k,v in old_current.items() if k in ("name","type","cardClass","rarity","collectible","cost","text","attack","health","durability","armor","race","races","spellSchool")}
-        if "nativeRawText" in src:current_state["nativeRawText"]=copy.deepcopy(src["nativeRawText"])
+        raw_current=current_entities[cid]["strings"].get("184",{}).get("locales",{}).get("koKR",{}).get("nativeRawText")
+        if raw_current is not None: current_state["nativeRawText"]=copy.deepcopy(raw_current)
         latest=states[-1][1]
         undated={}
         for field,value in current_state.items():
@@ -274,6 +275,9 @@ def main():
         src["current"]=copy.deepcopy(old_current)
         src["current"]["nativeTags"]=copy.deepcopy(current_tags[cid])
         src["current"]["referencedTags"]=copy.deepcopy(current_refs[cid])
+        if raw_current is not None:
+            src["nativeRawText"]=copy.deepcopy(raw_current)
+            src["current"]["nativeRawText"]=copy.deepcopy(raw_current)
         src["history"]=copy.deepcopy(revisions)
         src["observations"]={"undated":undated}
         src["_meta"]={"schemaVersion":2,"timezone":"Asia/Seoul","releasedAt":RELEASE,
