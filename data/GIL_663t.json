@@ -1047,7 +1047,60 @@
         "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
-    "undatedRawTags": [],
+    "undatedRawTags": [
+      {
+        "date": null,
+        "findingId": "WITCH-BAL-R011-RAW",
+        "tagId": 2831,
+        "role": "ownedTags",
+        "before": {
+          "build": 170126,
+          "id": "GIL_663t",
+          "dbfId": 48911,
+          "owned": {
+            "45": "2",
+            "47": "2",
+            "48": "2",
+            "183": "1125",
+            "199": "2",
+            "202": "4"
+          },
+          "referenced": {}
+        },
+        "after": {
+          "build": 170824,
+          "id": "GIL_663t",
+          "dbfId": 48911,
+          "owned": {
+            "45": "2",
+            "47": "2",
+            "48": "1",
+            "183": "1125",
+            "199": "2",
+            "202": "4",
+            "2831": "1"
+          },
+          "referenced": {}
+        },
+        "sources": [
+          {
+            "build": 170126,
+            "commit": "da8f2db996f1e7191e501ebe2943af5636697e06",
+            "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+            "xmlSha256": "df31e3949cf6219e14d2d54d9fcdc58dc4442937494b2c214945d321d793a055",
+            "bytes": 72514251
+          },
+          {
+            "build": 170824,
+            "commit": "8bfb29fa4064a213262beb5a8941203f6aa7434c",
+            "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+            "xmlSha256": "8a407ab48fc4f7ded3eaa72870f4330facb82a1f334bb843258c982b9193988f",
+            "bytes": 74386576
+          }
+        ],
+        "reason": "Tag2831 is a raw-only internal tag; the dated gameplay event is the verified cost change only."
+      }
+    ],
     "research": []
   },
   "2018-04-13": {
@@ -1193,16 +1246,6 @@
         "after": {
           "id": 48,
           "name": "마나 비용",
-          "value": 1
-        }
-      },
-      {
-        "role": "ownedTags",
-        "id": 2831,
-        "before": "ABSENT",
-        "after": {
-          "id": 2831,
-          "name": "게임 태그 2831",
           "value": 1
         }
       }
