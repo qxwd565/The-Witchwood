@@ -1590,7 +1590,68 @@
         "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
-    "undatedRawTags": [],
+    "undatedRawTags": [
+      {
+        "date": null,
+        "findingId": "WITCH-BAL-R011-RAW",
+        "tagId": 2,
+        "role": "ownedTags",
+        "before": {
+          "build": 134558,
+          "id": "GIL_547",
+          "owned": {
+            "32": "1",
+            "45": "4",
+            "47": "4",
+            "48": "5",
+            "114": "1",
+            "183": "1125",
+            "199": "10",
+            "202": "4",
+            "203": "5",
+            "321": "1",
+            "791": "1"
+          },
+          "referenced": {}
+        },
+        "after": {
+          "build": 135540,
+          "id": "GIL_547",
+          "owned": {
+            "2": "1",
+            "32": "1",
+            "45": "5",
+            "47": "4",
+            "48": "5",
+            "114": "1",
+            "183": "1125",
+            "199": "10",
+            "202": "4",
+            "203": "5",
+            "321": "1",
+            "791": "1"
+          },
+          "referenced": {}
+        },
+        "sources": [
+          {
+            "build": 134558,
+            "commit": "d48f0a5642df703653cfe141e94310dfb78b5642",
+            "source": "https://github.com/HearthSim/hsdata/blob/d48f0a5642df703653cfe141e94310dfb78b5642/CardDefs.xml",
+            "xmlSha256": "ec899c579c7425236b1f27a585153bf40845626b46b6144647f9649bd399a481",
+            "bytes": 58412906
+          },
+          {
+            "build": 135540,
+            "commit": "9016168146cc3ce0369e8cbc54eb8395afba75a0",
+            "source": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml",
+            "xmlSha256": "5e83b2381fb9373c2f407645d630a4b0b6ef97912ce0428905c10e6d00cfa608",
+            "bytes": 60442984
+          }
+        ],
+        "reason": "Tag2 is an unrelated raw-only observation; no Korean effective date or gameplay meaning is confirmed."
+      }
+    ],
     "research": []
   },
   "2018-04-13": {
@@ -1821,16 +1882,6 @@
   "2022-04-06": {
     "health": 5,
     "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 2,
-        "before": "ABSENT",
-        "after": {
-          "id": 2,
-          "name": "게임 태그 2",
-          "value": 1
-        }
-      },
       {
         "role": "ownedTags",
         "id": 45,
@@ -2139,21 +2190,6 @@
       }
     ],
     "launchStrings": {
-      "185": {
-        "present": true,
-        "locales": {
-          "enUS": {
-            "present": true,
-            "xmlText": "Darius Crowley",
-            "nativeRawText": "Darius Crowley"
-          },
-          "koKR": {
-            "present": true,
-            "xmlText": "다리우스 크롤리",
-            "nativeRawText": "다리우스 크롤리"
-          }
-        }
-      },
       "184": {
         "present": true,
         "locales": {
@@ -2166,26 +2202,26 @@
             "present": true,
             "xmlText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
             "nativeRawText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다."
+          }
+        }
+      },
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Darius Crowley",
+            "nativeRawText": "Darius Crowley"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "다리우스 크롤리",
+            "nativeRawText": "다리우스 크롤리"
           }
         }
       }
     },
     "currentStrings": {
-      "185": {
-        "present": true,
-        "locales": {
-          "enUS": {
-            "present": true,
-            "xmlText": "Darius Crowley",
-            "nativeRawText": "Darius Crowley"
-          },
-          "koKR": {
-            "present": true,
-            "xmlText": "다리우스 크롤리",
-            "nativeRawText": "다리우스 크롤리"
-          }
-        }
-      },
       "184": {
         "present": true,
         "locales": {
@@ -2198,6 +2234,21 @@
             "present": true,
             "xmlText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
             "nativeRawText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다."
+          }
+        }
+      },
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Darius Crowley",
+            "nativeRawText": "Darius Crowley"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "다리우스 크롤리",
+            "nativeRawText": "다리우스 크롤리"
           }
         }
       }
