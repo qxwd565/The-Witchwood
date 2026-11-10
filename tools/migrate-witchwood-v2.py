@@ -346,7 +346,9 @@ def main():
             if "text" in changes: changes["text"]=api_text(changes["text"])
 
             removed=sorted(k for k in current_state if k not in hstate)
-            rev={"from":day,"changes":changes}
+            rev={"from":day,"changes":changes,"eventKinds":copy.deepcopy(timeline[day].get("eventKinds",[]))}
+            if timeline[day].get("representation"):rev["representation"]=copy.deepcopy(timeline[day]["representation"])
+            if timeline[day].get("sources"):rev["sources"]=copy.deepcopy(timeline[day]["sources"])
             if i+1<len(states):rev["before"]=states[i+1][0]
             if removed:rev["removedFields"]=removed
             revisions.append(rev)
@@ -354,7 +356,9 @@ def main():
         # Public API source retains old metadata and card wrapper; only adds schema-v2 audit material.
         src["schemaVersion"]=2
         src["initialSpec"]=copy.deepcopy(initial)
-        src["patches"]=[{"date":rev["from"],"changes":copy.deepcopy(rev["changes"]),"removedFields":copy.deepcopy(rev.get("removedFields",[]))} for rev in revisions[1:]]
+        src["patches"]=[{"date":rev["from"],"changes":copy.deepcopy(rev["changes"]),"removedFields":copy.deepcopy(rev.get("removedFields",[])),
+                         "eventKinds":copy.deepcopy(rev.get("eventKinds",[])),"representation":copy.deepcopy(rev.get("representation",{})),
+                         "sources":copy.deepcopy(rev.get("sources",[]))} for rev in revisions[1:]]
         src["current"]=copy.deepcopy(old_current)
         src["card"]["nativeTags"]=copy.deepcopy(current_tags[cid])
         src["card"]["referencedTags"]=copy.deepcopy(current_refs[cid])
