@@ -350,30 +350,25 @@ def main():
             merged={}
             for row in list(owned_state.values())+list(refs_state.values()): merged[row["id"]]=copy.deepcopy(row)
             return [merged[k] for k in sorted(merged)]
+        raw_delta_map={(x["id"],x["date"]):x["rawDelta"] for x in audit["existingRawDelta40"]}
         for day in dates:
-            changes=timeline[day].get("changes",{})
-            for field,tag_id in (("cost",48),("attack",47),("health",45),("durability",187),("armor",292)):
-                if field in changes: set_owned(tag_id,changes[field])
-            if "spellSchool" in changes:
-                school_id={v:k for k,v in SCHOOL.items()}.get(changes["spellSchool"])
-                if school_id is not None: set_owned(1635,school_id)
-            if "races" in changes:
-                races=changes["races"]
-                if cid=="GIL_545" and day=="2018-08-03": remove_owned(200)
-                base_race=next((r for r in races if r!="UNDEAD"),None)
-                if base_race in RACE_ID: set_owned(200,RACE_ID[base_race])
-                if "UNDEAD" in races: set_owned(2534,1)
-            if "nativeTags" in changes:
-                owned_state={x["id"]:copy.deepcopy(x) for x in changes["nativeTags"]}
-                refs_state={}
             rep=timeline[day].get("representation",{})
+            for tid_text,change in raw_delta_map.get((cid,day),{}).items():
+                tid=int(tid_text); before=change.get("before","ABSENT"); after=change.get("after","ABSENT")
+                present=owned_state.get(tid) or refs_state.get(tid)
+                actual=str(present.get("value")) if present and "value" in present else "ABSENT"
+                if actual!=before: raise ValueError(f"{cid} {day} Tag{tid} before mismatch {actual}!={before}")
+                if after=="ABSENT": remove_owned(tid); refs_state.pop(tid,None)
+                else: set_owned(tid,scalar(str(after)))
+            for diff in audit["rawReplayDiffs"]:
+                if diff["id"]!=cid or diff["day"]!=day: continue
+                tid=int(diff["tag"]); expected=diff["expected"]
+                if expected=="ABSENT": remove_owned(tid); refs_state.pop(tid,None)
+                else: set_owned(tid,scalar(str(expected)))
             if rep.get("tagStorage")=="DURABILITY_187_TO_HEALTH_45":
-                raw_after={
-                 "GIL_596":[(32,1),(45,4),(47,3),(48,8),(183,1125),(199,5),(202,7),(203,3),(321,1)],
-                 "GIL_653":[(32,1),(45,2),(47,2),(48,2),(183,1125),(199,10),(202,7),(203,1),(217,1),(321,1)],
-                 "GIL_672":[(45,2),(47,2),(48,4),(183,1125),(199,7),(202,7),(203,4),(321,1),(685,1)]
-                }[cid]
-                owned_state={tid:{"id":tid,"name":TAG_NAMES.get(tid,f"게임 태그 {tid}"),"value":value} for tid,value in raw_after}
+                moved=owned_state.pop(187,None)
+                if moved is None: raise ValueError(f"{cid} {day}: raw durability Tag187 missing before storage migration")
+                set_owned(45,moved.get("value"))
             if rep.get("nativeTagRoleChange"):
                 for tid_text,role_spec in rep["nativeTagRoleChange"].items():
                     tid=int(tid_text)
