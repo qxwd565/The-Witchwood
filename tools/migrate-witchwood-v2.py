@@ -456,7 +456,9 @@ def main():
                 if before_map.get(tid)==after_map.get(tid) or (role,tid) in explicit_keys: continue
                 undated_raw_tags.append({"date":None,"findingId":None,"tagId":tid,"role":role,
                     "before":copy.deepcopy(before_map.get(tid,"ABSENT")),"after":copy.deepcopy(after_map.get(tid,"ABSENT")),
-                    "build":current_build,"reason":"Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."})
+                    "build":current_build,"sourceCommit":source_manifest["entries"][-1]["commit"],
+                    "sourceXmlSha256":source_manifest["entries"][-1]["xmlSha256"],
+                    "reason":"Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."})
         src["observations"]={"undated":undated,"undatedRawTags":undated_raw_tags,
                              "research":[copy.deepcopy(x) for x in observations if cid in x.get("cardIds",[])]}
         # One-time bootstrap: first date is full; later date keys contain only logical and raw-tag deltas.
