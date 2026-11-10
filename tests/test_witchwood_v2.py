@@ -172,7 +172,12 @@ class WitchwoodV2Tests(unittest.TestCase):
   self.assertEqual(self.public["sourceManifest"],self.manifest)
   evidence_b64=(ROOT/"sources/witchwood-observations-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
   evidence=json.loads(gzip.decompress(base64.b64decode(evidence_b64)))
+  event_b64=(ROOT/"sources/witchwood-event-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
+  event_evidence=json.loads(gzip.decompress(base64.b64decode(event_b64)))
   self.assertEqual(len(evidence),13)
+  self.assertEqual(len(event_evidence["missingGameplayEvents"]),14)
+  self.assertEqual(len(event_evidence["existingLaterEventChecks"]),40)
+  self.assertEqual(self.public["gameplayEvidence"],event_evidence)
   self.assertEqual(len(self.public["observations"]),13)
   for summary,raw in zip(self.public["observations"],evidence):
    self.assertEqual(summary["findingId"],raw["findingId"])
@@ -182,6 +187,10 @@ class WitchwoodV2Tests(unittest.TestCase):
    expected={x["id"] for x in self.research["observations"] if cid in x.get("cardIds",[])}
    actual={x["id"] for x in src["observations"]["research"]}
    self.assertEqual(actual,expected,cid)
+   expected_missing=any(x["id"]==cid for x in event_evidence["missingGameplayEvents"])
+   expected_existing=any(x["id"]==cid for x in event_evidence["existingLaterEventChecks"])
+   self.assertEqual(bool(src["_meta"]["gameplayEvidence"]["missing"]),expected_missing,cid+":missing evidence")
+   self.assertEqual(bool(src["_meta"]["gameplayEvidence"]["existing"]),expected_existing,cid+":existing evidence")
    self.assertNotIn("research",src["patches"][0]["changes"] if src["patches"] else {})
  def test_81_current_line_break_cards_and_raw_text_sync(self):
   self.assertEqual(sum("<br></br>" in x.get("text","") for x in self.cards),81)
