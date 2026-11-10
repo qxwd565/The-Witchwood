@@ -1,0 +1,344 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "observations": [
+    {
+      "id": "WITCH-OBS-001",
+      "topic": "choice-preview-card-type",
+      "date": "2018-11-30",
+      "cardIds": [
+        "GIL_188a",
+        "GIL_188b"
+      ],
+      "status": "observation-not-gameplay-change",
+      "detail": "선택 UI가 결과 하수인을 미리보기로 표시하도록 변경. 선택지의 SPELL→MINION, 비용·공체·종족·문구는 UI 미리보기 변화이며 실제 변신 하수인 GIL_188t/t2/t3의 능력치 변경이 아님. 최초 스냅샷의 두 선택지는 현대 미리보기 데이터가 소급됨. 이전 cost/attack/health 부재는 0이 아님.",
+      "sources": [
+        "https://playhearthstone.com/ko-kr/blog/22788307",
+        "https://www.inven.co.kr/webzine/news/?news=211315&vtype=pc"
+      ]
+    },
+    {
+      "id": "WITCH-OBS-002",
+      "topic": "choice-preview-beast-tag",
+      "date": null,
+      "cardIds": [
+        "GIL_188b"
+      ],
+      "status": "undated-observation",
+      "detail": "선택 미리보기의 BEAST 태그 추가. 실제 변신 하수인의 야수 종족 신규 획득으로 세지 않음. 한국 대전 반영일 미확정.",
+      "sourceCommits": [
+        "94361f34f3bb9177be08b0b2d35d348ebdc99b55",
+        "9b95dea77dbb4d116e861df8b650d80b1b4385d1"
+      ]
+    },
+    {
+      "id": "WITCH-OBS-003",
+      "topic": "spellpower-internal-value",
+      "date": null,
+      "cardIds": [
+        "GIL_121"
+      ],
+      "status": "undated-observation",
+      "detail": "SPELLPOWER(192) 원시 값 2→1. 같은 업데이트에서 주문 공격력 2 이상인 35개 카드의 태그가 1로 바뀌었고 원본 한국어·영문은 계속 +2. 인쇄 주문 공격력 2→1 너프로 만들지 않으며 서버 내부 계산량을 태그만으로 확정하지 않음.",
+      "sourceCommits": [
+        "e6b9c5e51678d5035d1188f63c246326bb221c60",
+        "0a387d653f339297339625710e4df91f0c62b67b"
+      ]
+    },
+    {
+      "id": "WITCH-OBS-004",
+      "topic": "weapon-durability-storage",
+      "date": "2025-03-19",
+      "cardIds": [
+        "GIL_596",
+        "GIL_653",
+        "GIL_672"
+      ],
+      "status": "observed-representation-change",
+      "detail": "DURABILITY(187)가 사라지고 동일 값이 HEALTH(45)로 이동. 논리 내구도는 각각 4,2,2로 유지되므로 무기 생명력 증가나 내구도 변경이 아님.",
+      "source": "https://news.blizzard.com/ko-kr/article/24187196/32-0"
+    },
+    {
+      "id": "WITCH-OBS-005",
+      "topic": "choice-preview-referenced-to-owned",
+      "date": "2026-07-22",
+      "cardIds": [
+        "GIL_188a",
+        "GIL_188b"
+      ],
+      "status": "observed-representation-change",
+      "detail": "미리보기 선택지의 ReferencedTag 속공/도발이 owned Tag로 이동. 실제 변신 하수인은 출시부터 해당 능력이 있으며 신규 키워드 획득이 아님. 208591에서 참조 태그가 먼저 붙은 과정도 원장에 보존.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24290431",
+        "https://www.inven.co.kr/board/hs/3508/24233"
+      ]
+    },
+    {
+      "id": "WITCH-OBS-006",
+      "topic": "wording-only-execution-condition",
+      "date": "2026-03-11",
+      "cardIds": [
+        "GIL_134",
+        "GIL_687"
+      ],
+      "status": "wording-observation-not-gameplay-change",
+      "detail": "처치 조건 문구 통일. 공식 35.0 문서는 표현 일관성 변경으로 설명. 별도 효과 변경으로 세지 않음.",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/24267727"
+    },
+    {
+      "id": "WITCH-OBS-007",
+      "topic": "localized-translation-difference",
+      "date": null,
+      "cardIds": [
+        "GIL_694"
+      ],
+      "status": "undated-translation-observation",
+      "detail": "초기 한국어의 비용 1 하수인→카드. 영문은 전후 모두 cards이므로 대상을 하수인에서 모든 카드로 넓힌 신규 효과 버프로 확정하지 않음. 한국 문자열 반영일 미확정.",
+      "sourceCommits": [
+        "6317434bee453ec6e8267cbf45277c0a13da90f8",
+        "af94b04fdff91a1900f4adfc873d89c76aa298cd"
+      ]
+    },
+    {
+      "id": "WITCH-OBS-008",
+      "topic": "all-tribes-wording",
+      "date": "2021-05-13",
+      "cardIds": [
+        "GIL_681"
+      ],
+      "status": "wording-observation-not-gameplay-change",
+      "detail": "모든 종족을 열거하던 문구가 모든 종족값으로 축약. CARDRACE=ALL(26)은 계속 유지되며 별도 개별 종족 추가 delta를 만들지 않음. 전역 상호작용과 구분.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23671132",
+        "https://www.inven.co.kr/board/hs/3508/17716"
+      ]
+    },
+    {
+      "id": "WITCH-OBS-009",
+      "topic": "overload-owed-tag-removal",
+      "date": null,
+      "cardIds": [
+        "GIL_600"
+      ],
+      "status": "undated-internal-tag-observation",
+      "detail": "OVERLOAD_OWED(296) 제거만 관측. RECALL(215)=1 및 과부하(1) 문구는 유지되어 과부하 삭제로 기록하지 않음.",
+      "sourceCommits": [
+        "f9d936096897c6fd4d723102381769efd8b9be89",
+        "aeffaf09cdbba14654c4543792558fab68cee363"
+      ]
+    },
+    {
+      "id": "WITCH-OBS-010",
+      "topic": "discover-tag-role",
+      "date": null,
+      "cardIds": [
+        "GIL_116",
+        "GIL_543",
+        "GIL_836"
+      ],
+      "status": "undated-tag-role-observation",
+      "detail": "DISCOVER(415)가 ReferencedTag에서 owned Tag로 이동. 출시 문구에 이미 발견이 있으므로 새 발견 효과 추가가 아님.",
+      "sourceCommits": [
+        "02522f4d57def8c5c72deb6dfd537cbab6f819de",
+        "adedd63ac6a9181d379fcf320648fa4c7fb9ebf2"
+      ]
+    },
+    {
+      "id": "WITCH-OBS-011",
+      "topic": "collection-and-internal-tags",
+      "date": null,
+      "cardIds": [
+        "GIL_191",
+        "GIL_553",
+        "GIL_663",
+        "GIL_553t"
+      ],
+      "status": "undated-internal-tag-observation",
+      "detail": "기존 2021년·2022년 nativeTags 행에 나중의 collection-related(1452)·위습 태그(3881)가 소급. 1452는 170824에서, 3881은 217964에서 관측되며 인쇄 효과나 수치 변경으로 세지 않음.",
+      "sourceCommits": [
+        "170824",
+        "217964"
+      ]
+    },
+    {
+      "id": "WITCH-OBS-012",
+      "topic": "referenced-tag-ownership",
+      "date": null,
+      "cardIds": [
+        "GIL_116",
+        "GIL_188",
+        "GIL_510",
+        "GIL_526",
+        "GIL_557",
+        "GIL_565",
+        "GIL_578",
+        "GIL_580",
+        "GIL_601",
+        "GIL_607",
+        "GIL_618",
+        "GIL_634",
+        "GIL_635",
+        "GIL_648",
+        "GIL_650",
+        "GIL_683",
+        "GIL_685",
+        "GIL_801",
+        "GIL_836",
+        "GIL_905"
+      ],
+      "status": "raw-tag-role-not-card-keyword",
+      "detail": "20개 카드의 25개 참조 태그가 nativeTags에 소유 태그와 섞여 있음. 원시 역할 정보를 별도로 보존하며 참조 대상을 카드 자체 키워드로 해석하지 않음.",
+      "sourceCommits": [
+        "6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226",
+        "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+      ]
+    },
+    {
+      "id": "WITCH-OBS-013",
+      "topic": "internal-classification-tags",
+      "date": null,
+      "cardIds": [
+        "GIL_191t",
+        "GIL_608",
+        "GIL_190t"
+      ],
+      "status": "undated-internal-tag-observation",
+      "detail": "임프(1965) 및 새끼용(2355) 내부 분류 태그 도입을 관측. 악마/용족 주 종족의 신규 추가와 다름. 모든 후속 서버 상호작용의 시작일은 미검증이므로 완성된 대전 기능 변경으로 확정하지 않음."
+    }
+  ],
+  "schemaPolicy": {
+    "MINION": {
+      "omitOnly": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    "SPELL": {
+      "omitOnly": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    },
+    "HERO": {
+      "omitOnly": [
+        "attack",
+        "durability",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    "HERO_POWER": {
+      "omitOnly": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    "WEAPON": {
+      "omitOnly": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    "preserveValues": [
+      "0",
+      "false",
+      "empty-string",
+      "empty-array",
+      "native-tags",
+      "referenced-tags",
+      "raw-string-presence",
+      "null-is-not-absence"
+    ]
+  },
+  "rawTagAudit": {
+    "cards": 137,
+    "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+    "interpretation": "launch/current/source-role mixture; not all are balance changes"
+  },
+  "editorial": {
+    "confirmedCount": 8,
+    "policy": "official Korean wording is preserved; suggestions are not applied to cards.json or history",
+    "cards": [
+      "GIL_116",
+      "GIL_128",
+      "GIL_152",
+      "GIL_198",
+      "GIL_534",
+      "GIL_553",
+      "GIL_682",
+      "GIL_815"
+    ],
+    "pending": [
+      {
+        "cardId": "GIL_620",
+        "field": "flavor",
+        "proposal": "손톱 자국",
+        "status": "not-applied; dictionary evidence not directly verified"
+      },
+      {
+        "cardId": "GIL_672",
+        "field": "flavor",
+        "proposal": "한칼에",
+        "status": "not-applied; dictionary evidence not directly verified"
+      }
+    ],
+    "excludedSymbolDifference": {
+      "cardId": "GIL_654",
+      "field": "flavor",
+      "detail": "four hashtag markers in game source are absent in API; preserve hashtag style, do not treat as spelling error"
+    }
+  },
+  "relationships": {
+    "existingEdges": {
+      "count": 15,
+      "apiIdentities": 14,
+      "externalIdentities": 1,
+      "policy": "preserve; do not recreate or reverse"
+    },
+    "nonCollectibleCards": {
+      "count": 21,
+      "explicitRelations": 14,
+      "unresolved": 7
+    },
+    "unresolved": [
+      "GIL_188a",
+      "GIL_188b",
+      "GIL_188t",
+      "GIL_188t2",
+      "GIL_188t3",
+      "GIL_616t",
+      "GIL_616t2"
+    ],
+    "candidates": [
+      {
+        "from": "GIL_616",
+        "to": "GIL_616t",
+        "confidence": "high",
+        "basis": "card text names the token '갈라지는 묘목'",
+        "source": "https://github.com/qxwd565/The-Witchwood/blob/8bfd1743bd4ef55cd7fa75f141e84c3d5fc1d34f/data/GIL_616.json"
+      },
+      {
+        "from": "GIL_616t",
+        "to": "GIL_616t2",
+        "confidence": "high",
+        "basis": "card text names the token '나뭇조각'",
+        "source": "https://github.com/qxwd565/The-Witchwood/blob/8bfd1743bd4ef55cd7fa75f141e84c3d5fc1d34f/data/GIL_616t.json"
+      }
+    ],
+    "noInference": "Do not infer parent, direction, or role from filename prefixes alone; preserve tag 380/1452 provenance."
+  }
+}
