@@ -148,7 +148,7 @@ def state_from(entity,cid):
 def api_text(s): return s.replace("[x]","").replace("\r\n","<br></br>").replace("\n","<br></br>").replace("\r","<br></br>")
 
 def main():
-    catalog=read(ROOT/"cards.json"); records={c["id"]:c for c in catalog["cards"]}
+    catalog=read(ROOT/"sources/baseline/cards.json") if (ROOT/"sources/baseline/cards.json").exists() else read(ROOT/"cards.json"); records={c["id"]:c for c in catalog["cards"]}
     assert len(records)==156
     research=read(ROOT/"sources/witchwood-research-v1.json")
     source_manifest=read(ROOT/"sources/witchwood-source-manifest.json")
