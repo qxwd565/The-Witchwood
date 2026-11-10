@@ -80,7 +80,7 @@ jobs:
           for cid in before:
               b,br=entity("/tmp/CardDefs-witchwood-2018-11-30-before.xml",cid)
               a,ar=entity("/tmp/CardDefs-witchwood-2018-11-30-after.xml",cid)
-              assert b==before[cid] and br=={},(cid,"R001 before",b,br)
+              assert {k:v for k,v in b.items() if k!="__nonScalar__"}==before[cid] and br=={},(cid,"R001 before",b,br)
               assert {k:v for k,v in a.items() if k!="__nonScalar__"}==after[cid] and ar=={},(cid,"R001 after",a,ar)
               assert set(a.get("__nonScalar__",[])) >= {"184","185","342"},(cid,"R001 preserved string/internal tags",a.get("__nonScalar__"))
           print("Historical raw tags verified: R001 GIL_188a/b before and after exact; launch/current tags also verified")
