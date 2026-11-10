@@ -232,10 +232,10 @@ def main():
         # Public API source retains old metadata and card wrapper; only adds schema-v2 audit material.
         src["schemaVersion"]=2
         src["initialSpec"]=copy.deepcopy(initial)
-        src["patches"]=[{"date":d,"changes":copy.deepcopy(timeline[d].get("changes",{}))} for d in dates[1:]]
+        src["patches"]=[{"date":rev["from"],"changes":copy.deepcopy(rev["changes"]),"removedFields":copy.deepcopy(rev.get("removedFields",[]))} for rev in revisions[1:]]
         src["current"]=copy.deepcopy(old_current)
         src["current"]["nativeTags"]=copy.deepcopy(current_tags[cid])
-        src["current"]["referencedTags"]=copy.deepcopy(refs)
+        src["current"]["referencedTags"]=copy.deepcopy(current_refs[cid])
         src["history"]=copy.deepcopy(revisions)
         src["observations"]={"undated":undated}
         src["_meta"]={"schemaVersion":2,"timezone":"Asia/Seoul","releasedAt":RELEASE,
@@ -245,7 +245,7 @@ def main():
         write(ROOT/"data"/(cid+".json"),src)
         # cards.json/render.json preserve existing fields; approved Tag addition only.
         records[cid]["nativeTags"]=copy.deepcopy(current_tags[cid])
-        records[cid]["referencedTags"]=copy.deepcopy(refs)
+        records[cid]["referencedTags"]=copy.deepcopy(current_refs[cid])
         # Legacy history uses a full initialSpec and date patches.
         legacy_patches=[]
         for i,rev in enumerate(revisions[1:]):
