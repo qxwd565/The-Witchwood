@@ -23,6 +23,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Fetch and verify the original immutable repository baseline
+        run: |
+          git fetch --no-tags origin 0a849efcc23669bcb3929246d9de62e7ce85837b
+          python tools/verify-witchwood-baseline.py
       - name: Fetch immutable launch, current, and historical CardDefs snapshots
         run: |
           git init /tmp/hsdata
