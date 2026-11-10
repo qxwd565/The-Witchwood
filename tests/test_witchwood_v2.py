@@ -50,7 +50,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
     self.assertNotIn(int(row["id"]),merged,(day,row["id"],"tag role collision"))
     merged[int(row["id"])]=copy.deepcopy(row)
   state["nativeTags"]=[merged[k] for k in sorted(merged)]
-  state["nativeTagOrigins"]=sorted([{"id":int(x["id"]),"role":role} for role in ("ownedTags","referencedTags") for x in state.get(role,[])],key=lambda x:(x["id"],x["role"]))
+  state["nativeTagOrigins"]=sorted([{"id":int(x["id"]),"role":"owned" if role=="ownedTags" else "referenced"} for role in ("ownedTags","referencedTags") for x in state.get(role,[])],key=lambda x:(x["id"],x["role"]))
   return state
  def test_156_cards_immutable_current_compatibility(self):
   self.assertEqual(len(self.cards),156); self.assertEqual(len(self.render),156); self.assertEqual(len(self.data),156)
@@ -131,7 +131,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
      self.assertEqual(state.get(field,"ABSENT"),expected.get(field,"ABSENT"),(cid,day,field))
     intervals+=1
    self.assertEqual(days,sorted(x["from"] for x in src["history"]),cid+":date/history parity")
-  self.assertEqual(intervals,63)
+  self.assertEqual(intervals,61)
  def test_all_219_current_based_compatibility_replays(self):
   total=0
   for cid,src in self.data.items():
@@ -145,7 +145,10 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
     for field in ("type","cardClass","rarity","collectible","cost","attack","health","durability","armor","text","nativeRawText","races","race","spellSchool","nativeTags","ownedTags","referencedTags","nativeTagOrigins"):
      self.assertEqual(restored.get(field,"ABSENT"),revision["changes"].get(field,"ABSENT"),(cid,revision["from"],field))
     total+=1
-  self.assertEqual(total,219)
+  self.assertEqual(total,217)
+  undated_roles=sum(1 for group in self.central["observations"] for x in group.get("extraUndatedEvidence",[]) if x["findingId"]=="WITCH-BAL-R005")
+  self.assertEqual(undated_roles,2)
+  self.assertEqual(total+undated_roles,219)
  def test_135_21_collectible_partition_at_release_and_every_global_date(self):
   states={cid:copy.deepcopy(src["initialSpec"]) for cid,src in self.data.items()}
   dates=sorted({day for src in self.data.values() for day in src if DATE.fullmatch(day)})
@@ -159,7 +162,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
  def test_sparse_canonical_is_the_build_input(self):
   self.assertEqual(self.central["schema"],3); self.assertEqual(self.central["format"],"date-first-delta-v3")
   self.assertEqual(len(self.central["events"][RELEASE]),156)
-  self.assertEqual(sum(len(v) for d,v in self.central["events"].items() if d!=RELEASE),63)
+  self.assertEqual(sum(len(v) for d,v in self.central["events"].items() if d!=RELEASE),61)
   for cid,src in self.data.items():
    for day in sorted(k for k in src if DATE.fullmatch(k) and k!=RELEASE):
     event=self.central["events"][day][cid]
@@ -184,6 +187,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
   self.assertEqual(len(self.event_evidence["existingLaterEventChecks"]),40)
   self.assertEqual(len(self.central["gameplayEvidence"]["missingGameplayEvents"]),14)
   self.assertEqual(len(self.central["gameplayEvidence"]["existingLaterEventChecks"]),40)
+  extra=[x for group in self.central["observations"] for x in group.get("extraUndatedEvidence",[])]
   dated_representation=sum("representation" in row for src in self.data.values() for day,row in src.items() if DATE.fullmatch(day) and day!=RELEASE)
   undated_role=sum(1 for x in extra if x["findingId"]=="WITCH-BAL-R005")
   self.assertEqual(dated_representation+undated_role,10)
