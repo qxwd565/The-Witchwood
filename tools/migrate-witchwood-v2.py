@@ -438,7 +438,26 @@ def main():
             src["current"]["nativeRawText"]=copy.deepcopy(raw_current)
             src["card"]["nativeRawText"]=copy.deepcopy(raw_current)
         src["history"]=copy.deepcopy(revisions)
-        src["observations"]={"undated":undated,"research":[copy.deepcopy(x) for x in observations if cid in x.get("cardIds",[])]}
+        latest_raw=tag_states[dates[-1]]
+        explicit_undated=[copy.deepcopy(x) for x in audit["extraUndatedEvidence"]["observations"] if x["id"]==cid]
+        undated_raw_tags=[]; explicit_keys=set()
+        for item in explicit_undated:
+            role=item["role"]+"Tags"; tid=int(item["confirmedTagId"]); explicit_keys.add((role,tid))
+            undated_raw_tags.append({"date":None,"findingId":item["findingId"],"tagId":tid,"role":role,
+                "before":copy.deepcopy(item["before"]),"after":copy.deepcopy(item["after"]),
+                "reason":"First observed across the preserved builds; no Korean effective date is confirmed, so this transition remains outside the dated timeline."})
+        current_role_maps={"ownedTags":current_owned_by_id,"referencedTags":current_refs_by_id}
+        latest_role_maps={"ownedTags":{x["id"]:x for x in latest_raw["ownedTags"]},"referencedTags":{x["id"]:x for x in latest_raw["referencedTags"]}}
+        current_build=source_manifest["entries"][-1]["build"]
+        for role in ("ownedTags","referencedTags"):
+            before_map=latest_role_maps[role]; after_map=current_role_maps[role]
+            for tid in sorted(set(before_map)|set(after_map)):
+                if before_map.get(tid)==after_map.get(tid) or (role,tid) in explicit_keys: continue
+                undated_raw_tags.append({"date":None,"findingId":None,"tagId":tid,"role":role,
+                    "before":copy.deepcopy(before_map.get(tid,"ABSENT")),"after":copy.deepcopy(after_map.get(tid,"ABSENT")),
+                    "build":current_build,"reason":"Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."})
+        src["observations"]={"undated":undated,"undatedRawTags":undated_raw_tags,
+                             "research":[copy.deepcopy(x) for x in observations if cid in x.get("cardIds",[])]}
         # One-time bootstrap: first date is full; later date keys contain only logical and raw-tag deltas.
         previous_full=None
         for rev in revisions:
