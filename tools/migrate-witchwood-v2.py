@@ -212,8 +212,12 @@ def main():
         initial=state_from(launch[cid],cid)
         initial["id"]=cid
         initial["dbfId"]=card["dbfId"]
-        initial["nativeTags"]=named(launch[cid]["ownedTags"])
-        initial["referencedTags"]=named(launch[cid]["referencedTags"])
+        launch_owned=named(launch[cid]["ownedTags"])
+        launch_refs=named(launch[cid]["referencedTags"])
+        initial["ownedTags"]=copy.deepcopy(launch_owned)
+        initial["referencedTags"]=copy.deepcopy(launch_refs)
+        initial["nativeTags"]=sorted(copy.deepcopy(launch_owned+launch_refs),key=lambda x:x["id"])
+        initial["nativeTagOrigins"]=[{"id":x["id"],"role":"referenced" if x["id"] in {r["id"] for r in launch_refs} else "owned"} for x in initial["nativeTags"]]
         first=corrected.get(RELEASE,{})
         # The old release row is a legacy current snapshot; never use it as launch state.
         old_current=copy.deepcopy(src["card"])
@@ -306,6 +310,8 @@ def main():
         src["current"]=copy.deepcopy(old_current)
         src["current"]["nativeTags"]=copy.deepcopy(current_tags[cid])
         src["current"]["referencedTags"]=copy.deepcopy(current_refs[cid])
+        src["current"]["ownedTags"]=copy.deepcopy(current_owned[cid])
+        src["current"]["nativeTagOrigins"]=copy.deepcopy(current_origins[cid])
         if raw_current is not None:
             src["nativeRawText"]=copy.deepcopy(raw_current)
             src["current"]["nativeRawText"]=copy.deepcopy(raw_current)
@@ -322,6 +328,8 @@ def main():
         # cards.json/render.json preserve existing fields; approved Tag addition only.
         records[cid]["nativeTags"]=copy.deepcopy(current_tags[cid])
         records[cid]["referencedTags"]=copy.deepcopy(current_refs[cid])
+        records[cid]["ownedTags"]=copy.deepcopy(current_owned[cid])
+        records[cid]["nativeTagOrigins"]=copy.deepcopy(current_origins[cid])
         # Legacy history uses a full initialSpec and date patches.
         legacy_patches=[]
         for i,rev in enumerate(revisions[1:]):
