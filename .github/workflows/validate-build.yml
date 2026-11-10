@@ -29,6 +29,7 @@ jobs:
           git -C /tmp/hsdata remote add origin https://github.com/HearthSim/hsdata.git
           git -C /tmp/hsdata fetch --depth=1 origin 6317434bee453ec6e8267cbf45277c0a13da90f8
           git -C /tmp/hsdata show 6317434bee453ec6e8267cbf45277c0a13da90f8:CardDefs.xml > /tmp/CardDefs-witchwood-launch.xml
+          echo '4353a7eb1c36c99ccfc3817eb30cccb3a7c14c810a043c82e980957864a09d94  /tmp/CardDefs-witchwood-launch.xml' | sha256sum --check
           sha256sum /tmp/CardDefs-witchwood-launch.xml | tee /tmp/witchwood-launch.sha256
       - name: Audit source preservation and central timeline
         run: |
@@ -49,7 +50,7 @@ jobs:
           assert len(dates['2022-12-07'])==25, len(dates['2022-12-07'])
           xml=Path('/tmp/CardDefs-witchwood-launch.xml').read_bytes()
           root_xml=ET.fromstring(xml)
-          ids={x.findtext('CardID') for x in root_xml.findall('.//Entity')}
+          ids={x.get('CardID') or x.findtext('CardID') for x in root_xml.findall('.//Entity')}
           expected={c['id'] for c in cards}
           assert expected <= ids, (len(expected-ids), sorted(expected-ids)[:10])
           preserved=0
