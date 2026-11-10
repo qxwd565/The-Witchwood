@@ -77,7 +77,7 @@ class WitchwoodV2Tests(unittest.TestCase):
   hagatha=self.data["GIL_504"]["initialSpec"]
   self.assertEqual(hagatha["armor"],5)
   self.assertEqual(next(x["value"] for x in hagatha["nativeTags"] if x["id"]==45),30)
-  hero_power=self.data["GIL_504h"]["initialSpec"]
+  hero_power=self.data["GIL_504h"]["current"]
   self.assertEqual(hero_power["cost"],0)
   self.assertIs(hero_power["collectible"],False)
   empty=self.data["GIL_616t2"]["current"]
