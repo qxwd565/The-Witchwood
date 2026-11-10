@@ -203,17 +203,37 @@ def main():
         for field,value in current_state.items():
             if field in latest and latest[field]!=value:
                 undated[field]={"date":None,"before":copy.deepcopy(latest[field]),"after":copy.deepcopy(value),"reason":"current cache differs from dated confirmed events; no date inferred"}
-        # Include exact current tags and separate references; do not infer absence as zero.
+        # Replay owned and referenced raw tags independently from immutable launch state.
+        owned_state={x["id"]:copy.deepcopy(x) for x in named(launch[cid]["ownedTags"])}
+        refs_state={x["id"]:copy.deepcopy(x) for x in named(launch[cid]["referencedTags"])}
+        ref_ids=set(refs_state)
+        tag_states={}
+        def set_owned(tag_id,value):
+            owned_state[tag_id]={"id":tag_id,"name":TAG_NAMES.get(tag_id,f"게임 태그 {tag_id}"),"value":copy.deepcopy(value)}
+        def remove_owned(tag_id): owned_state.pop(tag_id,None)
+        for day in dates:
+            if day in corrected and cid in corrected[day] and "nativeTags" in corrected[day][cid]:
+                raw_tags=copy.deepcopy(corrected[day][cid]["nativeTags"])
+                if cid=="GIL_191" and day=="2021-03-26":
+                    for tag in raw_tags:
+                        if tag.get("id")==48: tag["value"]=4
+                if cid=="GIL_663" and day=="2021-03-26":
+                    for tag in raw_tags:
+                        if tag.get("id")==48: tag["value"]=2
+                if cid=="GIL_667" and day=="2022-11-30":
+                    for tag in raw_tags:
+                        if tag.get("id")==45: tag["value"]=5
+                owned_state={x["id"]:copy.deepcopy(x) for x in raw_tags if x.get("id") not in ref_ids}
+                refs_state={x["id"]:copy.deepcopy(x) for x in raw_tags if x.get("id") in ref_ids}
+            changes=timeline[day].get("changes",{})
+            for field,tag_id in (("cost",48),("attack",47),("health",45),("durability",187),("armor",292)):
+                if field in changes: set_owned(tag_id,changes[field])
+            if "races" in changes and cid in ("GIL_584","GIL_545"):
+                if cid=="GIL_584": set_owned(200,15)
+                else: remove_owned(200)
+            tag_states[day]={"nativeTags":[copy.deepcopy(owned_state[k]) for k in sorted(owned_state)],
+                             "referencedTags":[copy.deepcopy(refs_state[k]) for k in sorted(refs_state)]}
         owned=named(launch[cid]["ownedTags"]); refs=named(launch[cid]["referencedTags"])
-        ref_ids={x["id"] for x in current_refs[cid]}
-        tag_states={RELEASE:{"nativeTags":owned,"referencedTags":refs}}
-        # The old central snapshots are preserved as explicit dated observations for their recorded cards.
-        for day,group in corrected.items():
-            if cid not in group:continue
-            snap=group[cid]
-            if "nativeTags" in snap:
-                raw_tags=copy.deepcopy(snap["nativeTags"])
-                tag_states[day]={"nativeTags":[x for x in raw_tags if x.get("id") not in ref_ids],\n                                 "referencedTags":[x for x in raw_tags if x.get("id") in ref_ids]}
         # Build fully self-contained historical overrides against the public current card.
         revisions=[]
         for i,(day,hstate) in enumerate(states):
