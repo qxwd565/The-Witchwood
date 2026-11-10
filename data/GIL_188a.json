@@ -1880,21 +1880,134 @@
   },
   "2018-11-30": {
     "type": "MINION",
-    "nativeRawText": "<b>속공</b>",
-    "text": "<b>속공</b>",
-    "cost": 3,
-    "attack": 4,
-    "health": 2,
-    "races": [
-      "BEAST"
+    "rarity": "COMMON",
+    "rawTagDelta": [
+      {
+        "role": "ownedTags",
+        "id": 202,
+        "before": {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        "after": {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      },
+      {
+        "role": "ownedTags",
+        "id": 45,
+        "before": "ABSENT",
+        "after": {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        }
+      },
+      {
+        "role": "ownedTags",
+        "id": 47,
+        "before": "ABSENT",
+        "after": {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        }
+      },
+      {
+        "role": "ownedTags",
+        "id": 48,
+        "before": "ABSENT",
+        "after": {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        }
+      },
+      {
+        "role": "ownedTags",
+        "id": 200,
+        "before": "ABSENT",
+        "after": {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        }
+      },
+      {
+        "role": "ownedTags",
+        "id": 203,
+        "before": "ABSENT",
+        "after": {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        }
+      }
     ],
-    "race": "야수",
     "eventKinds": [
       "representation"
     ],
     "representation": {
-      "category": "confirmed-non-gameplay-representation"
-    }
+      "category": "confirmed-non-gameplay-representation",
+      "findingId": "WITCH-BAL-R001"
+    },
+    "sources": [
+      {
+        "findingId": "WITCH-BAL-R001",
+        "date": "2018-11-30",
+        "category": "choice_interface_history",
+        "archiveBefore": {
+          "build": 27641,
+          "commit": "242423aeeeccda4c86a9aed57780d682faf6d044",
+          "source": "https://github.com/HearthSim/hsdata/blob/242423aeeeccda4c86a9aed57780d682faf6d044/CardDefs.xml",
+          "xmlSha256": "95d75205c7c6235d90933f568cdae52cb9714842c5ae21a9d689a7eb66b0290c",
+          "bytes": 15770364
+        },
+        "archiveAfter": {
+          "build": 27845,
+          "commit": "0565689bc30e7fe550053066d033958f1f90033f",
+          "source": "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml",
+          "xmlSha256": "dc2fa518bc000ad5aa4d54dbde40e29f67aed75c19705b8799893d0916046d4a",
+          "bytes": 17392323
+        },
+        "cardBefore": {
+          "id": "GIL_188a",
+          "dbfId": 47048,
+          "ownedTags": {
+            "183": "1125",
+            "199": "2",
+            "202": "5"
+          },
+          "referencedTags": {},
+          "koKR": "공격력 +2, <b>속공</b>",
+          "enUS": "+2 Attack and <b>Rush</b>"
+        },
+        "cardAfter": {
+          "id": "GIL_188a",
+          "dbfId": 47048,
+          "ownedTags": {
+            "45": "2",
+            "47": "4",
+            "48": "3",
+            "183": "1125",
+            "199": "2",
+            "200": "20",
+            "202": "4",
+            "203": "1"
+          },
+          "referencedTags": {},
+          "koKR": "<b>속공</b>",
+          "enUS": "<b>Rush</b>"
+        },
+        "sourceRefs": [
+          "official-13-0",
+          "korean-13-0-live"
+        ]
+      }
+    ]
   },
   "_meta": {
     "schemaVersion": 3,
