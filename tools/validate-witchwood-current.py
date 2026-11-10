@@ -58,7 +58,8 @@ for cid,want in {
  def scalar(rows): return {int(x["id"]):str(x["value"]) for x in rows if "value" in x}
  actual_diff=set()
  for role in ("ownedTags","referencedTags"):
-  before=scalar(final.get(role,[])); after=scalar(files[cid]["current"].get(role,[]))
+  before={int(x["id"]):x for x in final.get(role,[])}
+  after={int(x["id"]):x for x in files[cid]["current"].get(role,[])}
   actual_diff.update(tid for tid in set(before)|set(after) if before.get(tid,"ABSENT")!=after.get(tid,"ABSENT"))
  explicit={int(x["tagId"]) for x in files[cid]["observations"]["undatedRawTags"] if x.get("findingId") is not None}
  assert generated==actual_diff-explicit,(cid,"undated raw observations recomputed",generated,actual_diff,explicit)
