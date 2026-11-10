@@ -31,8 +31,8 @@ PATCHES={
 "GIL_531":[("2026-04-15",{"cost":0})],
 }
 REPRESENTATION_PATCHES={
- "GIL_188a":[("2018-11-30",{"type":"MINION","cost":3,"attack":4,"health":2,"races":["BEAST"],"race":"야수","nativeRawText":"<b>속공</b>","text":"<b>속공</b>","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":3},{"id":183,"name":"게임 태그 183","value":1125},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1}],"nativeTagOrigins":[{"id":45,"role":"owned"},{"id":47,"role":"owned"},{"id":48,"role":"owned"},{"id":183,"role":"owned"},{"id":199,"role":"owned"},{"id":200,"role":"owned"},{"id":202,"role":"owned"},{"id":203,"role":"owned"}]}),("2026-07-22",{"nativeTagRoleChange":{"791":"owned"}})],
- "GIL_188b":[("2018-11-30",{"type":"MINION","cost":3,"attack":2,"health":4,"races":[],"race":"","nativeRawText":"<b>도발</b>","text":"<b>도발</b>","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":3},{"id":183,"name":"게임 태그 183","value":1125},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1}],"nativeTagOrigins":[{"id":45,"role":"owned"},{"id":47,"role":"owned"},{"id":48,"role":"owned"},{"id":183,"role":"owned"},{"id":190,"role":"owned"},{"id":199,"role":"owned"},{"id":202,"role":"owned"},{"id":203,"role":"owned"}]}),("2026-07-22",{"nativeTagRoleChange":{"190":"owned"}})],
+ "GIL_188a":[("2018-11-30",{"type":"MINION","cost":3,"attack":4,"health":2,"races":["BEAST"],"race":"야수","nativeRawText":"<b>속공</b>","text":"<b>속공</b>","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":3},{"id":183,"name":"게임 태그 183","value":1125},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1}],"nativeTagOrigins":[{"id":45,"role":"owned"},{"id":47,"role":"owned"},{"id":48,"role":"owned"},{"id":183,"role":"owned"},{"id":199,"role":"owned"},{"id":200,"role":"owned"},{"id":202,"role":"owned"},{"id":203,"role":"owned"}]}),("2026-07-22",{"nativeTagRoleChange":{"791":{"before":"referenced","after":"owned","firstObservedBuild":208591}}})],
+ "GIL_188b":[("2018-11-30",{"type":"MINION","cost":3,"attack":2,"health":4,"races":[],"race":"","nativeRawText":"<b>도발</b>","text":"<b>도발</b>","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":3},{"id":183,"name":"게임 태그 183","value":1125},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1}],"nativeTagOrigins":[{"id":45,"role":"owned"},{"id":47,"role":"owned"},{"id":48,"role":"owned"},{"id":183,"role":"owned"},{"id":199,"role":"owned"},{"id":202,"role":"owned"},{"id":203,"role":"owned"}]}),("2026-07-22",{"nativeTagRoleChange":{"190":{"before":"referenced","after":"owned","firstObservedBuild":208591}}})],
  "GIL_681":[("2021-05-13",{"nativeRawText":"<i>모든 종족값을 가집니다.</i>","text":"<i>모든 종족값을 가집니다.</i>","races":["ALL"],"race":"모든 종족"})],
  "GIL_596":[("2025-03-19",{"tagStorage":"DURABILITY_187_TO_HEALTH_45"})],
  "GIL_653":[("2025-03-19",{"tagStorage":"DURABILITY_187_TO_HEALTH_45"})],
@@ -354,8 +354,9 @@ def main():
                 }[cid]
                 owned_state={tid:{"id":tid,"name":TAG_NAMES.get(tid,f"게임 태그 {tid}"),"value":value} for tid,value in raw_after}
             if rep.get("nativeTagRoleChange"):
-                for tid_text,role in rep["nativeTagRoleChange"].items():
+                for tid_text,role_spec in rep["nativeTagRoleChange"].items():
                     tid=int(tid_text)
+                    role=role_spec.get("after") if isinstance(role_spec,dict) else role_spec
                     if role=="owned":
                         row=refs_state.pop(tid,None) or current_refs_by_id.get(tid) or current_owned_by_id.get(tid)
                         if row: owned_state[tid]=copy.deepcopy(row)
