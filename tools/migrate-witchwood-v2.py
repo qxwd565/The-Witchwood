@@ -260,6 +260,8 @@ def main():
         initial=state_from(launch[cid],cid)
         initial["id"]=cid
         initial["dbfId"]=card["dbfId"]
+        if cid in NONCOLLECTIBLE: initial["collectible"]=False
+        if cid in EMPTY_TEXT: initial["text"]=""
         if "collectible" not in initial: initial["collectible"]=bool(old_current["collectible"])
         if initial["type"]=="WEAPON" and "durability" not in initial: initial["durability"]=0
         if initial["type"]=="HERO" and "armor" not in initial: initial["armor"]=0
