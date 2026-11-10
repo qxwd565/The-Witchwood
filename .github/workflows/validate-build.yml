@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  audit-and-build:
+  migrate-build-verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,50 +23,82 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Fetch immutable Witchwood launch CardDefs
+      - name: Fetch immutable launch, current, and historical CardDefs snapshots
         run: |
           git init /tmp/hsdata
           git -C /tmp/hsdata remote add origin https://github.com/HearthSim/hsdata.git
-          git -C /tmp/hsdata fetch --depth=1 origin 6317434bee453ec6e8267cbf45277c0a13da90f8
+          git -C /tmp/hsdata fetch --depth=1 origin 6317434bee453ec6e8267cbf45277c0a13da90f8 31b034c26f24b8a66ece845ffd03c1ca397b9a02 9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62 54141c4a6bf3efeedaf69d7510b987f216ff00e6
           git -C /tmp/hsdata show 6317434bee453ec6e8267cbf45277c0a13da90f8:CardDefs.xml > /tmp/CardDefs-witchwood-launch.xml
+          git -C /tmp/hsdata show 31b034c26f24b8a66ece845ffd03c1ca397b9a02:CardDefs.xml > /tmp/CardDefs-witchwood-current.xml
+          git -C /tmp/hsdata show 9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62:CardDefs.xml > /tmp/CardDefs-witchwood-2021.xml
+          git -C /tmp/hsdata show 54141c4a6bf3efeedaf69d7510b987f216ff00e6:CardDefs.xml > /tmp/CardDefs-witchwood-2022.xml
           echo '4353a7eb1c36c99ccfc3817eb30cccb3a7c14c810a043c82e980957864a09d94  /tmp/CardDefs-witchwood-launch.xml' | sha256sum --check
-          sha256sum /tmp/CardDefs-witchwood-launch.xml | tee /tmp/witchwood-launch.sha256
-      - name: Audit source preservation and central timeline
+          echo '420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c  /tmp/CardDefs-witchwood-current.xml' | sha256sum --check
+      - name: Verify immutable historical raw tag evidence
         run: |
           python - <<'PY'
-          import json, hashlib, xml.etree.ElementTree as ET
-          from pathlib import Path
-          root=Path('.')
-          catalog=json.loads((root/'cards.json').read_text(encoding='utf-8'))
-          events=json.loads((root/'data/history.json').read_text(encoding='utf-8'))
-          cards=catalog['cards']
-          assert len(cards)==156, len(cards)
-          assert sum(bool(c.get('collectible')) for c in cards)==135
-          assert sum(not bool(c.get('collectible')) for c in cards)==21
-          dates=events['events']
-          assert len(dates['2018-04-13'])==156
-          total=sum(len(v) for d,v in dates.items() if d!='2018-04-13')
-          assert total==40, total
-          assert len(dates['2022-12-07'])==25, len(dates['2022-12-07'])
-          xml=Path('/tmp/CardDefs-witchwood-launch.xml').read_bytes()
-          root_xml=ET.fromstring(xml)
-          ids={x.get('CardID') or x.findtext('CardID') for x in root_xml.findall('.//Entity')}
-          expected={c['id'] for c in cards}
-          assert expected <= ids, (len(expected-ids), sorted(expected-ids)[:10])
-          preserved=0
-          for c in cards:
-              d=json.loads((root/'data'/f"{c['id']}.json").read_text(encoding='utf-8'))
-              assert d.get('schemaVersion')==1, c['id']
-              assert d.get('mode') is not None, c['id']
-              assert isinstance(d.get('artworkProvenance'),dict), c['id']
-              assert d['card'].get('portrait')==c.get('portrait'), c['id']
-              assert d['card'].get('id')==c['id']
-              assert d['card'].get('dbfId')==c['dbfId']
-              if '<br></br>' in d['card'].get('text',''): preserved+=1
-          assert preserved==81, preserved
-          print(json.dumps({'cards':len(cards),'collectible':135,'nonCollectible':21,
-                            'releaseEvents':156,'existingEvents':total,
-                            'undeadDateRows':25,'cardsWithDisplayBreaks':preserved,
-                            'launchXmlBytes':len(xml),
-                            'launchXmlSha256':hashlib.sha256(xml).hexdigest()},ensure_ascii=False))
+          import xml.etree.ElementTree as ET
+          def tag(path,cid,tid):
+              for _,e in ET.iterparse(path,events=("end",)):
+                  if e.tag.rsplit("}",1)[-1]=="Entity" and e.attrib.get("CardID")==cid:
+                      for t in list(e):
+                          if t.tag.rsplit("}",1)[-1]=="Tag" and t.attrib.get("enumID")==str(tid):
+                              return int(t.attrib["value"])
+              raise AssertionError((path,cid,tid,"missing owned Tag"))
+          assert tag("/tmp/CardDefs-witchwood-2021.xml","GIL_191",48)==4
+          assert tag("/tmp/CardDefs-witchwood-2021.xml","GIL_663",48)==2
+          assert tag("/tmp/CardDefs-witchwood-2022.xml","GIL_667",45)==5
+          assert tag("/tmp/CardDefs-witchwood-current.xml","GIL_152",227)==1
+          print("Historical raw tags verified: GIL_191 cost4; GIL_663 cost2; GIL_667 health5; GIL_152 CANT_ATTACK=1")
           PY
+      - name: Migrate all 156 cards from immutable launch state and central history
+        run: python tools/migrate-witchwood-v2.py
+      - name: Build cards, render, and legacy history compatibility endpoints
+        run: python tools/build-witchwood-api.py
+      - name: Run full regression suite and current API validation
+        run: |
+          python -m py_compile tools/migrate-witchwood-v2.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
+          python -m unittest discover -s tests -v
+          python tools/validate-witchwood-current.py
+      - name: Commit migrated sources and generated compatibility APIs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          REMOTE_HEAD="$(git rev-parse origin/main)"
+          CHECKOUT_HEAD="$(git rev-parse HEAD)"
+          if [ "$REMOTE_HEAD" != "$CHECKOUT_HEAD" ]; then
+            if git merge-base --is-ancestor "$CHECKOUT_HEAD" "$REMOTE_HEAD" && git diff --quiet "$REMOTE_HEAD" -- cards.json render.json history.json data sources/baseline sources/witchwood-history-v2.json; then
+              git reset --hard "$REMOTE_HEAD"
+            else
+              echo "Remote main advanced with different generated outputs; refusing stale push." >&2
+              exit 1
+            fi
+          fi
+          git add cards.json render.json history.json data/*.json sources/baseline sources/witchwood-history-v2.json
+          if git diff --cached --quiet; then
+            echo "No generated source changes."
+          else
+            git commit -m "Migrate Witchwood cards to date-first history v2"
+            git push origin HEAD:main
+          fi
+          echo "Final generated-source checkout SHA: $(git rev-parse HEAD)"
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+      - name: Re-run full migration, build, tests, and current validation with independent hash seeds
+        run: |
+          run_pipeline() {
+            seed="$1"
+            echo "PYTHONHASHSEED=$seed source SHA: $(git rev-parse HEAD)"
+            env PYTHONHASHSEED="$seed" python tools/migrate-witchwood-v2.py
+            env PYTHONHASHSEED="$seed" python tools/build-witchwood-api.py
+            env PYTHONHASHSEED="$seed" python -m py_compile tools/migrate-witchwood-v2.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
+            env PYTHONHASHSEED="$seed" python -m unittest discover -s tests -v
+            env PYTHONHASHSEED="$seed" python tools/validate-witchwood-current.py
+            git diff --exit-code
+            test -z "$(git status --porcelain --untracked-files=all)"
+            echo "PYTHONHASHSEED=$seed: migration/build/tests/current clean at $(git rev-parse HEAD)"
+          }
+          run_pipeline 1
+          run_pipeline 8675309
+          echo "Verified final SHA: $(git rev-parse HEAD)"
