@@ -174,7 +174,8 @@ def main():
         actual={x["id"]:x.get("value") for x in current_tags[cid]+current_refs[cid]}
         expected={x["id"]:x.get("value") for x in original[cid].get("nativeTags",[])}
         if cid=="GIL_152": expected[227]=1
-        if actual!=expected: raise ValueError(f"{cid}: immutable current XML Tag values drift from baseline plus GIL_152 Tag227")
+        if actual!=expected:
+            raise ValueError(f"{cid}: current XML Tag mismatch missing={sorted(set(expected)-set(actual))} extra={sorted(set(actual)-set(expected))} changed={[(k,expected[k],actual[k]) for k in sorted(set(actual)&set(expected)) if actual[k]!=expected[k]]}")
     # Preserve all current non-tag fields byte-for-byte at the JSON-value level.
     for cid,card in records.items():
         src=read(ROOT/"data"/(cid+".json"))
