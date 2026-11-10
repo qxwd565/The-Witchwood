@@ -223,6 +223,9 @@ def main():
         initial=state_from(launch[cid],cid)
         initial["id"]=cid
         initial["dbfId"]=card["dbfId"]
+        if "collectible" not in initial: initial["collectible"]=bool(old_current["collectible"])
+        if initial["type"]=="WEAPON" and "durability" not in initial: initial["durability"]=0
+        if initial["type"]=="HERO" and "armor" not in initial: initial["armor"]=0
         launch_owned=named(launch[cid]["ownedTags"])
         launch_refs=named(launch[cid]["referencedTags"])
         initial["ownedTags"]=copy.deepcopy(launch_owned)
@@ -363,6 +366,15 @@ def main():
             src["current"]["nativeRawText"]=copy.deepcopy(raw_current)
         src["history"]=copy.deepcopy(revisions)
         src["observations"]={"undated":undated,"research":[copy.deepcopy(x) for x in research["observations"] if cid in x.get("cardIds",[])]}
+        # Date-first canonical snapshots are real top-level YYYY-MM-DD keys in this same file.
+        for rev in revisions:
+            day=rev["from"]
+            snapshot=copy.deepcopy(rev["changes"])
+            snapshot["removedFields"]=copy.deepcopy(rev.get("removedFields",[]))
+            snapshot["eventKinds"]=copy.deepcopy(timeline[day].get("eventKinds",[]))
+            if timeline[day].get("representation"): snapshot["representation"]=copy.deepcopy(timeline[day]["representation"])
+            if timeline[day].get("sources"): snapshot["sources"]=copy.deepcopy(timeline[day]["sources"])
+            src[day]=snapshot
         src["_meta"]={"schemaVersion":2,"timezone":"Asia/Seoul","releasedAt":RELEASE,
                       "source":"HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
                       "launchOwnedTags":copy.deepcopy(launch_owned),"launchReferencedTags":copy.deepcopy(launch_refs),
