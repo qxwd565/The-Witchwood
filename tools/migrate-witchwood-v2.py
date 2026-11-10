@@ -76,6 +76,12 @@ def parse_entities(path,wanted):
                     for row in owned:
                         if row["id"]==227 and row["id"] not in existing:
                             out[cid]["ownedTags"].append(row)
+                    existing_refs={x["id"] for x in out[cid]["referencedTags"]}
+                    for row in refs:
+                        if row["id"] not in existing_refs:
+                            out[cid]["referencedTags"].append(row)
+                    for tid,string_data in strings.items():
+                        if tid not in out[cid]["strings"]: out[cid]["strings"][tid]=string_data
             e.clear()
     missing=wanted-set(out)
     if missing: raise ValueError(f"Launch XML missing IDs: {sorted(missing)}")
