@@ -1,4 +1,4 @@
-import copy, json, re, unittest
+import base64, copy, gzip, json, re, unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 RELEASE="2018-04-13"
@@ -170,6 +170,14 @@ class WitchwoodV2Tests(unittest.TestCase):
   self.assertEqual(self.manifest["count"],40)
   self.assertEqual(len(self.manifest["entries"]),40)
   self.assertEqual(self.public["sourceManifest"],self.manifest)
+  evidence_b64=(ROOT/"sources/witchwood-observations-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
+  evidence=json.loads(gzip.decompress(base64.b64decode(evidence_b64)))
+  self.assertEqual(len(evidence),13)
+  self.assertEqual(len(self.public["observations"]),13)
+  for summary,raw in zip(self.public["observations"],evidence):
+   self.assertEqual(summary["findingId"],raw["findingId"])
+   self.assertEqual(summary["cardIds"],raw["ids"])
+   self.assertEqual(summary["archiveEvidence"],raw["archiveEvidence"])
   for cid,src in self.data.items():
    expected={x["id"] for x in self.research["observations"] if cid in x.get("cardIds",[])}
    actual={x["id"] for x in src["observations"]["research"]}
