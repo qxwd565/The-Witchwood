@@ -99,6 +99,9 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
   for item in self.audit["extraUndatedEvidence"]["observations"]:
    rows=self.data[item["id"]]["observations"]["undatedRawTags"]
    self.assertTrue(any(x["findingId"]==item["findingId"] and x["tagId"]==item["confirmedTagId"] and x["before"]==item["before"] and x["after"]==item["after"] for x in rows),item["id"]+":"+item["findingId"])
+   role=item["role"]+"Tags"; tid=int(item["confirmedTagId"])
+   for day in (k for k in self.data[item["id"]] if DATE.fullmatch(k) and k!=RELEASE):
+    self.assertFalse(any(x["role"]==role and int(x["id"])==tid for x in self.data[item["id"]][day].get("rawTagDelta",[])),(item["id"],day,tid,"undated promoted"))
  def test_40_existing_raw_delta_before_after_values(self):
   self.assertEqual(len(self.audit["existingRawDelta40"]),40)
   for event in self.audit["existingRawDelta40"]:
