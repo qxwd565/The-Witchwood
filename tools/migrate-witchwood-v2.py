@@ -154,7 +154,10 @@ def main():
     source_manifest=read(ROOT/"sources/witchwood-source-manifest.json")
     evidence_b64=(ROOT/"sources/witchwood-observations-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
     evidence_observations=json.loads(gzip.decompress(base64.b64decode(evidence_b64)))
+    event_evidence_b64=(ROOT/"sources/witchwood-event-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
+    event_evidence=json.loads(gzip.decompress(base64.b64decode(event_evidence_b64)))
     if len(evidence_observations)!=13 or len(research["observations"])!=13: raise ValueError("Witchwood observation evidence must contain all 13 groups")
+    if len(event_evidence["missingGameplayEvents"])!=14 or len(event_evidence["existingLaterEventChecks"])!=40: raise ValueError("Witchwood event evidence must contain 14 missing and 40 existing checks")
     observations=[]
     for summary,evidence in zip(research["observations"],evidence_observations):
         if summary.get("cardIds")!=evidence.get("ids"): raise ValueError("Observation card list mismatch: "+str(summary.get("id")))
@@ -412,7 +415,9 @@ def main():
                       "relationships":copy.deepcopy(research["relationships"]),"sourceManifest":copy.deepcopy(source_manifest),
                       "current":copy.deepcopy(src["current"]),
                       "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"]),
-                      "researchObservationIds":[x["id"] for x in observations if cid in x.get("cardIds",[])]}
+                      "researchObservationIds":[x["id"] for x in observations if cid in x.get("cardIds",[])],
+"gameplayEvidence":{"missing":[copy.deepcopy(x) for x in event_evidence["missingGameplayEvents"] if cid in x.get("cardIds",[]) or cid in x.get("ids",[])],
+"existing":[copy.deepcopy(x) for x in event_evidence["existingLaterEventChecks"] if cid in x.get("cardIds",[]) or cid in x.get("ids",[])]}}
         write(ROOT/"data"/(cid+".json"),src)
         # cards.json/render.json preserve existing fields; approved Tag addition only.
         records[cid]["nativeTags"]=copy.deepcopy(current_tags[cid])
@@ -428,7 +433,7 @@ def main():
     # Generate compatibility indexes and a separate explicit date-first canonical source.
     public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","events":{RELEASE:{}},
                     "sourceManifest":copy.deepcopy(source_manifest),
-                    "observations":copy.deepcopy(observations),
+                    "observations":copy.deepcopy(observations),"gameplayEvidence":copy.deepcopy(event_evidence),
                     "schemaPolicy":copy.deepcopy(research["schemaPolicy"]),
                     "rawTagAudit":copy.deepcopy(research["rawTagAudit"]),
                     "editorial":copy.deepcopy(research["editorial"]),
