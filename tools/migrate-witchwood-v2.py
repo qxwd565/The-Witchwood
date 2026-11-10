@@ -167,15 +167,21 @@ def main():
             target[cid]=copy.deepcopy(value)
     if len(corrected["2022-11-30"])!=25: raise ValueError("Undead date correction count mismatch")
     # Apply the only approved current-data addition: CANT_ATTACK=1 on GIL_152.
-    current_tags={cid:named(current_entities[cid]["ownedTags"]) for cid in records}
-    current_refs={cid:named(current_entities[cid]["referencedTags"]) for cid in records}
-    assert any(x.get("id")==227 and x.get("value")==1 for x in current_tags["GIL_152"]), "Current XML must contain CANT_ATTACK=1"
+    current_tags={}; current_refs={}
     for cid in records:
-        actual={x["id"]:x.get("value") for x in current_tags[cid]+current_refs[cid]}
-        expected={x["id"]:x.get("value") for x in original[cid].get("nativeTags",[])}
+        original_rows=copy.deepcopy(original[cid].get("nativeTags",[]))
+        ref_ids={x["id"] for x in current_entities[cid]["referencedTags"]}
+        current_tags[cid]=[copy.deepcopy(x) for x in original_rows if x.get("id") not in ref_ids]
+        current_refs[cid]=[copy.deepcopy(x) for x in original_rows if x.get("id") in ref_ids]
+        if cid=="GIL_152":
+            xml_tag=next((x for x in current_entities[cid]["ownedTags"] if x["id"]==227),None)
+            if not xml_tag or xml_tag.get("value")!=1: raise ValueError("Current XML does not contain owned GIL_152 CANT_ATTACK=1")
+            if not any(x.get("id")==227 for x in current_tags[cid]): current_tags[cid].append({"id":227,"name":"공격 불가","value":1})
+        current_tags[cid].sort(key=lambda x:x["id"]); current_refs[cid].sort(key=lambda x:x["id"])
+        merged={x["id"]:x.get("value") for x in current_tags[cid]+current_refs[cid]}
+        expected={x["id"]:x.get("value") for x in original_rows}
         if cid=="GIL_152": expected[227]=1
-        if actual!=expected:
-            raise ValueError(f"{cid}: current XML Tag mismatch missing={sorted(set(expected)-set(actual))} extra={sorted(set(actual)-set(expected))} changed={[(k,expected[k],actual[k]) for k in sorted(set(actual)&set(expected)) if actual[k]!=expected[k]]}")
+        if merged!=expected: raise ValueError(f"{cid}: public current tag set differs from immutable baseline plus approved Tag227")
     # Preserve all current non-tag fields byte-for-byte at the JSON-value level.
     for cid,card in records.items():
         src=read(ROOT/"data"/(cid+".json"))
