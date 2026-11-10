@@ -150,6 +150,10 @@ def state_from(entity,cid):
 def api_text(s): return s.replace("[x]","").replace("\r\n","<br></br>").replace("\n","<br></br>").replace("\r","<br></br>")
 
 def main():
+    canonical=ROOT/"data/history.json"
+    if canonical.exists() and read(canonical).get("schema",0)>=3 and read(canonical).get("format")=="date-first-delta-v3":
+        print("Canonical sparse date-first source already exists; bootstrap migration skipped.")
+        return
     catalog=read(ROOT/"sources/baseline/cards.json") if (ROOT/"sources/baseline/cards.json").exists() else read(ROOT/"cards.json"); records={c["id"]:c for c in catalog["cards"]}
     assert len(records)==156
     research=read(ROOT/"sources/witchwood-research-v1.json")
@@ -158,6 +162,10 @@ def main():
     evidence_observations=json.loads(gzip.decompress(base64.b64decode(evidence_b64)))
     event_evidence_b64=(ROOT/"sources/witchwood-event-evidence.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
     event_evidence=json.loads(gzip.decompress(base64.b64decode(event_evidence_b64)))
+    audit_b64=(ROOT/"sources/witchwood-independent-audit-v2.json.gz.b64").read_text(encoding="utf-8").splitlines()[-1].strip()
+    audit=json.loads(gzip.decompress(base64.b64decode(audit_b64)))
+    if audit.get("baselineHead")!="7fee914e2cd103a2eec1b7dd620089734ad99cf6": raise ValueError("Independent audit baseline mismatch")
+    if len(audit["rawReplayDiffs"])!=51 or len(audit["initialLogicalDiffs"])!=22 or len(audit["existingRawDelta40"])!=40 or len(audit["extraUndatedEvidence"]["observations"])!=9: raise ValueError("Independent audit evidence counts mismatch")
     if len(evidence_observations)!=13 or len(research["observations"])!=13: raise ValueError("Witchwood observation evidence must contain all 13 groups")
     if len(event_evidence["missingGameplayEvents"])!=14 or len(event_evidence["existingLaterEventChecks"])!=40: raise ValueError("Witchwood event evidence must contain 14 missing and 40 existing checks")
     observations=[]
