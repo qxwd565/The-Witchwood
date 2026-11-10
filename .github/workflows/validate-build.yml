@@ -95,7 +95,10 @@ jobs:
             env PYTHONHASHSEED="$seed" python -m py_compile tools/migrate-witchwood-v2.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
             env PYTHONHASHSEED="$seed" python -m unittest discover -s tests -v
             env PYTHONHASHSEED="$seed" python tools/validate-witchwood-current.py
+            find . -type d -name __pycache__ -prune -exec rm -rf {} +
+            find . -type f -name "*.pyc" -delete
             git diff --exit-code
+            git status --short
             test -z "$(git status --porcelain --untracked-files=all)"
             echo "PYTHONHASHSEED=$seed: migration/build/tests/current clean at $(git rev-parse HEAD)"
           }
