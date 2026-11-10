@@ -833,7 +833,12 @@
       "eventKinds": [],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
@@ -842,17 +847,41 @@
     "undated": {
       "text": {
         "date": null,
+        "latestConfirmedDate": "2018-04-13",
         "before": "내가 하수인을 뽑을 때마다 그 카드를 1장 복사하여 내 손으로 가져옵니다.",
         "after": "내가 하수인을 뽑을 때마다 그 카드를 복사하여 1장 더 내 손으로 가져옵니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       },
       "nativeRawText": {
         "date": null,
+        "latestConfirmedDate": "2018-04-13",
         "before": "내가 하수인을 뽑을 때마다 그 카드를 1장 복사하여 내 손으로 가져옵니다.",
         "after": "내가 하수인을 뽑을 때마다 그 카드를 복사하여 1장 더 내 손으로 가져옵니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -1064,16 +1093,11 @@
         "id": 351,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

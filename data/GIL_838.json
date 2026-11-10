@@ -943,7 +943,12 @@
       "eventKinds": [],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
@@ -952,17 +957,58 @@
     "undated": {
       "text": {
         "date": null,
+        "latestConfirmedDate": "2018-04-13",
         "before": "<b>주문 공격력 +1</b><br></br><b>전투의 함성:</b> 내 덱에 비용이<br></br>홀수인 카드만 있으면,<br></br>카드를 1장 뽑습니다.",
         "after": "<b>주문 공격력 +1</b><br></br><b>전투의 함성:</b> 내 덱에 비용이<br></br>홀수인 카드만 있으면,<br></br>카드를 뽑습니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       },
       "nativeRawText": {
         "date": null,
+        "latestConfirmedDate": "2018-04-13",
         "before": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 1장 뽑습니다.",
         "after": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 뽑습니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 1584,
+        "role": "ownedTags",
+        "before": "ABSENT",
+        "after": {
+          "id": 1584,
+          "name": "게임 태그 1584",
+          "value": 1
+        },
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      }
+    ],
     "research": []
   },
   "2018-04-13": {
@@ -1190,16 +1236,11 @@
         "id": 351,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

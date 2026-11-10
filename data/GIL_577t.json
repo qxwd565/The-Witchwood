@@ -152,7 +152,8 @@
     "name": "포악한 쥐",
     "id": "GIL_577t",
     "dbfId": 49457,
-    "collectible": true,
+    "collectible": false,
+    "text": "",
     "ownedTags": [
       {
         "id": 45,
@@ -420,7 +421,8 @@
         "name": "포악한 쥐",
         "id": "GIL_577t",
         "dbfId": 49457,
-        "collectible": true,
+        "collectible": false,
+        "text": "",
         "ownedTags": [
           {
             "id": 45,
@@ -542,21 +544,41 @@
       "eventKinds": [],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
-        "spellSchool",
-        "text"
+        "flavor",
+        "portrait",
+        "set",
+        "spellSchool"
       ]
     }
   ],
   "observations": {
     "undated": {
-      "collectible": {
+      "durability": {
         "date": null,
-        "before": true,
-        "after": false,
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -572,7 +594,8 @@
     "name": "포악한 쥐",
     "id": "GIL_577t",
     "dbfId": 49457,
-    "collectible": true,
+    "collectible": false,
+    "text": "",
     "ownedTags": [
       {
         "id": 45,
@@ -689,17 +712,11 @@
         "id": 202,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool",
-      "text"
-    ],
-    "eventKinds": []
+    ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

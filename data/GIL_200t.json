@@ -193,7 +193,7 @@
     "text": "<b>은신</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
     "id": "GIL_200t",
     "dbfId": 46597,
-    "collectible": true,
+    "collectible": false,
     "ownedTags": [
       {
         "id": 45,
@@ -529,7 +529,7 @@
         "text": "<b>은신</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
         "id": "GIL_200t",
         "dbfId": 46597,
-        "collectible": true,
+        "collectible": false,
         "ownedTags": [
           {
             "id": 45,
@@ -677,20 +677,41 @@
       "eventKinds": [],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
   ],
   "observations": {
     "undated": {
-      "collectible": {
+      "durability": {
         "date": null,
-        "before": true,
-        "after": false,
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -707,7 +728,7 @@
     "text": "<b>은신</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
     "id": "GIL_200t",
     "dbfId": 46597,
-    "collectible": true,
+    "collectible": false,
     "ownedTags": [
       {
         "id": 45,
@@ -850,16 +871,11 @@
         "id": 203,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

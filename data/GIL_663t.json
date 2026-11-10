@@ -174,7 +174,8 @@
     "name": "나무정령",
     "id": "GIL_663t",
     "dbfId": 48911,
-    "collectible": true,
+    "collectible": false,
+    "text": "",
     "ownedTags": [
       {
         "id": 45,
@@ -305,7 +306,8 @@
         "name": "나무정령",
         "id": "GIL_663t",
         "dbfId": 48911,
-        "collectible": true,
+        "collectible": false,
+        "text": "",
         "ownedTags": [
           {
             "id": 45,
@@ -344,6 +346,11 @@
           {
             "id": 342,
             "name": "게임 태그 342"
+          },
+          {
+            "id": 2831,
+            "name": "게임 태그 2831",
+            "value": 1
           }
         ],
         "referencedTags": [],
@@ -385,6 +392,11 @@
           {
             "id": 342,
             "name": "게임 태그 342"
+          },
+          {
+            "id": 2831,
+            "name": "게임 태그 2831",
+            "value": 1
           }
         ],
         "nativeTagOrigins": [
@@ -419,14 +431,22 @@
           {
             "id": 342,
             "role": "owned"
+          },
+          {
+            "id": 2831,
+            "role": "owned"
           }
         ]
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
-        "spellSchool",
-        "text"
+        "flavor",
+        "portrait",
+        "set",
+        "spellSchool"
       ],
       "eventKinds": [
         "gameplay"
@@ -435,8 +455,50 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M009",
-          "before": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+          "fields": {
+            "cost": {
+              "expectedBefore": 2,
+              "expectedAfter": 1,
+              "recordedBefore": 1,
+              "recordedAfter": 1,
+              "recordedCurrent": 1
+            }
+          },
+          "archiveBefore": {
+            "build": 170126,
+            "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+            "originalCardId": "GIL_663t",
+            "dbfId": 48911,
+            "ownedTags": {
+              "45": "2",
+              "47": "2",
+              "48": "2",
+              "183": "1125",
+              "199": "2",
+              "202": "4"
+            },
+            "referencedTags": {},
+            "koreanText": null,
+            "englishText": null
+          },
+          "archiveAfter": {
+            "build": 170824,
+            "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+            "originalCardId": "GIL_663t",
+            "dbfId": 48911,
+            "ownedTags": {
+              "45": "2",
+              "47": "2",
+              "48": "1",
+              "183": "1125",
+              "199": "2",
+              "202": "4",
+              "2831": "1"
+            },
+            "referencedTags": {},
+            "koreanText": null,
+            "englishText": null
+          },
           "sourceRefs": [
             "official-26-0",
             "pdf-official-core-2023-0",
@@ -616,7 +678,8 @@
         "name": "나무정령",
         "id": "GIL_663t",
         "dbfId": 48911,
-        "collectible": true,
+        "collectible": false,
+        "text": "",
         "ownedTags": [
           {
             "id": 45,
@@ -737,9 +800,13 @@
       "before": "2023-04-05",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
-        "spellSchool",
-        "text"
+        "flavor",
+        "portrait",
+        "set",
+        "spellSchool"
       ]
     },
     {
@@ -755,7 +822,8 @@
         "name": "나무정령",
         "id": "GIL_663t",
         "dbfId": 48911,
-        "collectible": true,
+        "collectible": false,
+        "text": "",
         "ownedTags": [
           {
             "id": 45,
@@ -794,6 +862,11 @@
           {
             "id": 342,
             "name": "게임 태그 342"
+          },
+          {
+            "id": 2831,
+            "name": "게임 태그 2831",
+            "value": 1
           }
         ],
         "referencedTags": [],
@@ -835,6 +908,11 @@
           {
             "id": 342,
             "name": "게임 태그 342"
+          },
+          {
+            "id": 2831,
+            "name": "게임 태그 2831",
+            "value": 1
           }
         ],
         "nativeTagOrigins": [
@@ -869,6 +947,10 @@
           {
             "id": 342,
             "role": "owned"
+          },
+          {
+            "id": 2831,
+            "role": "owned"
           }
         ]
       },
@@ -878,8 +960,50 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M009",
-          "before": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+          "fields": {
+            "cost": {
+              "expectedBefore": 2,
+              "expectedAfter": 1,
+              "recordedBefore": 1,
+              "recordedAfter": 1,
+              "recordedCurrent": 1
+            }
+          },
+          "archiveBefore": {
+            "build": 170126,
+            "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+            "originalCardId": "GIL_663t",
+            "dbfId": 48911,
+            "ownedTags": {
+              "45": "2",
+              "47": "2",
+              "48": "2",
+              "183": "1125",
+              "199": "2",
+              "202": "4"
+            },
+            "referencedTags": {},
+            "koreanText": null,
+            "englishText": null
+          },
+          "archiveAfter": {
+            "build": 170824,
+            "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+            "originalCardId": "GIL_663t",
+            "dbfId": 48911,
+            "ownedTags": {
+              "45": "2",
+              "47": "2",
+              "48": "1",
+              "183": "1125",
+              "199": "2",
+              "202": "4",
+              "2831": "1"
+            },
+            "referencedTags": {},
+            "koreanText": null,
+            "englishText": null
+          },
           "sourceRefs": [
             "official-26-0",
             "pdf-official-core-2023-0",
@@ -889,21 +1013,41 @@
       ],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
-        "spellSchool",
-        "text"
+        "flavor",
+        "portrait",
+        "set",
+        "spellSchool"
       ]
     }
   ],
   "observations": {
     "undated": {
-      "collectible": {
+      "durability": {
         "date": null,
-        "before": true,
-        "after": false,
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "latestConfirmedDate": "2023-04-05",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2023-04-05",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2023-04-05",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -917,7 +1061,8 @@
     "name": "나무정령",
     "id": "GIL_663t",
     "dbfId": 48911,
-    "collectible": true,
+    "collectible": false,
+    "text": "",
     "ownedTags": [
       {
         "id": 45,
@@ -1032,147 +1177,35 @@
         "id": 342,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool",
-      "text"
-    ],
-    "eventKinds": []
+    ]
   },
   "2023-04-05": {
-    "type": "MINION",
-    "cardClass": "DRUID",
     "cost": 1,
-    "attack": 2,
-    "health": 2,
-    "races": [],
-    "race": "",
-    "name": "나무정령",
-    "id": "GIL_663t",
-    "dbfId": 48911,
-    "collectible": true,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
+        "role": "ownedTags",
         "id": 48,
-        "name": "마나 비용",
-        "value": 1
+        "before": {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        "after": {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        }
       },
       {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
+        "role": "ownedTags",
+        "id": 2831,
+        "before": "ABSENT",
+        "after": {
+          "id": 2831,
+          "name": "게임 태그 2831",
+          "value": 1
+        }
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool",
-      "text"
     ],
     "eventKinds": [
       "gameplay"
@@ -1180,8 +1213,50 @@
     "sources": [
       {
         "findingId": "WITCH-BAL-M009",
-        "before": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
-        "after": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+        "fields": {
+          "cost": {
+            "expectedBefore": 2,
+            "expectedAfter": 1,
+            "recordedBefore": 1,
+            "recordedAfter": 1,
+            "recordedCurrent": 1
+          }
+        },
+        "archiveBefore": {
+          "build": 170126,
+          "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+          "originalCardId": "GIL_663t",
+          "dbfId": 48911,
+          "ownedTags": {
+            "45": "2",
+            "47": "2",
+            "48": "2",
+            "183": "1125",
+            "199": "2",
+            "202": "4"
+          },
+          "referencedTags": {},
+          "koreanText": null,
+          "englishText": null
+        },
+        "archiveAfter": {
+          "build": 170824,
+          "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+          "originalCardId": "GIL_663t",
+          "dbfId": 48911,
+          "ownedTags": {
+            "45": "2",
+            "47": "2",
+            "48": "1",
+            "183": "1125",
+            "199": "2",
+            "202": "4",
+            "2831": "1"
+          },
+          "referencedTags": {},
+          "koreanText": null,
+          "englishText": null
+        },
         "sourceRefs": [
           "official-26-0",
           "pdf-official-core-2023-0",
@@ -1191,7 +1266,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

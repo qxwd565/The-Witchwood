@@ -489,13 +489,7 @@
             "name": "게임 태그 351"
           }
         ],
-        "referencedTags": [
-          {
-            "id": 791,
-            "name": "속공",
-            "value": 1
-          }
-        ],
+        "referencedTags": [],
         "nativeTags": [
           {
             "id": 47,
@@ -557,11 +551,6 @@
           {
             "id": 351,
             "name": "게임 태그 351"
-          },
-          {
-            "id": 791,
-            "name": "속공",
-            "value": 1
           }
         ],
         "nativeTagOrigins": [
@@ -616,18 +605,19 @@
           {
             "id": 351,
             "role": "owned"
-          },
-          {
-            "id": 791,
-            "role": "referenced"
           }
         ]
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -637,8 +627,57 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M007",
-          "before": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+          "fields": {
+            "text": {
+              "expectedBefore": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인에게 +2/+1을 부여합니다.",
+              "expectedAfter": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+              "recordedBefore": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+              "recordedAfter": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+              "recordedCurrent": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다."
+            }
+          },
+          "archiveBefore": {
+            "build": 170126,
+            "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+            "originalCardId": "GIL_653",
+            "dbfId": 47511,
+            "ownedTags": {
+              "47": "2",
+              "48": "2",
+              "183": "1125",
+              "187": "2",
+              "199": "10",
+              "202": "7",
+              "203": "1",
+              "217": "1",
+              "321": "1"
+            },
+            "referencedTags": {
+              "791": "1"
+            },
+            "koreanText": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인에게 +2/+1을 부여합니다.",
+            "englishText": "<b>Deathrattle:</b> Give +2/+1 to a random friendly <b>Rush</b> minion."
+          },
+          "archiveAfter": {
+            "build": 170824,
+            "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+            "originalCardId": "GIL_653",
+            "dbfId": 47511,
+            "ownedTags": {
+              "47": "2",
+              "48": "2",
+              "183": "1125",
+              "187": "2",
+              "199": "10",
+              "202": "7",
+              "203": "1",
+              "217": "1",
+              "321": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+            "englishText": "<b>Deathrattle:</b> Give +2/+1 to a random friendly minion."
+          },
           "sourceRefs": [
             "official-26-0",
             "pdf-official-core-2023-0",
@@ -664,11 +703,6 @@
         "dbfId": 47511,
         "ownedTags": [
           {
-            "id": 32,
-            "name": "발동 효과 표시",
-            "value": 1
-          },
-          {
             "id": 45,
             "name": "생명력",
             "value": 2
@@ -687,6 +721,14 @@
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
           },
           {
             "id": 199,
@@ -712,22 +754,19 @@
             "id": 321,
             "name": "수집 가능",
             "value": 1
-          }
-        ],
-        "referencedTags": [
+          },
           {
-            "id": 791,
-            "name": "속공",
-            "value": 1
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
           }
         ],
+        "referencedTags": [],
         "nativeTags": [
           {
-            "id": 32,
-            "name": "발동 효과 표시",
-            "value": 1
-          },
-          {
             "id": 45,
             "name": "생명력",
             "value": 2
@@ -746,6 +785,14 @@
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
           },
           {
             "id": 199,
@@ -773,17 +820,16 @@
             "value": 1
           },
           {
-            "id": 791,
-            "name": "속공",
-            "value": 1
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
           }
         ],
         "nativeTagOrigins": [
           {
-            "id": 32,
-            "role": "owned"
-          },
-          {
             "id": 45,
             "role": "owned"
           },
@@ -797,6 +843,14 @@
           },
           {
             "id": 183,
+            "role": "owned"
+          },
+          {
+            "id": 184,
+            "role": "owned"
+          },
+          {
+            "id": 185,
             "role": "owned"
           },
           {
@@ -820,16 +874,25 @@
             "role": "owned"
           },
           {
-            "id": 791,
-            "role": "referenced"
+            "id": 342,
+            "role": "owned"
+          },
+          {
+            "id": 351,
+            "role": "owned"
           }
         ]
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -1253,9 +1316,14 @@
       "before": "2023-04-05",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ]
     },
@@ -1337,13 +1405,7 @@
             "name": "게임 태그 351"
           }
         ],
-        "referencedTags": [
-          {
-            "id": 791,
-            "name": "속공",
-            "value": 1
-          }
-        ],
+        "referencedTags": [],
         "nativeTags": [
           {
             "id": 47,
@@ -1405,11 +1467,6 @@
           {
             "id": 351,
             "name": "게임 태그 351"
-          },
-          {
-            "id": 791,
-            "name": "속공",
-            "value": 1
           }
         ],
         "nativeTagOrigins": [
@@ -1464,10 +1521,6 @@
           {
             "id": 351,
             "role": "owned"
-          },
-          {
-            "id": 791,
-            "role": "referenced"
           }
         ]
       },
@@ -1477,8 +1530,57 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M007",
-          "before": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+          "fields": {
+            "text": {
+              "expectedBefore": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인에게 +2/+1을 부여합니다.",
+              "expectedAfter": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+              "recordedBefore": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+              "recordedAfter": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+              "recordedCurrent": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다."
+            }
+          },
+          "archiveBefore": {
+            "build": 170126,
+            "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+            "originalCardId": "GIL_653",
+            "dbfId": 47511,
+            "ownedTags": {
+              "47": "2",
+              "48": "2",
+              "183": "1125",
+              "187": "2",
+              "199": "10",
+              "202": "7",
+              "203": "1",
+              "217": "1",
+              "321": "1"
+            },
+            "referencedTags": {
+              "791": "1"
+            },
+            "koreanText": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인에게 +2/+1을 부여합니다.",
+            "englishText": "<b>Deathrattle:</b> Give +2/+1 to a random friendly <b>Rush</b> minion."
+          },
+          "archiveAfter": {
+            "build": 170824,
+            "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+            "originalCardId": "GIL_653",
+            "dbfId": 47511,
+            "ownedTags": {
+              "47": "2",
+              "48": "2",
+              "183": "1125",
+              "187": "2",
+              "199": "10",
+              "202": "7",
+              "203": "1",
+              "217": "1",
+              "321": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+            "englishText": "<b>Deathrattle:</b> Give +2/+1 to a random friendly minion."
+          },
           "sourceRefs": [
             "official-26-0",
             "pdf-official-core-2023-0",
@@ -1489,9 +1591,14 @@
       "before": "2025-03-19",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ]
     },
@@ -1512,11 +1619,6 @@
         "dbfId": 47511,
         "ownedTags": [
           {
-            "id": 32,
-            "name": "발동 효과 표시",
-            "value": 1
-          },
-          {
             "id": 45,
             "name": "생명력",
             "value": 2
@@ -1535,6 +1637,14 @@
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
           },
           {
             "id": 199,
@@ -1560,22 +1670,19 @@
             "id": 321,
             "name": "수집 가능",
             "value": 1
-          }
-        ],
-        "referencedTags": [
+          },
           {
-            "id": 791,
-            "name": "속공",
-            "value": 1
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
           }
         ],
+        "referencedTags": [],
         "nativeTags": [
           {
-            "id": 32,
-            "name": "발동 효과 표시",
-            "value": 1
-          },
-          {
             "id": 45,
             "name": "생명력",
             "value": 2
@@ -1594,6 +1701,14 @@
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
           },
           {
             "id": 199,
@@ -1621,17 +1736,16 @@
             "value": 1
           },
           {
-            "id": 791,
-            "name": "속공",
-            "value": 1
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
           }
         ],
         "nativeTagOrigins": [
           {
-            "id": 32,
-            "role": "owned"
-          },
-          {
             "id": 45,
             "role": "owned"
           },
@@ -1645,6 +1759,14 @@
           },
           {
             "id": 183,
+            "role": "owned"
+          },
+          {
+            "id": 184,
+            "role": "owned"
+          },
+          {
+            "id": 185,
             "role": "owned"
           },
           {
@@ -1668,8 +1790,12 @@
             "role": "owned"
           },
           {
-            "id": 791,
-            "role": "referenced"
+            "id": 342,
+            "role": "owned"
+          },
+          {
+            "id": 351,
+            "role": "owned"
           }
         ]
       },
@@ -1682,15 +1808,57 @@
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ]
     }
   ],
   "observations": {
-    "undated": {},
+    "undated": {
+      "health": {
+        "date": null,
+        "latestConfirmedDate": "2025-03-19",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2025-03-19",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2025-03-19",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "races": {
+        "date": null,
+        "latestConfirmedDate": "2025-03-19",
+        "before": "ABSENT",
+        "after": [],
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "race": {
+        "date": null,
+        "latestConfirmedDate": "2025-03-19",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      }
+    },
+    "undatedRawTags": [],
     "research": [
       {
         "id": "WITCH-OBS-004",
@@ -2050,231 +2218,22 @@
         "id": 791,
         "role": "referenced"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "health",
-      "race",
-      "races",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2023-04-05": {
-    "type": "WEAPON",
-    "cardClass": "WARRIOR",
-    "rarity": "COMMON",
-    "collectible": true,
-    "cost": 2,
-    "attack": 2,
-    "durability": 2,
-    "name": "나무꾼의 도끼",
     "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
     "text": "<b>죽음의 메아리:</b><br></br>무작위 아군 하수인에게 +2/+1을 부여합니다.",
-    "id": "GIL_653",
-    "dbfId": 47511,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 187,
-        "name": "내구도",
-        "value": 2
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 10
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 7
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 217,
-        "name": "죽음의 메아리",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      }
-    ],
-    "referencedTags": [
-      {
+        "role": "referencedTags",
         "id": 791,
-        "name": "속공",
-        "value": 1
+        "before": {
+          "id": 791,
+          "name": "속공",
+          "value": 1
+        },
+        "after": "ABSENT"
       }
-    ],
-    "nativeTags": [
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 187,
-        "name": "내구도",
-        "value": 2
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 10
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 7
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 217,
-        "name": "죽음의 메아리",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 791,
-        "name": "속공",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 187,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 217,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 791,
-        "role": "referenced"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "health",
-      "race",
-      "races",
-      "spellSchool"
     ],
     "eventKinds": [
       "gameplay"
@@ -2282,8 +2241,57 @@
     "sources": [
       {
         "findingId": "WITCH-BAL-M007",
-        "before": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
-        "after": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+        "fields": {
+          "text": {
+            "expectedBefore": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인에게 +2/+1을 부여합니다.",
+            "expectedAfter": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+            "recordedBefore": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+            "recordedAfter": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+            "recordedCurrent": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다."
+          }
+        },
+        "archiveBefore": {
+          "build": 170126,
+          "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+          "originalCardId": "GIL_653",
+          "dbfId": 47511,
+          "ownedTags": {
+            "47": "2",
+            "48": "2",
+            "183": "1125",
+            "187": "2",
+            "199": "10",
+            "202": "7",
+            "203": "1",
+            "217": "1",
+            "321": "1"
+          },
+          "referencedTags": {
+            "791": "1"
+          },
+          "koreanText": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인에게 +2/+1을 부여합니다.",
+          "englishText": "<b>Deathrattle:</b> Give +2/+1 to a random friendly <b>Rush</b> minion."
+        },
+        "archiveAfter": {
+          "build": 170824,
+          "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+          "originalCardId": "GIL_653",
+          "dbfId": 47511,
+          "ownedTags": {
+            "47": "2",
+            "48": "2",
+            "183": "1125",
+            "187": "2",
+            "199": "10",
+            "202": "7",
+            "203": "1",
+            "217": "1",
+            "321": "1"
+          },
+          "referencedTags": {},
+          "koreanText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+          "englishText": "<b>Deathrattle:</b> Give +2/+1 to a random friendly minion."
+        },
         "sourceRefs": [
           "official-26-0",
           "pdf-official-core-2023-0",
@@ -2293,186 +2301,27 @@
     ]
   },
   "2025-03-19": {
-    "type": "WEAPON",
-    "cardClass": "WARRIOR",
-    "rarity": "COMMON",
-    "collectible": true,
-    "cost": 2,
-    "attack": 2,
-    "durability": 2,
-    "name": "나무꾼의 도끼",
-    "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
-    "text": "<b>죽음의 메아리:</b><br></br>무작위 아군 하수인에게 +2/+1을 부여합니다.",
-    "id": "GIL_653",
-    "dbfId": 47511,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 32,
-        "name": "발동 효과 표시",
-        "value": 1
-      },
-      {
+        "role": "ownedTags",
         "id": 45,
-        "name": "생명력",
-        "value": 2
+        "before": "ABSENT",
+        "after": {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        }
       },
       {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 10
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 7
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 217,
-        "name": "죽음의 메아리",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
+        "role": "ownedTags",
+        "id": 187,
+        "before": {
+          "id": 187,
+          "name": "내구도",
+          "value": 2
+        },
+        "after": "ABSENT"
       }
-    ],
-    "referencedTags": [
-      {
-        "id": 791,
-        "name": "속공",
-        "value": 1
-      }
-    ],
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "발동 효과 표시",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 10
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 7
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 217,
-        "name": "죽음의 메아리",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 791,
-        "name": "속공",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 32,
-        "role": "owned"
-      },
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 217,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 791,
-        "role": "referenced"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "health",
-      "race",
-      "races",
-      "spellSchool"
     ],
     "eventKinds": [
       "representation"
@@ -2483,7 +2332,8 @@
     }
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

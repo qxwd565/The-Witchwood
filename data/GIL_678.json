@@ -677,7 +677,12 @@
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -1139,7 +1144,12 @@
       "before": "2022-11-30",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     },
@@ -1386,13 +1396,41 @@
       ],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
   ],
   "observations": {
-    "undated": {},
+    "undated": {
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      }
+    },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -1606,245 +1644,25 @@
         "id": 846,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2022-11-30": {
-    "type": "MINION",
-    "cardClass": "SHAMAN",
-    "rarity": "COMMON",
-    "collectible": true,
-    "cost": 2,
-    "attack": 2,
-    "health": 2,
     "races": [
       "UNDEAD",
       "MURLOC"
     ],
     "race": "언데드, 멀록",
-    "name": "유령빛 낚시꾼",
-    "nativeRawText": "<b>잔상</b>",
-    "text": "<b>잔상</b>",
-    "id": "GIL_678",
-    "dbfId": 47600,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 14
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 846,
-        "name": "잔상",
-        "value": 1
-      },
-      {
+        "role": "ownedTags",
         "id": 2534,
-        "name": "게임 태그 2534",
-        "value": 1
+        "before": "ABSENT",
+        "after": {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 14
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 846,
-        "name": "잔상",
-        "value": 1
-      },
-      {
-        "id": 2534,
-        "name": "게임 태그 2534",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 200,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 846,
-        "role": "owned"
-      },
-      {
-        "id": 2534,
-        "role": "owned"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
     ],
     "eventKinds": [
       "existing-confirmed"
@@ -1859,7 +1677,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

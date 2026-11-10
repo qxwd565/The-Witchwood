@@ -631,7 +631,12 @@
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -641,8 +646,64 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M001",
-          "before": "https://github.com/HearthSim/hsdata/blob/fb7b081cc792fbde30c80acfe02533f00221ba29/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
+          "fields": {
+            "races": {
+              "expectedBefore": [],
+              "expectedAfter": [
+                "DEMON"
+              ],
+              "recordedBefore": [
+                "DEMON"
+              ],
+              "recordedAfter": [
+                "DEMON"
+              ],
+              "recordedCurrent": [
+                "DEMON"
+              ]
+            }
+          },
+          "archiveBefore": {
+            "build": 24769,
+            "source": "https://github.com/HearthSim/hsdata/blob/fb7b081cc792fbde30c80acfe02533f00221ba29/CardDefs.xml",
+            "originalCardId": "GIL_584",
+            "dbfId": 47142,
+            "ownedTags": {
+              "45": "3",
+              "47": "3",
+              "48": "4",
+              "183": "1125",
+              "199": "12",
+              "202": "4",
+              "203": "3",
+              "218": "1",
+              "321": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+            "englishText": "[x]<b>Battlecry:</b> Draw the lowest\nCost minion from your deck."
+          },
+          "archiveAfter": {
+            "build": 25252,
+            "source": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
+            "originalCardId": "GIL_584",
+            "dbfId": 47142,
+            "ownedTags": {
+              "45": "3",
+              "47": "3",
+              "48": "4",
+              "183": "1125",
+              "199": "12",
+              "200": "15",
+              "202": "4",
+              "203": "3",
+              "218": "1",
+              "321": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+            "englishText": "[x]<b>Battlecry:</b> Draw the lowest\nCost minion from your deck."
+          },
           "sourceRefs": [
             "official-11-4"
           ]
@@ -1064,7 +1125,12 @@
       "before": "2018-07-11",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     },
@@ -1289,8 +1355,64 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M001",
-          "before": "https://github.com/HearthSim/hsdata/blob/fb7b081cc792fbde30c80acfe02533f00221ba29/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
+          "fields": {
+            "races": {
+              "expectedBefore": [],
+              "expectedAfter": [
+                "DEMON"
+              ],
+              "recordedBefore": [
+                "DEMON"
+              ],
+              "recordedAfter": [
+                "DEMON"
+              ],
+              "recordedCurrent": [
+                "DEMON"
+              ]
+            }
+          },
+          "archiveBefore": {
+            "build": 24769,
+            "source": "https://github.com/HearthSim/hsdata/blob/fb7b081cc792fbde30c80acfe02533f00221ba29/CardDefs.xml",
+            "originalCardId": "GIL_584",
+            "dbfId": 47142,
+            "ownedTags": {
+              "45": "3",
+              "47": "3",
+              "48": "4",
+              "183": "1125",
+              "199": "12",
+              "202": "4",
+              "203": "3",
+              "218": "1",
+              "321": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+            "englishText": "[x]<b>Battlecry:</b> Draw the lowest\nCost minion from your deck."
+          },
+          "archiveAfter": {
+            "build": 25252,
+            "source": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
+            "originalCardId": "GIL_584",
+            "dbfId": 47142,
+            "ownedTags": {
+              "45": "3",
+              "47": "3",
+              "48": "4",
+              "183": "1125",
+              "199": "12",
+              "200": "15",
+              "202": "4",
+              "203": "3",
+              "218": "1",
+              "321": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+            "englishText": "[x]<b>Battlecry:</b> Draw the lowest\nCost minion from your deck."
+          },
           "sourceRefs": [
             "official-11-4"
           ]
@@ -1298,7 +1420,12 @@
       ],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
@@ -1307,17 +1434,41 @@
     "undated": {
       "text": {
         "date": null,
+        "latestConfirmedDate": "2018-07-11",
         "before": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
         "after": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2018-07-11",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2018-07-11",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2018-07-11",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       },
       "nativeRawText": {
         "date": null,
+        "latestConfirmedDate": "2018-07-11",
         "before": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
         "after": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -1515,230 +1666,24 @@
         "id": 351,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2018-07-11": {
-    "type": "MINION",
-    "cardClass": "NEUTRAL",
-    "rarity": "RARE",
-    "collectible": true,
-    "cost": 4,
-    "attack": 3,
-    "health": 3,
     "races": [
       "DEMON"
     ],
     "race": "악마",
-    "name": "피리 부는 사티로스",
-    "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
-    "text": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
-    "id": "GIL_584",
-    "dbfId": 47142,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
+        "role": "ownedTags",
         "id": 200,
-        "name": "종족",
-        "value": 15
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
+        "before": "ABSENT",
+        "after": {
+          "id": 200,
+          "name": "종족",
+          "value": 15
+        }
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 15
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 200,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 218,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
     ],
     "eventKinds": [
       "gameplay"
@@ -1746,8 +1691,64 @@
     "sources": [
       {
         "findingId": "WITCH-BAL-M001",
-        "before": "https://github.com/HearthSim/hsdata/blob/fb7b081cc792fbde30c80acfe02533f00221ba29/CardDefs.xml",
-        "after": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
+        "fields": {
+          "races": {
+            "expectedBefore": [],
+            "expectedAfter": [
+              "DEMON"
+            ],
+            "recordedBefore": [
+              "DEMON"
+            ],
+            "recordedAfter": [
+              "DEMON"
+            ],
+            "recordedCurrent": [
+              "DEMON"
+            ]
+          }
+        },
+        "archiveBefore": {
+          "build": 24769,
+          "source": "https://github.com/HearthSim/hsdata/blob/fb7b081cc792fbde30c80acfe02533f00221ba29/CardDefs.xml",
+          "originalCardId": "GIL_584",
+          "dbfId": 47142,
+          "ownedTags": {
+            "45": "3",
+            "47": "3",
+            "48": "4",
+            "183": "1125",
+            "199": "12",
+            "202": "4",
+            "203": "3",
+            "218": "1",
+            "321": "1"
+          },
+          "referencedTags": {},
+          "koreanText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+          "englishText": "[x]<b>Battlecry:</b> Draw the lowest\nCost minion from your deck."
+        },
+        "archiveAfter": {
+          "build": 25252,
+          "source": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
+          "originalCardId": "GIL_584",
+          "dbfId": 47142,
+          "ownedTags": {
+            "45": "3",
+            "47": "3",
+            "48": "4",
+            "183": "1125",
+            "199": "12",
+            "200": "15",
+            "202": "4",
+            "203": "3",
+            "218": "1",
+            "321": "1"
+          },
+          "referencedTags": {},
+          "koreanText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+          "englishText": "[x]<b>Battlecry:</b> Draw the lowest\nCost minion from your deck."
+        },
         "sourceRefs": [
           "official-11-4"
         ]
@@ -1755,7 +1756,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

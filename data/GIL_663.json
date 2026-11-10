@@ -508,11 +508,16 @@
       },
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ],
       "eventKinds": [
         "existing-confirmed"
@@ -697,11 +702,16 @@
       },
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ],
       "eventKinds": [
         "gameplay"
@@ -710,8 +720,59 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M008",
-          "before": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+          "fields": {
+            "cost": {
+              "expectedBefore": 2,
+              "expectedAfter": 1,
+              "recordedBefore": 1,
+              "recordedAfter": 1,
+              "recordedCurrent": 1
+            },
+            "text": {
+              "expectedBefore": "2/2 나무정령 셋을 내 손으로 가져옵니다.",
+              "expectedAfter": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+              "recordedBefore": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+              "recordedAfter": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+              "recordedCurrent": "2/2 나무정령 둘을 내 손으로 가져옵니다."
+            }
+          },
+          "archiveBefore": {
+            "build": 170126,
+            "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+            "originalCardId": "GIL_663",
+            "dbfId": 47553,
+            "ownedTags": {
+              "48": "2",
+              "183": "1125",
+              "199": "2",
+              "202": "5",
+              "203": "1",
+              "321": "1",
+              "1635": "4"
+            },
+            "referencedTags": {},
+            "koreanText": "2/2 나무정령 셋을 내 손으로 가져옵니다.",
+            "englishText": "Add three 2/2 Treants to your hand."
+          },
+          "archiveAfter": {
+            "build": 170824,
+            "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+            "originalCardId": "GIL_663",
+            "dbfId": 47553,
+            "ownedTags": {
+              "48": "1",
+              "183": "1125",
+              "199": "2",
+              "202": "5",
+              "203": "1",
+              "321": "1",
+              "1452": "48911",
+              "1635": "4"
+            },
+            "referencedTags": {},
+            "koreanText": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+            "englishText": "Add two 2/2 Treants to your hand."
+          },
           "sourceRefs": [
             "official-26-0",
             "pdf-official-core-2023-0",
@@ -1059,11 +1120,16 @@
       "before": "2021-03-26",
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ]
     },
@@ -1249,11 +1315,16 @@
       "before": "2023-04-05",
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ]
     },
     {
@@ -1430,8 +1501,59 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M008",
-          "before": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+          "fields": {
+            "cost": {
+              "expectedBefore": 2,
+              "expectedAfter": 1,
+              "recordedBefore": 1,
+              "recordedAfter": 1,
+              "recordedCurrent": 1
+            },
+            "text": {
+              "expectedBefore": "2/2 나무정령 셋을 내 손으로 가져옵니다.",
+              "expectedAfter": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+              "recordedBefore": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+              "recordedAfter": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+              "recordedCurrent": "2/2 나무정령 둘을 내 손으로 가져옵니다."
+            }
+          },
+          "archiveBefore": {
+            "build": 170126,
+            "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+            "originalCardId": "GIL_663",
+            "dbfId": 47553,
+            "ownedTags": {
+              "48": "2",
+              "183": "1125",
+              "199": "2",
+              "202": "5",
+              "203": "1",
+              "321": "1",
+              "1635": "4"
+            },
+            "referencedTags": {},
+            "koreanText": "2/2 나무정령 셋을 내 손으로 가져옵니다.",
+            "englishText": "Add three 2/2 Treants to your hand."
+          },
+          "archiveAfter": {
+            "build": 170824,
+            "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+            "originalCardId": "GIL_663",
+            "dbfId": 47553,
+            "ownedTags": {
+              "48": "1",
+              "183": "1125",
+              "199": "2",
+              "202": "5",
+              "203": "1",
+              "321": "1",
+              "1452": "48911",
+              "1635": "4"
+            },
+            "referencedTags": {},
+            "koreanText": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+            "englishText": "Add two 2/2 Treants to your hand."
+          },
           "sourceRefs": [
             "official-26-0",
             "pdf-official-core-2023-0",
@@ -1441,16 +1563,180 @@
       ],
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ]
     }
   ],
   "observations": {
-    "undated": {},
+    "undated": {
+      "attack": {
+        "date": null,
+        "latestConfirmedDate": "2023-04-05",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "health": {
+        "date": null,
+        "latestConfirmedDate": "2023-04-05",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2023-04-05",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2023-04-05",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "races": {
+        "date": null,
+        "latestConfirmedDate": "2023-04-05",
+        "before": "ABSENT",
+        "after": [],
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "race": {
+        "date": null,
+        "latestConfirmedDate": "2023-04-05",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      }
+    },
+    "undatedRawTags": [
+      {
+        "date": null,
+        "findingId": "WITCH-BAL-R011",
+        "tagId": 1452,
+        "role": "ownedTags",
+        "before": {
+          "build": 170126,
+          "id": "GIL_663",
+          "dbfId": 47553,
+          "owned": {
+            "48": "2",
+            "183": "1125",
+            "199": "2",
+            "202": "5",
+            "203": "1",
+            "321": "1",
+            "1635": "4"
+          },
+          "referenced": {},
+          "koKR": "2/2 나무정령 셋을 내 손으로 가져옵니다.",
+          "enUS": "Add three 2/2 Treants to your hand."
+        },
+        "after": {
+          "build": 170824,
+          "id": "GIL_663",
+          "dbfId": 47553,
+          "owned": {
+            "48": "1",
+            "183": "1125",
+            "199": "2",
+            "202": "5",
+            "203": "1",
+            "321": "1",
+            "1452": "48911",
+            "1635": "4"
+          },
+          "referenced": {},
+          "koKR": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+          "enUS": "Add two 2/2 Treants to your hand."
+        },
+        "sources": [
+          {
+            "build": 74257,
+            "commit": "132c8a94327896bbd9b911d7ee26086df7089290",
+            "source": "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml",
+            "xmlSha256": "622494f6cf70da9ecdfc79020c822b79a342bdd7e9e2d161fc961dce7bc57887",
+            "bytes": 30133321
+          },
+          {
+            "build": 77662,
+            "commit": "9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62",
+            "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+            "xmlSha256": "36879caf88f629052e57d728d1fb3649a21f7198f649ab1cdc916c72ab1b8e29",
+            "bytes": 35250262
+          },
+          {
+            "build": 131337,
+            "commit": "7f8f6d7730829f34549314f3a66f27589dd86332",
+            "source": "https://github.com/HearthSim/hsdata/blob/7f8f6d7730829f34549314f3a66f27589dd86332/CardDefs.xml",
+            "xmlSha256": "1d46c2f6bf06d7def1e924e8510d5b8c490d08ab3ddd36128cb205bd3599a90f",
+            "bytes": 55561550
+          },
+          {
+            "build": 131660,
+            "commit": "533b0d8559a9e60b1b4a26c764a4c8ad0e91993e",
+            "source": "https://github.com/HearthSim/hsdata/blob/533b0d8559a9e60b1b4a26c764a4c8ad0e91993e/CardDefs.xml",
+            "xmlSha256": "233d934a8a1064383ad92c6fe883e496dbf2e6f14b13a10b6b58ea005988b27d",
+            "bytes": 57059674
+          },
+          {
+            "build": 170126,
+            "commit": "da8f2db996f1e7191e501ebe2943af5636697e06",
+            "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+            "xmlSha256": "df31e3949cf6219e14d2d54d9fcdc58dc4442937494b2c214945d321d793a055",
+            "bytes": 72514251
+          },
+          {
+            "build": 170824,
+            "commit": "8bfb29fa4064a213262beb5a8941203f6aa7434c",
+            "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+            "xmlSha256": "8a407ab48fc4f7ded3eaa72870f4330facb82a1f334bb843258c982b9193988f",
+            "bytes": 74386576
+          },
+          {
+            "build": 208182,
+            "commit": "c9bfd18b2ff534b13de0a4fa1ea11d87ff741afa",
+            "source": "https://github.com/HearthSim/hsdata/blob/c9bfd18b2ff534b13de0a4fa1ea11d87ff741afa/CardDefs.xml",
+            "xmlSha256": "390138f969b21b3c6d66997019704e726a642883afe20905e99d4ff7c3726e31",
+            "bytes": 87828900
+          },
+          {
+            "build": 208591,
+            "commit": "37797c6c5e9af546306299ade90189454f2b16ac",
+            "source": "https://github.com/HearthSim/hsdata/blob/37797c6c5e9af546306299ade90189454f2b16ac/CardDefs.xml",
+            "xmlSha256": "668c03ff170b26b03bab89f8fffd5c51fc8cd85a17dc81f484ebcf4b91b1782b",
+            "bytes": 89219738
+          },
+          {
+            "build": 217489,
+            "commit": "62cc0f00dbed73f2d48ccefca6f611e6f8898986",
+            "source": "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml",
+            "xmlSha256": "6dfe10c33d284ade4b0675f24a51e11510011e8cd70cf1112774f2babcf1b2c2",
+            "bytes": 92244917
+          },
+          {
+            "build": 217964,
+            "commit": "fdad346dc49ebb5465f548a0a2b58b59edcbe087",
+            "source": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml",
+            "xmlSha256": "039e4cb30c4e4a994778edcd0d6af9b60c1f0ef1571aab8d02af62568681bddf",
+            "bytes": 93748504
+          }
+        ],
+        "reason": "First observed across the preserved builds; no Korean effective date is confirmed, so this transition remains outside the dated timeline."
+      }
+    ],
     "research": [
       {
         "id": "WITCH-OBS-011",
@@ -1473,7 +1759,175 @@
         "build": null,
         "category": "future_metadata_in_existing_deltas",
         "sources": [],
-        "archiveEvidence": []
+        "archiveEvidence": [],
+        "extraUndatedEvidence": [
+          {
+            "id": "GIL_191",
+            "findingId": "WITCH-BAL-R011",
+            "day": null,
+            "confirmedTagId": 1452,
+            "role": "owned",
+            "before": {
+              "build": 170126,
+              "id": "GIL_191",
+              "dbfId": 46864,
+              "owned": {
+                "48": "3",
+                "183": "1125",
+                "199": "9",
+                "202": "5",
+                "203": "1",
+                "321": "1",
+                "1635": "7"
+              },
+              "referenced": {},
+              "koKR": "1/1 임프를\n넷 소환합니다.",
+              "enUS": "[x]Summon four 1/1 Imps."
+            },
+            "after": {
+              "build": 170824,
+              "id": "GIL_191",
+              "dbfId": 46864,
+              "owned": {
+                "48": "3",
+                "183": "1125",
+                "199": "9",
+                "202": "5",
+                "203": "1",
+                "321": "1",
+                "1452": "47502",
+                "1635": "7"
+              },
+              "referenced": {},
+              "koKR": "1/1 임프를\n넷 소환합니다.",
+              "enUS": "[x]Summon four 1/1 Imps."
+            }
+          },
+          {
+            "id": "GIL_553",
+            "findingId": "WITCH-BAL-R011",
+            "day": null,
+            "confirmedTagId": 1452,
+            "role": "owned",
+            "before": {
+              "build": 170126,
+              "id": "GIL_553",
+              "dbfId": 47063,
+              "owned": {
+                "48": "4",
+                "183": "1125",
+                "199": "2",
+                "202": "5",
+                "203": "4",
+                "321": "1",
+                "1635": "4"
+              },
+              "referenced": {},
+              "koKR": "[x]내 손에 있는 카드\n1장당 1/1 위습을\n1마리씩 소환합니다.",
+              "enUS": "[x]Summon a 1/1 Wisp for\neach card in your hand."
+            },
+            "after": {
+              "build": 170824,
+              "id": "GIL_553",
+              "dbfId": 47063,
+              "owned": {
+                "48": "4",
+                "183": "1125",
+                "199": "2",
+                "202": "5",
+                "203": "4",
+                "321": "1",
+                "1452": "49149",
+                "1635": "4"
+              },
+              "referenced": {},
+              "koKR": "[x]내 손에 있는 카드\n1장당 1/1 위습을\n1마리씩 소환합니다.",
+              "enUS": "[x]Summon a 1/1 Wisp for\neach card in your hand."
+            }
+          },
+          {
+            "id": "GIL_663",
+            "findingId": "WITCH-BAL-R011",
+            "day": null,
+            "confirmedTagId": 1452,
+            "role": "owned",
+            "before": {
+              "build": 170126,
+              "id": "GIL_663",
+              "dbfId": 47553,
+              "owned": {
+                "48": "2",
+                "183": "1125",
+                "199": "2",
+                "202": "5",
+                "203": "1",
+                "321": "1",
+                "1635": "4"
+              },
+              "referenced": {},
+              "koKR": "2/2 나무정령 셋을 내 손으로 가져옵니다.",
+              "enUS": "Add three 2/2 Treants to your hand."
+            },
+            "after": {
+              "build": 170824,
+              "id": "GIL_663",
+              "dbfId": 47553,
+              "owned": {
+                "48": "1",
+                "183": "1125",
+                "199": "2",
+                "202": "5",
+                "203": "1",
+                "321": "1",
+                "1452": "48911",
+                "1635": "4"
+              },
+              "referenced": {},
+              "koKR": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+              "enUS": "Add two 2/2 Treants to your hand."
+            }
+          },
+          {
+            "id": "GIL_553t",
+            "findingId": "WITCH-BAL-R011",
+            "day": null,
+            "confirmedTagId": 3881,
+            "role": "owned",
+            "before": {
+              "build": 217489,
+              "id": "GIL_553t",
+              "dbfId": 49149,
+              "owned": {
+                "45": "1",
+                "47": "1",
+                "183": "1125",
+                "199": "2",
+                "200": "11",
+                "202": "4"
+              },
+              "referenced": {},
+              "koKR": null,
+              "enUS": null
+            },
+            "after": {
+              "build": 217964,
+              "id": "GIL_553t",
+              "dbfId": 49149,
+              "owned": {
+                "45": "1",
+                "47": "1",
+                "183": "1125",
+                "199": "2",
+                "200": "11",
+                "202": "4",
+                "3881": "1"
+              },
+              "referenced": {},
+              "koKR": null,
+              "enUS": null
+            }
+          }
+        ]
       }
     ]
   },
@@ -1626,190 +2080,21 @@
         "id": 351,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "attack",
-      "durability",
-      "health",
-      "race",
-      "races",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2021-03-26": {
-    "type": "SPELL",
-    "cardClass": "DRUID",
-    "rarity": "COMMON",
-    "collectible": true,
-    "cost": 2,
-    "name": "마녀숲 사과",
-    "nativeRawText": "2/2 나무정령 셋을 내 손으로 가져옵니다.",
-    "text": "2/2 나무정령 셋을 내 손으로 가져옵니다.",
-    "id": "GIL_663",
-    "dbfId": 47553,
-    "ownedTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 4
-      }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 4
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 1635,
-        "role": "owned"
-      }
-    ],
     "spellSchool": "NATURE",
-    "removedFields": [
-      "armor",
-      "attack",
-      "durability",
-      "health",
-      "race",
-      "races"
+    "rawTagDelta": [
+      {
+        "role": "ownedTags",
+        "id": 1635,
+        "before": "ABSENT",
+        "after": {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 4
+        }
+      }
     ],
     "eventKinds": [
       "existing-confirmed"
@@ -1824,177 +2109,24 @@
     ]
   },
   "2023-04-05": {
-    "type": "SPELL",
-    "cardClass": "DRUID",
-    "rarity": "COMMON",
-    "collectible": true,
     "cost": 1,
-    "name": "마녀숲 사과",
     "nativeRawText": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
     "text": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
-    "id": "GIL_663",
-    "dbfId": 47553,
-    "ownedTags": [
+    "rawTagDelta": [
       {
+        "role": "ownedTags",
         "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 4
+        "before": {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        "after": {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        }
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 4
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 1635,
-        "role": "owned"
-      }
-    ],
-    "spellSchool": "NATURE",
-    "removedFields": [
-      "armor",
-      "attack",
-      "durability",
-      "health",
-      "race",
-      "races"
     ],
     "eventKinds": [
       "gameplay"
@@ -2002,8 +2134,59 @@
     "sources": [
       {
         "findingId": "WITCH-BAL-M008",
-        "before": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
-        "after": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+        "fields": {
+          "cost": {
+            "expectedBefore": 2,
+            "expectedAfter": 1,
+            "recordedBefore": 1,
+            "recordedAfter": 1,
+            "recordedCurrent": 1
+          },
+          "text": {
+            "expectedBefore": "2/2 나무정령 셋을 내 손으로 가져옵니다.",
+            "expectedAfter": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+            "recordedBefore": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+            "recordedAfter": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+            "recordedCurrent": "2/2 나무정령 둘을 내 손으로 가져옵니다."
+          }
+        },
+        "archiveBefore": {
+          "build": 170126,
+          "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+          "originalCardId": "GIL_663",
+          "dbfId": 47553,
+          "ownedTags": {
+            "48": "2",
+            "183": "1125",
+            "199": "2",
+            "202": "5",
+            "203": "1",
+            "321": "1",
+            "1635": "4"
+          },
+          "referencedTags": {},
+          "koreanText": "2/2 나무정령 셋을 내 손으로 가져옵니다.",
+          "englishText": "Add three 2/2 Treants to your hand."
+        },
+        "archiveAfter": {
+          "build": 170824,
+          "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+          "originalCardId": "GIL_663",
+          "dbfId": 47553,
+          "ownedTags": {
+            "48": "1",
+            "183": "1125",
+            "199": "2",
+            "202": "5",
+            "203": "1",
+            "321": "1",
+            "1452": "48911",
+            "1635": "4"
+          },
+          "referencedTags": {},
+          "koreanText": "2/2 나무정령 둘을 내 손으로 가져옵니다.",
+          "englishText": "Add two 2/2 Treants to your hand."
+        },
         "sourceRefs": [
           "official-26-0",
           "pdf-official-core-2023-0",
@@ -2013,7 +2196,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

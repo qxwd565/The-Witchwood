@@ -442,11 +442,6 @@
             "value": 1
           },
           {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 0
-          },
-          {
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
@@ -511,11 +506,6 @@
             "value": 1
           },
           {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 0
-          },
-          {
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
@@ -578,10 +568,6 @@
             "role": "owned"
           },
           {
-            "id": 48,
-            "role": "owned"
-          },
-          {
             "id": 183,
             "role": "owned"
           },
@@ -633,7 +619,12 @@
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -643,8 +634,56 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M012",
-          "before": "https://github.com/HearthSim/hsdata/blob/552bca16aca965b882c1614b4673afa0f93d3f6e/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/8616eadbbd159acd6009e50bce099b806d1467e1/CardDefs.xml",
+          "fields": {
+            "cost": {
+              "expectedBefore": 1,
+              "expectedAfter": 0,
+              "recordedBefore": 0,
+              "recordedAfter": 0,
+              "recordedCurrent": 0
+            }
+          },
+          "archiveBefore": {
+            "build": 239422,
+            "source": "https://github.com/HearthSim/hsdata/blob/552bca16aca965b882c1614b4673afa0f93d3f6e/CardDefs.xml",
+            "originalCardId": "GIL_531",
+            "dbfId": 46998,
+            "ownedTags": {
+              "45": "1",
+              "48": "1",
+              "183": "1125",
+              "190": "1",
+              "199": "8",
+              "200": "20",
+              "202": "4",
+              "203": "1",
+              "218": "1",
+              "321": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+            "englishText": "<b>Taunt</b>\n<b>Battlecry:</b> Add a random Shaman spell to your hand."
+          },
+          "archiveAfter": {
+            "build": 239550,
+            "source": "https://github.com/HearthSim/hsdata/blob/8616eadbbd159acd6009e50bce099b806d1467e1/CardDefs.xml",
+            "originalCardId": "GIL_531",
+            "dbfId": 46998,
+            "ownedTags": {
+              "45": "1",
+              "183": "1125",
+              "190": "1",
+              "199": "8",
+              "200": "20",
+              "202": "4",
+              "203": "1",
+              "218": "1",
+              "321": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+            "englishText": "<b>Taunt</b>\n<b>Battlecry:</b> Add a random Shaman spell to your hand."
+          },
           "sourceRefs": [
             "official-35-2",
             "official-core-2026",
@@ -1070,7 +1109,12 @@
       "before": "2026-04-15",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     },
@@ -1098,11 +1142,6 @@
             "id": 45,
             "name": "생명력",
             "value": 1
-          },
-          {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 0
           },
           {
             "id": 183,
@@ -1169,11 +1208,6 @@
             "value": 1
           },
           {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 0
-          },
-          {
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
@@ -1236,10 +1270,6 @@
             "role": "owned"
           },
           {
-            "id": 48,
-            "role": "owned"
-          },
-          {
             "id": 183,
             "role": "owned"
           },
@@ -1295,8 +1325,56 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M012",
-          "before": "https://github.com/HearthSim/hsdata/blob/552bca16aca965b882c1614b4673afa0f93d3f6e/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/8616eadbbd159acd6009e50bce099b806d1467e1/CardDefs.xml",
+          "fields": {
+            "cost": {
+              "expectedBefore": 1,
+              "expectedAfter": 0,
+              "recordedBefore": 0,
+              "recordedAfter": 0,
+              "recordedCurrent": 0
+            }
+          },
+          "archiveBefore": {
+            "build": 239422,
+            "source": "https://github.com/HearthSim/hsdata/blob/552bca16aca965b882c1614b4673afa0f93d3f6e/CardDefs.xml",
+            "originalCardId": "GIL_531",
+            "dbfId": 46998,
+            "ownedTags": {
+              "45": "1",
+              "48": "1",
+              "183": "1125",
+              "190": "1",
+              "199": "8",
+              "200": "20",
+              "202": "4",
+              "203": "1",
+              "218": "1",
+              "321": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+            "englishText": "<b>Taunt</b>\n<b>Battlecry:</b> Add a random Shaman spell to your hand."
+          },
+          "archiveAfter": {
+            "build": 239550,
+            "source": "https://github.com/HearthSim/hsdata/blob/8616eadbbd159acd6009e50bce099b806d1467e1/CardDefs.xml",
+            "originalCardId": "GIL_531",
+            "dbfId": 46998,
+            "ownedTags": {
+              "45": "1",
+              "183": "1125",
+              "190": "1",
+              "199": "8",
+              "200": "20",
+              "202": "4",
+              "203": "1",
+              "218": "1",
+              "321": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+            "englishText": "<b>Taunt</b>\n<b>Battlecry:</b> Add a random Shaman spell to your hand."
+          },
           "sourceRefs": [
             "official-35-2",
             "official-core-2026",
@@ -1306,7 +1384,12 @@
       ],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
@@ -1315,17 +1398,41 @@
     "undated": {
       "text": {
         "date": null,
+        "latestConfirmedDate": "2026-04-15",
         "before": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
         "after": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문을<br></br>내 손으로 가져옵니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2026-04-15",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2026-04-15",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2026-04-15",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       },
       "nativeRawText": {
         "date": null,
+        "latestConfirmedDate": "2026-04-15",
         "before": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
         "after": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -1539,230 +1646,21 @@
         "id": 351,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2026-04-15": {
-    "type": "MINION",
-    "cardClass": "SHAMAN",
-    "rarity": "COMMON",
-    "collectible": true,
     "cost": 0,
-    "attack": 0,
-    "health": 1,
-    "races": [
-      "BEAST"
-    ],
-    "race": "야수",
-    "name": "마녀의 수습생",
-    "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
-    "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
-    "id": "GIL_531",
-    "dbfId": 46998,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
+        "role": "ownedTags",
         "id": 48,
-        "name": "마나 비용",
-        "value": 0
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 20
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
+        "before": {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        "after": "ABSENT"
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 0
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 20
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 190,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 200,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 218,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
     ],
     "eventKinds": [
       "gameplay"
@@ -1770,8 +1668,56 @@
     "sources": [
       {
         "findingId": "WITCH-BAL-M012",
-        "before": "https://github.com/HearthSim/hsdata/blob/552bca16aca965b882c1614b4673afa0f93d3f6e/CardDefs.xml",
-        "after": "https://github.com/HearthSim/hsdata/blob/8616eadbbd159acd6009e50bce099b806d1467e1/CardDefs.xml",
+        "fields": {
+          "cost": {
+            "expectedBefore": 1,
+            "expectedAfter": 0,
+            "recordedBefore": 0,
+            "recordedAfter": 0,
+            "recordedCurrent": 0
+          }
+        },
+        "archiveBefore": {
+          "build": 239422,
+          "source": "https://github.com/HearthSim/hsdata/blob/552bca16aca965b882c1614b4673afa0f93d3f6e/CardDefs.xml",
+          "originalCardId": "GIL_531",
+          "dbfId": 46998,
+          "ownedTags": {
+            "45": "1",
+            "48": "1",
+            "183": "1125",
+            "190": "1",
+            "199": "8",
+            "200": "20",
+            "202": "4",
+            "203": "1",
+            "218": "1",
+            "321": "1"
+          },
+          "referencedTags": {},
+          "koreanText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+          "englishText": "<b>Taunt</b>\n<b>Battlecry:</b> Add a random Shaman spell to your hand."
+        },
+        "archiveAfter": {
+          "build": 239550,
+          "source": "https://github.com/HearthSim/hsdata/blob/8616eadbbd159acd6009e50bce099b806d1467e1/CardDefs.xml",
+          "originalCardId": "GIL_531",
+          "dbfId": 46998,
+          "ownedTags": {
+            "45": "1",
+            "183": "1125",
+            "190": "1",
+            "199": "8",
+            "200": "20",
+            "202": "4",
+            "203": "1",
+            "218": "1",
+            "321": "1"
+          },
+          "referencedTags": {},
+          "koreanText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+          "englishText": "<b>Taunt</b>\n<b>Battlecry:</b> Add a random Shaman spell to your hand."
+        },
         "sourceRefs": [
           "official-35-2",
           "official-core-2026",
@@ -1781,7 +1727,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

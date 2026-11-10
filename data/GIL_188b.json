@@ -303,24 +303,17 @@
         "collectible": false,
         "ownedTags": [
           {
-            "id": 45,
-            "name": "생명력",
-            "value": 4
-          },
-          {
-            "id": 47,
-            "name": "공격력",
-            "value": 2
-          },
-          {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 3
-          },
-          {
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
           },
           {
             "id": 199,
@@ -330,35 +323,27 @@
           {
             "id": 202,
             "name": "카드 유형",
-            "value": 4
+            "value": 5
           },
           {
-            "id": 203,
-            "name": "희귀도",
-            "value": 1
+            "id": 342,
+            "name": "게임 태그 342"
           }
         ],
         "referencedTags": [],
         "nativeTags": [
           {
-            "id": 45,
-            "name": "생명력",
-            "value": 4
-          },
-          {
-            "id": 47,
-            "name": "공격력",
-            "value": 2
-          },
-          {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 3
-          },
-          {
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
           },
           {
             "id": 199,
@@ -368,29 +353,24 @@
           {
             "id": 202,
             "name": "카드 유형",
-            "value": 4
+            "value": 5
           },
           {
-            "id": 203,
-            "name": "희귀도",
-            "value": 1
+            "id": 342,
+            "name": "게임 태그 342"
           }
         ],
         "nativeTagOrigins": [
           {
-            "id": 45,
-            "role": "owned"
-          },
-          {
-            "id": 47,
-            "role": "owned"
-          },
-          {
-            "id": 48,
-            "role": "owned"
-          },
-          {
             "id": 183,
+            "role": "owned"
+          },
+          {
+            "id": 184,
+            "role": "owned"
+          },
+          {
+            "id": 185,
             "role": "owned"
           },
           {
@@ -402,7 +382,7 @@
             "role": "owned"
           },
           {
-            "id": 203,
+            "id": 342,
             "role": "owned"
           }
         ],
@@ -414,171 +394,19 @@
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
         "rarity",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
         "representation"
       ],
       "representation": {
-        "category": "confirmed-non-gameplay-representation"
-      },
-      "sources": []
-    },
-    {
-      "date": "2026-07-22",
-      "changes": {
-        "type": "MINION",
-        "cardClass": "DRUID",
-        "name": "광포한 늑대 변신",
-        "nativeRawText": "<b>도발</b>",
-        "text": "<b>도발</b>",
-        "id": "GIL_188b",
-        "dbfId": 47049,
-        "collectible": false,
-        "ownedTags": [
-          {
-            "id": 45,
-            "name": "생명력",
-            "value": 4
-          },
-          {
-            "id": 47,
-            "name": "공격력",
-            "value": 2
-          },
-          {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 3
-          },
-          {
-            "id": 183,
-            "name": "게임 태그 183",
-            "value": 1125
-          },
-          {
-            "id": 190,
-            "name": "도발",
-            "value": 1
-          },
-          {
-            "id": 199,
-            "name": "직업",
-            "value": 2
-          },
-          {
-            "id": 202,
-            "name": "카드 유형",
-            "value": 4
-          },
-          {
-            "id": 203,
-            "name": "희귀도",
-            "value": 1
-          }
-        ],
-        "referencedTags": [],
-        "nativeTags": [
-          {
-            "id": 45,
-            "name": "생명력",
-            "value": 4
-          },
-          {
-            "id": 47,
-            "name": "공격력",
-            "value": 2
-          },
-          {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 3
-          },
-          {
-            "id": 183,
-            "name": "게임 태그 183",
-            "value": 1125
-          },
-          {
-            "id": 190,
-            "name": "도발",
-            "value": 1
-          },
-          {
-            "id": 199,
-            "name": "직업",
-            "value": 2
-          },
-          {
-            "id": 202,
-            "name": "카드 유형",
-            "value": 4
-          },
-          {
-            "id": 203,
-            "name": "희귀도",
-            "value": 1
-          }
-        ],
-        "nativeTagOrigins": [
-          {
-            "id": 45,
-            "role": "owned"
-          },
-          {
-            "id": 47,
-            "role": "owned"
-          },
-          {
-            "id": 48,
-            "role": "owned"
-          },
-          {
-            "id": 183,
-            "role": "owned"
-          },
-          {
-            "id": 190,
-            "role": "owned"
-          },
-          {
-            "id": 199,
-            "role": "owned"
-          },
-          {
-            "id": 202,
-            "role": "owned"
-          },
-          {
-            "id": 203,
-            "role": "owned"
-          }
-        ],
-        "cost": 3,
-        "attack": 2,
-        "health": 4,
-        "races": [],
-        "race": ""
-      },
-      "removedFields": [
-        "armor",
-        "durability",
-        "rarity",
-        "spellSchool"
-      ],
-      "eventKinds": [
-        "representation"
-      ],
-      "representation": {
-        "nativeTagRoleChange": {
-          "190": {
-            "before": "referenced",
-            "after": "owned",
-            "firstObservedBuild": 208591
-          }
-        },
         "category": "confirmed-non-gameplay-representation"
       },
       "sources": []
@@ -874,13 +702,18 @@
       "before": "2018-11-30",
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "cost",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
         "rarity",
+        "set",
         "spellSchool"
       ]
     },
@@ -897,24 +730,17 @@
         "collectible": false,
         "ownedTags": [
           {
-            "id": 45,
-            "name": "생명력",
-            "value": 4
-          },
-          {
-            "id": 47,
-            "name": "공격력",
-            "value": 2
-          },
-          {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 3
-          },
-          {
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
           },
           {
             "id": 199,
@@ -924,35 +750,27 @@
           {
             "id": 202,
             "name": "카드 유형",
-            "value": 4
+            "value": 5
           },
           {
-            "id": 203,
-            "name": "희귀도",
-            "value": 1
+            "id": 342,
+            "name": "게임 태그 342"
           }
         ],
         "referencedTags": [],
         "nativeTags": [
           {
-            "id": 45,
-            "name": "생명력",
-            "value": 4
-          },
-          {
-            "id": 47,
-            "name": "공격력",
-            "value": 2
-          },
-          {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 3
-          },
-          {
             "id": 183,
             "name": "게임 태그 183",
             "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
           },
           {
             "id": 199,
@@ -962,29 +780,24 @@
           {
             "id": 202,
             "name": "카드 유형",
-            "value": 4
+            "value": 5
           },
           {
-            "id": 203,
-            "name": "희귀도",
-            "value": 1
+            "id": 342,
+            "name": "게임 태그 342"
           }
         ],
         "nativeTagOrigins": [
           {
-            "id": 45,
-            "role": "owned"
-          },
-          {
-            "id": 47,
-            "role": "owned"
-          },
-          {
-            "id": 48,
-            "role": "owned"
-          },
-          {
             "id": 183,
+            "role": "owned"
+          },
+          {
+            "id": 184,
+            "role": "owned"
+          },
+          {
+            "id": 185,
             "role": "owned"
           },
           {
@@ -996,7 +809,7 @@
             "role": "owned"
           },
           {
-            "id": 203,
+            "id": 342,
             "role": "owned"
           }
         ],
@@ -1012,188 +825,301 @@
       "representation": {
         "category": "confirmed-non-gameplay-representation"
       },
-      "before": "2026-07-22",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
         "rarity",
-        "spellSchool"
-      ]
-    },
-    {
-      "from": "2026-07-22",
-      "changes": {
-        "type": "MINION",
-        "cardClass": "DRUID",
-        "name": "광포한 늑대 변신",
-        "nativeRawText": "<b>도발</b>",
-        "text": "<b>도발</b>",
-        "id": "GIL_188b",
-        "dbfId": 47049,
-        "collectible": false,
-        "ownedTags": [
-          {
-            "id": 45,
-            "name": "생명력",
-            "value": 4
-          },
-          {
-            "id": 47,
-            "name": "공격력",
-            "value": 2
-          },
-          {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 3
-          },
-          {
-            "id": 183,
-            "name": "게임 태그 183",
-            "value": 1125
-          },
-          {
-            "id": 190,
-            "name": "도발",
-            "value": 1
-          },
-          {
-            "id": 199,
-            "name": "직업",
-            "value": 2
-          },
-          {
-            "id": 202,
-            "name": "카드 유형",
-            "value": 4
-          },
-          {
-            "id": 203,
-            "name": "희귀도",
-            "value": 1
-          }
-        ],
-        "referencedTags": [],
-        "nativeTags": [
-          {
-            "id": 45,
-            "name": "생명력",
-            "value": 4
-          },
-          {
-            "id": 47,
-            "name": "공격력",
-            "value": 2
-          },
-          {
-            "id": 48,
-            "name": "마나 비용",
-            "value": 3
-          },
-          {
-            "id": 183,
-            "name": "게임 태그 183",
-            "value": 1125
-          },
-          {
-            "id": 190,
-            "name": "도발",
-            "value": 1
-          },
-          {
-            "id": 199,
-            "name": "직업",
-            "value": 2
-          },
-          {
-            "id": 202,
-            "name": "카드 유형",
-            "value": 4
-          },
-          {
-            "id": 203,
-            "name": "희귀도",
-            "value": 1
-          }
-        ],
-        "nativeTagOrigins": [
-          {
-            "id": 45,
-            "role": "owned"
-          },
-          {
-            "id": 47,
-            "role": "owned"
-          },
-          {
-            "id": 48,
-            "role": "owned"
-          },
-          {
-            "id": 183,
-            "role": "owned"
-          },
-          {
-            "id": 190,
-            "role": "owned"
-          },
-          {
-            "id": 199,
-            "role": "owned"
-          },
-          {
-            "id": 202,
-            "role": "owned"
-          },
-          {
-            "id": 203,
-            "role": "owned"
-          }
-        ],
-        "cost": 3,
-        "attack": 2,
-        "health": 4,
-        "races": [],
-        "race": ""
-      },
-      "eventKinds": [
-        "representation"
-      ],
-      "representation": {
-        "nativeTagRoleChange": {
-          "190": {
-            "before": "referenced",
-            "after": "owned",
-            "firstObservedBuild": 208591
-          }
-        },
-        "category": "confirmed-non-gameplay-representation"
-      },
-      "removedFields": [
-        "armor",
-        "durability",
-        "rarity",
+        "set",
         "spellSchool"
       ]
     }
   ],
   "observations": {
     "undated": {
+      "rarity": {
+        "date": null,
+        "latestConfirmedDate": "2018-11-30",
+        "before": "ABSENT",
+        "after": "COMMON",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2018-11-30",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2018-11-30",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2018-11-30",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
       "races": {
         "date": null,
+        "latestConfirmedDate": "2018-11-30",
         "before": [],
         "after": [
           "BEAST"
         ],
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       },
       "race": {
         "date": null,
+        "latestConfirmedDate": "2018-11-30",
         "before": "",
         "after": "야수",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [
+      {
+        "date": null,
+        "findingId": "WITCH-BAL-R005",
+        "tagId": 190,
+        "role": "referencedTags",
+        "before": {
+          "build": 208182,
+          "id": "GIL_188b",
+          "dbfId": 47049,
+          "owned": {
+            "45": "4",
+            "47": "2",
+            "48": "3",
+            "183": "1125",
+            "199": "2",
+            "200": "20",
+            "202": "4",
+            "203": "1"
+          },
+          "referenced": {},
+          "koKR": "<b>도발</b>",
+          "enUS": "<b>Taunt</b>"
+        },
+        "after": {
+          "build": 208591,
+          "id": "GIL_188b",
+          "dbfId": 47049,
+          "owned": {
+            "45": "4",
+            "47": "2",
+            "48": "3",
+            "183": "1125",
+            "199": "2",
+            "200": "20",
+            "202": "4",
+            "203": "1"
+          },
+          "referenced": {
+            "190": "1"
+          },
+          "koKR": "<b>도발</b>",
+          "enUS": "<b>Taunt</b>"
+        },
+        "sources": [
+          {
+            "build": 74257,
+            "commit": "132c8a94327896bbd9b911d7ee26086df7089290",
+            "source": "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml",
+            "xmlSha256": "622494f6cf70da9ecdfc79020c822b79a342bdd7e9e2d161fc961dce7bc57887",
+            "bytes": 30133321
+          },
+          {
+            "build": 77662,
+            "commit": "9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62",
+            "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+            "xmlSha256": "36879caf88f629052e57d728d1fb3649a21f7198f649ab1cdc916c72ab1b8e29",
+            "bytes": 35250262
+          },
+          {
+            "build": 131337,
+            "commit": "7f8f6d7730829f34549314f3a66f27589dd86332",
+            "source": "https://github.com/HearthSim/hsdata/blob/7f8f6d7730829f34549314f3a66f27589dd86332/CardDefs.xml",
+            "xmlSha256": "1d46c2f6bf06d7def1e924e8510d5b8c490d08ab3ddd36128cb205bd3599a90f",
+            "bytes": 55561550
+          },
+          {
+            "build": 131660,
+            "commit": "533b0d8559a9e60b1b4a26c764a4c8ad0e91993e",
+            "source": "https://github.com/HearthSim/hsdata/blob/533b0d8559a9e60b1b4a26c764a4c8ad0e91993e/CardDefs.xml",
+            "xmlSha256": "233d934a8a1064383ad92c6fe883e496dbf2e6f14b13a10b6b58ea005988b27d",
+            "bytes": 57059674
+          },
+          {
+            "build": 170126,
+            "commit": "da8f2db996f1e7191e501ebe2943af5636697e06",
+            "source": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml",
+            "xmlSha256": "df31e3949cf6219e14d2d54d9fcdc58dc4442937494b2c214945d321d793a055",
+            "bytes": 72514251
+          },
+          {
+            "build": 170824,
+            "commit": "8bfb29fa4064a213262beb5a8941203f6aa7434c",
+            "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+            "xmlSha256": "8a407ab48fc4f7ded3eaa72870f4330facb82a1f334bb843258c982b9193988f",
+            "bytes": 74386576
+          },
+          {
+            "build": 208182,
+            "commit": "c9bfd18b2ff534b13de0a4fa1ea11d87ff741afa",
+            "source": "https://github.com/HearthSim/hsdata/blob/c9bfd18b2ff534b13de0a4fa1ea11d87ff741afa/CardDefs.xml",
+            "xmlSha256": "390138f969b21b3c6d66997019704e726a642883afe20905e99d4ff7c3726e31",
+            "bytes": 87828900
+          },
+          {
+            "build": 208591,
+            "commit": "37797c6c5e9af546306299ade90189454f2b16ac",
+            "source": "https://github.com/HearthSim/hsdata/blob/37797c6c5e9af546306299ade90189454f2b16ac/CardDefs.xml",
+            "xmlSha256": "668c03ff170b26b03bab89f8fffd5c51fc8cd85a17dc81f484ebcf4b91b1782b",
+            "bytes": 89219738
+          },
+          {
+            "build": 217489,
+            "commit": "62cc0f00dbed73f2d48ccefca6f611e6f8898986",
+            "source": "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml",
+            "xmlSha256": "6dfe10c33d284ade4b0675f24a51e11510011e8cd70cf1112774f2babcf1b2c2",
+            "bytes": 92244917
+          },
+          {
+            "build": 217964,
+            "commit": "fdad346dc49ebb5465f548a0a2b58b59edcbe087",
+            "source": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml",
+            "xmlSha256": "039e4cb30c4e4a994778edcd0d6af9b60c1f0ef1571aab8d02af62568681bddf",
+            "bytes": 93748504
+          }
+        ],
+        "reason": "First observed across the preserved builds; no Korean effective date is confirmed, so this transition remains outside the dated timeline."
+      },
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 45,
+        "role": "ownedTags",
+        "before": "ABSENT",
+        "after": {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      },
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 47,
+        "role": "ownedTags",
+        "before": "ABSENT",
+        "after": {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      },
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 48,
+        "role": "ownedTags",
+        "before": "ABSENT",
+        "after": {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      },
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 190,
+        "role": "ownedTags",
+        "before": "ABSENT",
+        "after": {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      },
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 200,
+        "role": "ownedTags",
+        "before": "ABSENT",
+        "after": {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      },
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 202,
+        "role": "ownedTags",
+        "before": {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        "after": {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      },
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 203,
+        "role": "ownedTags",
+        "before": "ABSENT",
+        "after": {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      }
+    ],
     "research": [
       {
         "id": "WITCH-OBS-001",
@@ -1452,6 +1378,100 @@
               "englishText": "<b>Taunt</b>"
             }
           }
+        ],
+        "extraUndatedEvidence": [
+          {
+            "id": "GIL_188a",
+            "findingId": "WITCH-BAL-R005",
+            "day": null,
+            "confirmedTagId": 791,
+            "role": "referenced",
+            "before": {
+              "build": 208182,
+              "id": "GIL_188a",
+              "dbfId": 47048,
+              "owned": {
+                "45": "2",
+                "47": "4",
+                "48": "3",
+                "183": "1125",
+                "199": "2",
+                "200": "20",
+                "202": "4",
+                "203": "1",
+                "1584": "1"
+              },
+              "referenced": {},
+              "koKR": "<b>속공</b>",
+              "enUS": "<b>Rush</b>"
+            },
+            "after": {
+              "build": 208591,
+              "id": "GIL_188a",
+              "dbfId": 47048,
+              "owned": {
+                "45": "2",
+                "47": "4",
+                "48": "3",
+                "183": "1125",
+                "199": "2",
+                "200": "20",
+                "202": "4",
+                "203": "1",
+                "1584": "1"
+              },
+              "referenced": {
+                "791": "1"
+              },
+              "koKR": "<b>속공</b>",
+              "enUS": "<b>Rush</b>"
+            }
+          },
+          {
+            "id": "GIL_188b",
+            "findingId": "WITCH-BAL-R005",
+            "day": null,
+            "confirmedTagId": 190,
+            "role": "referenced",
+            "before": {
+              "build": 208182,
+              "id": "GIL_188b",
+              "dbfId": 47049,
+              "owned": {
+                "45": "4",
+                "47": "2",
+                "48": "3",
+                "183": "1125",
+                "199": "2",
+                "200": "20",
+                "202": "4",
+                "203": "1"
+              },
+              "referenced": {},
+              "koKR": "<b>도발</b>",
+              "enUS": "<b>Taunt</b>"
+            },
+            "after": {
+              "build": 208591,
+              "id": "GIL_188b",
+              "dbfId": 47049,
+              "owned": {
+                "45": "4",
+                "47": "2",
+                "48": "3",
+                "183": "1125",
+                "199": "2",
+                "200": "20",
+                "202": "4",
+                "203": "1"
+              },
+              "referenced": {
+                "190": "1"
+              },
+              "koKR": "<b>도발</b>",
+              "enUS": "<b>Taunt</b>"
+            }
+          }
         ]
       }
     ]
@@ -1549,307 +1569,27 @@
         "id": 342,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "attack",
-      "cost",
-      "durability",
-      "health",
-      "race",
-      "races",
-      "rarity",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2018-11-30": {
     "type": "MINION",
-    "cardClass": "DRUID",
-    "name": "광포한 늑대 변신",
     "nativeRawText": "<b>도발</b>",
     "text": "<b>도발</b>",
-    "id": "GIL_188b",
-    "dbfId": 47049,
-    "collectible": false,
-    "ownedTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      }
-    ],
     "cost": 3,
     "attack": 2,
     "health": 4,
     "races": [],
     "race": "",
-    "removedFields": [
-      "armor",
-      "durability",
-      "rarity",
-      "spellSchool"
-    ],
     "eventKinds": [
       "representation"
     ],
     "representation": {
-      "category": "confirmed-non-gameplay-representation"
-    }
-  },
-  "2026-07-22": {
-    "type": "MINION",
-    "cardClass": "DRUID",
-    "name": "광포한 늑대 변신",
-    "nativeRawText": "<b>도발</b>",
-    "text": "<b>도발</b>",
-    "id": "GIL_188b",
-    "dbfId": 47049,
-    "collectible": false,
-    "ownedTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 190,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      }
-    ],
-    "cost": 3,
-    "attack": 2,
-    "health": 4,
-    "races": [],
-    "race": "",
-    "removedFields": [
-      "armor",
-      "durability",
-      "rarity",
-      "spellSchool"
-    ],
-    "eventKinds": [
-      "representation"
-    ],
-    "representation": {
-      "nativeTagRoleChange": {
-        "190": {
-          "before": "referenced",
-          "after": "owned",
-          "firstObservedBuild": 208591
-        }
-      },
       "category": "confirmed-non-gameplay-representation"
     }
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

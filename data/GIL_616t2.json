@@ -343,6 +343,11 @@
             "value": 12
           },
           {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
             "id": 202,
             "name": "카드 유형",
             "value": 4
@@ -350,11 +355,6 @@
           {
             "id": 342,
             "name": "게임 태그 342"
-          },
-          {
-            "id": 2534,
-            "name": "게임 태그 2534",
-            "value": 1
           }
         ],
         "referencedTags": [],
@@ -389,6 +389,11 @@
             "value": 12
           },
           {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
             "id": 202,
             "name": "카드 유형",
             "value": 4
@@ -396,11 +401,6 @@
           {
             "id": 342,
             "name": "게임 태그 342"
-          },
-          {
-            "id": 2534,
-            "name": "게임 태그 2534",
-            "value": 1
           }
         ],
         "nativeTagOrigins": [
@@ -429,22 +429,27 @@
             "role": "owned"
           },
           {
+            "id": 200,
+            "role": "owned"
+          },
+          {
             "id": 202,
             "role": "owned"
           },
           {
             "id": 342,
             "role": "owned"
-          },
-          {
-            "id": 2534,
-            "role": "owned"
           }
         ]
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -755,7 +760,12 @@
       "before": "2022-11-30",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     },
@@ -807,6 +817,11 @@
             "value": 12
           },
           {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
             "id": 202,
             "name": "카드 유형",
             "value": 4
@@ -814,11 +829,6 @@
           {
             "id": 342,
             "name": "게임 태그 342"
-          },
-          {
-            "id": 2534,
-            "name": "게임 태그 2534",
-            "value": 1
           }
         ],
         "referencedTags": [],
@@ -853,6 +863,11 @@
             "value": 12
           },
           {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
             "id": 202,
             "name": "카드 유형",
             "value": 4
@@ -860,11 +875,6 @@
           {
             "id": 342,
             "name": "게임 태그 342"
-          },
-          {
-            "id": 2534,
-            "name": "게임 태그 2534",
-            "value": 1
           }
         ],
         "nativeTagOrigins": [
@@ -893,15 +903,15 @@
             "role": "owned"
           },
           {
+            "id": 200,
+            "role": "owned"
+          },
+          {
             "id": 202,
             "role": "owned"
           },
           {
             "id": 342,
-            "role": "owned"
-          },
-          {
-            "id": 2534,
             "role": "owned"
           }
         ]
@@ -919,13 +929,41 @@
       ],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
   ],
   "observations": {
-    "undated": {},
+    "undated": {
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      }
+    },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -1055,162 +1093,24 @@
         "id": 342,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2022-11-30": {
-    "type": "MINION",
-    "cardClass": "NEUTRAL",
-    "cost": 1,
-    "attack": 1,
-    "health": 1,
     "races": [
       "UNDEAD"
     ],
     "race": "언데드",
-    "name": "나뭇조각",
-    "text": "",
-    "id": "GIL_616t2",
-    "dbfId": 47290,
-    "collectible": false,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 2534,
-        "name": "게임 태그 2534",
-        "value": 1
+        "role": "ownedTags",
+        "id": 200,
+        "before": "ABSENT",
+        "after": {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        }
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 2534,
-        "name": "게임 태그 2534",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 2534,
-        "role": "owned"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
     ],
     "eventKinds": [
       "existing-confirmed"
@@ -1225,7 +1125,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

@@ -889,7 +889,12 @@
       "eventKinds": [],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
@@ -898,17 +903,41 @@
     "undated": {
       "text": {
         "date": null,
+        "latestConfirmedDate": "2018-04-13",
         "before": "<b>잔상</b>, <b>전투의 함성:</b><br></br>무작위 <b>전설</b> 하수인 하나를 내 손으로 가져옵니다.",
         "after": "<b>잔상</b>, <b>전투의 함성:</b><br></br>무작위 <b>전설</b> 하수인을<br></br>내 손으로 가져옵니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2018-04-13",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       },
       "nativeRawText": {
         "date": null,
+        "latestConfirmedDate": "2018-04-13",
         "before": "<b>잔상</b>, <b>전투의 함성:</b>\n무작위 <b>전설</b> 하수인 하나를 내 손으로 가져옵니다.",
         "after": "[x]<b>잔상</b>, <b>전투의 함성:</b>\n무작위 <b>전설</b> 하수인을\n내 손으로 가져옵니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -1134,16 +1163,11 @@
         "id": 846,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

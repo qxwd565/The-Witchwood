@@ -539,11 +539,16 @@
       },
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ],
       "eventKinds": [
         "gameplay",
@@ -559,8 +564,54 @@
         },
         {
           "findingId": "WITCH-BAL-M003",
-          "before": "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+          "fields": {
+            "cost": {
+              "expectedBefore": 2,
+              "expectedAfter": 1,
+              "recordedBefore": 1,
+              "recordedAfter": 1,
+              "recordedCurrent": 1
+            }
+          },
+          "archiveBefore": {
+            "build": 74257,
+            "source": "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml",
+            "originalCardId": "GIL_801",
+            "dbfId": 47821,
+            "ownedTags": {
+              "48": "2",
+              "183": "1125",
+              "199": "4",
+              "202": "5",
+              "203": "1",
+              "321": "1"
+            },
+            "referencedTags": {
+              "208": "1"
+            },
+            "koreanText": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+            "englishText": "<b>Freeze</b> a minion.\nIf it's already <b>Frozen</b>, destroy it."
+          },
+          "archiveAfter": {
+            "build": 77662,
+            "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+            "originalCardId": "GIL_801",
+            "dbfId": 47821,
+            "ownedTags": {
+              "48": "1",
+              "183": "1125",
+              "199": "4",
+              "202": "5",
+              "203": "1",
+              "321": "1",
+              "1635": "3"
+            },
+            "referencedTags": {
+              "208": "1"
+            },
+            "koreanText": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+            "englishText": "<b>Freeze</b> a minion.\nIf it's already <b>Frozen</b>, destroy it."
+          },
           "sourceRefs": [
             "official-20-0",
             "global-20-0-diff"
@@ -923,11 +974,16 @@
       "before": "2021-03-26",
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ]
     },
@@ -1127,8 +1183,54 @@
         },
         {
           "findingId": "WITCH-BAL-M003",
-          "before": "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+          "fields": {
+            "cost": {
+              "expectedBefore": 2,
+              "expectedAfter": 1,
+              "recordedBefore": 1,
+              "recordedAfter": 1,
+              "recordedCurrent": 1
+            }
+          },
+          "archiveBefore": {
+            "build": 74257,
+            "source": "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml",
+            "originalCardId": "GIL_801",
+            "dbfId": 47821,
+            "ownedTags": {
+              "48": "2",
+              "183": "1125",
+              "199": "4",
+              "202": "5",
+              "203": "1",
+              "321": "1"
+            },
+            "referencedTags": {
+              "208": "1"
+            },
+            "koreanText": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+            "englishText": "<b>Freeze</b> a minion.\nIf it's already <b>Frozen</b>, destroy it."
+          },
+          "archiveAfter": {
+            "build": 77662,
+            "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+            "originalCardId": "GIL_801",
+            "dbfId": 47821,
+            "ownedTags": {
+              "48": "1",
+              "183": "1125",
+              "199": "4",
+              "202": "5",
+              "203": "1",
+              "321": "1",
+              "1635": "3"
+            },
+            "referencedTags": {
+              "208": "1"
+            },
+            "koreanText": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+            "englishText": "<b>Freeze</b> a minion.\nIf it's already <b>Frozen</b>, destroy it."
+          },
           "sourceRefs": [
             "official-20-0",
             "global-20-0-diff"
@@ -1137,11 +1239,16 @@
       ],
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ]
     }
   ],
@@ -1149,17 +1256,62 @@
     "undated": {
       "text": {
         "date": null,
+        "latestConfirmedDate": "2021-03-26",
         "before": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
         "after": "하수인을 <b>빙결</b> 상태로 만듭니다.<br></br>이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "attack": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "health": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "races": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": [],
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "race": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       },
       "nativeRawText": {
         "date": null,
+        "latestConfirmedDate": "2021-03-26",
         "before": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
         "after": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [],
     "research": [
       {
         "id": "WITCH-OBS-012",
@@ -2327,205 +2479,36 @@
         "id": 351,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "attack",
-      "durability",
-      "health",
-      "race",
-      "races",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2021-03-26": {
-    "type": "SPELL",
-    "cardClass": "MAGE",
-    "rarity": "COMMON",
-    "collectible": true,
     "cost": 1,
-    "name": "순간 빙결",
-    "nativeRawText": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
-    "text": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
-    "id": "GIL_801",
-    "dbfId": 47821,
-    "ownedTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 4
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 3
-      }
-    ],
-    "referencedTags": [
-      {
-        "id": 208,
-        "name": "빙결",
-        "value": 1
-      }
-    ],
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 4
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 208,
-        "name": "빙결",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 3
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 208,
-        "role": "referenced"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 1635,
-        "role": "owned"
-      }
-    ],
     "spellSchool": "FROST",
-    "removedFields": [
-      "armor",
-      "attack",
-      "durability",
-      "health",
-      "race",
-      "races"
+    "rawTagDelta": [
+      {
+        "role": "ownedTags",
+        "id": 48,
+        "before": {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        "after": {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        }
+      },
+      {
+        "role": "ownedTags",
+        "id": 1635,
+        "before": "ABSENT",
+        "after": {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 3
+        }
+      }
     ],
     "eventKinds": [
       "gameplay",
@@ -2540,8 +2523,54 @@
       },
       {
         "findingId": "WITCH-BAL-M003",
-        "before": "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml",
-        "after": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+        "fields": {
+          "cost": {
+            "expectedBefore": 2,
+            "expectedAfter": 1,
+            "recordedBefore": 1,
+            "recordedAfter": 1,
+            "recordedCurrent": 1
+          }
+        },
+        "archiveBefore": {
+          "build": 74257,
+          "source": "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml",
+          "originalCardId": "GIL_801",
+          "dbfId": 47821,
+          "ownedTags": {
+            "48": "2",
+            "183": "1125",
+            "199": "4",
+            "202": "5",
+            "203": "1",
+            "321": "1"
+          },
+          "referencedTags": {
+            "208": "1"
+          },
+          "koreanText": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+          "englishText": "<b>Freeze</b> a minion.\nIf it's already <b>Frozen</b>, destroy it."
+        },
+        "archiveAfter": {
+          "build": 77662,
+          "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+          "originalCardId": "GIL_801",
+          "dbfId": 47821,
+          "ownedTags": {
+            "48": "1",
+            "183": "1125",
+            "199": "4",
+            "202": "5",
+            "203": "1",
+            "321": "1",
+            "1635": "3"
+          },
+          "referencedTags": {
+            "208": "1"
+          },
+          "koreanText": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+          "englishText": "<b>Freeze</b> a minion.\nIf it's already <b>Frozen</b>, destroy it."
+        },
         "sourceRefs": [
           "official-20-0",
           "global-20-0-diff"
@@ -2550,7 +2579,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

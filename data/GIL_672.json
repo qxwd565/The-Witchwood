@@ -433,6 +433,14 @@
             "value": 1125
           },
           {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
             "id": 199,
             "name": "직업",
             "value": 7
@@ -451,6 +459,14 @@
             "id": 321,
             "name": "수집 가능",
             "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
           },
           {
             "id": 685,
@@ -481,6 +497,14 @@
             "value": 1125
           },
           {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
             "id": 199,
             "name": "직업",
             "value": 7
@@ -499,6 +523,14 @@
             "id": 321,
             "name": "수집 가능",
             "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
           },
           {
             "id": 685,
@@ -524,6 +556,14 @@
             "role": "owned"
           },
           {
+            "id": 184,
+            "role": "owned"
+          },
+          {
+            "id": 185,
+            "role": "owned"
+          },
+          {
             "id": 199,
             "role": "owned"
           },
@@ -540,6 +580,14 @@
             "role": "owned"
           },
           {
+            "id": 342,
+            "role": "owned"
+          },
+          {
+            "id": 351,
+            "role": "owned"
+          },
+          {
             "id": 685,
             "role": "owned"
           }
@@ -547,9 +595,14 @@
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -958,9 +1011,14 @@
       "before": "2025-03-19",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ]
     },
@@ -1001,6 +1059,14 @@
             "value": 1125
           },
           {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
             "id": 199,
             "name": "직업",
             "value": 7
@@ -1019,6 +1085,14 @@
             "id": 321,
             "name": "수집 가능",
             "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
           },
           {
             "id": 685,
@@ -1049,6 +1123,14 @@
             "value": 1125
           },
           {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
             "id": 199,
             "name": "직업",
             "value": 7
@@ -1067,6 +1149,14 @@
             "id": 321,
             "name": "수집 가능",
             "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
           },
           {
             "id": 685,
@@ -1092,6 +1182,14 @@
             "role": "owned"
           },
           {
+            "id": 184,
+            "role": "owned"
+          },
+          {
+            "id": 185,
+            "role": "owned"
+          },
+          {
             "id": 199,
             "role": "owned"
           },
@@ -1105,6 +1203,14 @@
           },
           {
             "id": 321,
+            "role": "owned"
+          },
+          {
+            "id": 342,
+            "role": "owned"
+          },
+          {
+            "id": 351,
             "role": "owned"
           },
           {
@@ -1122,15 +1228,57 @@
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ]
     }
   ],
   "observations": {
-    "undated": {},
+    "undated": {
+      "health": {
+        "date": null,
+        "latestConfirmedDate": "2025-03-19",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2025-03-19",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2025-03-19",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "races": {
+        "date": null,
+        "latestConfirmedDate": "2025-03-19",
+        "before": "ABSENT",
+        "after": [],
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "race": {
+        "date": null,
+        "latestConfirmedDate": "2025-03-19",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      }
+    },
+    "undatedRawTags": [],
     "research": [
       {
         "id": "WITCH-OBS-004",
@@ -1475,168 +1623,30 @@
         "id": 685,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "health",
-      "race",
-      "races",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2025-03-19": {
-    "type": "WEAPON",
-    "cardClass": "ROGUE",
-    "rarity": "EPIC",
-    "collectible": true,
-    "cost": 4,
-    "attack": 2,
-    "durability": 2,
-    "name": "유령의 커틀라스",
-    "nativeRawText": "[x]<b>생명력 흡수</b>\n내가 다른 직업의 카드를\n낼 때마다 내구도를\n+1 얻습니다.",
-    "text": "<b>생명력 흡수</b><br></br>내가 다른 직업의 카드를<br></br>낼 때마다 내구도를<br></br>+1 얻습니다.",
-    "id": "GIL_672",
-    "dbfId": 47594,
-    "ownedTags": [
+    "rawTagDelta": [
       {
+        "role": "ownedTags",
         "id": 45,
-        "name": "생명력",
-        "value": 2
+        "before": "ABSENT",
+        "after": {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        }
       },
       {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 7
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 7
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 685,
-        "name": "생명력 흡수",
-        "value": 1
+        "role": "ownedTags",
+        "id": 187,
+        "before": {
+          "id": 187,
+          "name": "내구도",
+          "value": 2
+        },
+        "after": "ABSENT"
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 7
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 7
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 685,
-        "name": "생명력 흡수",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 685,
-        "role": "owned"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "health",
-      "race",
-      "races",
-      "spellSchool"
     ],
     "eventKinds": [
       "representation"
@@ -1647,7 +1657,8 @@
     }
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

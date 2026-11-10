@@ -201,7 +201,7 @@
     "text": "<b>죽음의 메아리:</b><br></br>1/1 나뭇조각을<br></br>둘 소환합니다.",
     "id": "GIL_616t",
     "dbfId": 47291,
-    "collectible": true,
+    "collectible": false,
     "ownedTags": [
       {
         "id": 45,
@@ -362,7 +362,7 @@
         "text": "<b>죽음의 메아리:</b><br></br>1/1 나뭇조각을<br></br>둘 소환합니다.",
         "id": "GIL_616t",
         "dbfId": 47291,
-        "collectible": true,
+        "collectible": false,
         "ownedTags": [
           {
             "id": 45,
@@ -398,6 +398,11 @@
             "value": 12
           },
           {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
             "id": 202,
             "name": "카드 유형",
             "value": 4
@@ -410,11 +415,6 @@
           {
             "id": 342,
             "name": "게임 태그 342"
-          },
-          {
-            "id": 2534,
-            "name": "게임 태그 2534",
-            "value": 1
           }
         ],
         "referencedTags": [],
@@ -453,6 +453,11 @@
             "value": 12
           },
           {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
             "id": 202,
             "name": "카드 유형",
             "value": 4
@@ -465,11 +470,6 @@
           {
             "id": 342,
             "name": "게임 태그 342"
-          },
-          {
-            "id": 2534,
-            "name": "게임 태그 2534",
-            "value": 1
           }
         ],
         "nativeTagOrigins": [
@@ -502,6 +502,10 @@
             "role": "owned"
           },
           {
+            "id": 200,
+            "role": "owned"
+          },
+          {
             "id": 202,
             "role": "owned"
           },
@@ -512,16 +516,17 @@
           {
             "id": 342,
             "role": "owned"
-          },
-          {
-            "id": 2534,
-            "role": "owned"
           }
         ]
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -736,7 +741,7 @@
         "text": "<b>죽음의 메아리:</b><br></br>1/1 나뭇조각을<br></br>둘 소환합니다.",
         "id": "GIL_616t",
         "dbfId": 47291,
-        "collectible": true,
+        "collectible": false,
         "ownedTags": [
           {
             "id": 45,
@@ -883,7 +888,12 @@
       "before": "2022-11-30",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     },
@@ -904,7 +914,7 @@
         "text": "<b>죽음의 메아리:</b><br></br>1/1 나뭇조각을<br></br>둘 소환합니다.",
         "id": "GIL_616t",
         "dbfId": 47291,
-        "collectible": true,
+        "collectible": false,
         "ownedTags": [
           {
             "id": 45,
@@ -940,6 +950,11 @@
             "value": 12
           },
           {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
             "id": 202,
             "name": "카드 유형",
             "value": 4
@@ -952,11 +967,6 @@
           {
             "id": 342,
             "name": "게임 태그 342"
-          },
-          {
-            "id": 2534,
-            "name": "게임 태그 2534",
-            "value": 1
           }
         ],
         "referencedTags": [],
@@ -995,6 +1005,11 @@
             "value": 12
           },
           {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
             "id": 202,
             "name": "카드 유형",
             "value": 4
@@ -1007,11 +1022,6 @@
           {
             "id": 342,
             "name": "게임 태그 342"
-          },
-          {
-            "id": 2534,
-            "name": "게임 태그 2534",
-            "value": 1
           }
         ],
         "nativeTagOrigins": [
@@ -1044,6 +1054,10 @@
             "role": "owned"
           },
           {
+            "id": 200,
+            "role": "owned"
+          },
+          {
             "id": 202,
             "role": "owned"
           },
@@ -1053,10 +1067,6 @@
           },
           {
             "id": 342,
-            "role": "owned"
-          },
-          {
-            "id": 2534,
             "role": "owned"
           }
         ]
@@ -1074,20 +1084,41 @@
       ],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
   ],
   "observations": {
     "undated": {
-      "collectible": {
+      "durability": {
         "date": null,
-        "before": true,
-        "after": false,
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -1103,7 +1134,7 @@
     "text": "<b>죽음의 메아리:</b><br></br>1/1 나뭇조각을<br></br>둘 소환합니다.",
     "id": "GIL_616t",
     "dbfId": 47291,
-    "collectible": true,
+    "collectible": false,
     "ownedTags": [
       {
         "id": 45,
@@ -1244,189 +1275,24 @@
         "id": 342,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2022-11-30": {
-    "type": "MINION",
-    "cardClass": "NEUTRAL",
-    "cost": 3,
-    "attack": 2,
-    "health": 2,
     "races": [
       "UNDEAD"
     ],
     "race": "언데드",
-    "name": "갈라지는 묘목",
-    "nativeRawText": "[x]<b>죽음의 메아리:</b>\n1/1 나뭇조각을\n둘 소환합니다.",
-    "text": "<b>죽음의 메아리:</b><br></br>1/1 나뭇조각을<br></br>둘 소환합니다.",
-    "id": "GIL_616t",
-    "dbfId": 47291,
-    "collectible": true,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 217,
-        "name": "죽음의 메아리",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 2534,
-        "name": "게임 태그 2534",
-        "value": 1
+        "role": "ownedTags",
+        "id": 200,
+        "before": "ABSENT",
+        "after": {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        }
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 217,
-        "name": "죽음의 메아리",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 2534,
-        "name": "게임 태그 2534",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 217,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 2534,
-        "role": "owned"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
     ],
     "eventKinds": [
       "existing-confirmed"
@@ -1441,7 +1307,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

@@ -594,11 +594,16 @@
       },
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ],
       "eventKinds": [
         "existing-confirmed"
@@ -1009,11 +1014,16 @@
       "before": "2021-03-26",
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ]
     },
@@ -1227,11 +1237,16 @@
       ],
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ]
     }
   ],
@@ -1239,17 +1254,111 @@
     "undated": {
       "text": {
         "date": null,
+        "latestConfirmedDate": "2021-03-26",
         "before": "아군 캐릭터 하나에게<br></br>피해를 $2 줍니다.<br></br>악마를 하나 <b>발견</b>합니다.",
         "after": "아군 캐릭터에게<br></br>피해를 $2 줍니다.<br></br>악마를 <b>발견</b>합니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "attack": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "health": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "races": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": [],
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "race": {
+        "date": null,
+        "latestConfirmedDate": "2021-03-26",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       },
       "nativeRawText": {
         "date": null,
+        "latestConfirmedDate": "2021-03-26",
         "before": "[x]아군 캐릭터 하나에게\n피해를 $2 줍니다.\n악마를 하나 <b>발견</b>합니다.",
         "after": "[x]아군 캐릭터에게\n피해를 $2 줍니다.\n악마를 <b>발견</b>합니다.",
-        "reason": "current cache differs from dated confirmed events; no date inferred"
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
       }
     },
+    "undatedRawTags": [
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 415,
+        "role": "ownedTags",
+        "before": "ABSENT",
+        "after": {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      },
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 1342,
+        "role": "ownedTags",
+        "before": "ABSENT",
+        "after": {
+          "id": 1342,
+          "name": "발견 시각 효과",
+          "value": 1
+        },
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      },
+      {
+        "date": null,
+        "findingId": null,
+        "tagId": 415,
+        "role": "referencedTags",
+        "before": {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        "after": "ABSENT",
+        "build": 256589,
+        "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+      }
+    ],
     "research": [
       {
         "id": "WITCH-OBS-010",
@@ -1588,219 +1697,21 @@
         "id": 415,
         "role": "referenced"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "attack",
-      "durability",
-      "health",
-      "race",
-      "races",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2021-03-26": {
-    "type": "SPELL",
-    "cardClass": "WARLOCK",
-    "rarity": "RARE",
-    "collectible": true,
-    "cost": 1,
-    "name": "어둠의 빙의",
-    "nativeRawText": "[x]아군 캐릭터 하나에게\n피해를 $2 줍니다.\n악마를 하나 <b>발견</b>합니다.",
-    "text": "아군 캐릭터 하나에게<br></br>피해를 $2 줍니다.<br></br>악마를 하나 <b>발견</b>합니다.",
-    "id": "GIL_543",
-    "dbfId": 47033,
-    "ownedTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 9
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 370,
-        "name": "게임 태그 370",
-        "value": 1
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 6
-      }
-    ],
-    "referencedTags": [
-      {
-        "id": 415,
-        "name": "발견",
-        "value": 1
-      }
-    ],
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 9
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 370,
-        "name": "게임 태그 370",
-        "value": 1
-      },
-      {
-        "id": 415,
-        "name": "발견",
-        "value": 1
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 6
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 370,
-        "role": "owned"
-      },
-      {
-        "id": 415,
-        "role": "referenced"
-      },
-      {
-        "id": 1635,
-        "role": "owned"
-      }
-    ],
     "spellSchool": "SHADOW",
-    "removedFields": [
-      "armor",
-      "attack",
-      "durability",
-      "health",
-      "race",
-      "races"
+    "rawTagDelta": [
+      {
+        "role": "ownedTags",
+        "id": 1635,
+        "before": "ABSENT",
+        "after": {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      }
     ],
     "eventKinds": [
       "existing-confirmed"
@@ -1815,7 +1726,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

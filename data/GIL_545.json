@@ -688,7 +688,12 @@
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -698,8 +703,67 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M002",
-          "before": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml",
+          "fields": {
+            "races": {
+              "expectedBefore": [
+                "BEAST"
+              ],
+              "expectedAfter": [],
+              "recordedBefore": [
+                "BEAST"
+              ],
+              "recordedAfter": [
+                "BEAST"
+              ],
+              "recordedCurrent": [
+                "UNDEAD",
+                "BEAST"
+              ]
+            }
+          },
+          "archiveBefore": {
+            "build": 25252,
+            "source": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
+            "originalCardId": "GIL_545",
+            "dbfId": 47051,
+            "ownedTags": {
+              "45": "4",
+              "47": "3",
+              "48": "5",
+              "183": "1125",
+              "194": "1",
+              "199": "5",
+              "200": "20",
+              "202": "4",
+              "203": "1",
+              "321": "1",
+              "791": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>천상의 보호막</b>\n<b>속공</b>",
+            "englishText": "<b>Divine Shield</b>\n<b>Rush</b>"
+          },
+          "archiveAfter": {
+            "build": 25770,
+            "source": "https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml",
+            "originalCardId": "GIL_545",
+            "dbfId": 47051,
+            "ownedTags": {
+              "45": "4",
+              "47": "3",
+              "48": "5",
+              "183": "1125",
+              "194": "1",
+              "199": "5",
+              "202": "4",
+              "203": "1",
+              "321": "1",
+              "791": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>천상의 보호막</b>\n<b>속공</b>",
+            "englishText": "<b>Divine Shield</b>\n<b>Rush</b>"
+          },
           "sourceRefs": [
             "official-12-0"
           ]
@@ -768,7 +832,7 @@
           {
             "id": 200,
             "name": "종족",
-            "value": 20
+            "value": 11
           },
           {
             "id": 202,
@@ -799,8 +863,8 @@
             "value": 1
           },
           {
-            "id": 2534,
-            "name": "게임 태그 2534",
+            "id": 2542,
+            "name": "게임 태그 2542",
             "value": 1
           }
         ],
@@ -847,7 +911,7 @@
           {
             "id": 200,
             "name": "종족",
-            "value": 20
+            "value": 11
           },
           {
             "id": 202,
@@ -878,8 +942,8 @@
             "value": 1
           },
           {
-            "id": 2534,
-            "name": "게임 태그 2534",
+            "id": 2542,
+            "name": "게임 태그 2542",
             "value": 1
           }
         ],
@@ -945,14 +1009,19 @@
             "role": "owned"
           },
           {
-            "id": 2534,
+            "id": 2542,
             "role": "owned"
           }
         ]
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -1442,7 +1511,12 @@
       "before": "2018-08-03",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     },
@@ -1665,8 +1739,67 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M002",
-          "before": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml",
+          "fields": {
+            "races": {
+              "expectedBefore": [
+                "BEAST"
+              ],
+              "expectedAfter": [],
+              "recordedBefore": [
+                "BEAST"
+              ],
+              "recordedAfter": [
+                "BEAST"
+              ],
+              "recordedCurrent": [
+                "UNDEAD",
+                "BEAST"
+              ]
+            }
+          },
+          "archiveBefore": {
+            "build": 25252,
+            "source": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
+            "originalCardId": "GIL_545",
+            "dbfId": 47051,
+            "ownedTags": {
+              "45": "4",
+              "47": "3",
+              "48": "5",
+              "183": "1125",
+              "194": "1",
+              "199": "5",
+              "200": "20",
+              "202": "4",
+              "203": "1",
+              "321": "1",
+              "791": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>천상의 보호막</b>\n<b>속공</b>",
+            "englishText": "<b>Divine Shield</b>\n<b>Rush</b>"
+          },
+          "archiveAfter": {
+            "build": 25770,
+            "source": "https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml",
+            "originalCardId": "GIL_545",
+            "dbfId": 47051,
+            "ownedTags": {
+              "45": "4",
+              "47": "3",
+              "48": "5",
+              "183": "1125",
+              "194": "1",
+              "199": "5",
+              "202": "4",
+              "203": "1",
+              "321": "1",
+              "791": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>천상의 보호막</b>\n<b>속공</b>",
+            "englishText": "<b>Divine Shield</b>\n<b>Rush</b>"
+          },
           "sourceRefs": [
             "official-12-0"
           ]
@@ -1675,7 +1808,12 @@
       "before": "2022-11-30",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     },
@@ -1741,7 +1879,7 @@
           {
             "id": 200,
             "name": "종족",
-            "value": 20
+            "value": 11
           },
           {
             "id": 202,
@@ -1772,8 +1910,8 @@
             "value": 1
           },
           {
-            "id": 2534,
-            "name": "게임 태그 2534",
+            "id": 2542,
+            "name": "게임 태그 2542",
             "value": 1
           }
         ],
@@ -1820,7 +1958,7 @@
           {
             "id": 200,
             "name": "종족",
-            "value": 20
+            "value": 11
           },
           {
             "id": 202,
@@ -1851,8 +1989,8 @@
             "value": 1
           },
           {
-            "id": 2534,
-            "name": "게임 태그 2534",
+            "id": 2542,
+            "name": "게임 태그 2542",
             "value": 1
           }
         ],
@@ -1918,7 +2056,7 @@
             "role": "owned"
           },
           {
-            "id": 2534,
+            "id": 2542,
             "role": "owned"
           }
         ]
@@ -1936,13 +2074,41 @@
       ],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
   ],
   "observations": {
-    "undated": {},
+    "undated": {
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2022-11-30",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      }
+    },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -2170,228 +2336,22 @@
         "id": 791,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2018-08-03": {
-    "type": "MINION",
-    "cardClass": "PALADIN",
-    "rarity": "COMMON",
-    "collectible": true,
-    "cost": 5,
-    "attack": 3,
-    "health": 4,
     "races": [],
     "race": "",
-    "name": "유령 전투마",
-    "nativeRawText": "<b>천상의 보호막</b>\n<b>속공</b>",
-    "text": "<b>천상의 보호막</b><br></br><b>속공</b>",
-    "id": "GIL_545",
-    "dbfId": 47051,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 194,
-        "name": "천상의 보호막",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 791,
-        "name": "속공",
-        "value": 1
+        "role": "ownedTags",
+        "id": 200,
+        "before": {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        "after": "ABSENT"
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 194,
-        "name": "천상의 보호막",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 791,
-        "name": "속공",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 194,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 791,
-        "role": "owned"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
     ],
     "eventKinds": [
       "gameplay"
@@ -2399,8 +2359,67 @@
     "sources": [
       {
         "findingId": "WITCH-BAL-M002",
-        "before": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
-        "after": "https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml",
+        "fields": {
+          "races": {
+            "expectedBefore": [
+              "BEAST"
+            ],
+            "expectedAfter": [],
+            "recordedBefore": [
+              "BEAST"
+            ],
+            "recordedAfter": [
+              "BEAST"
+            ],
+            "recordedCurrent": [
+              "UNDEAD",
+              "BEAST"
+            ]
+          }
+        },
+        "archiveBefore": {
+          "build": 25252,
+          "source": "https://github.com/HearthSim/hsdata/blob/e24c11b27da20a2b3515c63543b397f9e530db5b/CardDefs.xml",
+          "originalCardId": "GIL_545",
+          "dbfId": 47051,
+          "ownedTags": {
+            "45": "4",
+            "47": "3",
+            "48": "5",
+            "183": "1125",
+            "194": "1",
+            "199": "5",
+            "200": "20",
+            "202": "4",
+            "203": "1",
+            "321": "1",
+            "791": "1"
+          },
+          "referencedTags": {},
+          "koreanText": "<b>천상의 보호막</b>\n<b>속공</b>",
+          "englishText": "<b>Divine Shield</b>\n<b>Rush</b>"
+        },
+        "archiveAfter": {
+          "build": 25770,
+          "source": "https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml",
+          "originalCardId": "GIL_545",
+          "dbfId": 47051,
+          "ownedTags": {
+            "45": "4",
+            "47": "3",
+            "48": "5",
+            "183": "1125",
+            "194": "1",
+            "199": "5",
+            "202": "4",
+            "203": "1",
+            "321": "1",
+            "791": "1"
+          },
+          "referencedTags": {},
+          "koreanText": "<b>천상의 보호막</b>\n<b>속공</b>",
+          "englishText": "<b>Divine Shield</b>\n<b>Rush</b>"
+        },
         "sourceRefs": [
           "official-12-0"
         ]
@@ -2408,250 +2427,32 @@
     ]
   },
   "2022-11-30": {
-    "type": "MINION",
-    "cardClass": "PALADIN",
-    "rarity": "COMMON",
-    "collectible": true,
-    "cost": 5,
-    "attack": 3,
-    "health": 4,
     "races": [
       "UNDEAD",
       "BEAST"
     ],
     "race": "언데드, 야수",
-    "name": "유령 전투마",
-    "nativeRawText": "<b>천상의 보호막</b>\n<b>속공</b>",
-    "text": "<b>천상의 보호막</b><br></br><b>속공</b>",
-    "id": "GIL_545",
-    "dbfId": 47051,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 194,
-        "name": "천상의 보호막",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
+        "role": "ownedTags",
         "id": 200,
-        "name": "종족",
-        "value": 20
+        "before": "ABSENT",
+        "after": {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        }
       },
       {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 791,
-        "name": "속공",
-        "value": 1
-      },
-      {
-        "id": 2534,
-        "name": "게임 태그 2534",
-        "value": 1
+        "role": "ownedTags",
+        "id": 2542,
+        "before": "ABSENT",
+        "after": {
+          "id": 2542,
+          "name": "게임 태그 2542",
+          "value": 1
+        }
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 194,
-        "name": "천상의 보호막",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 20
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 791,
-        "name": "속공",
-        "value": 1
-      },
-      {
-        "id": 2534,
-        "name": "게임 태그 2534",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 194,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 200,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 791,
-        "role": "owned"
-      },
-      {
-        "id": 2534,
-        "role": "owned"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
     ],
     "eventKinds": [
       "existing-confirmed"
@@ -2666,7 +2467,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

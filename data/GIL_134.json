@@ -494,11 +494,16 @@
       },
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ],
       "eventKinds": [
         "existing-confirmed"
@@ -683,11 +688,16 @@
       },
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ],
       "eventKinds": [
         "representation"
@@ -1022,11 +1032,16 @@
       "before": "2021-03-26",
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
         "races",
+        "set",
         "spellSchool"
       ]
     },
@@ -1212,11 +1227,16 @@
       "before": "2026-03-11",
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ]
     },
     {
@@ -1395,16 +1415,65 @@
       },
       "removedFields": [
         "armor",
+        "art",
         "attack",
+        "classes",
         "durability",
+        "flavor",
         "health",
+        "portrait",
         "race",
-        "races"
+        "races",
+        "set"
       ]
     }
   ],
   "observations": {
-    "undated": {},
+    "undated": {
+      "attack": {
+        "date": null,
+        "latestConfirmedDate": "2026-03-11",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "health": {
+        "date": null,
+        "latestConfirmedDate": "2026-03-11",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2026-03-11",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2026-03-11",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "races": {
+        "date": null,
+        "latestConfirmedDate": "2026-03-11",
+        "before": "ABSENT",
+        "after": [],
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "race": {
+        "date": null,
+        "latestConfirmedDate": "2026-03-11",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      }
+    },
+    "undatedRawTags": [],
     "research": [
       {
         "id": "WITCH-OBS-006",
@@ -1654,190 +1723,21 @@
         "id": 351,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "attack",
-      "durability",
-      "health",
-      "race",
-      "races",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2021-03-26": {
-    "type": "SPELL",
-    "cardClass": "PRIEST",
-    "rarity": "RARE",
-    "collectible": true,
-    "cost": 5,
-    "name": "성수",
-    "nativeRawText": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
-    "text": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
-    "id": "GIL_134",
-    "dbfId": 46694,
-    "ownedTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 6
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 5
-      }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 6
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 5
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 1635,
-        "role": "owned"
-      }
-    ],
     "spellSchool": "HOLY",
-    "removedFields": [
-      "armor",
-      "attack",
-      "durability",
-      "health",
-      "race",
-      "races"
+    "rawTagDelta": [
+      {
+        "role": "ownedTags",
+        "id": 1635,
+        "before": "ABSENT",
+        "after": {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 5
+        }
+      }
     ],
     "eventKinds": [
       "existing-confirmed"
@@ -1852,178 +1752,8 @@
     ]
   },
   "2026-03-11": {
-    "type": "SPELL",
-    "cardClass": "PRIEST",
-    "rarity": "RARE",
-    "collectible": true,
-    "cost": 5,
-    "name": "성수",
     "nativeRawText": "하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다.",
     "text": "하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다.",
-    "id": "GIL_134",
-    "dbfId": 46694,
-    "ownedTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 6
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 5
-      }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 6
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 5
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 1635,
-        "role": "owned"
-      }
-    ],
-    "spellSchool": "HOLY",
-    "removedFields": [
-      "armor",
-      "attack",
-      "durability",
-      "health",
-      "race",
-      "races"
-    ],
     "eventKinds": [
       "representation"
     ],
@@ -2032,7 +1762,8 @@
     }
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",

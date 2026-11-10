@@ -478,6 +478,11 @@
         "dbfId": 47053,
         "ownedTags": [
           {
+            "id": 2,
+            "name": "게임 태그 2",
+            "value": 1
+          },
+          {
             "id": 32,
             "name": "발동 효과 표시",
             "value": 1
@@ -552,6 +557,11 @@
         "referencedTags": [],
         "nativeTags": [
           {
+            "id": 2,
+            "name": "게임 태그 2",
+            "value": 1
+          },
+          {
             "id": 32,
             "name": "발동 효과 표시",
             "value": 1
@@ -625,6 +635,10 @@
         ],
         "nativeTagOrigins": [
           {
+            "id": 2,
+            "role": "owned"
+          },
+          {
             "id": 32,
             "role": "owned"
           },
@@ -688,7 +702,12 @@
       },
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ],
       "eventKinds": [
@@ -698,8 +717,60 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M005",
-          "before": "https://github.com/HearthSim/hsdata/blob/d48f0a5642df703653cfe141e94310dfb78b5642/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml",
+          "fields": {
+            "health": {
+              "expectedBefore": 4,
+              "expectedAfter": 5,
+              "recordedBefore": 5,
+              "recordedAfter": 5,
+              "recordedCurrent": 5
+            }
+          },
+          "archiveBefore": {
+            "build": 134558,
+            "source": "https://github.com/HearthSim/hsdata/blob/d48f0a5642df703653cfe141e94310dfb78b5642/CardDefs.xml",
+            "originalCardId": "GIL_547",
+            "dbfId": 47053,
+            "ownedTags": {
+              "32": "1",
+              "45": "4",
+              "47": "4",
+              "48": "5",
+              "114": "1",
+              "183": "1125",
+              "199": "10",
+              "202": "4",
+              "203": "5",
+              "321": "1",
+              "791": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
+            "englishText": "[x]<b>Rush</b>\nAfter this attacks and kills\na minion, gain +2/+2."
+          },
+          "archiveAfter": {
+            "build": 135540,
+            "source": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml",
+            "originalCardId": "GIL_547",
+            "dbfId": 47053,
+            "ownedTags": {
+              "2": "1",
+              "32": "1",
+              "45": "5",
+              "47": "4",
+              "48": "5",
+              "114": "1",
+              "183": "1125",
+              "199": "10",
+              "202": "4",
+              "203": "5",
+              "321": "1",
+              "791": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
+            "englishText": "[x]<b>Rush</b>\nAfter this attacks and kills\na minion, gain +2/+2."
+          },
           "sourceRefs": [
             "official-23-0",
             "global-23-0-diff"
@@ -1167,7 +1238,12 @@
       "before": "2022-04-06",
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     },
@@ -1189,6 +1265,11 @@
         "id": "GIL_547",
         "dbfId": 47053,
         "ownedTags": [
+          {
+            "id": 2,
+            "name": "게임 태그 2",
+            "value": 1
+          },
           {
             "id": 32,
             "name": "발동 효과 표시",
@@ -1264,6 +1345,11 @@
         "referencedTags": [],
         "nativeTags": [
           {
+            "id": 2,
+            "name": "게임 태그 2",
+            "value": 1
+          },
+          {
             "id": 32,
             "name": "발동 효과 표시",
             "value": 1
@@ -1337,6 +1423,10 @@
         ],
         "nativeTagOrigins": [
           {
+            "id": 2,
+            "role": "owned"
+          },
+          {
             "id": 32,
             "role": "owned"
           },
@@ -1404,8 +1494,60 @@
       "sources": [
         {
           "findingId": "WITCH-BAL-M005",
-          "before": "https://github.com/HearthSim/hsdata/blob/d48f0a5642df703653cfe141e94310dfb78b5642/CardDefs.xml",
-          "after": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml",
+          "fields": {
+            "health": {
+              "expectedBefore": 4,
+              "expectedAfter": 5,
+              "recordedBefore": 5,
+              "recordedAfter": 5,
+              "recordedCurrent": 5
+            }
+          },
+          "archiveBefore": {
+            "build": 134558,
+            "source": "https://github.com/HearthSim/hsdata/blob/d48f0a5642df703653cfe141e94310dfb78b5642/CardDefs.xml",
+            "originalCardId": "GIL_547",
+            "dbfId": 47053,
+            "ownedTags": {
+              "32": "1",
+              "45": "4",
+              "47": "4",
+              "48": "5",
+              "114": "1",
+              "183": "1125",
+              "199": "10",
+              "202": "4",
+              "203": "5",
+              "321": "1",
+              "791": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
+            "englishText": "[x]<b>Rush</b>\nAfter this attacks and kills\na minion, gain +2/+2."
+          },
+          "archiveAfter": {
+            "build": 135540,
+            "source": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml",
+            "originalCardId": "GIL_547",
+            "dbfId": 47053,
+            "ownedTags": {
+              "2": "1",
+              "32": "1",
+              "45": "5",
+              "47": "4",
+              "48": "5",
+              "114": "1",
+              "183": "1125",
+              "199": "10",
+              "202": "4",
+              "203": "5",
+              "321": "1",
+              "791": "1"
+            },
+            "referencedTags": {},
+            "koreanText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
+            "englishText": "[x]<b>Rush</b>\nAfter this attacks and kills\na minion, gain +2/+2."
+          },
           "sourceRefs": [
             "official-23-0",
             "global-23-0-diff"
@@ -1414,13 +1556,41 @@
       ],
       "removedFields": [
         "armor",
+        "art",
+        "classes",
         "durability",
+        "flavor",
+        "portrait",
+        "set",
         "spellSchool"
       ]
     }
   ],
   "observations": {
-    "undated": {},
+    "undated": {
+      "durability": {
+        "date": null,
+        "latestConfirmedDate": "2022-04-06",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "armor": {
+        "date": null,
+        "latestConfirmedDate": "2022-04-06",
+        "before": "ABSENT",
+        "after": 0,
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      },
+      "spellSchool": {
+        "date": null,
+        "latestConfirmedDate": "2022-04-06",
+        "before": "ABSENT",
+        "after": "",
+        "reason": "Current cache differs from the latest dated confirmed state; no effective date is supported by the evidence."
+      }
+    },
+    "undatedRawTags": [],
     "research": []
   },
   "2018-04-13": {
@@ -1646,242 +1816,35 @@
         "id": 791,
         "role": "owned"
       }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
-    ],
-    "eventKinds": []
+    ]
   },
   "2022-04-06": {
-    "type": "MINION",
-    "cardClass": "WARRIOR",
-    "rarity": "LEGENDARY",
-    "collectible": true,
-    "cost": 5,
-    "attack": 4,
     "health": 5,
-    "races": [],
-    "race": "",
-    "name": "다리우스 크롤리",
-    "nativeRawText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
-    "text": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
-    "id": "GIL_547",
-    "dbfId": 47053,
-    "ownedTags": [
+    "rawTagDelta": [
       {
-        "id": 32,
-        "name": "발동 효과 표시",
-        "value": 1
+        "role": "ownedTags",
+        "id": 2,
+        "before": "ABSENT",
+        "after": {
+          "id": 2,
+          "name": "게임 태그 2",
+          "value": 1
+        }
       },
       {
+        "role": "ownedTags",
         "id": 45,
-        "name": "생명력",
-        "value": 5
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 4
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 10
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 791,
-        "name": "속공",
-        "value": 1
+        "before": {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        "after": {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        }
       }
-    ],
-    "referencedTags": [],
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "발동 효과 표시",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 5
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 4
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 10
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 791,
-        "name": "속공",
-        "value": 1
-      }
-    ],
-    "nativeTagOrigins": [
-      {
-        "id": 32,
-        "role": "owned"
-      },
-      {
-        "id": 45,
-        "role": "owned"
-      },
-      {
-        "id": 47,
-        "role": "owned"
-      },
-      {
-        "id": 48,
-        "role": "owned"
-      },
-      {
-        "id": 114,
-        "role": "owned"
-      },
-      {
-        "id": 183,
-        "role": "owned"
-      },
-      {
-        "id": 184,
-        "role": "owned"
-      },
-      {
-        "id": 185,
-        "role": "owned"
-      },
-      {
-        "id": 199,
-        "role": "owned"
-      },
-      {
-        "id": 202,
-        "role": "owned"
-      },
-      {
-        "id": 203,
-        "role": "owned"
-      },
-      {
-        "id": 321,
-        "role": "owned"
-      },
-      {
-        "id": 342,
-        "role": "owned"
-      },
-      {
-        "id": 351,
-        "role": "owned"
-      },
-      {
-        "id": 791,
-        "role": "owned"
-      }
-    ],
-    "removedFields": [
-      "armor",
-      "durability",
-      "spellSchool"
     ],
     "eventKinds": [
       "gameplay"
@@ -1889,8 +1852,60 @@
     "sources": [
       {
         "findingId": "WITCH-BAL-M005",
-        "before": "https://github.com/HearthSim/hsdata/blob/d48f0a5642df703653cfe141e94310dfb78b5642/CardDefs.xml",
-        "after": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml",
+        "fields": {
+          "health": {
+            "expectedBefore": 4,
+            "expectedAfter": 5,
+            "recordedBefore": 5,
+            "recordedAfter": 5,
+            "recordedCurrent": 5
+          }
+        },
+        "archiveBefore": {
+          "build": 134558,
+          "source": "https://github.com/HearthSim/hsdata/blob/d48f0a5642df703653cfe141e94310dfb78b5642/CardDefs.xml",
+          "originalCardId": "GIL_547",
+          "dbfId": 47053,
+          "ownedTags": {
+            "32": "1",
+            "45": "4",
+            "47": "4",
+            "48": "5",
+            "114": "1",
+            "183": "1125",
+            "199": "10",
+            "202": "4",
+            "203": "5",
+            "321": "1",
+            "791": "1"
+          },
+          "referencedTags": {},
+          "koreanText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
+          "englishText": "[x]<b>Rush</b>\nAfter this attacks and kills\na minion, gain +2/+2."
+        },
+        "archiveAfter": {
+          "build": 135540,
+          "source": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml",
+          "originalCardId": "GIL_547",
+          "dbfId": 47053,
+          "ownedTags": {
+            "2": "1",
+            "32": "1",
+            "45": "5",
+            "47": "4",
+            "48": "5",
+            "114": "1",
+            "183": "1125",
+            "199": "10",
+            "202": "4",
+            "203": "5",
+            "321": "1",
+            "791": "1"
+          },
+          "referencedTags": {},
+          "koreanText": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
+          "englishText": "[x]<b>Rush</b>\nAfter this attacks and kills\na minion, gain +2/+2."
+        },
         "sourceRefs": [
           "official-23-0",
           "global-23-0-diff"
@@ -1899,7 +1914,8 @@
     ]
   },
   "_meta": {
-    "schemaVersion": 2,
+    "schemaVersion": 3,
+    "dateFirstFormat": "sparse-delta-v3",
     "timezone": "Asia/Seoul",
     "releasedAt": "2018-04-13",
     "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
