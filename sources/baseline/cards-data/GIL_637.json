@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_637",
+    "dbfId": 47423,
+    "name": "흉포한 울음소리",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "카드를 뽑습니다.<br></br>내 손에 있는 카드 1장당<br></br>방어도를 +1 얻습니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "푸른 달빛 아래에서 울부짖는 늑대의 울음소리를 들어본 적이 있나요?",
+    "spellSchool": "",
+    "portrait": "HS13-030_S.psd:429056888832b274fb5dc0cd8ca8a009",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_637.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-030_S.psd:429056888832b274fb5dc0cd8ca8a009",
+    "goldenMaterial": "GIL_637_PremiumCard.mat:1a7a40b404c2d2b45a69d26df81728f6",
+    "goldenAnimation": "GIL_637_PremiumCard.asset:5e122fa812214164f9696da853e9ed5b"
+  }
+}

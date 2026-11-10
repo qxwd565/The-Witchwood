@@ -1,1 +1,590 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_618","dbfId":47295,"name":"글린다 크로우스킨","type":"MINION","cardClass":"WARLOCK","rarity":"LEGENDARY","collectible":true,"cost":6,"text":"내 손에 있는<br></br>모든 하수인이<br></br><b>잔상</b>을 얻습니다.","attack":3,"health":7,"durability":0,"armor":0,"flavor":"눈발바닥 펭귄을 *무한정* 낼 수 있습니다!","spellSchool":"","portrait":"HS13-054_M.psd:76b396fc6df876b4d9db69cb4c06a12d","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":7},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":6},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":9},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":362,"name":"지속 효과","value":1},{"id":846,"name":"잔상","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/GIL_618.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-054_M.psd:76b396fc6df876b4d9db69cb4c06a12d","goldenMaterial":"GIL_618_PremiumCard.mat:ec60f72a4905815458c3d4cb85310ed1","goldenAnimation":"GIL_618_PremiumCard.asset:0128dff8a343a934f8ffe0e24a540d02"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_618",
+    "dbfId": 47295,
+    "name": "글린다 크로우스킨",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 6,
+    "text": "내 손에 있는<br></br>모든 하수인이<br></br><b>잔상</b>을 얻습니다.",
+    "attack": 3,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "눈발바닥 펭귄을 *무한정* 낼 수 있습니다!",
+    "spellSchool": "",
+    "portrait": "HS13-054_M.psd:76b396fc6df876b4d9db69cb4c06a12d",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_618.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-054_M.psd:76b396fc6df876b4d9db69cb4c06a12d",
+    "goldenMaterial": "GIL_618_PremiumCard.mat:ec60f72a4905815458c3d4cb85310ed1",
+    "goldenAnimation": "GIL_618_PremiumCard.asset:0128dff8a343a934f8ffe0e24a540d02"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 6,
+    "attack": 3,
+    "health": 7,
+    "races": [],
+    "race": "",
+    "name": "글린다 크로우스킨",
+    "nativeRawText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다.",
+    "text": "내 손에 있는<br></br>모든 하수인이<br></br><b>잔상</b>을 얻습니다.",
+    "id": "GIL_618",
+    "dbfId": 47295,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 362,
+        "name": "게임 태그 362",
+        "value": 1
+      }
+    ],
+    "referencedTags": [
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ]
+  },
+  "patches": [
+    {
+      "date": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARLOCK",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 6,
+        "attack": 3,
+        "health": 7,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "글린다 크로우스킨",
+        "nativeRawText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다.",
+        "text": "내 손에 있는<br></br>모든 하수인이<br></br><b>잔상</b>을 얻습니다.",
+        "id": "GIL_618",
+        "dbfId": 47295
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_618",
+    "dbfId": 47295,
+    "name": "글린다 크로우스킨",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 6,
+    "text": "내 손에 있는<br></br>모든 하수인이<br></br><b>잔상</b>을 얻습니다.",
+    "attack": 3,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "눈발바닥 펭귄을 *무한정* 낼 수 있습니다!",
+    "spellSchool": "",
+    "portrait": "HS13-054_M.psd:76b396fc6df876b4d9db69cb4c06a12d",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_618.png",
+    "referencedTags": [
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다."
+  },
+  "nativeRawText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARLOCK",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 6,
+        "attack": 3,
+        "health": 7,
+        "races": [],
+        "race": "",
+        "name": "글린다 크로우스킨",
+        "nativeRawText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다.",
+        "text": "내 손에 있는<br></br>모든 하수인이<br></br><b>잔상</b>을 얻습니다.",
+        "id": "GIL_618",
+        "dbfId": 47295,
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 7
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 6
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 5
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 362,
+            "name": "지속 효과",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2022-11-30",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARLOCK",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 6,
+        "attack": 3,
+        "health": 7,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "글린다 크로우스킨",
+        "nativeRawText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다.",
+        "text": "내 손에 있는<br></br>모든 하수인이<br></br><b>잔상</b>을 얻습니다.",
+        "id": "GIL_618",
+        "dbfId": 47295
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-012",
+        "topic": "referenced-tag-ownership",
+        "date": null,
+        "cardIds": [
+          "GIL_116",
+          "GIL_188",
+          "GIL_510",
+          "GIL_526",
+          "GIL_557",
+          "GIL_565",
+          "GIL_578",
+          "GIL_580",
+          "GIL_601",
+          "GIL_607",
+          "GIL_618",
+          "GIL_634",
+          "GIL_635",
+          "GIL_648",
+          "GIL_650",
+          "GIL_683",
+          "GIL_685",
+          "GIL_801",
+          "GIL_836",
+          "GIL_905"
+        ],
+        "status": "raw-tag-role-not-card-keyword",
+        "detail": "20개 카드의 25개 참조 태그가 nativeTags에 소유 태그와 섞여 있음. 원시 역할 정보를 별도로 보존하며 참조 대상을 카드 자체 키워드로 해석하지 않음.",
+        "sourceCommits": [
+          "6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226",
+          "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 362,
+        "name": "게임 태그 362",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Glinda Crowskin",
+            "nativeRawText": "Glinda Crowskin"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "글린다 크로우스킨",
+            "nativeRawText": "글린다 크로우스킨"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Minions in your hand have_<b>Echo</b>.",
+            "nativeRawText": "Minions in your hand have_<b>Echo</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다.",
+            "nativeRawText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Glinda Crowskin",
+            "nativeRawText": "Glinda Crowskin"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "글린다 크로우스킨",
+            "nativeRawText": "글린다 크로우스킨"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Minions in your hand have_<b>Echo</b>.",
+            "nativeRawText": "Minions in your hand have_<b>Echo</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다.",
+            "nativeRawText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-054_M.psd:76b396fc6df876b4d9db69cb4c06a12d",
+      "goldenMaterial": "GIL_618_PremiumCard.mat:ec60f72a4905815458c3d4cb85310ed1",
+      "goldenAnimation": "GIL_618_PremiumCard.asset:0128dff8a343a934f8ffe0e24a540d02"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-012"
+    ]
+  }
+}

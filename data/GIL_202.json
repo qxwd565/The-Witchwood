@@ -1,1 +1,436 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_202","dbfId":46601,"name":"길니아스 왕실근위병","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":8,"text":"<b>천상의 보호막</b>, <b>속공</b><br></br>이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.","attack":3,"health":8,"durability":0,"armor":0,"flavor":"그래서 리암 왕자는 어떻게 된 거죠?","spellSchool":"","portrait":"HS13-083_M.psd:98b986cb9e6bd2644a805b47a78bf138","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":8},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":0},{"id":194,"name":"천상의 보호막","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":791,"name":"속공","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":46602}],"races":[],"race":"","classes":[],"art":"art/GIL_202.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-083_M.psd:98b986cb9e6bd2644a805b47a78bf138","goldenMaterial":"GIL_202_PremiumCard.mat:00001971889d853459e93acf66d066ba","goldenAnimation":"GIL_202_PremiumCard.asset:19113e74543f7974a8f1ada085e8d133"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_202",
+    "dbfId": 46601,
+    "name": "길니아스 왕실근위병",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>천상의 보호막</b>, <b>속공</b><br></br>이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "attack": 3,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "그래서 리암 왕자는 어떻게 된 거죠?",
+    "spellSchool": "",
+    "portrait": "HS13-083_M.psd:98b986cb9e6bd2644a805b47a78bf138",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 46602
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_202.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-083_M.psd:98b986cb9e6bd2644a805b47a78bf138",
+    "goldenMaterial": "GIL_202_PremiumCard.mat:00001971889d853459e93acf66d066ba",
+    "goldenAnimation": "GIL_202_PremiumCard.asset:19113e74543f7974a8f1ada085e8d133"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 8,
+    "attack": 3,
+    "health": 8,
+    "races": [],
+    "race": "",
+    "name": "길니아스 왕실근위병",
+    "nativeRawText": "<b>천상의 보호막</b>, <b>속공</b>\n이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "text": "<b>천상의 보호막</b>, <b>속공</b><br></br>이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "id": "GIL_202",
+    "dbfId": 46601,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_202",
+    "dbfId": 46601,
+    "name": "길니아스 왕실근위병",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>천상의 보호막</b>, <b>속공</b><br></br>이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "attack": 3,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "그래서 리암 왕자는 어떻게 된 거죠?",
+    "spellSchool": "",
+    "portrait": "HS13-083_M.psd:98b986cb9e6bd2644a805b47a78bf138",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 46602
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_202.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>천상의 보호막</b>, <b>속공</b>\n이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+  },
+  "nativeRawText": "<b>천상의 보호막</b>, <b>속공</b>\n이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 8,
+        "attack": 3,
+        "health": 8,
+        "races": [],
+        "race": "",
+        "name": "길니아스 왕실근위병",
+        "nativeRawText": "<b>천상의 보호막</b>, <b>속공</b>\n이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+        "text": "<b>천상의 보호막</b>, <b>속공</b><br></br>이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+        "id": "GIL_202",
+        "dbfId": 46601
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Gilnean Royal Guard",
+            "nativeRawText": "Gilnean Royal Guard"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "길니아스 왕실근위병",
+            "nativeRawText": "길니아스 왕실근위병"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Divine Shield</b>, <b>Rush</b>\nEach turn this is in your hand,\nswap its Attack and Health.",
+            "nativeRawText": "[x]<b>Divine Shield</b>, <b>Rush</b>\nEach turn this is in your hand,\nswap its Attack and Health."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>천상의 보호막</b>, <b>속공</b>\n이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+            "nativeRawText": "<b>천상의 보호막</b>, <b>속공</b>\n이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Gilnean Royal Guard",
+            "nativeRawText": "Gilnean Royal Guard"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "길니아스 왕실근위병",
+            "nativeRawText": "길니아스 왕실근위병"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Divine Shield</b>, <b>Rush</b>\nEach turn this is in your hand,\nswap its Attack and Health.",
+            "nativeRawText": "[x]<b>Divine Shield</b>, <b>Rush</b>\nEach turn this is in your hand,\nswap its Attack and Health."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>천상의 보호막</b>, <b>속공</b>\n이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+            "nativeRawText": "<b>천상의 보호막</b>, <b>속공</b>\n이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-083_M.psd:98b986cb9e6bd2644a805b47a78bf138",
+      "goldenMaterial": "GIL_202_PremiumCard.mat:00001971889d853459e93acf66d066ba",
+      "goldenAnimation": "GIL_202_PremiumCard.asset:19113e74543f7974a8f1ada085e8d133"
+    },
+    "researchObservationIds": []
+  }
+}

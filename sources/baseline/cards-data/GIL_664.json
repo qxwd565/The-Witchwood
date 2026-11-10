@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_664",
+    "dbfId": 47554,
+    "name": "성가신 까마귀",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "내가 주문을 시전할 때마다 비용이 2인 무작위 하수인을 소환합니다.",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "불운을 몰고 오는 새들인 만큼 파멸의 예언자도 종종 소환합니다.",
+    "spellSchool": "",
+    "portrait": "HS13-227_M.psd:e1ee1b51f5241c347a79298b72037ed2",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_664.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-227_M.psd:e1ee1b51f5241c347a79298b72037ed2",
+    "goldenMaterial": "GIL_664_PremiumCard.mat:5819ed0b8911b894fa18cd3ddf560581",
+    "goldenAnimation": "GIL_664_PremiumCard.asset:185289c137494b04bae0e47408200ef6"
+  }
+}

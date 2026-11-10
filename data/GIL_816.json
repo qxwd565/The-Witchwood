@@ -1,1 +1,408 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_816","dbfId":48106,"name":"늪지용 알","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":1,"text":"<b>죽음의 메아리:</b><br></br>무작위 용족을<br></br>내 손으로 가져옵니다.","attack":0,"health":3,"durability":0,"armor":0,"flavor":"용줘용. 아, 용이 아니군요.","spellSchool":"","portrait":"HS13-244_M.psd:7b6e8e8cc0256c3409fffea87313ac2e","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":0},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_816.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-244_M.psd:7b6e8e8cc0256c3409fffea87313ac2e","goldenMaterial":"GIL_816_PremiumCard.mat:d35970e46d68a54438179a2d9c824a34","goldenAnimation":"GIL_816_PremiumCard.asset:44807b14a30d97941807584dfe892da8"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_816",
+    "dbfId": 48106,
+    "name": "늪지용 알",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 용족을<br></br>내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "용줘용. 아, 용이 아니군요.",
+    "spellSchool": "",
+    "portrait": "HS13-244_M.psd:7b6e8e8cc0256c3409fffea87313ac2e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 0
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_816.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-244_M.psd:7b6e8e8cc0256c3409fffea87313ac2e",
+    "goldenMaterial": "GIL_816_PremiumCard.mat:d35970e46d68a54438179a2d9c824a34",
+    "goldenAnimation": "GIL_816_PremiumCard.asset:44807b14a30d97941807584dfe892da8"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "health": 3,
+    "races": [],
+    "race": "",
+    "name": "늪지용 알",
+    "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 용족 하나를\n내 손으로 가져옵니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 용족 하나를<br></br>내 손으로 가져옵니다.",
+    "id": "GIL_816",
+    "dbfId": 48106,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_816",
+    "dbfId": 48106,
+    "name": "늪지용 알",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 용족을<br></br>내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "용줘용. 아, 용이 아니군요.",
+    "spellSchool": "",
+    "portrait": "HS13-244_M.psd:7b6e8e8cc0256c3409fffea87313ac2e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 0
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_816.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 용족을\n내 손으로 가져옵니다."
+  },
+  "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 용족을\n내 손으로 가져옵니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 1,
+        "health": 3,
+        "races": [],
+        "race": "",
+        "name": "늪지용 알",
+        "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 용족 하나를\n내 손으로 가져옵니다.",
+        "text": "<b>죽음의 메아리:</b><br></br>무작위 용족 하나를<br></br>내 손으로 가져옵니다.",
+        "id": "GIL_816",
+        "dbfId": 48106
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>죽음의 메아리:</b><br></br>무작위 용족 하나를<br></br>내 손으로 가져옵니다.",
+        "after": "<b>죽음의 메아리:</b><br></br>무작위 용족을<br></br>내 손으로 가져옵니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "<b>죽음의 메아리:</b>\n무작위 용족 하나를\n내 손으로 가져옵니다.",
+        "after": "<b>죽음의 메아리:</b>\n무작위 용족을\n내 손으로 가져옵니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Swamp Dragon Egg",
+            "nativeRawText": "Swamp Dragon Egg"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "늪지용 알",
+            "nativeRawText": "늪지용 알"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Deathrattle:</b> Add a random Dragon to your hand.",
+            "nativeRawText": "<b>Deathrattle:</b> Add a random Dragon to your hand."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>죽음의 메아리:</b>\n무작위 용족 하나를\n내 손으로 가져옵니다.",
+            "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 용족 하나를\n내 손으로 가져옵니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Swamp Dragon Egg",
+            "nativeRawText": "Swamp Dragon Egg"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "늪지용 알",
+            "nativeRawText": "늪지용 알"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Deathrattle:</b> Add a random Dragon to your hand.",
+            "nativeRawText": "<b>Deathrattle:</b> Add a random Dragon to your hand."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>죽음의 메아리:</b>\n무작위 용족을\n내 손으로 가져옵니다.",
+            "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 용족을\n내 손으로 가져옵니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-244_M.psd:7b6e8e8cc0256c3409fffea87313ac2e",
+      "goldenMaterial": "GIL_816_PremiumCard.mat:d35970e46d68a54438179a2d9c824a34",
+      "goldenAnimation": "GIL_816_PremiumCard.asset:44807b14a30d97941807584dfe892da8"
+    },
+    "researchObservationIds": []
+  }
+}

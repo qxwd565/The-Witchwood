@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_531",
+    "dbfId": 46998,
+    "name": "마녀의 수습생",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 0,
+    "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문을<br></br>내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "마녀가 된 개구리일까요? 아니면 개구리가 된 마녀일까요?",
+    "spellSchool": "",
+    "portrait": "HS13-060_M.psd:a7a40dcb620c1fe4ba6c9bdc67260912",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_531.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-060_M.psd:a7a40dcb620c1fe4ba6c9bdc67260912",
+    "goldenMaterial": "GIL_531_PremiumCard.mat:bc1bc49b73f7c0c4c87aaa350b460e26",
+    "goldenAnimation": "GIL_531_PremiumCard.asset:488ead93b9a3c9143805aa8cb14863fe"
+  }
+}

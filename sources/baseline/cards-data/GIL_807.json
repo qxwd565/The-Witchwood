@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_807",
+    "dbfId": 47873,
+    "name": "수렁주인",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 7,
+    "text": "내가 주문을 시전할 때마다 내 덱에서 하수인을 뽑습니다.",
+    "attack": 4,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "수렁으로 뭔가를 만드는 걸 즐깁니다. 하지만 형체를 유지하는 게 어렵죠.",
+    "spellSchool": "",
+    "portrait": "HS13-236_M.psd:f642f4b66afb62245a63b7745a6ae23d",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 18
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "ELEMENTAL"
+    ],
+    "race": "정령",
+    "classes": [],
+    "art": "art/GIL_807.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-236_M.psd:f642f4b66afb62245a63b7745a6ae23d",
+    "goldenMaterial": "GIL_807_PremiumCard.mat:40fae54a75e89bf4289ddfd56258cb1c",
+    "goldenAnimation": "GIL_807_PremiumCard.asset:c4e55d38a27ec264a99f09cdd5886030"
+  }
+}

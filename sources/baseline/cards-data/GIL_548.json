@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_548",
+    "dbfId": 47054,
+    "name": "악령의 책",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "text": "카드를 3장 뽑습니다.<br></br>주문을 뽑으면,<br></br>그 주문을 버립니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "여러 땅에서는 도깨비노미콘이라고도 불립니다.",
+    "spellSchool": "SHADOW",
+    "portrait": "HS12-195_S.psd:5d96c9d8b4719084c89d89b4f579fb0c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_548.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS12-195_S.psd:5d96c9d8b4719084c89d89b4f579fb0c",
+    "goldenMaterial": "GIL_548_PremiumCard.mat:e8a48e5092b45694ebcc2655698e9f3b",
+    "goldenAnimation": "GIL_548_PremiumCard.asset:a5f985078a533b646a4c6981ff3f9f6b"
+  }
+}

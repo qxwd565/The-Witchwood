@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_650",
+    "dbfId": 47488,
+    "name": "사냥개조련사 쇼",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 다른 하수인들이 <b>속공</b>을 얻습니다.",
+    "attack": 3,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "착한 애들이라고, 테스.",
+    "spellSchool": "",
+    "portrait": "HS13-358_M.psd:cdaea594aa2670444a539b7c6b4ed381",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_650.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-358_M.psd:cdaea594aa2670444a539b7c6b4ed381",
+    "goldenMaterial": "GIL_650_PremiumCard.mat:30a617a0cedf9904fb28dbddc9a65f26",
+    "goldenAnimation": "GIL_650_PremiumCard.asset:b60d1128f4aced340a7d06c3ed58a3e4"
+  }
+}

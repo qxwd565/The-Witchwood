@@ -1,1 +1,436 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_817","dbfId":48107,"name":"유리 기사","type":"MINION","cardClass":"PALADIN","rarity":"LEGENDARY","collectible":true,"cost":4,"text":"<b>천상의 보호막</b><br></br>내가 생명력을 회복시킬<br></br>때마다 <b>천상의 보호막</b>을<br></br>얻습니다.","attack":4,"health":3,"durability":0,"armor":0,"flavor":"우직해 보이지만 사실 유리 같은 멘탈을 지니고 있습니다.","spellSchool":"","portrait":"HS13-440_M.psd:fbaf0a8cc79ae884fa3f8ba55c3791ab","set":"GILNEAS","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":1},{"id":194,"name":"천상의 보호막","value":1},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_817.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-440_M.psd:fbaf0a8cc79ae884fa3f8ba55c3791ab","goldenMaterial":"GIL_817_PremiumCard.mat:6e0766d8bad5f3c41a9bb9f25687fd6b","goldenAnimation":"GIL_817_PremiumCard.asset:ee08991e3f25c8c4c8f47bddf1753946"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_817",
+    "dbfId": 48107,
+    "name": "유리 기사",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>천상의 보호막</b><br></br>내가 생명력을 회복시킬<br></br>때마다 <b>천상의 보호막</b>을<br></br>얻습니다.",
+    "attack": 4,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "우직해 보이지만 사실 유리 같은 멘탈을 지니고 있습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-440_M.psd:fbaf0a8cc79ae884fa3f8ba55c3791ab",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_817.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-440_M.psd:fbaf0a8cc79ae884fa3f8ba55c3791ab",
+    "goldenMaterial": "GIL_817_PremiumCard.mat:6e0766d8bad5f3c41a9bb9f25687fd6b",
+    "goldenAnimation": "GIL_817_PremiumCard.asset:ee08991e3f25c8c4c8f47bddf1753946"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "attack": 4,
+    "health": 3,
+    "races": [],
+    "race": "",
+    "name": "유리 기사",
+    "nativeRawText": "[x]<b>천상의 보호막</b>\n내가 생명력을 회복시킬\n때마다 <b>천상의 보호막</b>을\n얻습니다.",
+    "text": "<b>천상의 보호막</b><br></br>내가 생명력을 회복시킬<br></br>때마다 <b>천상의 보호막</b>을<br></br>얻습니다.",
+    "id": "GIL_817",
+    "dbfId": 48107,
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_817",
+    "dbfId": 48107,
+    "name": "유리 기사",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>천상의 보호막</b><br></br>내가 생명력을 회복시킬<br></br>때마다 <b>천상의 보호막</b>을<br></br>얻습니다.",
+    "attack": 4,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "우직해 보이지만 사실 유리 같은 멘탈을 지니고 있습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-440_M.psd:fbaf0a8cc79ae884fa3f8ba55c3791ab",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_817.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]<b>천상의 보호막</b>\n내가 생명력을 회복시킬\n때마다 <b>천상의 보호막</b>을\n얻습니다."
+  },
+  "nativeRawText": "[x]<b>천상의 보호막</b>\n내가 생명력을 회복시킬\n때마다 <b>천상의 보호막</b>을\n얻습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "PALADIN",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "races": [],
+        "race": "",
+        "name": "유리 기사",
+        "nativeRawText": "[x]<b>천상의 보호막</b>\n내가 생명력을 회복시킬\n때마다 <b>천상의 보호막</b>을\n얻습니다.",
+        "text": "<b>천상의 보호막</b><br></br>내가 생명력을 회복시킬<br></br>때마다 <b>천상의 보호막</b>을<br></br>얻습니다.",
+        "id": "GIL_817",
+        "dbfId": 48107
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "The Glass Knight",
+            "nativeRawText": "The Glass Knight"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "유리 기사",
+            "nativeRawText": "유리 기사"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Divine Shield</b>\nWhenever you restore Health,\ngain <b>Divine Shield</b>.",
+            "nativeRawText": "[x]<b>Divine Shield</b>\nWhenever you restore Health,\ngain <b>Divine Shield</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>천상의 보호막</b>\n내가 생명력을 회복시킬\n때마다 <b>천상의 보호막</b>을\n얻습니다.",
+            "nativeRawText": "[x]<b>천상의 보호막</b>\n내가 생명력을 회복시킬\n때마다 <b>천상의 보호막</b>을\n얻습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "The Glass Knight",
+            "nativeRawText": "The Glass Knight"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "유리 기사",
+            "nativeRawText": "유리 기사"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Divine Shield</b>\nWhenever you restore Health,\ngain <b>Divine Shield</b>.",
+            "nativeRawText": "[x]<b>Divine Shield</b>\nWhenever you restore Health,\ngain <b>Divine Shield</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>천상의 보호막</b>\n내가 생명력을 회복시킬\n때마다 <b>천상의 보호막</b>을\n얻습니다.",
+            "nativeRawText": "[x]<b>천상의 보호막</b>\n내가 생명력을 회복시킬\n때마다 <b>천상의 보호막</b>을\n얻습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-440_M.psd:fbaf0a8cc79ae884fa3f8ba55c3791ab",
+      "goldenMaterial": "GIL_817_PremiumCard.mat:6e0766d8bad5f3c41a9bb9f25687fd6b",
+      "goldenAnimation": "GIL_817_PremiumCard.asset:ee08991e3f25c8c4c8f47bddf1753946"
+    },
+    "researchObservationIds": []
+  }
+}

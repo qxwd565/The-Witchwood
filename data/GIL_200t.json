@@ -1,1 +1,379 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_200t","dbfId":46597,"name":"어스름 안식처 사냥꾼","type":"MINION","cardClass":"HUNTER","rarity":"RARE","collectible":false,"cost":3,"text":"<b>은신</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.","attack":5,"health":2,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-218_M.psd:91686d9cf5e06934999577cb90dc9848","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":191,"name":"은신","value":1},{"id":199,"name":"직업","value":3},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":0}],"races":[],"race":"","classes":[],"art":"art/GIL_200t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-218_M.psd:91686d9cf5e06934999577cb90dc9848","goldenMaterial":"GIL_200t_PremiumCard.mat:3d6a504c3c7df9c49ab63392b00977cb","goldenAnimation":"GIL_200t_PremiumCard.asset:38f27279ad562004b94432fcb01a3812"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_200t",
+    "dbfId": 46597,
+    "name": "어스름 안식처 사냥꾼",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "RARE",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>은신</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "attack": 5,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-218_M.psd:91686d9cf5e06934999577cb90dc9848",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_200t.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-218_M.psd:91686d9cf5e06934999577cb90dc9848",
+    "goldenMaterial": "GIL_200t_PremiumCard.mat:3d6a504c3c7df9c49ab63392b00977cb",
+    "goldenAnimation": "GIL_200t_PremiumCard.asset:38f27279ad562004b94432fcb01a3812"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "RARE",
+    "cost": 3,
+    "attack": 5,
+    "health": 2,
+    "races": [],
+    "race": "",
+    "name": "어스름 안식처 사냥꾼",
+    "nativeRawText": "<b>은신</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "text": "<b>은신</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "id": "GIL_200t",
+    "dbfId": 46597,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 191,
+        "name": "게임 태그 191",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_200t",
+    "dbfId": 46597,
+    "name": "어스름 안식처 사냥꾼",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "RARE",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>은신</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "attack": 5,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-218_M.psd:91686d9cf5e06934999577cb90dc9848",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_200t.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>은신</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+  },
+  "nativeRawText": "<b>은신</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "HUNTER",
+        "rarity": "RARE",
+        "cost": 3,
+        "attack": 5,
+        "health": 2,
+        "races": [],
+        "race": "",
+        "name": "어스름 안식처 사냥꾼",
+        "nativeRawText": "<b>은신</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+        "text": "<b>은신</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+        "id": "GIL_200t",
+        "dbfId": 46597
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 191,
+        "name": "게임 태그 191",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Duskhaven Hunter",
+            "nativeRawText": "Duskhaven Hunter"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "어스름 안식처 사냥꾼",
+            "nativeRawText": "어스름 안식처 사냥꾼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Stealth</b>\nEach turn this is in your hand,\nswap its Attack and Health.",
+            "nativeRawText": "[x]<b>Stealth</b>\nEach turn this is in your hand,\nswap its Attack and Health."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>은신</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+            "nativeRawText": "<b>은신</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Duskhaven Hunter",
+            "nativeRawText": "Duskhaven Hunter"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "어스름 안식처 사냥꾼",
+            "nativeRawText": "어스름 안식처 사냥꾼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Stealth</b>\nEach turn this is in your hand,\nswap its Attack and Health.",
+            "nativeRawText": "[x]<b>Stealth</b>\nEach turn this is in your hand,\nswap its Attack and Health."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>은신</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+            "nativeRawText": "<b>은신</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-218_M.psd:91686d9cf5e06934999577cb90dc9848",
+      "goldenMaterial": "GIL_200t_PremiumCard.mat:3d6a504c3c7df9c49ab63392b00977cb",
+      "goldenAnimation": "GIL_200t_PremiumCard.asset:38f27279ad562004b94432fcb01a3812"
+    },
+    "researchObservationIds": []
+  }
+}

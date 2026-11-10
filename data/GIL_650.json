@@ -1,1 +1,475 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_650","dbfId":47488,"name":"사냥개조련사 쇼","type":"MINION","cardClass":"HUNTER","rarity":"LEGENDARY","collectible":true,"cost":4,"text":"내 다른 하수인들이 <b>속공</b>을 얻습니다.","attack":3,"health":6,"durability":0,"armor":0,"flavor":"착한 애들이라고, 테스.","spellSchool":"","portrait":"HS13-358_M.psd:cdaea594aa2670444a539b7c6b4ed381","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":6},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":3},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":362,"name":"지속 효과","value":1},{"id":791,"name":"속공","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_650.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-358_M.psd:cdaea594aa2670444a539b7c6b4ed381","goldenMaterial":"GIL_650_PremiumCard.mat:30a617a0cedf9904fb28dbddc9a65f26","goldenAnimation":"GIL_650_PremiumCard.asset:b60d1128f4aced340a7d06c3ed58a3e4"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_650",
+    "dbfId": 47488,
+    "name": "사냥개조련사 쇼",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 다른 하수인들이 <b>속공</b>을 얻습니다.",
+    "attack": 3,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "착한 애들이라고, 테스.",
+    "spellSchool": "",
+    "portrait": "HS13-358_M.psd:cdaea594aa2670444a539b7c6b4ed381",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_650.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-358_M.psd:cdaea594aa2670444a539b7c6b4ed381",
+    "goldenMaterial": "GIL_650_PremiumCard.mat:30a617a0cedf9904fb28dbddc9a65f26",
+    "goldenAnimation": "GIL_650_PremiumCard.asset:b60d1128f4aced340a7d06c3ed58a3e4"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "attack": 3,
+    "health": 6,
+    "races": [],
+    "race": "",
+    "name": "사냥개조련사 쇼",
+    "nativeRawText": "내 다른 하수인들이 <b>속공</b>을 얻습니다.",
+    "text": "내 다른 하수인들이 <b>속공</b>을 얻습니다.",
+    "id": "GIL_650",
+    "dbfId": 47488,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 362,
+        "name": "게임 태그 362",
+        "value": 1
+      }
+    ],
+    "referencedTags": [
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ]
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_650",
+    "dbfId": 47488,
+    "name": "사냥개조련사 쇼",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 다른 하수인들이 <b>속공</b>을 얻습니다.",
+    "attack": 3,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "착한 애들이라고, 테스.",
+    "spellSchool": "",
+    "portrait": "HS13-358_M.psd:cdaea594aa2670444a539b7c6b4ed381",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_650.png",
+    "referencedTags": [
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "내 다른 하수인들이 <b>속공</b>을 얻습니다."
+  },
+  "nativeRawText": "내 다른 하수인들이 <b>속공</b>을 얻습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "HUNTER",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 4,
+        "attack": 3,
+        "health": 6,
+        "races": [],
+        "race": "",
+        "name": "사냥개조련사 쇼",
+        "nativeRawText": "내 다른 하수인들이 <b>속공</b>을 얻습니다.",
+        "text": "내 다른 하수인들이 <b>속공</b>을 얻습니다.",
+        "id": "GIL_650",
+        "dbfId": 47488
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-012",
+        "topic": "referenced-tag-ownership",
+        "date": null,
+        "cardIds": [
+          "GIL_116",
+          "GIL_188",
+          "GIL_510",
+          "GIL_526",
+          "GIL_557",
+          "GIL_565",
+          "GIL_578",
+          "GIL_580",
+          "GIL_601",
+          "GIL_607",
+          "GIL_618",
+          "GIL_634",
+          "GIL_635",
+          "GIL_648",
+          "GIL_650",
+          "GIL_683",
+          "GIL_685",
+          "GIL_801",
+          "GIL_836",
+          "GIL_905"
+        ],
+        "status": "raw-tag-role-not-card-keyword",
+        "detail": "20개 카드의 25개 참조 태그가 nativeTags에 소유 태그와 섞여 있음. 원시 역할 정보를 별도로 보존하며 참조 대상을 카드 자체 키워드로 해석하지 않음.",
+        "sourceCommits": [
+          "6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226",
+          "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 362,
+        "name": "게임 태그 362",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Houndmaster Shaw",
+            "nativeRawText": "Houndmaster Shaw"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "사냥개조련사 쇼",
+            "nativeRawText": "사냥개조련사 쇼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Your other minions have\n<b>Rush</b>.",
+            "nativeRawText": "Your other minions have\n<b>Rush</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내 다른 하수인들이 <b>속공</b>을 얻습니다.",
+            "nativeRawText": "내 다른 하수인들이 <b>속공</b>을 얻습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Houndmaster Shaw",
+            "nativeRawText": "Houndmaster Shaw"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "사냥개조련사 쇼",
+            "nativeRawText": "사냥개조련사 쇼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Your other minions have\n<b>Rush</b>.",
+            "nativeRawText": "Your other minions have\n<b>Rush</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내 다른 하수인들이 <b>속공</b>을 얻습니다.",
+            "nativeRawText": "내 다른 하수인들이 <b>속공</b>을 얻습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-358_M.psd:cdaea594aa2670444a539b7c6b4ed381",
+      "goldenMaterial": "GIL_650_PremiumCard.mat:30a617a0cedf9904fb28dbddc9a65f26",
+      "goldenAnimation": "GIL_650_PremiumCard.asset:b60d1128f4aced340a7d06c3ed58a3e4"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-012"
+    ]
+  }
+}

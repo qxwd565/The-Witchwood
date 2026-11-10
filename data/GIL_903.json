@@ -1,1 +1,362 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_903","dbfId":48832,"name":"숨겨진 지식","type":"SPELL","cardClass":"PALADIN","rarity":"EPIC","collectible":true,"cost":1,"text":"<b>비밀:</b> 상대편이 한 턴에<br></br>카드를 3장 낸 후에,<br></br>카드를 2장 뽑습니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"예상치 못한 곳에서도 지식을 발견할 수 있습니다. 소파 뒤라든가.","spellSchool":"","portrait":"HS13-210_S.psd:b3039018d85d7d04f877490f9fd836f9","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":219,"name":"비밀","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_903.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-210_S.psd:b3039018d85d7d04f877490f9fd836f9","goldenMaterial":"GIL_903_PremiumCard.mat:04acb0936354c1744bc2852d46876c52","goldenAnimation":"GIL_903_PremiumCard.asset:b383fed5de35f654195e104dee56714c"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_903",
+    "dbfId": 48832,
+    "name": "숨겨진 지식",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>비밀:</b> 상대편이 한 턴에<br></br>카드를 3장 낸 후에,<br></br>카드를 2장 뽑습니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "예상치 못한 곳에서도 지식을 발견할 수 있습니다. 소파 뒤라든가.",
+    "spellSchool": "",
+    "portrait": "HS13-210_S.psd:b3039018d85d7d04f877490f9fd836f9",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_903.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-210_S.psd:b3039018d85d7d04f877490f9fd836f9",
+    "goldenMaterial": "GIL_903_PremiumCard.mat:04acb0936354c1744bc2852d46876c52",
+    "goldenAnimation": "GIL_903_PremiumCard.asset:b383fed5de35f654195e104dee56714c"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 1,
+    "name": "숨겨진 지식",
+    "nativeRawText": "[x]<b>비밀:</b> 상대편이 한 턴에\n카드를 3장 낸 후에,\n카드를 2장 뽑습니다.",
+    "text": "<b>비밀:</b> 상대편이 한 턴에<br></br>카드를 3장 낸 후에,<br></br>카드를 2장 뽑습니다.",
+    "id": "GIL_903",
+    "dbfId": 48832,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_903",
+    "dbfId": 48832,
+    "name": "숨겨진 지식",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>비밀:</b> 상대편이 한 턴에<br></br>카드를 3장 낸 후에,<br></br>카드를 2장 뽑습니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "예상치 못한 곳에서도 지식을 발견할 수 있습니다. 소파 뒤라든가.",
+    "spellSchool": "",
+    "portrait": "HS13-210_S.psd:b3039018d85d7d04f877490f9fd836f9",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_903.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]<b>비밀:</b> 상대편이 한 턴에\n카드를 3장 낸 후에,\n카드를 2장 뽑습니다."
+  },
+  "nativeRawText": "[x]<b>비밀:</b> 상대편이 한 턴에\n카드를 3장 낸 후에,\n카드를 2장 뽑습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PALADIN",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 1,
+        "name": "숨겨진 지식",
+        "nativeRawText": "[x]<b>비밀:</b> 상대편이 한 턴에\n카드를 3장 낸 후에,\n카드를 2장 뽑습니다.",
+        "text": "<b>비밀:</b> 상대편이 한 턴에<br></br>카드를 3장 낸 후에,<br></br>카드를 2장 뽑습니다.",
+        "id": "GIL_903",
+        "dbfId": 48832
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Hidden Wisdom",
+            "nativeRawText": "Hidden Wisdom"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "숨겨진 지식",
+            "nativeRawText": "숨겨진 지식"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Secret:</b> After your\nopponent plays three\ncards in a turn, draw\n2 cards.",
+            "nativeRawText": "[x]<b>Secret:</b> After your\nopponent plays three\ncards in a turn, draw\n2 cards."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>비밀:</b> 상대편이 한 턴에\n카드를 3장 낸 후에,\n카드를 2장 뽑습니다.",
+            "nativeRawText": "[x]<b>비밀:</b> 상대편이 한 턴에\n카드를 3장 낸 후에,\n카드를 2장 뽑습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Hidden Wisdom",
+            "nativeRawText": "Hidden Wisdom"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "숨겨진 지식",
+            "nativeRawText": "숨겨진 지식"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Secret:</b> After your\nopponent plays three\ncards in a turn, draw\n2 cards.",
+            "nativeRawText": "[x]<b>Secret:</b> After your\nopponent plays three\ncards in a turn, draw\n2 cards."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>비밀:</b> 상대편이 한 턴에\n카드를 3장 낸 후에,\n카드를 2장 뽑습니다.",
+            "nativeRawText": "[x]<b>비밀:</b> 상대편이 한 턴에\n카드를 3장 낸 후에,\n카드를 2장 뽑습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-210_S.psd:b3039018d85d7d04f877490f9fd836f9",
+      "goldenMaterial": "GIL_903_PremiumCard.mat:04acb0936354c1744bc2852d46876c52",
+      "goldenAnimation": "GIL_903_PremiumCard.asset:b383fed5de35f654195e104dee56714c"
+    },
+    "researchObservationIds": []
+  }
+}

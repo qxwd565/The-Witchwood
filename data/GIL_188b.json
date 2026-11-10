@@ -1,1 +1,403 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_188b","dbfId":47049,"name":"광포한 늑대 변신","type":"MINION","cardClass":"DRUID","rarity":"COMMON","collectible":false,"cost":3,"text":"<b>도발</b>","attack":2,"health":4,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-222_S.psd:9c7a42e10b7de13449624d363b29de85","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":3},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":0}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GIL_188b.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-222_S.psd:9c7a42e10b7de13449624d363b29de85","goldenMaterial":"GIL_188b_PremiumCard.mat:f946a1f151cac6f49ad613b221e40f3e","goldenAnimation":"GIL_188b_PremiumCard.asset:10d60fd4de8889b43b6cfd1fe4ead389"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_188b",
+    "dbfId": 47049,
+    "name": "광포한 늑대 변신",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>도발</b>",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-222_S.psd:9c7a42e10b7de13449624d363b29de85",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_188b.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-222_S.psd:9c7a42e10b7de13449624d363b29de85",
+    "goldenMaterial": "GIL_188b_PremiumCard.mat:f946a1f151cac6f49ad613b221e40f3e",
+    "goldenAnimation": "GIL_188b_PremiumCard.asset:10d60fd4de8889b43b6cfd1fe4ead389"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "name": "광포한 늑대 변신",
+    "nativeRawText": "생명력 +2, <b>도발</b>",
+    "text": "생명력 +2, <b>도발</b>",
+    "id": "GIL_188b",
+    "dbfId": 47049,
+    "nativeTags": [
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_188b",
+    "dbfId": 47049,
+    "name": "광포한 늑대 변신",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>도발</b>",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-222_S.psd:9c7a42e10b7de13449624d363b29de85",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_188b.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>도발</b>"
+  },
+  "nativeRawText": "<b>도발</b>",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "DRUID",
+        "name": "광포한 늑대 변신",
+        "nativeRawText": "생명력 +2, <b>도발</b>",
+        "text": "생명력 +2, <b>도발</b>",
+        "id": "GIL_188b",
+        "dbfId": 47049
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "collectible",
+        "cost",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "rarity",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "type": {
+        "date": null,
+        "before": "SPELL",
+        "after": "MINION",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "text": {
+        "date": null,
+        "before": "생명력 +2, <b>도발</b>",
+        "after": "<b>도발</b>",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "생명력 +2, <b>도발</b>",
+        "after": "<b>도발</b>",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": [
+      {
+        "id": "WITCH-OBS-001",
+        "topic": "choice-preview-card-type",
+        "date": "2018-11-30",
+        "cardIds": [
+          "GIL_188a",
+          "GIL_188b"
+        ],
+        "status": "observation-not-gameplay-change",
+        "detail": "선택 UI가 결과 하수인을 미리보기로 표시하도록 변경. 선택지의 SPELL→MINION, 비용·공체·종족·문구는 UI 미리보기 변화이며 실제 변신 하수인 GIL_188t/t2/t3의 능력치 변경이 아님. 최초 스냅샷의 두 선택지는 현대 미리보기 데이터가 소급됨. 이전 cost/attack/health 부재는 0이 아님.",
+        "sources": [
+          "https://playhearthstone.com/ko-kr/blog/22788307",
+          "https://www.inven.co.kr/webzine/news/?news=211315&vtype=pc"
+        ]
+      },
+      {
+        "id": "WITCH-OBS-002",
+        "topic": "choice-preview-beast-tag",
+        "date": null,
+        "cardIds": [
+          "GIL_188b"
+        ],
+        "status": "undated-observation",
+        "detail": "선택 미리보기의 BEAST 태그 추가. 실제 변신 하수인의 야수 종족 신규 획득으로 세지 않음. 한국 대전 반영일 미확정.",
+        "sourceCommits": [
+          "94361f34f3bb9177be08b0b2d35d348ebdc99b55",
+          "9b95dea77dbb4d116e861df8b650d80b1b4385d1"
+        ]
+      },
+      {
+        "id": "WITCH-OBS-005",
+        "topic": "choice-preview-referenced-to-owned",
+        "date": "2026-07-22",
+        "cardIds": [
+          "GIL_188a",
+          "GIL_188b"
+        ],
+        "status": "observed-representation-change",
+        "detail": "미리보기 선택지의 ReferencedTag 속공/도발이 owned Tag로 이동. 실제 변신 하수인은 출시부터 해당 능력이 있으며 신규 키워드 획득이 아님. 208591에서 참조 태그가 먼저 붙은 과정도 원장에 보존.",
+        "sources": [
+          "https://hearthstone.blizzard.com/ko-kr/news/24290431",
+          "https://www.inven.co.kr/board/hs/3508/24233"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Dire Wolf Form",
+            "nativeRawText": "Dire Wolf Form"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "광포한 늑대 변신",
+            "nativeRawText": "광포한 늑대 변신"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "+2 Health and <b>Taunt</b>",
+            "nativeRawText": "+2 Health and <b>Taunt</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "생명력 +2, <b>도발</b>",
+            "nativeRawText": "생명력 +2, <b>도발</b>"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Dire Wolf Form",
+            "nativeRawText": "Dire Wolf Form"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "광포한 늑대 변신",
+            "nativeRawText": "광포한 늑대 변신"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Taunt</b>",
+            "nativeRawText": "<b>Taunt</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>도발</b>",
+            "nativeRawText": "<b>도발</b>"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-222_S.psd:9c7a42e10b7de13449624d363b29de85",
+      "goldenMaterial": "GIL_188b_PremiumCard.mat:f946a1f151cac6f49ad613b221e40f3e",
+      "goldenAnimation": "GIL_188b_PremiumCard.asset:10d60fd4de8889b43b6cfd1fe4ead389"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-001",
+      "WITCH-OBS-002",
+      "WITCH-OBS-005"
+    ]
+  }
+}

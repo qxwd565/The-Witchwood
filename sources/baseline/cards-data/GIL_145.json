@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_145",
+    "dbfId": 46713,
+    "name": "종을 울려라!",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>잔상</b>, 하수인에게 +1/+2를 부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이상하게도 5번보다 많이 울린 적은 없습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-211_S.psd:40ca4a38fd98aa841ad726ef8b342313",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_145.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-211_S.psd:40ca4a38fd98aa841ad726ef8b342313",
+    "goldenMaterial": "GIL_145_PremiumCard.mat:1ec51c5dcb886b7469508e130bd3135c",
+    "goldenAnimation": "GIL_145_PremiumCard.asset:3540511f4bb8b534ba7f4294c5e66b6a"
+  }
+}

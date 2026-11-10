@@ -1,1 +1,333 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_190t","dbfId":48663,"name":"밤비늘 새끼용","type":"MINION","cardClass":"PRIEST","collectible":false,"cost":3,"text":"","attack":3,"health":3,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-206_M.psd:a323c755b03bfdc44858d8c6c28949f3","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":6},{"id":200,"name":"종족","value":24},{"id":202,"name":"카드 유형","value":4},{"id":2355,"name":"새끼용","value":1}],"races":["DRAGON"],"race":"용족","classes":[],"art":"art/GIL_190t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-206_M.psd:a323c755b03bfdc44858d8c6c28949f3","goldenMaterial":"GIL_190t_PremiumCard.mat:068b97caec6e8944e8aba269c1ec6af8","goldenAnimation":"GIL_190t_PremiumCard.asset:c3864514ef8b68d4eb891ff1f35a759e"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_190t",
+    "dbfId": 48663,
+    "name": "밤비늘 새끼용",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "collectible": false,
+    "cost": 3,
+    "text": "",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-206_M.psd:a323c755b03bfdc44858d8c6c28949f3",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 2355,
+        "name": "새끼용",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/GIL_190t.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-206_M.psd:a323c755b03bfdc44858d8c6c28949f3",
+    "goldenMaterial": "GIL_190t_PremiumCard.mat:068b97caec6e8944e8aba269c1ec6af8",
+    "goldenAnimation": "GIL_190t_PremiumCard.asset:c3864514ef8b68d4eb891ff1f35a759e"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "name": "밤비늘 새끼용",
+    "id": "GIL_190t",
+    "dbfId": 48663,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_190t",
+    "dbfId": 48663,
+    "name": "밤비늘 새끼용",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "collectible": false,
+    "cost": 3,
+    "text": "",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-206_M.psd:a323c755b03bfdc44858d8c6c28949f3",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 2355,
+        "name": "새끼용",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/GIL_190t.png",
+    "referencedTags": []
+  },
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "PRIEST",
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "races": [
+          "DRAGON"
+        ],
+        "race": "용족",
+        "name": "밤비늘 새끼용",
+        "id": "GIL_190t",
+        "dbfId": 48663
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-013",
+        "topic": "internal-classification-tags",
+        "date": null,
+        "cardIds": [
+          "GIL_191t",
+          "GIL_608",
+          "GIL_190t"
+        ],
+        "status": "undated-internal-tag-observation",
+        "detail": "임프(1965) 및 새끼용(2355) 내부 분류 태그 도입을 관측. 악마/용족 주 종족의 신규 추가와 다름. 모든 후속 서버 상호작용의 시작일은 미검증이므로 완성된 대전 기능 변경으로 확정하지 않음."
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Nightscale Whelp",
+            "nativeRawText": "Nightscale Whelp"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "밤비늘 새끼용",
+            "nativeRawText": "밤비늘 새끼용"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Nightscale Whelp",
+            "nativeRawText": "Nightscale Whelp"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "밤비늘 새끼용",
+            "nativeRawText": "밤비늘 새끼용"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-206_M.psd:a323c755b03bfdc44858d8c6c28949f3",
+      "goldenMaterial": "GIL_190t_PremiumCard.mat:068b97caec6e8944e8aba269c1ec6af8",
+      "goldenAnimation": "GIL_190t_PremiumCard.asset:c3864514ef8b68d4eb891ff1f35a759e"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-013"
+    ]
+  }
+}

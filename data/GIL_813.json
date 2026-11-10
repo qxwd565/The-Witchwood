@@ -1,1 +1,447 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_813","dbfId":48002,"name":"생생한 악몽","type":"SPELL","cardClass":"PRIEST","rarity":"EPIC","collectible":true,"cost":3,"text":"아군 하수인을 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"\"신비한 가루로 황금 밀하우스 마나스톰을 제작하는 꿈을 꿨어! 얼마나 생생한 악몽이었는지!\"","spellSchool":"SHADOW","portrait":"HS13-010_S.psd:f6b9cc3e04dfec843a8c0d2a2212b2c6","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":6},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":6}],"races":[],"race":"","classes":[],"art":"art/GIL_813.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-010_S.psd:f6b9cc3e04dfec843a8c0d2a2212b2c6","goldenMaterial":"GIL_813_PremiumCard_NEW.mat:9441a9253191dab4184a3e965604348e","goldenAnimation":"GIL_813_PremiumCard_NEW.asset:e1858a47fe3ca5440a0329636dd8c845"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_813",
+    "dbfId": 48002,
+    "name": "생생한 악몽",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "아군 하수인을 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"신비한 가루로 황금 밀하우스 마나스톰을 제작하는 꿈을 꿨어! 얼마나 생생한 악몽이었는지!\"",
+    "spellSchool": "SHADOW",
+    "portrait": "HS13-010_S.psd:f6b9cc3e04dfec843a8c0d2a2212b2c6",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_813.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-010_S.psd:f6b9cc3e04dfec843a8c0d2a2212b2c6",
+    "goldenMaterial": "GIL_813_PremiumCard_NEW.mat:9441a9253191dab4184a3e965604348e",
+    "goldenAnimation": "GIL_813_PremiumCard_NEW.asset:e1858a47fe3ca5440a0329636dd8c845"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "name": "생생한 악몽",
+    "nativeRawText": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+    "text": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+    "id": "GIL_813",
+    "dbfId": 48002,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PRIEST",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 3,
+        "name": "생생한 악몽",
+        "nativeRawText": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+        "text": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+        "id": "GIL_813",
+        "dbfId": 48002,
+        "spellSchool": "SHADOW"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_813",
+    "dbfId": 48002,
+    "name": "생생한 악몽",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "아군 하수인을 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"신비한 가루로 황금 밀하우스 마나스톰을 제작하는 꿈을 꿨어! 얼마나 생생한 악몽이었는지!\"",
+    "spellSchool": "SHADOW",
+    "portrait": "HS13-010_S.psd:f6b9cc3e04dfec843a8c0d2a2212b2c6",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_813.png",
+    "referencedTags": [],
+    "nativeRawText": "아군 하수인을 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다."
+  },
+  "nativeRawText": "아군 하수인을 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PRIEST",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 3,
+        "name": "생생한 악몽",
+        "nativeRawText": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+        "text": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+        "id": "GIL_813",
+        "dbfId": 48002,
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 6
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2021-03-26",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PRIEST",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 3,
+        "name": "생생한 악몽",
+        "nativeRawText": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+        "text": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+        "id": "GIL_813",
+        "dbfId": 48002,
+        "spellSchool": "SHADOW"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+        "after": "아군 하수인을 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+        "after": "아군 하수인을 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Vivid Nightmare",
+            "nativeRawText": "Vivid Nightmare"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "생생한 악몽",
+            "nativeRawText": "생생한 악몽"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]Choose a friendly minion.\nSummon a copy of it with\n1 Health remaining.",
+            "nativeRawText": "[x]Choose a friendly minion.\nSummon a copy of it with\n1 Health remaining."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+            "nativeRawText": "아군 하수인 하나를 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Vivid Nightmare",
+            "nativeRawText": "Vivid Nightmare"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "생생한 악몽",
+            "nativeRawText": "생생한 악몽"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]Choose a friendly minion.\nSummon a copy of it with\n1 Health remaining.",
+            "nativeRawText": "[x]Choose a friendly minion.\nSummon a copy of it with\n1 Health remaining."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "아군 하수인을 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다.",
+            "nativeRawText": "아군 하수인을 선택합니다. 그 하수인을 생명력이 1인 상태로 복사하여 소환합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-010_S.psd:f6b9cc3e04dfec843a8c0d2a2212b2c6",
+      "goldenMaterial": "GIL_813_PremiumCard_NEW.mat:9441a9253191dab4184a3e965604348e",
+      "goldenAnimation": "GIL_813_PremiumCard_NEW.asset:e1858a47fe3ca5440a0329636dd8c845"
+    },
+    "researchObservationIds": []
+  }
+}

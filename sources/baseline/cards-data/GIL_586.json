@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_586",
+    "dbfId": 47152,
+    "name": "대지의 힘",
+    "type": "SPELL",
+    "cardClass": "SHAMAN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "하수인에게 +2/+2를 부여합니다. 대상이 정령이면, 무작위 정령을 내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "왜 대지만 차별하는진 모르겠네요.",
+    "spellSchool": "NATURE",
+    "portrait": "HS13-233_S.psd:cfafb9a9ea5f6b44ca842ec6dfba8184",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 4
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_586.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-233_S.psd:cfafb9a9ea5f6b44ca842ec6dfba8184",
+    "goldenMaterial": "GIL_586_PremiumCard.mat:d26898dfdcbc0464981fdb9db13f318b",
+    "goldenAnimation": "GIL_586_PremiumCard.asset:abb313e4d316153408a02da68cb50ba8"
+  }
+}

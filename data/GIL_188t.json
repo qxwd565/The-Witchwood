@@ -1,1 +1,425 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_188t","dbfId":48305,"name":"낫의 드루이드","type":"MINION","cardClass":"DRUID","rarity":"COMMON","collectible":false,"cost":3,"text":"<b>속공</b>","attack":4,"health":2,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-223_M.psd:e3023696dc485674594b0116e2bb033e","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":0},{"id":791,"name":"속공","value":1},{"id":1584,"name":"게임 태그 1584","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GIL_188t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-223_M.psd:e3023696dc485674594b0116e2bb033e","goldenMaterial":"GIL_188t_PremiumCard.mat:18d361b7f88787844ab86de9272b3f36","goldenAnimation":"GIL_188t_PremiumCard.asset:4ff7596c6ab1bbe408346dd72c0e363e"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_188t",
+    "dbfId": 48305,
+    "name": "낫의 드루이드",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>속공</b>",
+    "attack": 4,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-223_M.psd:e3023696dc485674594b0116e2bb033e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_188t.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-223_M.psd:e3023696dc485674594b0116e2bb033e",
+    "goldenMaterial": "GIL_188t_PremiumCard.mat:18d361b7f88787844ab86de9272b3f36",
+    "goldenAnimation": "GIL_188t_PremiumCard.asset:4ff7596c6ab1bbe408346dd72c0e363e"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "cost": 3,
+    "attack": 4,
+    "health": 2,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "name": "낫의 드루이드",
+    "nativeRawText": "<b>속공</b>",
+    "text": "<b>속공</b>",
+    "id": "GIL_188t",
+    "dbfId": 48305,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_188t",
+    "dbfId": 48305,
+    "name": "낫의 드루이드",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>속공</b>",
+    "attack": 4,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-223_M.psd:e3023696dc485674594b0116e2bb033e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_188t.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>속공</b>"
+  },
+  "nativeRawText": "<b>속공</b>",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "rarity": "COMMON",
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "name": "낫의 드루이드",
+        "nativeRawText": "<b>속공</b>",
+        "text": "<b>속공</b>",
+        "id": "GIL_188t",
+        "dbfId": 48305
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Druid of the Scythe",
+            "nativeRawText": "Druid of the Scythe"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "낫의 드루이드",
+            "nativeRawText": "낫의 드루이드"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Rush</b>",
+            "nativeRawText": "<b>Rush</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>속공</b>",
+            "nativeRawText": "<b>속공</b>"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Druid of the Scythe",
+            "nativeRawText": "Druid of the Scythe"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "낫의 드루이드",
+            "nativeRawText": "낫의 드루이드"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Rush</b>",
+            "nativeRawText": "<b>Rush</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>속공</b>",
+            "nativeRawText": "<b>속공</b>"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-223_M.psd:e3023696dc485674594b0116e2bb033e",
+      "goldenMaterial": "GIL_188t_PremiumCard.mat:18d361b7f88787844ab86de9272b3f36",
+      "goldenAnimation": "GIL_188t_PremiumCard.asset:4ff7596c6ab1bbe408346dd72c0e363e"
+    },
+    "researchObservationIds": []
+  }
+}

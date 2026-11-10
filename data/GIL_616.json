@@ -1,1 +1,521 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_616","dbfId":47292,"name":"갈라지는 고름뿌리","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":8,"text":"<b>죽음의 메아리:</b><br></br>2/2 갈라지는 묘목을<br></br>둘 소환합니다.","attack":4,"health":4,"durability":0,"armor":0,"flavor":"고름뿌리 깨뜨려 묘목, 묘목 깨뜨려 나뭇조각.","spellSchool":"","portrait":"HS13-254_M.psd:fa71cdaa4b44f2c49a775af410663aeb","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/GIL_616.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-254_M.psd:fa71cdaa4b44f2c49a775af410663aeb","goldenMaterial":"GIL_616_PremiumCard.mat:9880b6b10a0621843bf3a51c31f94b97","goldenAnimation":"GIL_616_PremiumCard.asset:8e5218271f476ea4ab04617b1f524a51"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_616",
+    "dbfId": 47292,
+    "name": "갈라지는 고름뿌리",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>죽음의 메아리:</b><br></br>2/2 갈라지는 묘목을<br></br>둘 소환합니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "고름뿌리 깨뜨려 묘목, 묘목 깨뜨려 나뭇조각.",
+    "spellSchool": "",
+    "portrait": "HS13-254_M.psd:fa71cdaa4b44f2c49a775af410663aeb",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_616.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-254_M.psd:fa71cdaa4b44f2c49a775af410663aeb",
+    "goldenMaterial": "GIL_616_PremiumCard.mat:9880b6b10a0621843bf3a51c31f94b97",
+    "goldenAnimation": "GIL_616_PremiumCard.asset:8e5218271f476ea4ab04617b1f524a51"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 8,
+    "attack": 4,
+    "health": 4,
+    "races": [],
+    "race": "",
+    "name": "갈라지는 고름뿌리",
+    "nativeRawText": "[x]<b>죽음의 메아리:</b>\n2/2 갈라지는 묘목을\n둘 소환합니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>2/2 갈라지는 묘목을<br></br>둘 소환합니다.",
+    "id": "GIL_616",
+    "dbfId": 47292,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 8,
+        "attack": 4,
+        "health": 4,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "갈라지는 고름뿌리",
+        "nativeRawText": "[x]<b>죽음의 메아리:</b>\n2/2 갈라지는 묘목을\n둘 소환합니다.",
+        "text": "<b>죽음의 메아리:</b><br></br>2/2 갈라지는 묘목을<br></br>둘 소환합니다.",
+        "id": "GIL_616",
+        "dbfId": 47292
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_616",
+    "dbfId": 47292,
+    "name": "갈라지는 고름뿌리",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>죽음의 메아리:</b><br></br>2/2 갈라지는 묘목을<br></br>둘 소환합니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "고름뿌리 깨뜨려 묘목, 묘목 깨뜨려 나뭇조각.",
+    "spellSchool": "",
+    "portrait": "HS13-254_M.psd:fa71cdaa4b44f2c49a775af410663aeb",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_616.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]<b>죽음의 메아리:</b>\n2/2 갈라지는 묘목을\n둘 소환합니다."
+  },
+  "nativeRawText": "[x]<b>죽음의 메아리:</b>\n2/2 갈라지는 묘목을\n둘 소환합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 8,
+        "attack": 4,
+        "health": 4,
+        "races": [],
+        "race": "",
+        "name": "갈라지는 고름뿌리",
+        "nativeRawText": "[x]<b>죽음의 메아리:</b>\n2/2 갈라지는 묘목을\n둘 소환합니다.",
+        "text": "<b>죽음의 메아리:</b><br></br>2/2 갈라지는 묘목을<br></br>둘 소환합니다.",
+        "id": "GIL_616",
+        "dbfId": 47292,
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 4
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 4
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 8
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 217,
+            "name": "죽음의 메아리",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2022-11-30",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 8,
+        "attack": 4,
+        "health": 4,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "갈라지는 고름뿌리",
+        "nativeRawText": "[x]<b>죽음의 메아리:</b>\n2/2 갈라지는 묘목을\n둘 소환합니다.",
+        "text": "<b>죽음의 메아리:</b><br></br>2/2 갈라지는 묘목을<br></br>둘 소환합니다.",
+        "id": "GIL_616",
+        "dbfId": 47292
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Splitting Festeroot",
+            "nativeRawText": "Splitting Festeroot"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "갈라지는 고름뿌리",
+            "nativeRawText": "갈라지는 고름뿌리"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Deathrattle:</b> Summon two 2/2 Splitting Saplings.",
+            "nativeRawText": "<b>Deathrattle:</b> Summon two 2/2 Splitting Saplings."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>죽음의 메아리:</b>\n2/2 갈라지는 묘목을\n둘 소환합니다.",
+            "nativeRawText": "[x]<b>죽음의 메아리:</b>\n2/2 갈라지는 묘목을\n둘 소환합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Splitting Festeroot",
+            "nativeRawText": "Splitting Festeroot"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "갈라지는 고름뿌리",
+            "nativeRawText": "갈라지는 고름뿌리"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Deathrattle:</b> Summon two 2/2 Splitting Saplings.",
+            "nativeRawText": "<b>Deathrattle:</b> Summon two 2/2 Splitting Saplings."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>죽음의 메아리:</b>\n2/2 갈라지는 묘목을\n둘 소환합니다.",
+            "nativeRawText": "[x]<b>죽음의 메아리:</b>\n2/2 갈라지는 묘목을\n둘 소환합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-254_M.psd:fa71cdaa4b44f2c49a775af410663aeb",
+      "goldenMaterial": "GIL_616_PremiumCard.mat:9880b6b10a0621843bf3a51c31f94b97",
+      "goldenAnimation": "GIL_616_PremiumCard.asset:8e5218271f476ea4ab04617b1f524a51"
+    },
+    "researchObservationIds": []
+  }
+}

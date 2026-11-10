@@ -1,1 +1,440 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_553t","dbfId":49149,"name":"위습","type":"MINION","cardClass":"DRUID","collectible":false,"cost":0,"text":"","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-302_M.psd:23b1cfe61fac3bd4a9a2fd090ac8098a","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":321,"name":"수집 가능","value":0},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0},{"id":3881,"name":"게임 태그 3881","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/GIL_553t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-302_M.psd:23b1cfe61fac3bd4a9a2fd090ac8098a","goldenMaterial":"GIL_553t_PremiumCard.mat:a941d92f693fa3a458910b253a3a4aa0","goldenAnimation":"GIL_553t_PremiumCard.asset:b4dd3104236b94547a0da6b0d8329f3e"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_553t",
+    "dbfId": 49149,
+    "name": "위습",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "collectible": false,
+    "cost": 0,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-302_M.psd:23b1cfe61fac3bd4a9a2fd090ac8098a",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 3881,
+        "name": "게임 태그 3881",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_553t.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-302_M.psd:23b1cfe61fac3bd4a9a2fd090ac8098a",
+    "goldenMaterial": "GIL_553t_PremiumCard.mat:a941d92f693fa3a458910b253a3a4aa0",
+    "goldenAnimation": "GIL_553t_PremiumCard.asset:b4dd3104236b94547a0da6b0d8329f3e"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "attack": 1,
+    "health": 1,
+    "races": [],
+    "race": "",
+    "name": "위습",
+    "id": "GIL_553t",
+    "dbfId": 49149,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "attack": 1,
+        "health": 1,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "위습",
+        "id": "GIL_553t",
+        "dbfId": 49149
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "cost",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_553t",
+    "dbfId": 49149,
+    "name": "위습",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "collectible": false,
+    "cost": 0,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-302_M.psd:23b1cfe61fac3bd4a9a2fd090ac8098a",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 3881,
+        "name": "게임 태그 3881",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_553t.png",
+    "referencedTags": []
+  },
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "attack": 1,
+        "health": 1,
+        "races": [],
+        "race": "",
+        "name": "위습",
+        "id": "GIL_553t",
+        "dbfId": 49149,
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 1
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 1
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 2
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 0
+          },
+          {
+            "id": 330,
+            "name": "효과 생성 시각 효과",
+            "value": 0
+          },
+          {
+            "id": 331,
+            "name": "효과 지속 시각 효과",
+            "value": 0
+          },
+          {
+            "id": 3881,
+            "name": "게임 태그 3881",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2022-11-30",
+      "removedFields": [
+        "armor",
+        "collectible",
+        "cost",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    },
+    {
+      "from": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "attack": 1,
+        "health": 1,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "위습",
+        "id": "GIL_553t",
+        "dbfId": 49149
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "cost",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-011",
+        "topic": "collection-and-internal-tags",
+        "date": null,
+        "cardIds": [
+          "GIL_191",
+          "GIL_553",
+          "GIL_663",
+          "GIL_553t"
+        ],
+        "status": "undated-internal-tag-observation",
+        "detail": "기존 2021년·2022년 nativeTags 행에 나중의 collection-related(1452)·위습 태그(3881)가 소급. 1452는 170824에서, 3881은 217964에서 관측되며 인쇄 효과나 수치 변경으로 세지 않음.",
+        "sourceCommits": [
+          "170824",
+          "217964"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Wisp",
+            "nativeRawText": "Wisp"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "위습",
+            "nativeRawText": "위습"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Wisp",
+            "nativeRawText": "Wisp"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "위습",
+            "nativeRawText": "위습"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-302_M.psd:23b1cfe61fac3bd4a9a2fd090ac8098a",
+      "goldenMaterial": "GIL_553t_PremiumCard.mat:a941d92f693fa3a458910b253a3a4aa0",
+      "goldenAnimation": "GIL_553t_PremiumCard.asset:b4dd3104236b94547a0da6b0d8329f3e"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-011"
+    ]
+  }
+}

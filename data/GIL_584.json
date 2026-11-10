@@ -1,1 +1,487 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_584","dbfId":47142,"name":"피리 부는 사티로스","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":4,"text":"<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다.","attack":3,"health":3,"durability":0,"armor":0,"flavor":"마을의 성가신 골칫거리들을 데리고 간다고 합니다. 쥐나 못된 아이들까지 포함해서요.","spellSchool":"","portrait":"HS13-095_M.psd:f26437cc2b54fe24eaadfb2a2425bac5","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":15},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["DEMON"],"race":"악마","classes":[],"art":"art/GIL_584.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-095_M.psd:f26437cc2b54fe24eaadfb2a2425bac5","goldenMaterial":"GIL_584_PremiumCard.mat:cdde755d567c7a44e8ef484dafa1b510","goldenAnimation":"GIL_584_PremiumCard.asset:8e350041003969149b9b5051b80cb9aa"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_584",
+    "dbfId": 47142,
+    "name": "피리 부는 사티로스",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다.",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "마을의 성가신 골칫거리들을 데리고 간다고 합니다. 쥐나 못된 아이들까지 포함해서요.",
+    "spellSchool": "",
+    "portrait": "HS13-095_M.psd:f26437cc2b54fe24eaadfb2a2425bac5",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "art": "art/GIL_584.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-095_M.psd:f26437cc2b54fe24eaadfb2a2425bac5",
+    "goldenMaterial": "GIL_584_PremiumCard.mat:cdde755d567c7a44e8ef484dafa1b510",
+    "goldenAnimation": "GIL_584_PremiumCard.asset:8e350041003969149b9b5051b80cb9aa"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "attack": 3,
+    "health": 3,
+    "races": [],
+    "race": "",
+    "name": "피리 부는 사티로스",
+    "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+    "text": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+    "id": "GIL_584",
+    "dbfId": 47142,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2018-07-11",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 4,
+        "attack": 3,
+        "health": 3,
+        "races": [
+          "DEMON"
+        ],
+        "race": "악마",
+        "name": "피리 부는 사티로스",
+        "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+        "text": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+        "id": "GIL_584",
+        "dbfId": 47142
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_584",
+    "dbfId": 47142,
+    "name": "피리 부는 사티로스",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다.",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "마을의 성가신 골칫거리들을 데리고 간다고 합니다. 쥐나 못된 아이들까지 포함해서요.",
+    "spellSchool": "",
+    "portrait": "HS13-095_M.psd:f26437cc2b54fe24eaadfb2a2425bac5",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "art": "art/GIL_584.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다."
+  },
+  "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 4,
+        "attack": 3,
+        "health": 3,
+        "races": [],
+        "race": "",
+        "name": "피리 부는 사티로스",
+        "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+        "text": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+        "id": "GIL_584",
+        "dbfId": 47142
+      },
+      "before": "2018-07-11",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2018-07-11",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 4,
+        "attack": 3,
+        "health": 3,
+        "races": [
+          "DEMON"
+        ],
+        "race": "악마",
+        "name": "피리 부는 사티로스",
+        "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+        "text": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+        "id": "GIL_584",
+        "dbfId": 47142
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+        "after": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+        "after": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Witchwood Piper",
+            "nativeRawText": "Witchwood Piper"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "피리 부는 사티로스",
+            "nativeRawText": "피리 부는 사티로스"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Battlecry:</b> Draw the lowest\nCost minion from your deck.",
+            "nativeRawText": "[x]<b>Battlecry:</b> Draw the lowest\nCost minion from your deck."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+            "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Witchwood Piper",
+            "nativeRawText": "Witchwood Piper"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "피리 부는 사티로스",
+            "nativeRawText": "피리 부는 사티로스"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Battlecry:</b> Draw the lowest\nCost minion from your deck.",
+            "nativeRawText": "[x]<b>Battlecry:</b> Draw the lowest\nCost minion from your deck."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다.",
+            "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 뽑습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-095_M.psd:f26437cc2b54fe24eaadfb2a2425bac5",
+      "goldenMaterial": "GIL_584_PremiumCard.mat:cdde755d567c7a44e8ef484dafa1b510",
+      "goldenAnimation": "GIL_584_PremiumCard.asset:8e350041003969149b9b5051b80cb9aa"
+    },
+    "researchObservationIds": []
+  }
+}

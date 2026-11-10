@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_513",
+    "dbfId": 46950,
+    "name": "길 잃은 영혼",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>죽음의 메아리:</b><br></br>내 하수인들에게 공격력을<br></br>+1 부여합니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "그러게 길을 물으면서 가라고 했는데 말을 통 듣지 않는군요.",
+    "spellSchool": "",
+    "portrait": "HS13-074_M.psd:305894f7ddf7feb4aa7169ed09ddc3cf",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_513.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-074_M.psd:305894f7ddf7feb4aa7169ed09ddc3cf",
+    "goldenMaterial": "GIL_513_PremiumCard.mat:2410d6632634ce046834ebec3d096804",
+    "goldenAnimation": "GIL_513_PremiumCard.asset:e82bde6b1c2382c429c6343ef56f0e57"
+  }
+}

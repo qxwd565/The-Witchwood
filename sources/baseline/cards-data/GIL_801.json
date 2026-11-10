@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_801",
+    "dbfId": 47821,
+    "name": "순간 빙결",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "하수인을 <b>빙결</b> 상태로 만듭니다.<br></br>이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "얼음에 혀를 가져다 대지 마세요. 분명 후회할 겁니다.",
+    "spellSchool": "FROST",
+    "portrait": "W20_a039_S.tif:c1647869cca4084468f90c60f04cd1b0",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 3
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_801.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W20_a039_S.tif:c1647869cca4084468f90c60f04cd1b0",
+    "goldenMaterial": "GIL_801_PremiumCard.mat:42136598a2ed7e043bdee42ff4f35218",
+    "goldenAnimation": "GIL_801_PremiumCard.asset:351dbdd17a03ad849b9a124f6963451f"
+  }
+}

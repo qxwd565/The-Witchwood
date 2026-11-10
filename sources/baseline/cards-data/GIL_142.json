@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_142",
+    "dbfId": 46706,
+    "name": "카멜레오스",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 1,
+    "text": "이 하수인은 내 손에 있으면 내 턴마다 상대편 손에 있는 무작위 카드로 변신합니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "잠깐... 그런데 왜 패치스로 변하는 거죠?",
+    "spellSchool": "",
+    "portrait": "HS13-208_M.psd:6291f7f6c2caf934da35e77658cf2266",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_142.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-208_M.psd:6291f7f6c2caf934da35e77658cf2266",
+    "goldenMaterial": "GIL_142_PremiumCard.mat:f6f3e8ae9ff9bf24bb5779fafaac40a8",
+    "goldenAnimation": "GIL_142_PremiumCard.asset:cf509e15f229f2f46bacbc51b65fb9af"
+  }
+}

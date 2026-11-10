@@ -1,1 +1,477 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_838","dbfId":48445,"name":"검은 고양이","type":"MINION","cardClass":"MAGE","rarity":"COMMON","collectible":true,"cost":3,"text":"<b>주문 공격력 +1</b><br></br><b>전투의 함성:</b> 내 덱에 비용이<br></br>홀수인 카드만 있으면,<br></br>카드를 뽑습니다.","attack":3,"health":3,"durability":0,"armor":0,"flavor":"이랬다 저랬다 장난꾸러기!","spellSchool":"","portrait":"HS13-228_M.psd:f5c15db91ab930c4d85c9d2177f3d9e9","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":192,"name":"주문 공격력","value":1},{"id":199,"name":"직업","value":4},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1584,"name":"게임 태그 1584","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GIL_838.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-228_M.psd:f5c15db91ab930c4d85c9d2177f3d9e9","goldenMaterial":"GIL_838_PremiumCard.mat:c4902639b14b0914782bbfc442a0e1a1","goldenAnimation":"GIL_838_PremiumCard.asset:b4ad5e49821ad1e42b47e808b7444a72"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_838",
+    "dbfId": 48445,
+    "name": "검은 고양이",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>주문 공격력 +1</b><br></br><b>전투의 함성:</b> 내 덱에 비용이<br></br>홀수인 카드만 있으면,<br></br>카드를 뽑습니다.",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이랬다 저랬다 장난꾸러기!",
+    "spellSchool": "",
+    "portrait": "HS13-228_M.psd:f5c15db91ab930c4d85c9d2177f3d9e9",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 192,
+        "name": "주문 공격력",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_838.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-228_M.psd:f5c15db91ab930c4d85c9d2177f3d9e9",
+    "goldenMaterial": "GIL_838_PremiumCard.mat:c4902639b14b0914782bbfc442a0e1a1",
+    "goldenAnimation": "GIL_838_PremiumCard.asset:b4ad5e49821ad1e42b47e808b7444a72"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "name": "검은 고양이",
+    "nativeRawText": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 1장 뽑습니다.",
+    "text": "<b>주문 공격력 +1</b><br></br><b>전투의 함성:</b> 내 덱에 비용이<br></br>홀수인 카드만 있으면,<br></br>카드를 1장 뽑습니다.",
+    "id": "GIL_838",
+    "dbfId": 48445,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 192,
+        "name": "게임 태그 192",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_838",
+    "dbfId": 48445,
+    "name": "검은 고양이",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>주문 공격력 +1</b><br></br><b>전투의 함성:</b> 내 덱에 비용이<br></br>홀수인 카드만 있으면,<br></br>카드를 뽑습니다.",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이랬다 저랬다 장난꾸러기!",
+    "spellSchool": "",
+    "portrait": "HS13-228_M.psd:f5c15db91ab930c4d85c9d2177f3d9e9",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 192,
+        "name": "주문 공격력",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_838.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 뽑습니다."
+  },
+  "nativeRawText": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 뽑습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "MAGE",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "name": "검은 고양이",
+        "nativeRawText": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 1장 뽑습니다.",
+        "text": "<b>주문 공격력 +1</b><br></br><b>전투의 함성:</b> 내 덱에 비용이<br></br>홀수인 카드만 있으면,<br></br>카드를 1장 뽑습니다.",
+        "id": "GIL_838",
+        "dbfId": 48445
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>주문 공격력 +1</b><br></br><b>전투의 함성:</b> 내 덱에 비용이<br></br>홀수인 카드만 있으면,<br></br>카드를 1장 뽑습니다.",
+        "after": "<b>주문 공격력 +1</b><br></br><b>전투의 함성:</b> 내 덱에 비용이<br></br>홀수인 카드만 있으면,<br></br>카드를 뽑습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 1장 뽑습니다.",
+        "after": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 뽑습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 192,
+        "name": "게임 태그 192",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Black Cat",
+            "nativeRawText": "Black Cat"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "검은 고양이",
+            "nativeRawText": "검은 고양이"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Spell Damage +1</b>\n <b>Battlecry:</b> If your deck has only odd-Cost cards, draw a card.",
+            "nativeRawText": "<b>Spell Damage +1</b>\n <b>Battlecry:</b> If your deck has only odd-Cost cards, draw a card."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 1장 뽑습니다.",
+            "nativeRawText": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 1장 뽑습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Black Cat",
+            "nativeRawText": "Black Cat"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "검은 고양이",
+            "nativeRawText": "검은 고양이"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Spell Damage +1</b>\n <b>Battlecry:</b> If your deck has only odd-Cost cards, draw a card.",
+            "nativeRawText": "<b>Spell Damage +1</b>\n <b>Battlecry:</b> If your deck has only odd-Cost cards, draw a card."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 뽑습니다.",
+            "nativeRawText": "[x]<b>주문 공격력 +1</b>\n<b>전투의 함성:</b> 내 덱에 비용이\n홀수인 카드만 있으면,\n카드를 뽑습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-228_M.psd:f5c15db91ab930c4d85c9d2177f3d9e9",
+      "goldenMaterial": "GIL_838_PremiumCard.mat:c4902639b14b0914782bbfc442a0e1a1",
+      "goldenAnimation": "GIL_838_PremiumCard.asset:b4ad5e49821ad1e42b47e808b7444a72"
+    },
+    "researchObservationIds": []
+  }
+}

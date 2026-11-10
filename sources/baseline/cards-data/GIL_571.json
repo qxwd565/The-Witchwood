@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_571",
+    "dbfId": 47117,
+    "name": "마녀의 시간",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "이번 게임에서 죽은 무작위 아군 야수를 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "길니아스 애완동물 공동묘지가 위험한 이유입니다.",
+    "spellSchool": "",
+    "portrait": "HS13-032_S.psd:4288907815d520e44894c2ac4c819e20",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_571.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-032_S.psd:4288907815d520e44894c2ac4c819e20",
+    "goldenMaterial": "GIL_571_PremiumCard.mat:b16d1609cba725848aa56bde551bace0",
+    "goldenAnimation": "GIL_571_PremiumCard.asset:6525e2374dca3624f8000331d24b26d0"
+  }
+}

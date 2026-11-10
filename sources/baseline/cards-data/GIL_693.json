@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_693",
+    "dbfId": 47694,
+    "name": "피의 마녀",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 턴이 시작될 때,<br></br>내 영웅에게 피해를<br></br>1 줍니다.",
+    "attack": 3,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "노움페라투의 절친입니다.",
+    "spellSchool": "",
+    "portrait": "HS13-051_M.psd:ca5a402fbc2e81b4b8a9eac528d4fc85",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_693.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-051_M.psd:ca5a402fbc2e81b4b8a9eac528d4fc85",
+    "goldenMaterial": "GIL_693_PremiumCard.mat:44235f90dccb0034b8828cf33f066e5b",
+    "goldenAnimation": "GIL_693_PremiumCard.asset:6084e677338910a45beeb607032e4d88"
+  }
+}

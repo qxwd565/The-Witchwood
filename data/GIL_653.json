@@ -1,1 +1,482 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_653","dbfId":47511,"name":"나무꾼의 도끼","type":"WEAPON","cardClass":"WARRIOR","rarity":"COMMON","collectible":true,"cost":2,"text":"<b>죽음의 메아리:</b><br></br>무작위 아군 하수인에게 +2/+1을 부여합니다.","attack":2,"health":0,"durability":2,"armor":0,"flavor":"잠깐... 저거 혹시 한자인가요?","spellSchool":"","portrait":"HS13-063_W.psd:a28481ff5d281ef4eb0ded22f5ae5c7f","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":10},{"id":202,"name":"카드 유형","value":7},{"id":203,"name":"희귀도","value":1},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_653.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-063_W.psd:a28481ff5d281ef4eb0ded22f5ae5c7f","goldenMaterial":"GIL_653_PremiumCard.mat:8ffc601c001b5e4439ed2e6aaa9b1b0c","goldenAnimation":"GIL_653_PremiumCard.asset:aed90c16370638d45ad5b5d5b09c2fbe"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_653",
+    "dbfId": 47511,
+    "name": "나무꾼의 도끼",
+    "type": "WEAPON",
+    "cardClass": "WARRIOR",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 아군 하수인에게 +2/+1을 부여합니다.",
+    "attack": 2,
+    "health": 0,
+    "durability": 2,
+    "armor": 0,
+    "flavor": "잠깐... 저거 혹시 한자인가요?",
+    "spellSchool": "",
+    "portrait": "HS13-063_W.psd:a28481ff5d281ef4eb0ded22f5ae5c7f",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_653.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-063_W.psd:a28481ff5d281ef4eb0ded22f5ae5c7f",
+    "goldenMaterial": "GIL_653_PremiumCard.mat:8ffc601c001b5e4439ed2e6aaa9b1b0c",
+    "goldenAnimation": "GIL_653_PremiumCard.asset:aed90c16370638d45ad5b5d5b09c2fbe"
+  },
+  "initialSpec": {
+    "type": "WEAPON",
+    "cardClass": "WARRIOR",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "attack": 2,
+    "durability": 2,
+    "name": "나무꾼의 도끼",
+    "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인 하나에게 +2/+1을 부여합니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 아군 <b>속공</b> 하수인 하나에게 +2/+1을 부여합니다.",
+    "id": "GIL_653",
+    "dbfId": 47511,
+    "nativeTags": [
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 187,
+        "name": "내구도",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": [
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ]
+  },
+  "patches": [
+    {
+      "date": "2023-04-05",
+      "changes": {
+        "type": "WEAPON",
+        "cardClass": "WARRIOR",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "attack": 2,
+        "durability": 2,
+        "name": "나무꾼의 도끼",
+        "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+        "text": "<b>죽음의 메아리:</b><br></br>무작위 아군 하수인에게 +2/+1을 부여합니다.",
+        "id": "GIL_653",
+        "dbfId": 47511
+      },
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_653",
+    "dbfId": 47511,
+    "name": "나무꾼의 도끼",
+    "type": "WEAPON",
+    "cardClass": "WARRIOR",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 아군 하수인에게 +2/+1을 부여합니다.",
+    "attack": 2,
+    "health": 0,
+    "durability": 2,
+    "armor": 0,
+    "flavor": "잠깐... 저거 혹시 한자인가요?",
+    "spellSchool": "",
+    "portrait": "HS13-063_W.psd:a28481ff5d281ef4eb0ded22f5ae5c7f",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_653.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다."
+  },
+  "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "WEAPON",
+        "cardClass": "WARRIOR",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "attack": 2,
+        "durability": 2,
+        "name": "나무꾼의 도끼",
+        "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인 하나에게 +2/+1을 부여합니다.",
+        "text": "<b>죽음의 메아리:</b><br></br>무작위 아군 <b>속공</b> 하수인 하나에게 +2/+1을 부여합니다.",
+        "id": "GIL_653",
+        "dbfId": 47511
+      },
+      "before": "2023-04-05",
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2023-04-05",
+      "changes": {
+        "type": "WEAPON",
+        "cardClass": "WARRIOR",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "attack": 2,
+        "durability": 2,
+        "name": "나무꾼의 도끼",
+        "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+        "text": "<b>죽음의 메아리:</b><br></br>무작위 아군 하수인에게 +2/+1을 부여합니다.",
+        "id": "GIL_653",
+        "dbfId": 47511
+      },
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-004",
+        "topic": "weapon-durability-storage",
+        "date": "2025-03-19",
+        "cardIds": [
+          "GIL_596",
+          "GIL_653",
+          "GIL_672"
+        ],
+        "status": "observed-representation-change",
+        "detail": "DURABILITY(187)가 사라지고 동일 값이 HEALTH(45)로 이동. 논리 내구도는 각각 4,2,2로 유지되므로 무기 생명력 증가나 내구도 변경이 아님.",
+        "source": "https://news.blizzard.com/ko-kr/article/24187196/32-0"
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 187,
+        "name": "내구도",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Woodcutter's Axe",
+            "nativeRawText": "Woodcutter's Axe"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "나무꾼의 도끼",
+            "nativeRawText": "나무꾼의 도끼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Deathrattle:</b> Give +2/+1 to a random friendly <b>Rush</b> minion.",
+            "nativeRawText": "<b>Deathrattle:</b> Give +2/+1 to a random friendly <b>Rush</b> minion."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인 하나에게 +2/+1을 부여합니다.",
+            "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인 하나에게 +2/+1을 부여합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Woodcutter's Axe",
+            "nativeRawText": "Woodcutter's Axe"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "나무꾼의 도끼",
+            "nativeRawText": "나무꾼의 도끼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Deathrattle:</b> Give +2/+1 to a random friendly minion.",
+            "nativeRawText": "<b>Deathrattle:</b> Give +2/+1 to a random friendly minion."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+            "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-063_W.psd:a28481ff5d281ef4eb0ded22f5ae5c7f",
+      "goldenMaterial": "GIL_653_PremiumCard.mat:8ffc601c001b5e4439ed2e6aaa9b1b0c",
+      "goldenAnimation": "GIL_653_PremiumCard.asset:aed90c16370638d45ad5b5d5b09c2fbe"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-004"
+    ]
+  }
+}

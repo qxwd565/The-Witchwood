@@ -1,1 +1,447 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_622","dbfId":47343,"name":"흡혈충","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":4,"text":"<b>전투의 함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 #3 회복시킵니다.","attack":3,"health":3,"durability":0,"armor":0,"flavor":"성수: 제로도 즐겨 마신다고 합니다.","spellSchool":"","portrait":"HS13-253_M.psd:21d794e7e50496a4e9b72885bbfe70ad","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GIL_622.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-253_M.psd:21d794e7e50496a4e9b72885bbfe70ad","goldenMaterial":"GIL_622_PremiumCard.mat:1243028515039e14894afc0792f35db3","goldenAnimation":"GIL_622_PremiumCard.asset:a2dbc7a69be5d3247a8d431e2845c875"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_622",
+    "dbfId": 47343,
+    "name": "흡혈충",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 #3 회복시킵니다.",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "성수: 제로도 즐겨 마신다고 합니다.",
+    "spellSchool": "",
+    "portrait": "HS13-253_M.psd:21d794e7e50496a4e9b72885bbfe70ad",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_622.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-253_M.psd:21d794e7e50496a4e9b72885bbfe70ad",
+    "goldenMaterial": "GIL_622_PremiumCard.mat:1243028515039e14894afc0792f35db3",
+    "goldenAnimation": "GIL_622_PremiumCard.asset:a2dbc7a69be5d3247a8d431e2845c875"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "attack": 3,
+    "health": 3,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "name": "흡혈충",
+    "nativeRawText": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 3 회복시킵니다.",
+    "text": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 3 회복시킵니다.",
+    "id": "GIL_622",
+    "dbfId": 47343,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_622",
+    "dbfId": 47343,
+    "name": "흡혈충",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 #3 회복시킵니다.",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "성수: 제로도 즐겨 마신다고 합니다.",
+    "spellSchool": "",
+    "portrait": "HS13-253_M.psd:21d794e7e50496a4e9b72885bbfe70ad",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_622.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 #3 회복시킵니다."
+  },
+  "nativeRawText": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 #3 회복시킵니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 4,
+        "attack": 3,
+        "health": 3,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "name": "흡혈충",
+        "nativeRawText": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 3 회복시킵니다.",
+        "text": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 3 회복시킵니다.",
+        "id": "GIL_622",
+        "dbfId": 47343
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 3 회복시킵니다.",
+        "after": "<b>전투의 함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 #3 회복시킵니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 3 회복시킵니다.",
+        "after": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 #3 회복시킵니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Lifedrinker",
+            "nativeRawText": "Lifedrinker"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "흡혈충",
+            "nativeRawText": "흡혈충"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Battlecry:</b> Deal 3 damage to\nthe enemy hero. Restore\n3 Health to your hero.",
+            "nativeRawText": "[x]<b>Battlecry:</b> Deal 3 damage to\nthe enemy hero. Restore\n3 Health to your hero."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 3 회복시킵니다.",
+            "nativeRawText": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 3 회복시킵니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Lifedrinker",
+            "nativeRawText": "Lifedrinker"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "흡혈충",
+            "nativeRawText": "흡혈충"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Battlecry:</b> Deal 3 damage to\nthe enemy hero. Restore\n#3 Health to your hero.",
+            "nativeRawText": "[x]<b>Battlecry:</b> Deal 3 damage to\nthe enemy hero. Restore\n#3 Health to your hero."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 #3 회복시킵니다.",
+            "nativeRawText": "<b>전투의_함성:</b> 적 영웅에게 피해를 3 줍니다. 내 영웅의 생명력을 #3 회복시킵니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-253_M.psd:21d794e7e50496a4e9b72885bbfe70ad",
+      "goldenMaterial": "GIL_622_PremiumCard.mat:1243028515039e14894afc0792f35db3",
+      "goldenAnimation": "GIL_622_PremiumCard.asset:a2dbc7a69be5d3247a8d431e2845c875"
+    },
+    "researchObservationIds": []
+  }
+}

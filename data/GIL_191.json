@@ -1,1 +1,602 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_191","dbfId":46864,"name":"임프 소환진","type":"SPELL","cardClass":"WARLOCK","rarity":"COMMON","collectible":true,"cost":3,"text":"1/1 임프를<br></br>넷 소환합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"폭발하진 않지만 언제나 네 마리가 나옵니다!","spellSchool":"FEL","portrait":"HS13-229_S.tif:80885137195e4d44d9bb0a8576385e4f","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":9},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":47502},{"id":1635,"name":"주문 속성","value":7}],"races":[],"race":"","classes":[],"art":"art/GIL_191.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-229_S.tif:80885137195e4d44d9bb0a8576385e4f","goldenMaterial":"GIL_191_PremiumCard.mat:884697105078a1d4780da473e01f8866","goldenAnimation":"GIL_191_PremiumCard.asset:a37225659808dd345a65075b5c3023bb"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_191",
+    "dbfId": 46864,
+    "name": "임프 소환진",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "1/1 임프를<br></br>넷 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "폭발하진 않지만 언제나 네 마리가 나옵니다!",
+    "spellSchool": "FEL",
+    "portrait": "HS13-229_S.tif:80885137195e4d44d9bb0a8576385e4f",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 47502
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 7
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_191.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-229_S.tif:80885137195e4d44d9bb0a8576385e4f",
+    "goldenMaterial": "GIL_191_PremiumCard.mat:884697105078a1d4780da473e01f8866",
+    "goldenAnimation": "GIL_191_PremiumCard.asset:a37225659808dd345a65075b5c3023bb"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "name": "임프 소환진",
+    "nativeRawText": "1/1 임프를\n넷 소환합니다.",
+    "text": "1/1 임프를<br></br>넷 소환합니다.",
+    "id": "GIL_191",
+    "dbfId": 46864,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "WARLOCK",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 4,
+        "name": "임프 소환진",
+        "nativeRawText": "1/1 임프를\n넷 소환합니다.",
+        "text": "1/1 임프를<br></br>넷 소환합니다.",
+        "id": "GIL_191",
+        "dbfId": 46864,
+        "spellSchool": "FEL",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 1452,
+            "name": "수집품 관련 카드 데이터베이스 ID",
+            "value": 47502
+          },
+          {
+            "id": 1635,
+            "name": "주문 속성",
+            "value": 7
+          }
+        ]
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    },
+    {
+      "date": "2021-05-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "WARLOCK",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 3,
+        "name": "임프 소환진",
+        "nativeRawText": "1/1 임프를\n넷 소환합니다.",
+        "text": "1/1 임프를<br></br>넷 소환합니다.",
+        "id": "GIL_191",
+        "dbfId": 46864,
+        "spellSchool": "FEL"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_191",
+    "dbfId": 46864,
+    "name": "임프 소환진",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "1/1 임프를<br></br>넷 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "폭발하진 않지만 언제나 네 마리가 나옵니다!",
+    "spellSchool": "FEL",
+    "portrait": "HS13-229_S.tif:80885137195e4d44d9bb0a8576385e4f",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 47502
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 7
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_191.png",
+    "referencedTags": [],
+    "nativeRawText": "1/1 임프를\n넷 소환합니다."
+  },
+  "nativeRawText": "1/1 임프를\n넷 소환합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "WARLOCK",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 4,
+        "name": "임프 소환진",
+        "nativeRawText": "1/1 임프를\n넷 소환합니다.",
+        "text": "1/1 임프를<br></br>넷 소환합니다.",
+        "id": "GIL_191",
+        "dbfId": 46864,
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 1452,
+            "name": "수집품 관련 카드 데이터베이스 ID",
+            "value": 47502
+          }
+        ]
+      },
+      "before": "2021-03-26",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "WARLOCK",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 4,
+        "name": "임프 소환진",
+        "nativeRawText": "1/1 임프를\n넷 소환합니다.",
+        "text": "1/1 임프를<br></br>넷 소환합니다.",
+        "id": "GIL_191",
+        "dbfId": 46864,
+        "spellSchool": "FEL",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 1452,
+            "name": "수집품 관련 카드 데이터베이스 ID",
+            "value": 47502
+          },
+          {
+            "id": 1635,
+            "name": "주문 속성",
+            "value": 7
+          }
+        ]
+      },
+      "before": "2021-05-13",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    },
+    {
+      "from": "2021-05-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "WARLOCK",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 3,
+        "name": "임프 소환진",
+        "nativeRawText": "1/1 임프를\n넷 소환합니다.",
+        "text": "1/1 임프를<br></br>넷 소환합니다.",
+        "id": "GIL_191",
+        "dbfId": 46864,
+        "spellSchool": "FEL"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-011",
+        "topic": "collection-and-internal-tags",
+        "date": null,
+        "cardIds": [
+          "GIL_191",
+          "GIL_553",
+          "GIL_663",
+          "GIL_553t"
+        ],
+        "status": "undated-internal-tag-observation",
+        "detail": "기존 2021년·2022년 nativeTags 행에 나중의 collection-related(1452)·위습 태그(3881)가 소급. 1452는 170824에서, 3881은 217964에서 관측되며 인쇄 효과나 수치 변경으로 세지 않음.",
+        "sourceCommits": [
+          "170824",
+          "217964"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Fiendish Circle",
+            "nativeRawText": "Fiendish Circle"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "임프 소환진",
+            "nativeRawText": "임프 소환진"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]Summon four 1/1 Imps.",
+            "nativeRawText": "[x]Summon four 1/1 Imps."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "1/1 임프를\n넷 소환합니다.",
+            "nativeRawText": "1/1 임프를\n넷 소환합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Fiendish Circle",
+            "nativeRawText": "Fiendish Circle"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "임프 소환진",
+            "nativeRawText": "임프 소환진"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]Summon four 1/1 Imps.",
+            "nativeRawText": "[x]Summon four 1/1 Imps."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "1/1 임프를\n넷 소환합니다.",
+            "nativeRawText": "1/1 임프를\n넷 소환합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-229_S.tif:80885137195e4d44d9bb0a8576385e4f",
+      "goldenMaterial": "GIL_191_PremiumCard.mat:884697105078a1d4780da473e01f8866",
+      "goldenAnimation": "GIL_191_PremiumCard.asset:a37225659808dd345a65075b5c3023bb"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-011"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_125",
+    "dbfId": 46674,
+    "name": "미친 모자 장수",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b> +1/+1을<br></br>부여하는 모자 3개를 다른<br></br>무작위 하수인들에게<br></br>던집니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "말 그대로 정신이 나갔습니다. 고블린들에게는 칭찬이죠.",
+    "spellSchool": "",
+    "portrait": "HS13-094_M.psd:3a588fdc3766dd64d90ae20eaf70a53a",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_125.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-094_M.psd:3a588fdc3766dd64d90ae20eaf70a53a",
+    "goldenMaterial": "GIL_125_PremiumCard.mat:2f0fa17e9a7e31a4b9f6540a5951e604",
+    "goldenAnimation": "GIL_125_PremiumCard.asset:d5464cec44bebe041b0a7e334a07ad43"
+  }
+}

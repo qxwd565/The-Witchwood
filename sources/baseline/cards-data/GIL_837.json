@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_837",
+    "dbfId": 48444,
+    "name": "아른거리는 나방",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b> 내 덱에 비용이<br></br>홀수인 카드만 있으면, 내<br></br>다른 하수인들의 생명력을<br></br>2배 증가시킵니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "샤방샤방한 나방입니다.",
+    "spellSchool": "",
+    "portrait": "W11_065_M.psd:74e57be46b78c2f469925ce1eb25c3f2",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_837.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W11_065_M.psd:74e57be46b78c2f469925ce1eb25c3f2",
+    "goldenMaterial": "GIL_837_PremiumCard.mat:7996a7705f2a39c4f8e48da267f299f8",
+    "goldenAnimation": "GIL_837_PremiumCard.asset:f499f9b8c4670174ba45c3b380462c27"
+  }
+}

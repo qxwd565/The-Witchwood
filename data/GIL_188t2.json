@@ -1,1 +1,415 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_188t2","dbfId":48306,"name":"낫의 드루이드","type":"MINION","cardClass":"DRUID","rarity":"COMMON","collectible":false,"cost":3,"text":"<b>도발</b>","attack":2,"health":4,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-222_M.psd:67255028bdbdc7d4d8f2a806e5f0adf1","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":0}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GIL_188t2.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-222_M.psd:67255028bdbdc7d4d8f2a806e5f0adf1","goldenMaterial":"GIL_188t2_PremiumCard.mat:f53bcebffaf6c324bb1996b7886d8503","goldenAnimation":"GIL_188t2_PremiumCard.asset:b551134b97ef767499b020eeb45a3ea7"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_188t2",
+    "dbfId": 48306,
+    "name": "낫의 드루이드",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>도발</b>",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-222_M.psd:67255028bdbdc7d4d8f2a806e5f0adf1",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_188t2.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-222_M.psd:67255028bdbdc7d4d8f2a806e5f0adf1",
+    "goldenMaterial": "GIL_188t2_PremiumCard.mat:f53bcebffaf6c324bb1996b7886d8503",
+    "goldenAnimation": "GIL_188t2_PremiumCard.asset:b551134b97ef767499b020eeb45a3ea7"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "name": "낫의 드루이드",
+    "nativeRawText": "<b>도발</b>",
+    "text": "<b>도발</b>",
+    "id": "GIL_188t2",
+    "dbfId": 48306,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_188t2",
+    "dbfId": 48306,
+    "name": "낫의 드루이드",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>도발</b>",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-222_M.psd:67255028bdbdc7d4d8f2a806e5f0adf1",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_188t2.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>도발</b>"
+  },
+  "nativeRawText": "<b>도발</b>",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "rarity": "COMMON",
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "name": "낫의 드루이드",
+        "nativeRawText": "<b>도발</b>",
+        "text": "<b>도발</b>",
+        "id": "GIL_188t2",
+        "dbfId": 48306
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Druid of the Scythe",
+            "nativeRawText": "Druid of the Scythe"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "낫의 드루이드",
+            "nativeRawText": "낫의 드루이드"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Taunt</b>",
+            "nativeRawText": "<b>Taunt</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>도발</b>",
+            "nativeRawText": "<b>도발</b>"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Druid of the Scythe",
+            "nativeRawText": "Druid of the Scythe"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "낫의 드루이드",
+            "nativeRawText": "낫의 드루이드"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Taunt</b>",
+            "nativeRawText": "<b>Taunt</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>도발</b>",
+            "nativeRawText": "<b>도발</b>"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-222_M.psd:67255028bdbdc7d4d8f2a806e5f0adf1",
+      "goldenMaterial": "GIL_188t2_PremiumCard.mat:f53bcebffaf6c324bb1996b7886d8503",
+      "goldenAnimation": "GIL_188t2_PremiumCard.asset:b551134b97ef767499b020eeb45a3ea7"
+    },
+    "researchObservationIds": []
+  }
+}

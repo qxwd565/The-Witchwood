@@ -1,1 +1,387 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_529t","dbfId":46995,"name":"주문 전문가","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":false,"cost":2,"text":"<b>주문 공격력 +1</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.","attack":4,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-078_M.psd:e2083ae49b09c2d4198b49327e4f3ec2","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":192,"name":"주문 공격력","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":0}],"races":[],"race":"","classes":[],"art":"art/GIL_529t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-078_M.psd:e2083ae49b09c2d4198b49327e4f3ec2","goldenMaterial":"GIL_529t_PremiumCard.mat:255ace857df2a0e4799b8c5427de5b03","goldenAnimation":"GIL_529t_PremiumCard.asset:b78be4b94ae080c42ae84ed92f52ea85"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_529t",
+    "dbfId": 46995,
+    "name": "주문 전문가",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>주문 공격력 +1</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "attack": 4,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-078_M.psd:e2083ae49b09c2d4198b49327e4f3ec2",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 192,
+        "name": "주문 공격력",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_529t.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-078_M.psd:e2083ae49b09c2d4198b49327e4f3ec2",
+    "goldenMaterial": "GIL_529t_PremiumCard.mat:255ace857df2a0e4799b8c5427de5b03",
+    "goldenAnimation": "GIL_529t_PremiumCard.asset:b78be4b94ae080c42ae84ed92f52ea85"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": 2,
+    "attack": 4,
+    "health": 1,
+    "races": [],
+    "race": "",
+    "name": "주문 전문가",
+    "nativeRawText": "<b>주문 공격력 +1</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "text": "<b>주문 공격력 +1</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "id": "GIL_529t",
+    "dbfId": 46995,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 192,
+        "name": "게임 태그 192",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_529t",
+    "dbfId": 46995,
+    "name": "주문 전문가",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>주문 공격력 +1</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "attack": 4,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-078_M.psd:e2083ae49b09c2d4198b49327e4f3ec2",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 192,
+        "name": "주문 공격력",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_529t.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>주문 공격력 +1</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+  },
+  "nativeRawText": "<b>주문 공격력 +1</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "cost": 2,
+        "attack": 4,
+        "health": 1,
+        "races": [],
+        "race": "",
+        "name": "주문 전문가",
+        "nativeRawText": "<b>주문 공격력 +1</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+        "text": "<b>주문 공격력 +1</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+        "id": "GIL_529t",
+        "dbfId": 46995
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 192,
+        "name": "게임 태그 192",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Spellshifter",
+            "nativeRawText": "Spellshifter"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "주문 전문가",
+            "nativeRawText": "주문 전문가"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Spell Damage +1</b>\nEach turn this is in your hand,\nswap its Attack and Health.",
+            "nativeRawText": "[x]<b>Spell Damage +1</b>\nEach turn this is in your hand,\nswap its Attack and Health."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>주문 공격력 +1</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+            "nativeRawText": "<b>주문 공격력 +1</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Spellshifter",
+            "nativeRawText": "Spellshifter"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "주문 전문가",
+            "nativeRawText": "주문 전문가"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Spell Damage +1</b>\nEach turn this is in your hand,\nswap its Attack and Health.",
+            "nativeRawText": "[x]<b>Spell Damage +1</b>\nEach turn this is in your hand,\nswap its Attack and Health."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>주문 공격력 +1</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+            "nativeRawText": "<b>주문 공격력 +1</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-078_M.psd:e2083ae49b09c2d4198b49327e4f3ec2",
+      "goldenMaterial": "GIL_529t_PremiumCard.mat:255ace857df2a0e4799b8c5427de5b03",
+      "goldenAnimation": "GIL_529t_PremiumCard.asset:b78be4b94ae080c42ae84ed92f52ea85"
+    },
+    "researchObservationIds": []
+  }
+}

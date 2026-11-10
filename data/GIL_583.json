@@ -1,1 +1,454 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_583","dbfId":47138,"name":"토템 먹보","type":"MINION","cardClass":"SHAMAN","rarity":"EPIC","collectible":true,"cost":4,"text":"<b>도발</b>, <b>전투의 함성:</b><br></br>내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다.","attack":2,"health":3,"durability":0,"armor":0,"flavor":"갉아먹는 맛이 일품이라고 합니다.","spellSchool":"","portrait":"HS13-264_M.psd:d8407a9aaa45e614981870c415fbba86","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":8},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GIL_583.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-264_M.psd:d8407a9aaa45e614981870c415fbba86","goldenMaterial":"GIL_583_PremiumCard.mat:13ad5187681f9a6478edfb5e0844b08d","goldenAnimation":"GIL_583_PremiumCard.asset:868f20e9b50692f48a9a082e6bd1b530"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_583",
+    "dbfId": 47138,
+    "name": "토템 먹보",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다.",
+    "attack": 2,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "갉아먹는 맛이 일품이라고 합니다.",
+    "spellSchool": "",
+    "portrait": "HS13-264_M.psd:d8407a9aaa45e614981870c415fbba86",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_583.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-264_M.psd:d8407a9aaa45e614981870c415fbba86",
+    "goldenMaterial": "GIL_583_PremiumCard.mat:13ad5187681f9a6478edfb5e0844b08d",
+    "goldenAnimation": "GIL_583_PremiumCard.asset:868f20e9b50692f48a9a082e6bd1b530"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "attack": 2,
+    "health": 3,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "name": "토템 먹보",
+    "nativeRawText": "<b>도발</b>, <b>전투의 함성:</b>\n내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다.",
+    "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다.",
+    "id": "GIL_583",
+    "dbfId": 47138,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_583",
+    "dbfId": 47138,
+    "name": "토템 먹보",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다.",
+    "attack": 2,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "갉아먹는 맛이 일품이라고 합니다.",
+    "spellSchool": "",
+    "portrait": "HS13-264_M.psd:d8407a9aaa45e614981870c415fbba86",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_583.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>도발</b>, <b>전투의 함성:</b>\n내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다."
+  },
+  "nativeRawText": "<b>도발</b>, <b>전투의 함성:</b>\n내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "SHAMAN",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 4,
+        "attack": 2,
+        "health": 3,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "name": "토템 먹보",
+        "nativeRawText": "<b>도발</b>, <b>전투의 함성:</b>\n내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다.",
+        "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다.",
+        "id": "GIL_583",
+        "dbfId": 47138
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Totem Cruncher",
+            "nativeRawText": "Totem Cruncher"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "토템 먹보",
+            "nativeRawText": "토템 먹보"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Taunt</b>\n<b>Battlecry:</b> Destroy your Totems. Gain +2/+2 for each destroyed.",
+            "nativeRawText": "<b>Taunt</b>\n<b>Battlecry:</b> Destroy your Totems. Gain +2/+2 for each destroyed."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>도발</b>, <b>전투의 함성:</b>\n내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다.",
+            "nativeRawText": "<b>도발</b>, <b>전투의 함성:</b>\n내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Totem Cruncher",
+            "nativeRawText": "Totem Cruncher"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "토템 먹보",
+            "nativeRawText": "토템 먹보"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Taunt</b>\n<b>Battlecry:</b> Destroy your Totems. Gain +2/+2 for each destroyed.",
+            "nativeRawText": "<b>Taunt</b>\n<b>Battlecry:</b> Destroy your Totems. Gain +2/+2 for each destroyed."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>도발</b>, <b>전투의 함성:</b>\n내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다.",
+            "nativeRawText": "<b>도발</b>, <b>전투의 함성:</b>\n내 토템을 모두 처치합니다. 처치한 토템 하나당 +2/+2를 얻습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-264_M.psd:d8407a9aaa45e614981870c415fbba86",
+      "goldenMaterial": "GIL_583_PremiumCard.mat:13ad5187681f9a6478edfb5e0844b08d",
+      "goldenAnimation": "GIL_583_PremiumCard.asset:868f20e9b50692f48a9a082e6bd1b530"
+    },
+    "researchObservationIds": []
+  }
+}

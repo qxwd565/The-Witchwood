@@ -1,1 +1,387 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_528t","dbfId":46993,"name":"날쌘 전령","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":false,"cost":4,"text":"<b>속공</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.","attack":6,"health":2,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-080_M.psd:ed48de7d77955cd43bc377b325d8635e","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":6},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":0},{"id":791,"name":"속공","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_528t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-080_M.psd:ed48de7d77955cd43bc377b325d8635e","goldenMaterial":"GIL_528t_PremiumCard.mat:9e8e6aefb47cee245b74efafbab7d5d1","goldenAnimation":"GIL_528t_PremiumCard.asset:c53a572a2bb22b9429cce1a3a8b45559"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_528t",
+    "dbfId": 46993,
+    "name": "날쌘 전령",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 4,
+    "text": "<b>속공</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "attack": 6,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-080_M.psd:ed48de7d77955cd43bc377b325d8635e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_528t.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-080_M.psd:ed48de7d77955cd43bc377b325d8635e",
+    "goldenMaterial": "GIL_528t_PremiumCard.mat:9e8e6aefb47cee245b74efafbab7d5d1",
+    "goldenAnimation": "GIL_528t_PremiumCard.asset:c53a572a2bb22b9429cce1a3a8b45559"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": 4,
+    "attack": 6,
+    "health": 2,
+    "races": [],
+    "race": "",
+    "name": "날쌘 전령",
+    "nativeRawText": "<b>속공</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "text": "<b>속공</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "id": "GIL_528t",
+    "dbfId": 46993,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_528t",
+    "dbfId": 46993,
+    "name": "날쌘 전령",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 4,
+    "text": "<b>속공</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "attack": 6,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-080_M.psd:ed48de7d77955cd43bc377b325d8635e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_528t.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>속공</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+  },
+  "nativeRawText": "<b>속공</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "cost": 4,
+        "attack": 6,
+        "health": 2,
+        "races": [],
+        "race": "",
+        "name": "날쌘 전령",
+        "nativeRawText": "<b>속공</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+        "text": "<b>속공</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+        "id": "GIL_528t",
+        "dbfId": 46993
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Swift Messenger",
+            "nativeRawText": "Swift Messenger"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "날쌘 전령",
+            "nativeRawText": "날쌘 전령"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Rush</b>\nEach turn this is in your hand,\nswap its Attack and Health.",
+            "nativeRawText": "[x]<b>Rush</b>\nEach turn this is in your hand,\nswap its Attack and Health."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>속공</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+            "nativeRawText": "<b>속공</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Swift Messenger",
+            "nativeRawText": "Swift Messenger"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "날쌘 전령",
+            "nativeRawText": "날쌘 전령"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Rush</b>\nEach turn this is in your hand,\nswap its Attack and Health.",
+            "nativeRawText": "[x]<b>Rush</b>\nEach turn this is in your hand,\nswap its Attack and Health."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>속공</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+            "nativeRawText": "<b>속공</b>, 이 하수인은\n내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-080_M.psd:ed48de7d77955cd43bc377b325d8635e",
+      "goldenMaterial": "GIL_528t_PremiumCard.mat:9e8e6aefb47cee245b74efafbab7d5d1",
+      "goldenAnimation": "GIL_528t_PremiumCard.asset:c53a572a2bb22b9429cce1a3a8b45559"
+    },
+    "researchObservationIds": []
+  }
+}

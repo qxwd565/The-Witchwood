@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_581",
+    "dbfId": 47134,
+    "name": "모래결속사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b> 내 덱에서 정령을 뽑습니다.",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "비결은 접착제입니다.",
+    "spellSchool": "",
+    "portrait": "HS13-111_M.psd:fd527402e2c210c4e9ba0dc3c9210c9c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_581.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-111_M.psd:fd527402e2c210c4e9ba0dc3c9210c9c",
+    "goldenMaterial": "GIL_581_PremiumCard.mat:0c6e80acbe3570845ad1731f212433ca",
+    "goldenAnimation": "GIL_581_PremiumCard.asset:bdffaf5d19ab0564eb34195c586c589d"
+  }
+}

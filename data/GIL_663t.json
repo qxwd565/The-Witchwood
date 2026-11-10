@@ -1,1 +1,356 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_663t","dbfId":48911,"name":"나무정령","type":"MINION","cardClass":"DRUID","collectible":false,"cost":1,"text":"","attack":2,"health":2,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-261_M.psd:6da27f2aff4f7dd42912a4d10ea9af75","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":4},{"id":321,"name":"수집 가능","value":0},{"id":2831,"name":"게임 태그 2831","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_663t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-261_M.psd:6da27f2aff4f7dd42912a4d10ea9af75","goldenMaterial":"GIL_663t_PremiumCard.mat:0608b38be435c264787ebaa6f7209c25","goldenAnimation":"GIL_663t_PremiumCard.asset:c71eb0213d4053d4ab07ba98dff5a970"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_663t",
+    "dbfId": 48911,
+    "name": "나무정령",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-261_M.psd:6da27f2aff4f7dd42912a4d10ea9af75",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 2831,
+        "name": "게임 태그 2831",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_663t.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-261_M.psd:6da27f2aff4f7dd42912a4d10ea9af75",
+    "goldenMaterial": "GIL_663t_PremiumCard.mat:0608b38be435c264787ebaa6f7209c25",
+    "goldenAnimation": "GIL_663t_PremiumCard.asset:c71eb0213d4053d4ab07ba98dff5a970"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "races": [],
+    "race": "",
+    "name": "나무정령",
+    "id": "GIL_663t",
+    "dbfId": 48911,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2023-04-05",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "cost": 1,
+        "attack": 2,
+        "health": 2,
+        "races": [],
+        "race": "",
+        "name": "나무정령",
+        "id": "GIL_663t",
+        "dbfId": 48911
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_663t",
+    "dbfId": 48911,
+    "name": "나무정령",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-261_M.psd:6da27f2aff4f7dd42912a4d10ea9af75",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 2831,
+        "name": "게임 태그 2831",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_663t.png",
+    "referencedTags": []
+  },
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "races": [],
+        "race": "",
+        "name": "나무정령",
+        "id": "GIL_663t",
+        "dbfId": 48911
+      },
+      "before": "2023-04-05",
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    },
+    {
+      "from": "2023-04-05",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "cost": 1,
+        "attack": 2,
+        "health": 2,
+        "races": [],
+        "race": "",
+        "name": "나무정령",
+        "id": "GIL_663t",
+        "dbfId": 48911
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Treant",
+            "nativeRawText": "Treant"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "나무정령",
+            "nativeRawText": "나무정령"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Treant",
+            "nativeRawText": "Treant"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "나무정령",
+            "nativeRawText": "나무정령"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-261_M.psd:6da27f2aff4f7dd42912a4d10ea9af75",
+      "goldenMaterial": "GIL_663t_PremiumCard.mat:0608b38be435c264787ebaa6f7209c25",
+      "goldenAnimation": "GIL_663t_PremiumCard.asset:c71eb0213d4053d4ab07ba98dff5a970"
+    },
+    "researchObservationIds": []
+  }
+}

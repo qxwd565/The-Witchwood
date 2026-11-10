@@ -1,1 +1,419 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_581","dbfId":47134,"name":"모래결속사","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":4,"text":"<b>전투의 함성:</b> 내 덱에서 정령을 뽑습니다.","attack":2,"health":4,"durability":0,"armor":0,"flavor":"비결은 접착제입니다.","spellSchool":"","portrait":"HS13-111_M.psd:fd527402e2c210c4e9ba0dc3c9210c9c","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_581.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-111_M.psd:fd527402e2c210c4e9ba0dc3c9210c9c","goldenMaterial":"GIL_581_PremiumCard.mat:0c6e80acbe3570845ad1731f212433ca","goldenAnimation":"GIL_581_PremiumCard.asset:bdffaf5d19ab0564eb34195c586c589d"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_581",
+    "dbfId": 47134,
+    "name": "모래결속사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b> 내 덱에서 정령을 뽑습니다.",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "비결은 접착제입니다.",
+    "spellSchool": "",
+    "portrait": "HS13-111_M.psd:fd527402e2c210c4e9ba0dc3c9210c9c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_581.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-111_M.psd:fd527402e2c210c4e9ba0dc3c9210c9c",
+    "goldenMaterial": "GIL_581_PremiumCard.mat:0c6e80acbe3570845ad1731f212433ca",
+    "goldenAnimation": "GIL_581_PremiumCard.asset:bdffaf5d19ab0564eb34195c586c589d"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "attack": 2,
+    "health": 4,
+    "races": [],
+    "race": "",
+    "name": "모래결속사",
+    "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 정령을 하나 뽑습니다.",
+    "text": "<b>전투의 함성:</b> 내 덱에서 정령을 하나 뽑습니다.",
+    "id": "GIL_581",
+    "dbfId": 47134,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_581",
+    "dbfId": 47134,
+    "name": "모래결속사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b> 내 덱에서 정령을 뽑습니다.",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "비결은 접착제입니다.",
+    "spellSchool": "",
+    "portrait": "HS13-111_M.psd:fd527402e2c210c4e9ba0dc3c9210c9c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_581.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 정령을 뽑습니다."
+  },
+  "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 정령을 뽑습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 4,
+        "attack": 2,
+        "health": 4,
+        "races": [],
+        "race": "",
+        "name": "모래결속사",
+        "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 정령을 하나 뽑습니다.",
+        "text": "<b>전투의 함성:</b> 내 덱에서 정령을 하나 뽑습니다.",
+        "id": "GIL_581",
+        "dbfId": 47134
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>전투의 함성:</b> 내 덱에서 정령을 하나 뽑습니다.",
+        "after": "<b>전투의 함성:</b> 내 덱에서 정령을 뽑습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "<b>전투의 함성:</b> 내 덱에서 정령을 하나 뽑습니다.",
+        "after": "<b>전투의 함성:</b> 내 덱에서 정령을 뽑습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Sandbinder",
+            "nativeRawText": "Sandbinder"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "모래결속사",
+            "nativeRawText": "모래결속사"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> Draw an Elemental from your deck.",
+            "nativeRawText": "<b>Battlecry:</b> Draw an Elemental from your deck."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 내 덱에서 정령을 하나 뽑습니다.",
+            "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 정령을 하나 뽑습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Sandbinder",
+            "nativeRawText": "Sandbinder"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "모래결속사",
+            "nativeRawText": "모래결속사"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> Draw an Elemental from your deck.",
+            "nativeRawText": "<b>Battlecry:</b> Draw an Elemental from your deck."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 내 덱에서 정령을 뽑습니다.",
+            "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 정령을 뽑습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-111_M.psd:fd527402e2c210c4e9ba0dc3c9210c9c",
+      "goldenMaterial": "GIL_581_PremiumCard.mat:0c6e80acbe3570845ad1731f212433ca",
+      "goldenAnimation": "GIL_581_PremiumCard.asset:bdffaf5d19ab0564eb34195c586c589d"
+    },
+    "researchObservationIds": []
+  }
+}

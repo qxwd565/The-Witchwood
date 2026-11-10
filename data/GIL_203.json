@@ -1,1 +1,362 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_203","dbfId":46621,"name":"비난","type":"SPELL","cardClass":"PALADIN","rarity":"COMMON","collectible":true,"cost":2,"text":"다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"\"네가 보인다... 다음 턴에만...\"","spellSchool":"","portrait":"HS13-020_S.psd:6080ebe28ff39e84998d874239fa6e5c","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0}],"races":[],"race":"","classes":[],"art":"art/GIL_203.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-020_S.psd:6080ebe28ff39e84998d874239fa6e5c","goldenMaterial":"GIL_203_PremiumCard.mat:270b302fd12d26b47b50eea4448f5667","goldenAnimation":"GIL_203_PremiumCard.asset:e336867821b7d9d4e9c7e8022ece4c6e"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_203",
+    "dbfId": 46621,
+    "name": "비난",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"네가 보인다... 다음 턴에만...\"",
+    "spellSchool": "",
+    "portrait": "HS13-020_S.psd:6080ebe28ff39e84998d874239fa6e5c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_203.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-020_S.psd:6080ebe28ff39e84998d874239fa6e5c",
+    "goldenMaterial": "GIL_203_PremiumCard.mat:270b302fd12d26b47b50eea4448f5667",
+    "goldenAnimation": "GIL_203_PremiumCard.asset:e336867821b7d9d4e9c7e8022ece4c6e"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "name": "비난",
+    "nativeRawText": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+    "text": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+    "id": "GIL_203",
+    "dbfId": 46621,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_203",
+    "dbfId": 46621,
+    "name": "비난",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"네가 보인다... 다음 턴에만...\"",
+    "spellSchool": "",
+    "portrait": "HS13-020_S.psd:6080ebe28ff39e84998d874239fa6e5c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_203.png",
+    "referencedTags": [],
+    "nativeRawText": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다."
+  },
+  "nativeRawText": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PALADIN",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "name": "비난",
+        "nativeRawText": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+        "text": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+        "id": "GIL_203",
+        "dbfId": 46621
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Rebuke",
+            "nativeRawText": "Rebuke"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "비난",
+            "nativeRawText": "비난"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Enemy spells cost (5) more next turn.",
+            "nativeRawText": "Enemy spells cost (5) more next turn."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+            "nativeRawText": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Rebuke",
+            "nativeRawText": "Rebuke"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "비난",
+            "nativeRawText": "비난"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Enemy spells cost (5) more next turn.",
+            "nativeRawText": "Enemy spells cost (5) more next turn."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다.",
+            "nativeRawText": "다음 턴에 상대편이 시전하는 주문의 비용이 (5) 증가합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-020_S.psd:6080ebe28ff39e84998d874239fa6e5c",
+      "goldenMaterial": "GIL_203_PremiumCard.mat:270b302fd12d26b47b50eea4448f5667",
+      "goldenAnimation": "GIL_203_PremiumCard.asset:e336867821b7d9d4e9c7e8022ece4c6e"
+    },
+    "researchObservationIds": []
+  }
+}

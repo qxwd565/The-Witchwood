@@ -1,1 +1,600 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_635","dbfId":47416,"name":"성당 가고일","type":"MINION","cardClass":"PALADIN","rarity":"EPIC","collectible":true,"cost":2,"text":"<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.","attack":2,"health":2,"durability":0,"armor":0,"flavor":"바위처럼 날아서 바위처럼 떨어집니다.","spellSchool":"","portrait":"HS13-023_M.psd:209b22e2def412f45a67fed8f3778223","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":190,"name":"도발","value":1},{"id":194,"name":"천상의 보호막","value":1},{"id":199,"name":"직업","value":5},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/GIL_635.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-023_M.psd:209b22e2def412f45a67fed8f3778223","goldenMaterial":"GIL_635_PremiumCard.mat:135c2ec245fe9b64aaef07226b0a2020","goldenAnimation":"GIL_635_PremiumCard.asset:2520fd87d6328ec49bd9d8734c98000d"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_635",
+    "dbfId": 47416,
+    "name": "성당 가고일",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "바위처럼 날아서 바위처럼 떨어집니다.",
+    "spellSchool": "",
+    "portrait": "HS13-023_M.psd:209b22e2def412f45a67fed8f3778223",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_635.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-023_M.psd:209b22e2def412f45a67fed8f3778223",
+    "goldenMaterial": "GIL_635_PremiumCard.mat:135c2ec245fe9b64aaef07226b0a2020",
+    "goldenAnimation": "GIL_635_PremiumCard.asset:2520fd87d6328ec49bd9d8734c98000d"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "races": [],
+    "race": "",
+    "name": "성당 가고일",
+    "nativeRawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+    "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+    "id": "GIL_635",
+    "dbfId": 47416,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": [
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      }
+    ]
+  },
+  "patches": [
+    {
+      "date": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "PALADIN",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "성당 가고일",
+        "nativeRawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+        "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+        "id": "GIL_635",
+        "dbfId": 47416
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_635",
+    "dbfId": 47416,
+    "name": "성당 가고일",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "바위처럼 날아서 바위처럼 떨어집니다.",
+    "spellSchool": "",
+    "portrait": "HS13-023_M.psd:209b22e2def412f45a67fed8f3778223",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_635.png",
+    "referencedTags": [
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다."
+  },
+  "nativeRawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "PALADIN",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "races": [],
+        "race": "",
+        "name": "성당 가고일",
+        "nativeRawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+        "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+        "id": "GIL_635",
+        "dbfId": 47416,
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 2
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 2
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 5
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2022-11-30",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "PALADIN",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "성당 가고일",
+        "nativeRawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+        "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+        "id": "GIL_635",
+        "dbfId": 47416
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-012",
+        "topic": "referenced-tag-ownership",
+        "date": null,
+        "cardIds": [
+          "GIL_116",
+          "GIL_188",
+          "GIL_510",
+          "GIL_526",
+          "GIL_557",
+          "GIL_565",
+          "GIL_578",
+          "GIL_580",
+          "GIL_601",
+          "GIL_607",
+          "GIL_618",
+          "GIL_634",
+          "GIL_635",
+          "GIL_648",
+          "GIL_650",
+          "GIL_683",
+          "GIL_685",
+          "GIL_801",
+          "GIL_836",
+          "GIL_905"
+        ],
+        "status": "raw-tag-role-not-card-keyword",
+        "detail": "20개 카드의 25개 참조 태그가 nativeTags에 소유 태그와 섞여 있음. 원시 역할 정보를 별도로 보존하며 참조 대상을 카드 자체 키워드로 해석하지 않음.",
+        "sourceCommits": [
+          "6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226",
+          "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      }
+    ],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Cathedral Gargoyle",
+            "nativeRawText": "Cathedral Gargoyle"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "성당 가고일",
+            "nativeRawText": "성당 가고일"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> If you're holding a Dragon, gain <b>Taunt</b> and <b>Divine Shield</b>.",
+            "nativeRawText": "<b>Battlecry:</b> If you're holding a Dragon, gain <b>Taunt</b> and <b>Divine Shield</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+            "nativeRawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Cathedral Gargoyle",
+            "nativeRawText": "Cathedral Gargoyle"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "성당 가고일",
+            "nativeRawText": "성당 가고일"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> If you're holding a Dragon, gain <b>Taunt</b> and <b>Divine Shield</b>.",
+            "nativeRawText": "<b>Battlecry:</b> If you're holding a Dragon, gain <b>Taunt</b> and <b>Divine Shield</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+            "nativeRawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-023_M.psd:209b22e2def412f45a67fed8f3778223",
+      "goldenMaterial": "GIL_635_PremiumCard.mat:135c2ec245fe9b64aaef07226b0a2020",
+      "goldenAnimation": "GIL_635_PremiumCard.asset:2520fd87d6328ec49bd9d8734c98000d"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-012"
+    ]
+  }
+}

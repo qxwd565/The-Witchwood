@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_577",
+    "dbfId": 47128,
+    "name": "쥐덫",
+    "type": "SPELL",
+    "cardClass": "HUNTER",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>비밀:</b> 상대편이<br></br>한 턴에 카드를 3장 낸 후에, 6/6 쥐를 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "분실물: 거대한 쥐 1마리. 발견 시 미궁왕 토그왜글에게 돌려주시오.",
+    "spellSchool": "",
+    "portrait": "HS13-028_S.psd:0a7735a50fef5524487a7ff1eaaf4e56",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 49457
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_577.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-028_S.psd:0a7735a50fef5524487a7ff1eaaf4e56",
+    "goldenMaterial": "GIL_577_PremiumCard.mat:acb2aad91aa3cc84eb75fcddbaf960fb",
+    "goldenAnimation": "GIL_577_PremiumCard.asset:ef3e2798466450a45a2cf0aaa35f5222"
+  }
+}

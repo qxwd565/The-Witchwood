@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_682",
+    "dbfId": 47606,
+    "name": "진흙괴물 사냥꾼",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.",
+    "attack": 5,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "직업에 귀천이 어딨습니까.",
+    "spellSchool": "",
+    "portrait": "HS13-257_M.psd:f4065811b42455049836e1f6daa79984",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 47605
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_682.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-257_M.psd:f4065811b42455049836e1f6daa79984",
+    "goldenMaterial": "GIL_682_PremiumCard.mat:a8bfabf582f0448438aae1de577d4fb6",
+    "goldenAnimation": "GIL_682_PremiumCard.asset:c5cc8de603a141742b9e3e211560ca75"
+  }
+}

@@ -1,1 +1,434 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_661","dbfId":47549,"name":"천상의 찬가","type":"SPELL","cardClass":"PRIEST","rarity":"COMMON","collectible":true,"cost":2,"text":"모든 아군 캐릭터의 생명력을<br></br>#6 회복시킵니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"한 옥타브만 올리면 스테인드글라스 골렘을 아주 효과적으로 상대할 수 있습니다.","spellSchool":"HOLY","portrait":"W13_249_S.psd:e776f8bfbd0cbf44eba19787fa53c46e","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":6},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":5}],"races":[],"race":"","classes":[],"art":"art/GIL_661.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W13_249_S.psd:e776f8bfbd0cbf44eba19787fa53c46e","goldenMaterial":"GIL_661_PremiumCard.mat:78c1707726a75374b89c1e530f9b46f1","goldenAnimation":"GIL_661_PremiumCard.asset:3799e6d8e4ce78f4a92d1864779d555c"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_661",
+    "dbfId": 47549,
+    "name": "천상의 찬가",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "모든 아군 캐릭터의 생명력을<br></br>#6 회복시킵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "한 옥타브만 올리면 스테인드글라스 골렘을 아주 효과적으로 상대할 수 있습니다.",
+    "spellSchool": "HOLY",
+    "portrait": "W13_249_S.psd:e776f8bfbd0cbf44eba19787fa53c46e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 5
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_661.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W13_249_S.psd:e776f8bfbd0cbf44eba19787fa53c46e",
+    "goldenMaterial": "GIL_661_PremiumCard.mat:78c1707726a75374b89c1e530f9b46f1",
+    "goldenAnimation": "GIL_661_PremiumCard.asset:3799e6d8e4ce78f4a92d1864779d555c"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "name": "천상의 찬가",
+    "nativeRawText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다.",
+    "text": "모든 아군 캐릭터의 생명력을<br></br>#6 회복시킵니다.",
+    "id": "GIL_661",
+    "dbfId": 47549,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PRIEST",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "name": "천상의 찬가",
+        "nativeRawText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다.",
+        "text": "모든 아군 캐릭터의 생명력을<br></br>#6 회복시킵니다.",
+        "id": "GIL_661",
+        "dbfId": 47549,
+        "spellSchool": "HOLY"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_661",
+    "dbfId": 47549,
+    "name": "천상의 찬가",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "모든 아군 캐릭터의 생명력을<br></br>#6 회복시킵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "한 옥타브만 올리면 스테인드글라스 골렘을 아주 효과적으로 상대할 수 있습니다.",
+    "spellSchool": "HOLY",
+    "portrait": "W13_249_S.psd:e776f8bfbd0cbf44eba19787fa53c46e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 5
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_661.png",
+    "referencedTags": [],
+    "nativeRawText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다."
+  },
+  "nativeRawText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PRIEST",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "name": "천상의 찬가",
+        "nativeRawText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다.",
+        "text": "모든 아군 캐릭터의 생명력을<br></br>#6 회복시킵니다.",
+        "id": "GIL_661",
+        "dbfId": 47549,
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 6
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2021-03-26",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PRIEST",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "name": "천상의 찬가",
+        "nativeRawText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다.",
+        "text": "모든 아군 캐릭터의 생명력을<br></br>#6 회복시킵니다.",
+        "id": "GIL_661",
+        "dbfId": 47549,
+        "spellSchool": "HOLY"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Divine Hymn",
+            "nativeRawText": "Divine Hymn"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "천상의 찬가",
+            "nativeRawText": "천상의 찬가"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Restore #6 Health to all friendly characters.",
+            "nativeRawText": "Restore #6 Health to all friendly characters."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다.",
+            "nativeRawText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Divine Hymn",
+            "nativeRawText": "Divine Hymn"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "천상의 찬가",
+            "nativeRawText": "천상의 찬가"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Restore #6 Health to all friendly characters.",
+            "nativeRawText": "Restore #6 Health to all friendly characters."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다.",
+            "nativeRawText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "W13_249_S.psd:e776f8bfbd0cbf44eba19787fa53c46e",
+      "goldenMaterial": "GIL_661_PremiumCard.mat:78c1707726a75374b89c1e530f9b46f1",
+      "goldenAnimation": "GIL_661_PremiumCard.asset:3799e6d8e4ce78f4a92d1864779d555c"
+    },
+    "researchObservationIds": []
+  }
+}

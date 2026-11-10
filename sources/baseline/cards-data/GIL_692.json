@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_692",
+    "dbfId": 47693,
+    "name": "겐 그레이메인",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>개전:</b> 내 덱에 비용이<br></br>짝수인 카드만 있으면,<br></br>내 기본 영웅 능력의<br></br>비용이 (1)이 됩니다.",
+    "attack": 6,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "길니아스는 다시 일어날 것이니 잠시 내 말 좀 들어보게나.",
+    "spellSchool": "",
+    "portrait": "HS13-101_M.psd:c6213a592f5da3d45b8a8577fd99b320",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 956,
+        "name": "짝수 비용 덱 조건",
+        "value": 1
+      },
+      {
+        "id": 968,
+        "name": "게임 시작 효과",
+        "value": 1
+      },
+      {
+        "id": 2589,
+        "name": "간판 카드 존재",
+        "value": 1
+      },
+      {
+        "id": 2936,
+        "name": "게임 태그 2936",
+        "value": 1
+      },
+      {
+        "id": 4841,
+        "name": "겐 짝수 비용 조건",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_692.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-101_M.psd:c6213a592f5da3d45b8a8577fd99b320",
+    "goldenMaterial": "GIL_692_PremiumCard.mat:bec0f009f3f637941afe580dc3ab2ddc",
+    "goldenAnimation": "GIL_692_PremiumCard.asset:3912b157dbd140e4f8eb13ed621602d9"
+  }
+}

@@ -1,1 +1,513 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_600","dbfId":47222,"name":"찌릿!","type":"SPELL","cardClass":"SHAMAN","rarity":"COMMON","collectible":true,"cost":0,"text":"하수인에게 피해를 $2 줍니다. <b>과부하:</b> (1)","attack":0,"health":0,"durability":0,"armor":0,"flavor":"의성어로 주문의 이름을 짓다니 주술사들도 은근히 게으르군요.","spellSchool":"NATURE","portrait":"HS13-056_S.psd:3f0f40a8c99df5848847c420aed7a548","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":0},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":8},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":215,"name":"과부하","value":1},{"id":321,"name":"수집 가능","value":1},{"id":370,"name":"주문 공격력 적용","value":1},{"id":1635,"name":"주문 속성","value":4}],"races":[],"race":"","classes":[],"art":"art/GIL_600.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-056_S.psd:3f0f40a8c99df5848847c420aed7a548","goldenMaterial":"GIL_600_PremiumCard_NEW.mat:5202c939043c7ba4192a5c9e10c0be29","goldenAnimation":"GIL_600_PremiumCard_NEW.asset:94f8d0fd4336fd0419fe2b422e10ed48"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_600",
+    "dbfId": 47222,
+    "name": "찌릿!",
+    "type": "SPELL",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 0,
+    "text": "하수인에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "의성어로 주문의 이름을 짓다니 주술사들도 은근히 게으르군요.",
+    "spellSchool": "NATURE",
+    "portrait": "HS13-056_S.psd:3f0f40a8c99df5848847c420aed7a548",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 0
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 370,
+        "name": "주문 공격력 적용",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 4
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_600.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-056_S.psd:3f0f40a8c99df5848847c420aed7a548",
+    "goldenMaterial": "GIL_600_PremiumCard_NEW.mat:5202c939043c7ba4192a5c9e10c0be29",
+    "goldenAnimation": "GIL_600_PremiumCard_NEW.asset:94f8d0fd4336fd0419fe2b422e10ed48"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "name": "찌릿!",
+    "nativeRawText": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+    "text": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+    "id": "GIL_600",
+    "dbfId": 47222,
+    "nativeTags": [
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 215,
+        "name": "게임 태그 215",
+        "value": 1
+      },
+      {
+        "id": 296,
+        "name": "게임 태그 296",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 370,
+        "name": "게임 태그 370",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "SHAMAN",
+        "rarity": "COMMON",
+        "collectible": true,
+        "name": "찌릿!",
+        "nativeRawText": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+        "text": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+        "id": "GIL_600",
+        "dbfId": 47222,
+        "spellSchool": "NATURE"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "cost",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_600",
+    "dbfId": 47222,
+    "name": "찌릿!",
+    "type": "SPELL",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 0,
+    "text": "하수인에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "의성어로 주문의 이름을 짓다니 주술사들도 은근히 게으르군요.",
+    "spellSchool": "NATURE",
+    "portrait": "HS13-056_S.psd:3f0f40a8c99df5848847c420aed7a548",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 0
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 370,
+        "name": "주문 공격력 적용",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 4
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_600.png",
+    "referencedTags": [],
+    "nativeRawText": "하수인에게 피해를 $2 줍니다. <b>과부하:</b> (1)"
+  },
+  "nativeRawText": "하수인에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "SHAMAN",
+        "rarity": "COMMON",
+        "collectible": true,
+        "name": "찌릿!",
+        "nativeRawText": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+        "text": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+        "id": "GIL_600",
+        "dbfId": 47222,
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 0
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 8
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 215,
+            "name": "과부하",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 370,
+            "name": "주문 공격력 적용",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2021-03-26",
+      "removedFields": [
+        "armor",
+        "attack",
+        "cost",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "SHAMAN",
+        "rarity": "COMMON",
+        "collectible": true,
+        "name": "찌릿!",
+        "nativeRawText": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+        "text": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+        "id": "GIL_600",
+        "dbfId": 47222,
+        "spellSchool": "NATURE"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "cost",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+        "after": "하수인에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+        "after": "하수인에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": [
+      {
+        "id": "WITCH-OBS-009",
+        "topic": "overload-owed-tag-removal",
+        "date": null,
+        "cardIds": [
+          "GIL_600"
+        ],
+        "status": "undated-internal-tag-observation",
+        "detail": "OVERLOAD_OWED(296) 제거만 관측. RECALL(215)=1 및 과부하(1) 문구는 유지되어 과부하 삭제로 기록하지 않음.",
+        "sourceCommits": [
+          "f9d936096897c6fd4d723102381769efd8b9be89",
+          "aeffaf09cdbba14654c4543792558fab68cee363"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 215,
+        "name": "게임 태그 215",
+        "value": 1
+      },
+      {
+        "id": 296,
+        "name": "게임 태그 296",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 370,
+        "name": "게임 태그 370",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Zap!",
+            "nativeRawText": "Zap!"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "찌릿!",
+            "nativeRawText": "찌릿!"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Deal $2 damage to a minion. <b>Overload:</b> (1)",
+            "nativeRawText": "Deal $2 damage to a minion. <b>Overload:</b> (1)"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+            "nativeRawText": "하수인 하나에게 피해를 $2 줍니다. <b>과부하:</b> (1)"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Zap!",
+            "nativeRawText": "Zap!"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "찌릿!",
+            "nativeRawText": "찌릿!"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Deal $2 damage to a minion. <b>Overload:</b> (1)",
+            "nativeRawText": "Deal $2 damage to a minion. <b>Overload:</b> (1)"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "하수인에게 피해를 $2 줍니다. <b>과부하:</b> (1)",
+            "nativeRawText": "하수인에게 피해를 $2 줍니다. <b>과부하:</b> (1)"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-056_S.psd:3f0f40a8c99df5848847c420aed7a548",
+      "goldenMaterial": "GIL_600_PremiumCard_NEW.mat:5202c939043c7ba4192a5c9e10c0be29",
+      "goldenAnimation": "GIL_600_PremiumCard_NEW.asset:94f8d0fd4336fd0419fe2b422e10ed48"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-009"
+    ]
+  }
+}

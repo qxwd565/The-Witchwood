@@ -1,1 +1,311 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_504h","dbfId":47631,"name":"마녀의 손짓","type":"HERO_POWER","cardClass":"NEUTRAL","collectible":false,"cost":0,"text":"<b>지속 능력</b><br></br>내가 하수인을 낸 후에,<br></br>무작위 주술사 주문을<br></br>내 손으로 가져옵니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-238_HP.psd:cb288a8529e757248aeb4f7223f9d27f","set":"GILNEAS","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":10},{"id":321,"name":"수집 가능","value":0}],"races":[],"race":"","classes":[],"art":"art/GIL_504h.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-238_HP.psd:cb288a8529e757248aeb4f7223f9d27f","goldenMaterial":"GIL_504h_PremiumCard.mat:fd31de3fb9340c44dbfa32f572003abf","goldenAnimation":"GIL_504h_PremiumCard.asset:73874ff544b58054ba52d76a526238c7"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_504h",
+    "dbfId": 47631,
+    "name": "마녀의 손짓",
+    "type": "HERO_POWER",
+    "cardClass": "NEUTRAL",
+    "collectible": false,
+    "cost": 0,
+    "text": "<b>지속 능력</b><br></br>내가 하수인을 낸 후에,<br></br>무작위 주술사 주문을<br></br>내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-238_HP.psd:cb288a8529e757248aeb4f7223f9d27f",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_504h.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-238_HP.psd:cb288a8529e757248aeb4f7223f9d27f",
+    "goldenMaterial": "GIL_504h_PremiumCard.mat:fd31de3fb9340c44dbfa32f572003abf",
+    "goldenAnimation": "GIL_504h_PremiumCard.asset:73874ff544b58054ba52d76a526238c7"
+  },
+  "initialSpec": {
+    "type": "HERO_POWER",
+    "cardClass": "NEUTRAL",
+    "name": "마녀의 손짓",
+    "nativeRawText": "[x]<b>지속 영웅 능력</b>\n내가 하수인을 낸 후에,\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
+    "text": "<b>지속 영웅 능력</b><br></br>내가 하수인을 낸 후에,<br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
+    "id": "GIL_504h",
+    "dbfId": 47631,
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_504h",
+    "dbfId": 47631,
+    "name": "마녀의 손짓",
+    "type": "HERO_POWER",
+    "cardClass": "NEUTRAL",
+    "collectible": false,
+    "cost": 0,
+    "text": "<b>지속 능력</b><br></br>내가 하수인을 낸 후에,<br></br>무작위 주술사 주문을<br></br>내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-238_HP.psd:cb288a8529e757248aeb4f7223f9d27f",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_504h.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>지속 능력</b>\n내가 하수인을 낸 후에,\n무작위 주술사 주문을\n내 손으로 가져옵니다."
+  },
+  "nativeRawText": "<b>지속 능력</b>\n내가 하수인을 낸 후에,\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "HERO_POWER",
+        "cardClass": "NEUTRAL",
+        "name": "마녀의 손짓",
+        "nativeRawText": "[x]<b>지속 영웅 능력</b>\n내가 하수인을 낸 후에,\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
+        "text": "<b>지속 영웅 능력</b><br></br>내가 하수인을 낸 후에,<br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
+        "id": "GIL_504h",
+        "dbfId": 47631
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "collectible",
+        "cost",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>지속 영웅 능력</b><br></br>내가 하수인을 낸 후에,<br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
+        "after": "<b>지속 능력</b><br></br>내가 하수인을 낸 후에,<br></br>무작위 주술사 주문을<br></br>내 손으로 가져옵니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "[x]<b>지속 영웅 능력</b>\n내가 하수인을 낸 후에,\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
+        "after": "<b>지속 능력</b>\n내가 하수인을 낸 후에,\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Bewitch",
+            "nativeRawText": "Bewitch"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "마녀의 손짓",
+            "nativeRawText": "마녀의 손짓"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Passive Hero Power</b>\nAfter you play a minion,\nadd a random Shaman\nspell to your hand.",
+            "nativeRawText": "[x]<b>Passive Hero Power</b>\nAfter you play a minion,\nadd a random Shaman\nspell to your hand."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>지속 영웅 능력</b>\n내가 하수인을 낸 후에,\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
+            "nativeRawText": "[x]<b>지속 영웅 능력</b>\n내가 하수인을 낸 후에,\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Bewitch",
+            "nativeRawText": "Bewitch"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "마녀의 손짓",
+            "nativeRawText": "마녀의 손짓"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Passive</b>\nAfter you play a minion,\nadd a random Shaman\nspell to your hand.",
+            "nativeRawText": "[x]<b>Passive</b>\nAfter you play a minion,\nadd a random Shaman\nspell to your hand."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>지속 능력</b>\n내가 하수인을 낸 후에,\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+            "nativeRawText": "<b>지속 능력</b>\n내가 하수인을 낸 후에,\n무작위 주술사 주문을\n내 손으로 가져옵니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-238_HP.psd:cb288a8529e757248aeb4f7223f9d27f",
+      "goldenMaterial": "GIL_504h_PremiumCard.mat:fd31de3fb9340c44dbfa32f572003abf",
+      "goldenAnimation": "GIL_504h_PremiumCard.asset:73874ff544b58054ba52d76a526238c7"
+    },
+    "researchObservationIds": []
+  }
+}

@@ -1,1 +1,459 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_147","dbfId":46715,"name":"잿불폭풍","type":"SPELL","cardClass":"MAGE","rarity":"RARE","collectible":true,"cost":3,"text":"모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"오늘의 날씨는 잿불비가 내리겠습니다. 가끔씩 폭풍이 휘몰아치겠습니다.","spellSchool":"FIRE","portrait":"HS13-043_S.psd:6045814b06b75a34faf1be761c2c0b26","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":349,"name":"게임 태그 349","value":1},{"id":1635,"name":"주문 속성","value":2}],"races":[],"race":"","classes":[],"art":"art/GIL_147.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-043_S.psd:6045814b06b75a34faf1be761c2c0b26","goldenMaterial":"GIL_147_PremiumCard.mat:390b2c46a2a5420469340833dd98c1bb","goldenAnimation":"GIL_147_PremiumCard.asset:29f0ccda93d57eb4fa6a0ebfd3dbfebf"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_147",
+    "dbfId": 46715,
+    "name": "잿불폭풍",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "오늘의 날씨는 잿불비가 내리겠습니다. 가끔씩 폭풍이 휘몰아치겠습니다.",
+    "spellSchool": "FIRE",
+    "portrait": "HS13-043_S.psd:6045814b06b75a34faf1be761c2c0b26",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 349,
+        "name": "게임 태그 349",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 2
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_147.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-043_S.psd:6045814b06b75a34faf1be761c2c0b26",
+    "goldenMaterial": "GIL_147_PremiumCard.mat:390b2c46a2a5420469340833dd98c1bb",
+    "goldenAnimation": "GIL_147_PremiumCard.asset:29f0ccda93d57eb4fa6a0ebfd3dbfebf"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "name": "잿불폭풍",
+    "nativeRawText": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+    "text": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+    "id": "GIL_147",
+    "dbfId": 46715,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 349,
+        "name": "게임 태그 349",
+        "value": 1
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "MAGE",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 3,
+        "name": "잿불폭풍",
+        "nativeRawText": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+        "text": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+        "id": "GIL_147",
+        "dbfId": 46715,
+        "spellSchool": "FIRE"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_147",
+    "dbfId": 46715,
+    "name": "잿불폭풍",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "오늘의 날씨는 잿불비가 내리겠습니다. 가끔씩 폭풍이 휘몰아치겠습니다.",
+    "spellSchool": "FIRE",
+    "portrait": "HS13-043_S.psd:6045814b06b75a34faf1be761c2c0b26",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 349,
+        "name": "게임 태그 349",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 2
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_147.png",
+    "referencedTags": [],
+    "nativeRawText": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다."
+  },
+  "nativeRawText": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "MAGE",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 3,
+        "name": "잿불폭풍",
+        "nativeRawText": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+        "text": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+        "id": "GIL_147",
+        "dbfId": 46715,
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 4
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 349,
+            "name": "게임 태그 349",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2021-03-26",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "MAGE",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 3,
+        "name": "잿불폭풍",
+        "nativeRawText": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+        "text": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+        "id": "GIL_147",
+        "dbfId": 46715,
+        "spellSchool": "FIRE"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 349,
+        "name": "게임 태그 349",
+        "value": 1
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Cinderstorm",
+            "nativeRawText": "Cinderstorm"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "잿불폭풍",
+            "nativeRawText": "잿불폭풍"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Deal $5 damage randomly split among all enemies.",
+            "nativeRawText": "Deal $5 damage randomly split among all enemies."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+            "nativeRawText": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Cinderstorm",
+            "nativeRawText": "Cinderstorm"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "잿불폭풍",
+            "nativeRawText": "잿불폭풍"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Deal $5 damage randomly split among all enemies.",
+            "nativeRawText": "Deal $5 damage randomly split among all enemies."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다.",
+            "nativeRawText": "모든 적에게 $5의 피해를 무작위로 나누어 입힙니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-043_S.psd:6045814b06b75a34faf1be761c2c0b26",
+      "goldenMaterial": "GIL_147_PremiumCard.mat:390b2c46a2a5420469340833dd98c1bb",
+      "goldenAnimation": "GIL_147_PremiumCard.asset:29f0ccda93d57eb4fa6a0ebfd3dbfebf"
+    },
+    "researchObservationIds": []
+  }
+}

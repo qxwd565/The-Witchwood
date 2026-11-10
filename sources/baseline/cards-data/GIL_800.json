@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_800",
+    "dbfId": 47819,
+    "name": "황혼 녘의 아비아나",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 5,
+    "text": "각 플레이어가 턴마다 처음 내는 카드의 비용이 (0)이 됩니다.",
+    "attack": 3,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "누군가 그녀를 \"짹짹이\"라고 부른 적이 있습니다. 별로 좋아하진 않더군요.",
+    "spellSchool": "",
+    "portrait": "HS13-225_M.psd:8801cd325d792a64b8d01780a0a0cbc9",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_800.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-225_M.psd:8801cd325d792a64b8d01780a0a0cbc9",
+    "goldenMaterial": "GIL_800_PremiumCard.mat:e5d6768e41c10d04dbe919dff4789897",
+    "goldenAnimation": "GIL_800_PremiumCard.asset:7285774cf177f7c43b78e2eadd39f94d"
+  }
+}

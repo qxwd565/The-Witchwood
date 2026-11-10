@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_665",
+    "dbfId": 47555,
+    "name": "무력화 저주",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>잔상</b><br></br>내 다음 턴까지 모든<br></br>적 하수인에게 공격력을 -2 부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "흑마법사들만의 \"밸런스 조절\"이라 할 수 있습니다.",
+    "spellSchool": "SHADOW",
+    "portrait": "R6_a026_S.psd:d600104332d0746469b9d4559e885e04",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_665.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "R6_a026_S.psd:d600104332d0746469b9d4559e885e04",
+    "goldenMaterial": "GIL_665_PremiumCard.mat:ffc438ac0f0103746a361fddd89351d6",
+    "goldenAnimation": "GIL_665_PremiumCard.asset:caec705a6c51a1f4f89a5b031a09a8ce"
+  }
+}

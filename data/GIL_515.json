@@ -1,1 +1,559 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_515","dbfId":46936,"name":"쥐잡이꾼","type":"MINION","cardClass":"WARLOCK","rarity":"EPIC","collectible":true,"cost":3,"text":"<b>속공</b>, <b>전투의 함성:</b><br></br>아군 하수인을 처치하고<br></br>그 하수인의 공격력과<br></br>생명력을 얻습니다.","attack":2,"health":2,"durability":0,"armor":0,"flavor":"토그왜글이 잃어버린 쥐를 찾고 있습니다.","spellSchool":"","portrait":"HS13-006_M.psd:dee485693ec2f2840a1bd35c9fc943c6","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":9},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":791,"name":"속공","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/GIL_515.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-006_M.psd:dee485693ec2f2840a1bd35c9fc943c6","goldenMaterial":"GIL_515_PremiumCard.mat:2dc8dd35d61efdd42a5917be8eeba2a4","goldenAnimation":"GIL_515_PremiumCard.asset:c5d536f63bff7a445914f048b5cf6517"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_515",
+    "dbfId": 46936,
+    "name": "쥐잡이꾼",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>속공</b>, <b>전투의 함성:</b><br></br>아군 하수인을 처치하고<br></br>그 하수인의 공격력과<br></br>생명력을 얻습니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "토그왜글이 잃어버린 쥐를 찾고 있습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-006_M.psd:dee485693ec2f2840a1bd35c9fc943c6",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_515.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-006_M.psd:dee485693ec2f2840a1bd35c9fc943c6",
+    "goldenMaterial": "GIL_515_PremiumCard.mat:2dc8dd35d61efdd42a5917be8eeba2a4",
+    "goldenAnimation": "GIL_515_PremiumCard.asset:c5d536f63bff7a445914f048b5cf6517"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "races": [],
+    "race": "",
+    "name": "쥐잡이꾼",
+    "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+    "text": "<b>속공</b>, <b>전투의 함성:</b><br></br>아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+    "id": "GIL_515",
+    "dbfId": 46936,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARLOCK",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "쥐잡이꾼",
+        "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+        "text": "<b>속공</b>, <b>전투의 함성:</b><br></br>아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+        "id": "GIL_515",
+        "dbfId": 46936
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_515",
+    "dbfId": 46936,
+    "name": "쥐잡이꾼",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>속공</b>, <b>전투의 함성:</b><br></br>아군 하수인을 처치하고<br></br>그 하수인의 공격력과<br></br>생명력을 얻습니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "토그왜글이 잃어버린 쥐를 찾고 있습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-006_M.psd:dee485693ec2f2840a1bd35c9fc943c6",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_515.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인을 처치하고\n그 하수인의 공격력과\n생명력을 얻습니다."
+  },
+  "nativeRawText": "[x]<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인을 처치하고\n그 하수인의 공격력과\n생명력을 얻습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARLOCK",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "races": [],
+        "race": "",
+        "name": "쥐잡이꾼",
+        "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+        "text": "<b>속공</b>, <b>전투의 함성:</b><br></br>아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+        "id": "GIL_515",
+        "dbfId": 46936,
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 2
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 2
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 791,
+            "name": "속공",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2022-11-30",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARLOCK",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "쥐잡이꾼",
+        "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+        "text": "<b>속공</b>, <b>전투의 함성:</b><br></br>아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+        "id": "GIL_515",
+        "dbfId": 46936
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>속공</b>, <b>전투의 함성:</b><br></br>아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+        "after": "<b>속공</b>, <b>전투의 함성:</b><br></br>아군 하수인을 처치하고<br></br>그 하수인의 공격력과<br></br>생명력을 얻습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+        "after": "[x]<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인을 처치하고\n그 하수인의 공격력과\n생명력을 얻습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Ratcatcher",
+            "nativeRawText": "Ratcatcher"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "쥐잡이꾼",
+            "nativeRawText": "쥐잡이꾼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Rush</b>\n<b>Battlecry:</b> Destroy a friendly minion and gain its Attack and Health.",
+            "nativeRawText": "<b>Rush</b>\n<b>Battlecry:</b> Destroy a friendly minion and gain its Attack and Health."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다.",
+            "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인 하나를 처치하고 그 하수인의 공격력과 생명력을 얻습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Ratcatcher",
+            "nativeRawText": "Ratcatcher"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "쥐잡이꾼",
+            "nativeRawText": "쥐잡이꾼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Rush</b>\n<b>Battlecry:</b> Destroy a friendly minion and gain its Attack and Health.",
+            "nativeRawText": "<b>Rush</b>\n<b>Battlecry:</b> Destroy a friendly minion and gain its Attack and Health."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인을 처치하고\n그 하수인의 공격력과\n생명력을 얻습니다.",
+            "nativeRawText": "[x]<b>속공</b>, <b>전투의 함성:</b>\n아군 하수인을 처치하고\n그 하수인의 공격력과\n생명력을 얻습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-006_M.psd:dee485693ec2f2840a1bd35c9fc943c6",
+      "goldenMaterial": "GIL_515_PremiumCard.mat:2dc8dd35d61efdd42a5917be8eeba2a4",
+      "goldenAnimation": "GIL_515_PremiumCard.asset:c5d536f63bff7a445914f048b5cf6517"
+    },
+    "researchObservationIds": []
+  }
+}

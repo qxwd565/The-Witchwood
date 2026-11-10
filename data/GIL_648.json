@@ -1,1 +1,465 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_648","dbfId":47458,"name":"수사반장","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":5,"text":"<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다.","attack":4,"health":6,"durability":0,"armor":0,"flavor":"동작 그만! 주머니에 든 떠도는 괴물을 바닥에 내려놓고 두 손을 들어라!","spellSchool":"","portrait":"HS13-099_M.psd:081225d26f1e9744b92c93b4c7b85ea0","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":6},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":219,"name":"비밀","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_648.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-099_M.psd:081225d26f1e9744b92c93b4c7b85ea0","goldenMaterial":"GIL_648_PremiumCard.mat:6277b7aea5f311d468143fd3a0054680","goldenAnimation":"GIL_648_PremiumCard.asset:3133ae46ba3765f4f839d7e10781b2ff"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_648",
+    "dbfId": 47458,
+    "name": "수사반장",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다.",
+    "attack": 4,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "동작 그만! 주머니에 든 떠도는 괴물을 바닥에 내려놓고 두 손을 들어라!",
+    "spellSchool": "",
+    "portrait": "HS13-099_M.psd:081225d26f1e9744b92c93b4c7b85ea0",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_648.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-099_M.psd:081225d26f1e9744b92c93b4c7b85ea0",
+    "goldenMaterial": "GIL_648_PremiumCard.mat:6277b7aea5f311d468143fd3a0054680",
+    "goldenAnimation": "GIL_648_PremiumCard.asset:3133ae46ba3765f4f839d7e10781b2ff"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "attack": 4,
+    "health": 6,
+    "races": [],
+    "race": "",
+    "name": "수사반장",
+    "nativeRawText": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다.",
+    "text": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다.",
+    "id": "GIL_648",
+    "dbfId": 47458,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": [
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      }
+    ]
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_648",
+    "dbfId": 47458,
+    "name": "수사반장",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다.",
+    "attack": 4,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "동작 그만! 주머니에 든 떠도는 괴물을 바닥에 내려놓고 두 손을 들어라!",
+    "spellSchool": "",
+    "portrait": "HS13-099_M.psd:081225d26f1e9744b92c93b4c7b85ea0",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_648.png",
+    "referencedTags": [
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다."
+  },
+  "nativeRawText": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 5,
+        "attack": 4,
+        "health": 6,
+        "races": [],
+        "race": "",
+        "name": "수사반장",
+        "nativeRawText": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다.",
+        "text": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다.",
+        "id": "GIL_648",
+        "dbfId": 47458
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-012",
+        "topic": "referenced-tag-ownership",
+        "date": null,
+        "cardIds": [
+          "GIL_116",
+          "GIL_188",
+          "GIL_510",
+          "GIL_526",
+          "GIL_557",
+          "GIL_565",
+          "GIL_578",
+          "GIL_580",
+          "GIL_601",
+          "GIL_607",
+          "GIL_618",
+          "GIL_634",
+          "GIL_635",
+          "GIL_648",
+          "GIL_650",
+          "GIL_683",
+          "GIL_685",
+          "GIL_801",
+          "GIL_836",
+          "GIL_905"
+        ],
+        "status": "raw-tag-role-not-card-keyword",
+        "detail": "20개 카드의 25개 참조 태그가 nativeTags에 소유 태그와 섞여 있음. 원시 역할 정보를 별도로 보존하며 참조 대상을 카드 자체 키워드로 해석하지 않음.",
+        "sourceCommits": [
+          "6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226",
+          "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      }
+    ],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Chief Inspector",
+            "nativeRawText": "Chief Inspector"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "수사반장",
+            "nativeRawText": "수사반장"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> Destroy all enemy <b>Secrets</b>.",
+            "nativeRawText": "<b>Battlecry:</b> Destroy all enemy <b>Secrets</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다.",
+            "nativeRawText": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Chief Inspector",
+            "nativeRawText": "Chief Inspector"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "수사반장",
+            "nativeRawText": "수사반장"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> Destroy all enemy <b>Secrets</b>.",
+            "nativeRawText": "<b>Battlecry:</b> Destroy all enemy <b>Secrets</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다.",
+            "nativeRawText": "<b>전투의 함성:</b> 적의 모든 <b>비밀</b>을 없앱니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-099_M.psd:081225d26f1e9744b92c93b4c7b85ea0",
+      "goldenMaterial": "GIL_648_PremiumCard.mat:6277b7aea5f311d468143fd3a0054680",
+      "goldenAnimation": "GIL_648_PremiumCard.asset:3133ae46ba3765f4f839d7e10781b2ff"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-012"
+    ]
+  }
+}

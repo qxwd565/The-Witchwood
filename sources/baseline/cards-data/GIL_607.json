@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_607",
+    "dbfId": 47256,
+    "name": "독소 전문가",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "모든 거미가 독성이 있는 건 아닙니다. 하지만 이 녀석이 그렇게 두질 않죠.",
+    "spellSchool": "",
+    "portrait": "HS13-025_M.psd:0d9a0e5f62c2fc941ba2e404e7cdbff4",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_607.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-025_M.psd:0d9a0e5f62c2fc941ba2e404e7cdbff4",
+    "goldenMaterial": "GIL_607_PremiumCard.mat:146756b0e0b6fb34198c000abfd66ba7",
+    "goldenAnimation": "GIL_607_PremiumCard.asset:49aaaec7d1625734b9d57ec34a74bed8"
+  }
+}

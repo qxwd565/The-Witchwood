@@ -1,1 +1,328 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_508t","dbfId":48805,"name":"박쥐","type":"MINION","cardClass":"WARLOCK","collectible":false,"cost":1,"text":"","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-231_H.psd:9d61e37285a5aac4e80bf230ea115ed5","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":9},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":321,"name":"수집 가능","value":0}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GIL_508t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-231_H.psd:9d61e37285a5aac4e80bf230ea115ed5","goldenMaterial":"GIL_508t_PremiumCard.mat:5ece066f802e9144e98b7e62bed11eb8","goldenAnimation":"GIL_508t_PremiumCard.asset:f6f22389090bcc9459d7550b0170f8b9"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_508t",
+    "dbfId": 48805,
+    "name": "박쥐",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-231_H.psd:9d61e37285a5aac4e80bf230ea115ed5",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_508t.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-231_H.psd:9d61e37285a5aac4e80bf230ea115ed5",
+    "goldenMaterial": "GIL_508t_PremiumCard.mat:5ece066f802e9144e98b7e62bed11eb8",
+    "goldenAnimation": "GIL_508t_PremiumCard.asset:f6f22389090bcc9459d7550b0170f8b9"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "name": "박쥐",
+    "id": "GIL_508t",
+    "dbfId": 48805,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_508t",
+    "dbfId": 48805,
+    "name": "박쥐",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-231_H.psd:9d61e37285a5aac4e80bf230ea115ed5",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_508t.png",
+    "referencedTags": []
+  },
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARLOCK",
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "name": "박쥐",
+        "id": "GIL_508t",
+        "dbfId": 48805
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Bat",
+            "nativeRawText": "Bat"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "박쥐",
+            "nativeRawText": "박쥐"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Bat",
+            "nativeRawText": "Bat"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "박쥐",
+            "nativeRawText": "박쥐"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-231_H.psd:9d61e37285a5aac4e80bf230ea115ed5",
+      "goldenMaterial": "GIL_508t_PremiumCard.mat:5ece066f802e9144e98b7e62bed11eb8",
+      "goldenAnimation": "GIL_508t_PremiumCard.asset:f6f22389090bcc9459d7550b0170f8b9"
+    },
+    "researchObservationIds": []
+  }
+}

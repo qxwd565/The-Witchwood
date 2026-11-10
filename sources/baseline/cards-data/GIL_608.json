@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_608",
+    "dbfId": 47262,
+    "name": "마녀숲 임프",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>은신</b>, <b>죽음의 메아리:</b> 무작위 아군 하수인에게 생명력을 +2 부여합니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이렇게나 다양한 생물이 있는 마녀숲을 내버려둔 길니아스를 강력히 규탄한다! - 마녀 하가사",
+    "spellSchool": "",
+    "portrait": "W19_a087_M.psd:353335b7fc1c5ae47b81b573e3af0514",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1965,
+        "name": "임프",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "art": "art/GIL_608.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W19_a087_M.psd:353335b7fc1c5ae47b81b573e3af0514",
+    "goldenMaterial": "GIL_608_PremiumCard.mat:8f67ce6e2436a044d9b1d92d82cbce03",
+    "goldenAnimation": "GIL_608_PremiumCard.asset:b493de82f059c574db4423198d662eb5"
+  }
+}

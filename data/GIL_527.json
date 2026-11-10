@@ -1,1 +1,454 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_527","dbfId":46991,"name":"지옥영혼 심문관","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":4,"text":"<b>생명력 흡수</b><br></br><b>도발</b>","attack":1,"health":6,"durability":0,"armor":0,"flavor":"자, 어떤 재주를 부리나 좀 볼까?","spellSchool":"","portrait":"HS13-050_M.psd:c6d97c7ab62636546a32f2d711d9df84","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":6},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":15},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":685,"name":"생명력 흡수","value":1}],"races":["DEMON"],"race":"악마","classes":[],"art":"art/GIL_527.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-050_M.psd:c6d97c7ab62636546a32f2d711d9df84","goldenMaterial":"Gil_527_PremiumCard.mat:93bc56eaa2cd10f42a465b60b0c7412f","goldenAnimation":"GIL_527_PremiumCard.asset:ef6cfb8f816d0a74e8fccbc7ab82339a"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_527",
+    "dbfId": 46991,
+    "name": "지옥영혼 심문관",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>생명력 흡수</b><br></br><b>도발</b>",
+    "attack": 1,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "자, 어떤 재주를 부리나 좀 볼까?",
+    "spellSchool": "",
+    "portrait": "HS13-050_M.psd:c6d97c7ab62636546a32f2d711d9df84",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "art": "art/GIL_527.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-050_M.psd:c6d97c7ab62636546a32f2d711d9df84",
+    "goldenMaterial": "Gil_527_PremiumCard.mat:93bc56eaa2cd10f42a465b60b0c7412f",
+    "goldenAnimation": "GIL_527_PremiumCard.asset:ef6cfb8f816d0a74e8fccbc7ab82339a"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "attack": 1,
+    "health": 6,
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "name": "지옥영혼 심문관",
+    "nativeRawText": "<b>생명력 흡수</b>\n<b>도발</b>",
+    "text": "<b>생명력 흡수</b><br></br><b>도발</b>",
+    "id": "GIL_527",
+    "dbfId": 46991,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_527",
+    "dbfId": 46991,
+    "name": "지옥영혼 심문관",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>생명력 흡수</b><br></br><b>도발</b>",
+    "attack": 1,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "자, 어떤 재주를 부리나 좀 볼까?",
+    "spellSchool": "",
+    "portrait": "HS13-050_M.psd:c6d97c7ab62636546a32f2d711d9df84",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "art": "art/GIL_527.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>생명력 흡수</b>\n<b>도발</b>"
+  },
+  "nativeRawText": "<b>생명력 흡수</b>\n<b>도발</b>",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 4,
+        "attack": 1,
+        "health": 6,
+        "races": [
+          "DEMON"
+        ],
+        "race": "악마",
+        "name": "지옥영혼 심문관",
+        "nativeRawText": "<b>생명력 흡수</b>\n<b>도발</b>",
+        "text": "<b>생명력 흡수</b><br></br><b>도발</b>",
+        "id": "GIL_527",
+        "dbfId": 46991
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Felsoul Inquisitor",
+            "nativeRawText": "Felsoul Inquisitor"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "지옥영혼 심문관",
+            "nativeRawText": "지옥영혼 심문관"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Lifesteal</b>\n<b>Taunt</b>",
+            "nativeRawText": "<b>Lifesteal</b>\n<b>Taunt</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>생명력 흡수</b>\n<b>도발</b>",
+            "nativeRawText": "<b>생명력 흡수</b>\n<b>도발</b>"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Felsoul Inquisitor",
+            "nativeRawText": "Felsoul Inquisitor"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "지옥영혼 심문관",
+            "nativeRawText": "지옥영혼 심문관"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Lifesteal</b>\n<b>Taunt</b>",
+            "nativeRawText": "<b>Lifesteal</b>\n<b>Taunt</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>생명력 흡수</b>\n<b>도발</b>",
+            "nativeRawText": "<b>생명력 흡수</b>\n<b>도발</b>"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-050_M.psd:c6d97c7ab62636546a32f2d711d9df84",
+      "goldenMaterial": "Gil_527_PremiumCard.mat:93bc56eaa2cd10f42a465b60b0c7412f",
+      "goldenAnimation": "GIL_527_PremiumCard.asset:ef6cfb8f816d0a74e8fccbc7ab82339a"
+    },
+    "researchObservationIds": []
+  }
+}

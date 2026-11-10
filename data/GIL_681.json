@@ -1,1 +1,454 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_681","dbfId":49502,"name":"악몽의 융합체","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":3,"text":"<i>모든 종족값을 가집니다.</i>","attack":3,"health":4,"durability":0,"armor":0,"flavor":"잊지 마세요. 종족을 보이는 그대로 받아들이지 말고, 가능성을 봐야 한다는 걸.","spellSchool":"","portrait":"HS13-091_M.psd:713e068f043d276448223b8518655d53","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":26},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1}],"races":["ALL"],"race":"모든 종족","classes":[],"art":"art/GIL_681.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-091_M.psd:713e068f043d276448223b8518655d53","goldenMaterial":"GIL_681_PremiumCard.mat:28a009f807e8f254d912559740db657a","goldenAnimation":"GIL_681_PremiumCard.asset:3abf917d13923154286bec5d4d87d025"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_681",
+    "dbfId": 49502,
+    "name": "악몽의 융합체",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "<i>모든 종족값을 가집니다.</i>",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "잊지 마세요. 종족을 보이는 그대로 받아들이지 말고, 가능성을 봐야 한다는 걸.",
+    "spellSchool": "",
+    "portrait": "HS13-091_M.psd:713e068f043d276448223b8518655d53",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 26
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "ALL"
+    ],
+    "race": "모든 종족",
+    "classes": [],
+    "art": "art/GIL_681.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-091_M.psd:713e068f043d276448223b8518655d53",
+    "goldenMaterial": "GIL_681_PremiumCard.mat:28a009f807e8f254d912559740db657a",
+    "goldenAnimation": "GIL_681_PremiumCard.asset:3abf917d13923154286bec5d4d87d025"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "races": [],
+    "race": "",
+    "name": "악몽의 융합체",
+    "nativeRawText": "<i>이 하수인은 정령이자 기계이자 악마이자 멀록이자 용족이자 야수이자 해적이자 토템입니다.</i>",
+    "text": "<i>이 하수인은 정령이자 기계이자 악마이자 멀록이자 용족이자 야수이자 해적이자 토템입니다.</i>",
+    "id": "GIL_681",
+    "dbfId": 49502,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 26
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_681",
+    "dbfId": 49502,
+    "name": "악몽의 융합체",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "<i>모든 종족값을 가집니다.</i>",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "잊지 마세요. 종족을 보이는 그대로 받아들이지 말고, 가능성을 봐야 한다는 걸.",
+    "spellSchool": "",
+    "portrait": "HS13-091_M.psd:713e068f043d276448223b8518655d53",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 26
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "ALL"
+    ],
+    "race": "모든 종족",
+    "classes": [],
+    "art": "art/GIL_681.png",
+    "referencedTags": [],
+    "nativeRawText": "<i>모든 종족값을 가집니다.</i>"
+  },
+  "nativeRawText": "<i>모든 종족값을 가집니다.</i>",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 3,
+        "attack": 3,
+        "health": 4,
+        "races": [],
+        "race": "",
+        "name": "악몽의 융합체",
+        "nativeRawText": "<i>이 하수인은 정령이자 기계이자 악마이자 멀록이자 용족이자 야수이자 해적이자 토템입니다.</i>",
+        "text": "<i>이 하수인은 정령이자 기계이자 악마이자 멀록이자 용족이자 야수이자 해적이자 토템입니다.</i>",
+        "id": "GIL_681",
+        "dbfId": 49502
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<i>이 하수인은 정령이자 기계이자 악마이자 멀록이자 용족이자 야수이자 해적이자 토템입니다.</i>",
+        "after": "<i>모든 종족값을 가집니다.</i>",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "races": {
+        "date": null,
+        "before": [],
+        "after": [
+          "ALL"
+        ],
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "race": {
+        "date": null,
+        "before": "",
+        "after": "모든 종족",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "<i>이 하수인은 정령이자 기계이자 악마이자 멀록이자 용족이자 야수이자 해적이자 토템입니다.</i>",
+        "after": "<i>모든 종족값을 가집니다.</i>",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": [
+      {
+        "id": "WITCH-OBS-008",
+        "topic": "all-tribes-wording",
+        "date": "2021-05-13",
+        "cardIds": [
+          "GIL_681"
+        ],
+        "status": "wording-observation-not-gameplay-change",
+        "detail": "모든 종족을 열거하던 문구가 모든 종족값으로 축약. CARDRACE=ALL(26)은 계속 유지되며 별도 개별 종족 추가 delta를 만들지 않음. 전역 상호작용과 구분.",
+        "sources": [
+          "https://hearthstone.blizzard.com/ko-kr/news/23671132",
+          "https://www.inven.co.kr/board/hs/3508/17716"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 26
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Nightmare Amalgam",
+            "nativeRawText": "Nightmare Amalgam"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "악몽의 융합체",
+            "nativeRawText": "악몽의 융합체"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<i>This is an Elemental, Mech,\nDemon, Murloc, Dragon,\nBeast, Pirate and Totem.</i>",
+            "nativeRawText": "[x]<i>This is an Elemental, Mech,\nDemon, Murloc, Dragon,\nBeast, Pirate and Totem.</i>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<i>이 하수인은 정령이자 기계이자 악마이자 멀록이자 용족이자 야수이자 해적이자 토템입니다.</i>",
+            "nativeRawText": "<i>이 하수인은 정령이자 기계이자 악마이자 멀록이자 용족이자 야수이자 해적이자 토템입니다.</i>"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Nightmare Amalgam",
+            "nativeRawText": "Nightmare Amalgam"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "악몽의 융합체",
+            "nativeRawText": "악몽의 융합체"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<i>This has all minion types.</i>",
+            "nativeRawText": "<i>This has all minion types.</i>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<i>모든 종족값을 가집니다.</i>",
+            "nativeRawText": "<i>모든 종족값을 가집니다.</i>"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-091_M.psd:713e068f043d276448223b8518655d53",
+      "goldenMaterial": "GIL_681_PremiumCard.mat:28a009f807e8f254d912559740db657a",
+      "goldenAnimation": "GIL_681_PremiumCard.asset:3abf917d13923154286bec5d4d87d025"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-008"
+    ]
+  }
+}

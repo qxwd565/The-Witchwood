@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_672",
+    "dbfId": 47594,
+    "name": "유령의 커틀라스",
+    "type": "WEAPON",
+    "cardClass": "ROGUE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>생명력 흡수</b><br></br>내가 다른 직업의 카드를<br></br>낼 때마다 내구도를<br></br>+1 얻습니다.",
+    "attack": 2,
+    "health": 0,
+    "durability": 2,
+    "armor": 0,
+    "flavor": "너무나 날카로워서 유령의 토마토 정도는 한 칼에 가를 수 있습니다!",
+    "spellSchool": "",
+    "portrait": "HS13-007_W.psd:fce28dac387c3c342b2c4332139add2e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_672.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-007_W.psd:fce28dac387c3c342b2c4332139add2e",
+    "goldenMaterial": "GIL_672_PremiumCard.mat:03e4f7675cf0bb64cb14b68b3015981d",
+    "goldenAnimation": "GIL_672_PremiumCard.asset:12d9ec465e6928b4088a852c14b05a4d"
+  }
+}

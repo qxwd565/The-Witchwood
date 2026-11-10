@@ -1,1 +1,643 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_543","dbfId":47033,"name":"어둠의 빙의","type":"SPELL","cardClass":"WARLOCK","rarity":"RARE","collectible":true,"cost":1,"text":"아군 캐릭터에게<br></br>피해를 $2 줍니다.<br></br>악마를 <b>발견</b>합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"왜 악마랑 엮이는 건 꼭 노움일까요?","spellSchool":"SHADOW","portrait":"HS13-049_S.psd:646e86aebc6443446a7ec0d95abd601c","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":9},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":370,"name":"주문 공격력 적용","value":1},{"id":415,"name":"발견","value":1},{"id":1342,"name":"발견 시각 효과","value":1},{"id":1635,"name":"주문 속성","value":6}],"races":[],"race":"","classes":[],"art":"art/GIL_543.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-049_S.psd:646e86aebc6443446a7ec0d95abd601c","goldenMaterial":"GIL_543_PremiumCard_NEW.mat:3cd52cd83d886e5479689eba737972b7","goldenAnimation":"GIL_543_PremiumCard_NEW.asset:811b8497eb732a548a14e5afb609c127"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_543",
+    "dbfId": 47033,
+    "name": "어둠의 빙의",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 1,
+    "text": "아군 캐릭터에게<br></br>피해를 $2 줍니다.<br></br>악마를 <b>발견</b>합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "왜 악마랑 엮이는 건 꼭 노움일까요?",
+    "spellSchool": "SHADOW",
+    "portrait": "HS13-049_S.psd:646e86aebc6443446a7ec0d95abd601c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 370,
+        "name": "주문 공격력 적용",
+        "value": 1
+      },
+      {
+        "id": 415,
+        "name": "발견",
+        "value": 1
+      },
+      {
+        "id": 1342,
+        "name": "발견 시각 효과",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_543.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-049_S.psd:646e86aebc6443446a7ec0d95abd601c",
+    "goldenMaterial": "GIL_543_PremiumCard_NEW.mat:3cd52cd83d886e5479689eba737972b7",
+    "goldenAnimation": "GIL_543_PremiumCard_NEW.asset:811b8497eb732a548a14e5afb609c127"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 1,
+    "name": "어둠의 빙의",
+    "nativeRawText": "[x]아군 캐릭터 하나에게\n피해를 $2 줍니다.\n악마를 하나 <b>발견</b>합니다.",
+    "text": "아군 캐릭터 하나에게<br></br>피해를 $2 줍니다.<br></br>악마를 하나 <b>발견</b>합니다.",
+    "id": "GIL_543",
+    "dbfId": 47033,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 370,
+        "name": "게임 태그 370",
+        "value": 1
+      }
+    ],
+    "referencedTags": [
+      {
+        "id": 415,
+        "name": "발견",
+        "value": 1
+      }
+    ]
+  },
+  "patches": [
+    {
+      "date": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "WARLOCK",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 1,
+        "name": "어둠의 빙의",
+        "nativeRawText": "[x]아군 캐릭터 하나에게\n피해를 $2 줍니다.\n악마를 하나 <b>발견</b>합니다.",
+        "text": "아군 캐릭터 하나에게<br></br>피해를 $2 줍니다.<br></br>악마를 하나 <b>발견</b>합니다.",
+        "id": "GIL_543",
+        "dbfId": 47033,
+        "spellSchool": "SHADOW",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 1
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 370,
+            "name": "주문 공격력 적용",
+            "value": 1
+          },
+          {
+            "id": 1342,
+            "name": "발견 시각 효과",
+            "value": 1
+          },
+          {
+            "id": 1635,
+            "name": "주문 속성",
+            "value": 6
+          }
+        ],
+        "referencedTags": [
+          {
+            "id": 415,
+            "name": "발견",
+            "value": 1
+          }
+        ]
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_543",
+    "dbfId": 47033,
+    "name": "어둠의 빙의",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 1,
+    "text": "아군 캐릭터에게<br></br>피해를 $2 줍니다.<br></br>악마를 <b>발견</b>합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "왜 악마랑 엮이는 건 꼭 노움일까요?",
+    "spellSchool": "SHADOW",
+    "portrait": "HS13-049_S.psd:646e86aebc6443446a7ec0d95abd601c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 370,
+        "name": "주문 공격력 적용",
+        "value": 1
+      },
+      {
+        "id": 415,
+        "name": "발견",
+        "value": 1
+      },
+      {
+        "id": 1342,
+        "name": "발견 시각 효과",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_543.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]아군 캐릭터에게\n피해를 $2 줍니다.\n악마를 <b>발견</b>합니다."
+  },
+  "nativeRawText": "[x]아군 캐릭터에게\n피해를 $2 줍니다.\n악마를 <b>발견</b>합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "WARLOCK",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 1,
+        "name": "어둠의 빙의",
+        "nativeRawText": "[x]아군 캐릭터 하나에게\n피해를 $2 줍니다.\n악마를 하나 <b>발견</b>합니다.",
+        "text": "아군 캐릭터 하나에게<br></br>피해를 $2 줍니다.<br></br>악마를 하나 <b>발견</b>합니다.",
+        "id": "GIL_543",
+        "dbfId": 47033,
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 1
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 370,
+            "name": "주문 공격력 적용",
+            "value": 1
+          },
+          {
+            "id": 1342,
+            "name": "발견 시각 효과",
+            "value": 1
+          }
+        ],
+        "referencedTags": [
+          {
+            "id": 415,
+            "name": "발견",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2021-03-26",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "WARLOCK",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 1,
+        "name": "어둠의 빙의",
+        "nativeRawText": "[x]아군 캐릭터 하나에게\n피해를 $2 줍니다.\n악마를 하나 <b>발견</b>합니다.",
+        "text": "아군 캐릭터 하나에게<br></br>피해를 $2 줍니다.<br></br>악마를 하나 <b>발견</b>합니다.",
+        "id": "GIL_543",
+        "dbfId": 47033,
+        "spellSchool": "SHADOW",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 1
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 370,
+            "name": "주문 공격력 적용",
+            "value": 1
+          },
+          {
+            "id": 1342,
+            "name": "발견 시각 효과",
+            "value": 1
+          },
+          {
+            "id": 1635,
+            "name": "주문 속성",
+            "value": 6
+          }
+        ],
+        "referencedTags": [
+          {
+            "id": 415,
+            "name": "발견",
+            "value": 1
+          }
+        ]
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "아군 캐릭터 하나에게<br></br>피해를 $2 줍니다.<br></br>악마를 하나 <b>발견</b>합니다.",
+        "after": "아군 캐릭터에게<br></br>피해를 $2 줍니다.<br></br>악마를 <b>발견</b>합니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "[x]아군 캐릭터 하나에게\n피해를 $2 줍니다.\n악마를 하나 <b>발견</b>합니다.",
+        "after": "[x]아군 캐릭터에게\n피해를 $2 줍니다.\n악마를 <b>발견</b>합니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": [
+      {
+        "id": "WITCH-OBS-010",
+        "topic": "discover-tag-role",
+        "date": null,
+        "cardIds": [
+          "GIL_116",
+          "GIL_543",
+          "GIL_836"
+        ],
+        "status": "undated-tag-role-observation",
+        "detail": "DISCOVER(415)가 ReferencedTag에서 owned Tag로 이동. 출시 문구에 이미 발견이 있으므로 새 발견 효과 추가가 아님.",
+        "sourceCommits": [
+          "02522f4d57def8c5c72deb6dfd537cbab6f819de",
+          "adedd63ac6a9181d379fcf320648fa4c7fb9ebf2"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 370,
+        "name": "게임 태그 370",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [
+      {
+        "id": 415,
+        "name": "발견",
+        "value": 1
+      }
+    ],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Dark Possession",
+            "nativeRawText": "Dark Possession"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "어둠의 빙의",
+            "nativeRawText": "어둠의 빙의"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Deal $2 damage to a friendly character. <b>Discover</b> a Demon.",
+            "nativeRawText": "Deal $2 damage to a friendly character. <b>Discover</b> a Demon."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]아군 캐릭터 하나에게\n피해를 $2 줍니다.\n악마를 하나 <b>발견</b>합니다.",
+            "nativeRawText": "[x]아군 캐릭터 하나에게\n피해를 $2 줍니다.\n악마를 하나 <b>발견</b>합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Dark Possession",
+            "nativeRawText": "Dark Possession"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "어둠의 빙의",
+            "nativeRawText": "어둠의 빙의"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Deal $2 damage to a friendly character. <b>Discover</b> a Demon.",
+            "nativeRawText": "Deal $2 damage to a friendly character. <b>Discover</b> a Demon."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]아군 캐릭터에게\n피해를 $2 줍니다.\n악마를 <b>발견</b>합니다.",
+            "nativeRawText": "[x]아군 캐릭터에게\n피해를 $2 줍니다.\n악마를 <b>발견</b>합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-049_S.psd:646e86aebc6443446a7ec0d95abd601c",
+      "goldenMaterial": "GIL_543_PremiumCard_NEW.mat:3cd52cd83d886e5479689eba737972b7",
+      "goldenAnimation": "GIL_543_PremiumCard_NEW.asset:811b8497eb732a548a14e5afb609c127"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-010"
+    ]
+  }
+}

@@ -1,1 +1,462 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_134","dbfId":46694,"name":"성수","type":"SPELL","cardClass":"PRIEST","rarity":"RARE","collectible":true,"cost":5,"text":"하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"칼로리가 신경 쓰인다면 성수: 제로를 드셔보세요.","spellSchool":"HOLY","portrait":"HS13-009_S.psd:7ff0ca1e204d0f441af874521970582d","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":6},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":5}],"races":[],"race":"","classes":[],"art":"art/GIL_134.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-009_S.psd:7ff0ca1e204d0f441af874521970582d","goldenMaterial":"GIL_134_PremiumCard.mat:3ec075ea1b263414ea7874dc4d3a1877","goldenAnimation":"GIL_134_PremiumCard.asset:31e4950ab66cfc445b10ef9fc7abb52f"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_134",
+    "dbfId": 46694,
+    "name": "성수",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "칼로리가 신경 쓰인다면 성수: 제로를 드셔보세요.",
+    "spellSchool": "HOLY",
+    "portrait": "HS13-009_S.psd:7ff0ca1e204d0f441af874521970582d",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 5
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_134.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-009_S.psd:7ff0ca1e204d0f441af874521970582d",
+    "goldenMaterial": "GIL_134_PremiumCard.mat:3ec075ea1b263414ea7874dc4d3a1877",
+    "goldenAnimation": "GIL_134_PremiumCard.asset:31e4950ab66cfc445b10ef9fc7abb52f"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "name": "성수",
+    "nativeRawText": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+    "text": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+    "id": "GIL_134",
+    "dbfId": 46694,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PRIEST",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 5,
+        "name": "성수",
+        "nativeRawText": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+        "text": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+        "id": "GIL_134",
+        "dbfId": 46694,
+        "spellSchool": "HOLY"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_134",
+    "dbfId": 46694,
+    "name": "성수",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "칼로리가 신경 쓰인다면 성수: 제로를 드셔보세요.",
+    "spellSchool": "HOLY",
+    "portrait": "HS13-009_S.psd:7ff0ca1e204d0f441af874521970582d",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 5
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_134.png",
+    "referencedTags": [],
+    "nativeRawText": "하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다."
+  },
+  "nativeRawText": "하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PRIEST",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 5,
+        "name": "성수",
+        "nativeRawText": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+        "text": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+        "id": "GIL_134",
+        "dbfId": 46694,
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 5
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 6
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2021-03-26",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "PRIEST",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 5,
+        "name": "성수",
+        "nativeRawText": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+        "text": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+        "id": "GIL_134",
+        "dbfId": 46694,
+        "spellSchool": "HOLY"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+        "after": "하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+        "after": "하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": [
+      {
+        "id": "WITCH-OBS-006",
+        "topic": "wording-only-execution-condition",
+        "date": "2026-03-11",
+        "cardIds": [
+          "GIL_134",
+          "GIL_687"
+        ],
+        "status": "wording-observation-not-gameplay-change",
+        "detail": "처치 조건 문구 통일. 공식 35.0 문서는 표현 일관성 변경으로 설명. 별도 효과 변경으로 세지 않음.",
+        "source": "https://hearthstone.blizzard.com/ko-kr/news/24267727"
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Holy Water",
+            "nativeRawText": "Holy Water"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "성수",
+            "nativeRawText": "성수"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Deal $4 damage to a minion. If that kills it, add a copy of it to your_hand.",
+            "nativeRawText": "Deal $4 damage to a minion. If that kills it, add a copy of it to your_hand."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다.",
+            "nativeRawText": "하수인 하나에게 피해를 $4 줍니다. 이 피해로 하수인이 죽으면, 그 카드를 복사하여 내 손으로 가져옵니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Holy Water",
+            "nativeRawText": "Holy Water"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "성수",
+            "nativeRawText": "성수"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Deal $4 damage to a minion. If it dies, add a copy of it to your_hand.",
+            "nativeRawText": "Deal $4 damage to a minion. If it dies, add a copy of it to your_hand."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다.",
+            "nativeRawText": "하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-009_S.psd:7ff0ca1e204d0f441af874521970582d",
+      "goldenMaterial": "GIL_134_PremiumCard.mat:3ec075ea1b263414ea7874dc4d3a1877",
+      "goldenAnimation": "GIL_134_PremiumCard.asset:31e4950ab66cfc445b10ef9fc7abb52f"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-006"
+    ]
+  }
+}

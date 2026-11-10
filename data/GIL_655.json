@@ -1,1 +1,536 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_655","dbfId":47516,"name":"고름뿌리 거목","type":"MINION","cardClass":"WARRIOR","rarity":"RARE","collectible":true,"cost":5,"text":"아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.","attack":2,"health":7,"durability":0,"armor":0,"flavor":"나무 관련 말장난이 점점 시들시들해지는군요.","spellSchool":"","portrait":"HS13-085_M.psd:185ed7dc28e4268488e3b70dd833c205","set":"GILNEAS","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":7},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":10},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":1440,"name":"선술집 단계","value":4}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/GIL_655.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-085_M.psd:185ed7dc28e4268488e3b70dd833c205","goldenMaterial":"GIL_655_PremiumCard.mat:adc6a47f4ce57444ab10d45dad9ad17f","goldenAnimation":"GIL_655_PremiumCard.asset:7ae610b4e83a0d14aa88b2cfa201449a"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_655",
+    "dbfId": 47516,
+    "name": "고름뿌리 거목",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+    "attack": 2,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "나무 관련 말장난이 점점 시들시들해지는군요.",
+    "spellSchool": "",
+    "portrait": "HS13-085_M.psd:185ed7dc28e4268488e3b70dd833c205",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1440,
+        "name": "선술집 단계",
+        "value": 4
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_655.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-085_M.psd:185ed7dc28e4268488e3b70dd833c205",
+    "goldenMaterial": "GIL_655_PremiumCard.mat:adc6a47f4ce57444ab10d45dad9ad17f",
+    "goldenAnimation": "GIL_655_PremiumCard.asset:7ae610b4e83a0d14aa88b2cfa201449a"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "attack": 2,
+    "health": 7,
+    "races": [],
+    "race": "",
+    "name": "고름뿌리 거목",
+    "nativeRawText": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+    "text": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+    "id": "GIL_655",
+    "dbfId": 47516,
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARRIOR",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 5,
+        "attack": 2,
+        "health": 7,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "고름뿌리 거목",
+        "nativeRawText": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+        "text": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+        "id": "GIL_655",
+        "dbfId": 47516
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_655",
+    "dbfId": 47516,
+    "name": "고름뿌리 거목",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+    "attack": 2,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "나무 관련 말장난이 점점 시들시들해지는군요.",
+    "spellSchool": "",
+    "portrait": "HS13-085_M.psd:185ed7dc28e4268488e3b70dd833c205",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1440,
+        "name": "선술집 단계",
+        "value": 4
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_655.png",
+    "referencedTags": [],
+    "nativeRawText": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다."
+  },
+  "nativeRawText": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARRIOR",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 5,
+        "attack": 2,
+        "health": 7,
+        "races": [],
+        "race": "",
+        "name": "고름뿌리 거목",
+        "nativeRawText": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+        "text": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+        "id": "GIL_655",
+        "dbfId": 47516,
+        "nativeTags": [
+          {
+            "id": 32,
+            "name": "발동 효과 표시",
+            "value": 1
+          },
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 7
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 2
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 5
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 10
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 1440,
+            "name": "선술집 단계",
+            "value": 4
+          }
+        ]
+      },
+      "before": "2022-11-30",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARRIOR",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 5,
+        "attack": 2,
+        "health": 7,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "고름뿌리 거목",
+        "nativeRawText": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+        "text": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+        "id": "GIL_655",
+        "dbfId": 47516
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Festeroot Hulk",
+            "nativeRawText": "Festeroot Hulk"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "고름뿌리 거목",
+            "nativeRawText": "고름뿌리 거목"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "After a friendly minion attacks, gain +1 Attack.",
+            "nativeRawText": "After a friendly minion attacks, gain +1 Attack."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+            "nativeRawText": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Festeroot Hulk",
+            "nativeRawText": "Festeroot Hulk"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "고름뿌리 거목",
+            "nativeRawText": "고름뿌리 거목"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "After a friendly minion attacks, gain +1 Attack.",
+            "nativeRawText": "After a friendly minion attacks, gain +1 Attack."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다.",
+            "nativeRawText": "아군 하수인이 공격한 후에, 공격력을 +1 얻습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-085_M.psd:185ed7dc28e4268488e3b70dd833c205",
+      "goldenMaterial": "GIL_655_PremiumCard.mat:adc6a47f4ce57444ab10d45dad9ad17f",
+      "goldenAnimation": "GIL_655_PremiumCard.asset:7ae610b4e83a0d14aa88b2cfa201449a"
+    },
+    "researchObservationIds": []
+  }
+}

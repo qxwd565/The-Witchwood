@@ -1,1 +1,401 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_616t2","dbfId":47290,"name":"나뭇조각","type":"MINION","cardClass":"NEUTRAL","collectible":false,"cost":1,"text":"","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-256_M.psd:1fe09d08258716948816f49d70bd6d09","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":321,"name":"수집 가능","value":0}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/GIL_616t2.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-256_M.psd:1fe09d08258716948816f49d70bd6d09","goldenMaterial":"GIL_616t2_PremiumCard.mat:ce79d8940dc4aa74bb868ea485980e01","goldenAnimation":"GIL_616t2_PremiumCard.asset:3df261a5197cf5545ae0e3c0c16de87c"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_616t2",
+    "dbfId": 47290,
+    "name": "나뭇조각",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-256_M.psd:1fe09d08258716948816f49d70bd6d09",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_616t2.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-256_M.psd:1fe09d08258716948816f49d70bd6d09",
+    "goldenMaterial": "GIL_616t2_PremiumCard.mat:ce79d8940dc4aa74bb868ea485980e01",
+    "goldenAnimation": "GIL_616t2_PremiumCard.asset:3df261a5197cf5545ae0e3c0c16de87c"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "races": [],
+    "race": "",
+    "name": "나뭇조각",
+    "id": "GIL_616t2",
+    "dbfId": 47290,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "나뭇조각",
+        "id": "GIL_616t2",
+        "dbfId": 47290
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_616t2",
+    "dbfId": 47290,
+    "name": "나뭇조각",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-256_M.psd:1fe09d08258716948816f49d70bd6d09",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_616t2.png",
+    "referencedTags": []
+  },
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "races": [],
+        "race": "",
+        "name": "나뭇조각",
+        "id": "GIL_616t2",
+        "dbfId": 47290,
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 1
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 1
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 1
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 0
+          }
+        ]
+      },
+      "before": "2022-11-30",
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    },
+    {
+      "from": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "나뭇조각",
+        "id": "GIL_616t2",
+        "dbfId": 47290
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Woodchip",
+            "nativeRawText": "Woodchip"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "나뭇조각",
+            "nativeRawText": "나뭇조각"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Woodchip",
+            "nativeRawText": "Woodchip"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "나뭇조각",
+            "nativeRawText": "나뭇조각"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-256_M.psd:1fe09d08258716948816f49d70bd6d09",
+      "goldenMaterial": "GIL_616t2_PremiumCard.mat:ce79d8940dc4aa74bb868ea485980e01",
+      "goldenAnimation": "GIL_616t2_PremiumCard.asset:3df261a5197cf5545ae0e3c0c16de87c"
+    },
+    "researchObservationIds": []
+  }
+}

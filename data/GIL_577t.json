@@ -1,1 +1,300 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_577t","dbfId":49457,"name":"포악한 쥐","type":"MINION","cardClass":"HUNTER","collectible":false,"cost":6,"text":"","attack":6,"health":6,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS13-059b_M.psd:c2e1e2715e76a274cb4bc41afffb14dc","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":6},{"id":47,"name":"공격력","value":6},{"id":48,"name":"마나 비용","value":6},{"id":199,"name":"직업","value":3},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GIL_577t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-059b_M.psd:c2e1e2715e76a274cb4bc41afffb14dc","goldenMaterial":"GIL_577t_PremiumCard.mat:d9c40bb3ec8959b4383a43877f28c310","goldenAnimation":"GIL_577t_PremiumCard.asset:8a0a3e08825b6a34594326d566c9e31e"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_577t",
+    "dbfId": 49457,
+    "name": "포악한 쥐",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "collectible": false,
+    "cost": 6,
+    "text": "",
+    "attack": 6,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-059b_M.psd:c2e1e2715e76a274cb4bc41afffb14dc",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_577t.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-059b_M.psd:c2e1e2715e76a274cb4bc41afffb14dc",
+    "goldenMaterial": "GIL_577t_PremiumCard.mat:d9c40bb3ec8959b4383a43877f28c310",
+    "goldenAnimation": "GIL_577t_PremiumCard.asset:8a0a3e08825b6a34594326d566c9e31e"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "cost": 6,
+    "attack": 6,
+    "health": 6,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "name": "포악한 쥐",
+    "id": "GIL_577t",
+    "dbfId": 49457,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_577t",
+    "dbfId": 49457,
+    "name": "포악한 쥐",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "collectible": false,
+    "cost": 6,
+    "text": "",
+    "attack": 6,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS13-059b_M.psd:c2e1e2715e76a274cb4bc41afffb14dc",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_577t.png",
+    "referencedTags": []
+  },
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "HUNTER",
+        "cost": 6,
+        "attack": 6,
+        "health": 6,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "name": "포악한 쥐",
+        "id": "GIL_577t",
+        "dbfId": 49457
+      },
+      "removedFields": [
+        "armor",
+        "collectible",
+        "durability",
+        "spellSchool",
+        "text"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Doom Rat",
+            "nativeRawText": "Doom Rat"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "포악한 쥐",
+            "nativeRawText": "포악한 쥐"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Doom Rat",
+            "nativeRawText": "Doom Rat"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "포악한 쥐",
+            "nativeRawText": "포악한 쥐"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-059b_M.psd:c2e1e2715e76a274cb4bc41afffb14dc",
+      "goldenMaterial": "GIL_577t_PremiumCard.mat:d9c40bb3ec8959b4383a43877f28c310",
+      "goldenAnimation": "GIL_577t_PremiumCard.asset:8a0a3e08825b6a34594326d566c9e31e"
+    },
+    "researchObservationIds": []
+  }
+}

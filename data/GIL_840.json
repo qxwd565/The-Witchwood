@@ -1,1 +1,531 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_840","dbfId":48560,"name":"유령아씨","type":"MINION","cardClass":"PRIEST","rarity":"LEGENDARY","collectible":true,"cost":6,"text":"<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>","attack":5,"health":5,"durability":0,"armor":0,"flavor":"옷에 알록달록한 무늬가 가득했는데 노움 세탁기가 표백제를 너무 많이 넣었다고 하는군요.","spellSchool":"","portrait":"HS13-207_M.psd:5fa58ff0bd7c284428374099b7664d2c","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":6},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":6},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/GIL_840.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-207_M.psd:5fa58ff0bd7c284428374099b7664d2c","goldenMaterial":"GIL_840_PremiumCard.mat:7df96236cee423445803d5f86d3cf979","goldenAnimation":"GIL_840_PremiumCard.asset:3114b2488f7ef6345906273ec2011562"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_840",
+    "dbfId": 48560,
+    "name": "유령아씨",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "옷에 알록달록한 무늬가 가득했는데 노움 세탁기가 표백제를 너무 많이 넣었다고 하는군요.",
+    "spellSchool": "",
+    "portrait": "HS13-207_M.psd:5fa58ff0bd7c284428374099b7664d2c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_840.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-207_M.psd:5fa58ff0bd7c284428374099b7664d2c",
+    "goldenMaterial": "GIL_840_PremiumCard.mat:7df96236cee423445803d5f86d3cf979",
+    "goldenAnimation": "GIL_840_PremiumCard.asset:3114b2488f7ef6345906273ec2011562"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 6,
+    "attack": 5,
+    "health": 5,
+    "races": [],
+    "race": "",
+    "name": "유령아씨",
+    "nativeRawText": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+    "text": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+    "id": "GIL_840",
+    "dbfId": 48560,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "PRIEST",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 6,
+        "attack": 5,
+        "health": 5,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "유령아씨",
+        "nativeRawText": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+        "text": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+        "id": "GIL_840",
+        "dbfId": 48560
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_840",
+    "dbfId": 48560,
+    "name": "유령아씨",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "옷에 알록달록한 무늬가 가득했는데 노움 세탁기가 표백제를 너무 많이 넣었다고 하는군요.",
+    "spellSchool": "",
+    "portrait": "HS13-207_M.psd:5fa58ff0bd7c284428374099b7664d2c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_840.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>"
+  },
+  "nativeRawText": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "PRIEST",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 6,
+        "attack": 5,
+        "health": 5,
+        "races": [],
+        "race": "",
+        "name": "유령아씨",
+        "nativeRawText": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+        "text": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+        "id": "GIL_840",
+        "dbfId": 48560,
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 5
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 5
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 6
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 6
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 5
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2022-11-30",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "PRIEST",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 6,
+        "attack": 5,
+        "health": 5,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "유령아씨",
+        "nativeRawText": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+        "text": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+        "id": "GIL_840",
+        "dbfId": 48560
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Lady in White",
+            "nativeRawText": "Lady in White"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "유령아씨",
+            "nativeRawText": "유령아씨"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Battlecry:</b> Cast 'Inner Fire'\n_on every minion in your deck_\n<i>(set Attack equal to Health).</i>",
+            "nativeRawText": "[x]<b>Battlecry:</b> Cast 'Inner Fire'\n_on every minion in your deck_\n<i>(set Attack equal to Health).</i>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+            "nativeRawText": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Lady in White",
+            "nativeRawText": "Lady in White"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "유령아씨",
+            "nativeRawText": "유령아씨"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Battlecry:</b> Cast 'Inner Fire'\n_on every minion in your deck_\n<i>(set Attack equal to Health).</i>",
+            "nativeRawText": "[x]<b>Battlecry:</b> Cast 'Inner Fire'\n_on every minion in your deck_\n<i>(set Attack equal to Health).</i>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>",
+            "nativeRawText": "<b>전투의 함성:</b> 내 덱에 있는 모든 하수인에게 '내면의 열정'을 시전합니다. <i>(공격력을 생명력과 같은 수치로 바꿈)</i>"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-207_M.psd:5fa58ff0bd7c284428374099b7664d2c",
+      "goldenMaterial": "GIL_840_PremiumCard.mat:7df96236cee423445803d5f86d3cf979",
+      "goldenAnimation": "GIL_840_PremiumCard.asset:3114b2488f7ef6345906273ec2011562"
+    },
+    "researchObservationIds": []
+  }
+}

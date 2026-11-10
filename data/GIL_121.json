@@ -1,1 +1,423 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_121","dbfId":46660,"name":"어둠수렁 달빛야수","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":7,"text":"<b>주문 공격력 +2</b>","attack":2,"health":8,"durability":0,"armor":0,"flavor":"\"부엉아, 뭐 먹을래?\" \"부엉.\" \"탕수육? 알았어.\" \"부엉.\" \"소스는 부을까?\" \"아니.\"","spellSchool":"","portrait":"HS13-251_M.psd:9dc5b0e306964a3468d4412b4aa970d9","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":8},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":7},{"id":114,"name":"전설 속성","value":0},{"id":192,"name":"주문 공격력","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_121.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-251_M.psd:9dc5b0e306964a3468d4412b4aa970d9","goldenMaterial":"GIL_121_PremiumCard.mat:9ed61713b0409664e8b9b25691979acd","goldenAnimation":"GIL_121_PremiumCard.asset:aef300171a676bc459c138ef8156a3dd"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_121",
+    "dbfId": 46660,
+    "name": "어둠수렁 달빛야수",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 7,
+    "text": "<b>주문 공격력 +2</b>",
+    "attack": 2,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"부엉아, 뭐 먹을래?\" \"부엉.\" \"탕수육? 알았어.\" \"부엉.\" \"소스는 부을까?\" \"아니.\"",
+    "spellSchool": "",
+    "portrait": "HS13-251_M.psd:9dc5b0e306964a3468d4412b4aa970d9",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 192,
+        "name": "주문 공격력",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_121.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-251_M.psd:9dc5b0e306964a3468d4412b4aa970d9",
+    "goldenMaterial": "GIL_121_PremiumCard.mat:9ed61713b0409664e8b9b25691979acd",
+    "goldenAnimation": "GIL_121_PremiumCard.asset:aef300171a676bc459c138ef8156a3dd"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 7,
+    "attack": 2,
+    "health": 8,
+    "races": [],
+    "race": "",
+    "name": "어둠수렁 달빛야수",
+    "nativeRawText": "<b>주문 공격력 +2</b>",
+    "text": "<b>주문 공격력 +2</b>",
+    "id": "GIL_121",
+    "dbfId": 46660,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 192,
+        "name": "게임 태그 192",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_121",
+    "dbfId": 46660,
+    "name": "어둠수렁 달빛야수",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 7,
+    "text": "<b>주문 공격력 +2</b>",
+    "attack": 2,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"부엉아, 뭐 먹을래?\" \"부엉.\" \"탕수육? 알았어.\" \"부엉.\" \"소스는 부을까?\" \"아니.\"",
+    "spellSchool": "",
+    "portrait": "HS13-251_M.psd:9dc5b0e306964a3468d4412b4aa970d9",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 192,
+        "name": "주문 공격력",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_121.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>주문 공격력 +2</b>"
+  },
+  "nativeRawText": "<b>주문 공격력 +2</b>",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 7,
+        "attack": 2,
+        "health": 8,
+        "races": [],
+        "race": "",
+        "name": "어둠수렁 달빛야수",
+        "nativeRawText": "<b>주문 공격력 +2</b>",
+        "text": "<b>주문 공격력 +2</b>",
+        "id": "GIL_121",
+        "dbfId": 46660
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-003",
+        "topic": "spellpower-internal-value",
+        "date": null,
+        "cardIds": [
+          "GIL_121"
+        ],
+        "status": "undated-observation",
+        "detail": "SPELLPOWER(192) 원시 값 2→1. 같은 업데이트에서 주문 공격력 2 이상인 35개 카드의 태그가 1로 바뀌었고 원본 한국어·영문은 계속 +2. 인쇄 주문 공격력 2→1 너프로 만들지 않으며 서버 내부 계산량을 태그만으로 확정하지 않음.",
+        "sourceCommits": [
+          "e6b9c5e51678d5035d1188f63c246326bb221c60",
+          "0a387d653f339297339625710e4df91f0c62b67b"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 192,
+        "name": "게임 태그 192",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Darkmire Moonkin",
+            "nativeRawText": "Darkmire Moonkin"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "어둠수렁 달빛야수",
+            "nativeRawText": "어둠수렁 달빛야수"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Spell Damage +2</b>",
+            "nativeRawText": "<b>Spell Damage +2</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>주문 공격력 +2</b>",
+            "nativeRawText": "<b>주문 공격력 +2</b>"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Darkmire Moonkin",
+            "nativeRawText": "Darkmire Moonkin"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "어둠수렁 달빛야수",
+            "nativeRawText": "어둠수렁 달빛야수"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Spell Damage +2</b>",
+            "nativeRawText": "<b>Spell Damage +2</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>주문 공격력 +2</b>",
+            "nativeRawText": "<b>주문 공격력 +2</b>"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-251_M.psd:9dc5b0e306964a3468d4412b4aa970d9",
+      "goldenMaterial": "GIL_121_PremiumCard.mat:9ed61713b0409664e8b9b25691979acd",
+      "goldenAnimation": "GIL_121_PremiumCard.asset:aef300171a676bc459c138ef8156a3dd"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-003"
+    ]
+  }
+}

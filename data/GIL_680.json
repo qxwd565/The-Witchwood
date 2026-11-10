@@ -1,1 +1,406 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_680","dbfId":47602,"name":"호두 요마","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":3,"text":"<b>잔상</b>","attack":3,"health":3,"durability":0,"armor":0,"flavor":"웃음소리가 머리에 울릴 지경입니다.","spellSchool":"","portrait":"HS13-248_M.psd:d2902711a8742a947b10c73729f93ee6","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":846,"name":"잔상","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_680.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-248_M.psd:d2902711a8742a947b10c73729f93ee6","goldenMaterial":"GIL_680_PremiumCard.mat:f8def928dd4064045a85286c764f6b12","goldenAnimation":"GIL_680_PremiumCard.asset:6ce94f4d29f24f44aba4eacaf9297751"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_680",
+    "dbfId": 47602,
+    "name": "호두 요마",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>잔상</b>",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "웃음소리가 머리에 울릴 지경입니다.",
+    "spellSchool": "",
+    "portrait": "HS13-248_M.psd:d2902711a8742a947b10c73729f93ee6",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_680.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-248_M.psd:d2902711a8742a947b10c73729f93ee6",
+    "goldenMaterial": "GIL_680_PremiumCard.mat:f8def928dd4064045a85286c764f6b12",
+    "goldenAnimation": "GIL_680_PremiumCard.asset:6ce94f4d29f24f44aba4eacaf9297751"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "races": [],
+    "race": "",
+    "name": "호두 요마",
+    "nativeRawText": "<b>잔상</b>",
+    "text": "<b>잔상</b>",
+    "id": "GIL_680",
+    "dbfId": 47602,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_680",
+    "dbfId": 47602,
+    "name": "호두 요마",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>잔상</b>",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "웃음소리가 머리에 울릴 지경입니다.",
+    "spellSchool": "",
+    "portrait": "HS13-248_M.psd:d2902711a8742a947b10c73729f93ee6",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_680.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>잔상</b>"
+  },
+  "nativeRawText": "<b>잔상</b>",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "races": [],
+        "race": "",
+        "name": "호두 요마",
+        "nativeRawText": "<b>잔상</b>",
+        "text": "<b>잔상</b>",
+        "id": "GIL_680",
+        "dbfId": 47602
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Walnut Sprite",
+            "nativeRawText": "Walnut Sprite"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "호두 요마",
+            "nativeRawText": "호두 요마"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Echo</b>",
+            "nativeRawText": "<b>Echo</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>잔상</b>",
+            "nativeRawText": "<b>잔상</b>"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Walnut Sprite",
+            "nativeRawText": "Walnut Sprite"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "호두 요마",
+            "nativeRawText": "호두 요마"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Echo</b>",
+            "nativeRawText": "<b>Echo</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>잔상</b>",
+            "nativeRawText": "<b>잔상</b>"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-248_M.psd:d2902711a8742a947b10c73729f93ee6",
+      "goldenMaterial": "GIL_680_PremiumCard.mat:f8def928dd4064045a85286c764f6b12",
+      "goldenAnimation": "GIL_680_PremiumCard.asset:6ce94f4d29f24f44aba4eacaf9297751"
+    },
+    "researchObservationIds": []
+  }
+}

@@ -1,1 +1,420 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_672","dbfId":47594,"name":"유령의 커틀라스","type":"WEAPON","cardClass":"ROGUE","rarity":"EPIC","collectible":true,"cost":4,"text":"<b>생명력 흡수</b><br></br>내가 다른 직업의 카드를<br></br>낼 때마다 내구도를<br></br>+1 얻습니다.","attack":2,"health":0,"durability":2,"armor":0,"flavor":"너무나 날카로워서 유령의 토마토 정도는 한 칼에 가를 수 있습니다!","spellSchool":"","portrait":"HS13-007_W.psd:fce28dac387c3c342b2c4332139add2e","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":7},{"id":202,"name":"카드 유형","value":7},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1},{"id":685,"name":"생명력 흡수","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_672.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-007_W.psd:fce28dac387c3c342b2c4332139add2e","goldenMaterial":"GIL_672_PremiumCard.mat:03e4f7675cf0bb64cb14b68b3015981d","goldenAnimation":"GIL_672_PremiumCard.asset:12d9ec465e6928b4088a852c14b05a4d"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_672",
+    "dbfId": 47594,
+    "name": "유령의 커틀라스",
+    "type": "WEAPON",
+    "cardClass": "ROGUE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>생명력 흡수</b><br></br>내가 다른 직업의 카드를<br></br>낼 때마다 내구도를<br></br>+1 얻습니다.",
+    "attack": 2,
+    "health": 0,
+    "durability": 2,
+    "armor": 0,
+    "flavor": "너무나 날카로워서 유령의 토마토 정도는 한 칼에 가를 수 있습니다!",
+    "spellSchool": "",
+    "portrait": "HS13-007_W.psd:fce28dac387c3c342b2c4332139add2e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_672.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-007_W.psd:fce28dac387c3c342b2c4332139add2e",
+    "goldenMaterial": "GIL_672_PremiumCard.mat:03e4f7675cf0bb64cb14b68b3015981d",
+    "goldenAnimation": "GIL_672_PremiumCard.asset:12d9ec465e6928b4088a852c14b05a4d"
+  },
+  "initialSpec": {
+    "type": "WEAPON",
+    "cardClass": "ROGUE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "attack": 2,
+    "durability": 2,
+    "name": "유령의 커틀라스",
+    "nativeRawText": "[x]<b>생명력 흡수</b>\n내가 다른 직업의 카드를\n낼 때마다 내구도를\n+1 얻습니다.",
+    "text": "<b>생명력 흡수</b><br></br>내가 다른 직업의 카드를<br></br>낼 때마다 내구도를<br></br>+1 얻습니다.",
+    "id": "GIL_672",
+    "dbfId": 47594,
+    "nativeTags": [
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 187,
+        "name": "내구도",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_672",
+    "dbfId": 47594,
+    "name": "유령의 커틀라스",
+    "type": "WEAPON",
+    "cardClass": "ROGUE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>생명력 흡수</b><br></br>내가 다른 직업의 카드를<br></br>낼 때마다 내구도를<br></br>+1 얻습니다.",
+    "attack": 2,
+    "health": 0,
+    "durability": 2,
+    "armor": 0,
+    "flavor": "너무나 날카로워서 유령의 토마토 정도는 한 칼에 가를 수 있습니다!",
+    "spellSchool": "",
+    "portrait": "HS13-007_W.psd:fce28dac387c3c342b2c4332139add2e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_672.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]<b>생명력 흡수</b>\n내가 다른 직업의 카드를\n낼 때마다 내구도를\n+1 얻습니다."
+  },
+  "nativeRawText": "[x]<b>생명력 흡수</b>\n내가 다른 직업의 카드를\n낼 때마다 내구도를\n+1 얻습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "WEAPON",
+        "cardClass": "ROGUE",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 4,
+        "attack": 2,
+        "durability": 2,
+        "name": "유령의 커틀라스",
+        "nativeRawText": "[x]<b>생명력 흡수</b>\n내가 다른 직업의 카드를\n낼 때마다 내구도를\n+1 얻습니다.",
+        "text": "<b>생명력 흡수</b><br></br>내가 다른 직업의 카드를<br></br>낼 때마다 내구도를<br></br>+1 얻습니다.",
+        "id": "GIL_672",
+        "dbfId": 47594
+      },
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-004",
+        "topic": "weapon-durability-storage",
+        "date": "2025-03-19",
+        "cardIds": [
+          "GIL_596",
+          "GIL_653",
+          "GIL_672"
+        ],
+        "status": "observed-representation-change",
+        "detail": "DURABILITY(187)가 사라지고 동일 값이 HEALTH(45)로 이동. 논리 내구도는 각각 4,2,2로 유지되므로 무기 생명력 증가나 내구도 변경이 아님.",
+        "source": "https://news.blizzard.com/ko-kr/article/24187196/32-0"
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 187,
+        "name": "내구도",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Spectral Cutlass",
+            "nativeRawText": "Spectral Cutlass"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "유령의 커틀라스",
+            "nativeRawText": "유령의 커틀라스"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Lifesteal</b>\nWhenever you play a card\nfrom another class,\ngain +1 Durability.",
+            "nativeRawText": "[x]<b>Lifesteal</b>\nWhenever you play a card\nfrom another class,\ngain +1 Durability."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>생명력 흡수</b>\n내가 다른 직업의 카드를\n낼 때마다 내구도를\n+1 얻습니다.",
+            "nativeRawText": "[x]<b>생명력 흡수</b>\n내가 다른 직업의 카드를\n낼 때마다 내구도를\n+1 얻습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Spectral Cutlass",
+            "nativeRawText": "Spectral Cutlass"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "유령의 커틀라스",
+            "nativeRawText": "유령의 커틀라스"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]<b>Lifesteal</b>\nWhenever you play a card\nfrom another class,\ngain +1 Durability.",
+            "nativeRawText": "[x]<b>Lifesteal</b>\nWhenever you play a card\nfrom another class,\ngain +1 Durability."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>생명력 흡수</b>\n내가 다른 직업의 카드를\n낼 때마다 내구도를\n+1 얻습니다.",
+            "nativeRawText": "[x]<b>생명력 흡수</b>\n내가 다른 직업의 카드를\n낼 때마다 내구도를\n+1 얻습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-007_W.psd:fce28dac387c3c342b2c4332139add2e",
+      "goldenMaterial": "GIL_672_PremiumCard.mat:03e4f7675cf0bb64cb14b68b3015981d",
+      "goldenAnimation": "GIL_672_PremiumCard.asset:12d9ec465e6928b4088a852c14b05a4d"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-004"
+    ]
+  }
+}

@@ -1,1 +1,465 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_607","dbfId":47256,"name":"독소 전문가","type":"MINION","cardClass":"HUNTER","rarity":"EPIC","collectible":true,"cost":4,"text":"내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.","attack":2,"health":4,"durability":0,"armor":0,"flavor":"모든 거미가 독성이 있는 건 아닙니다. 하지만 이 녀석이 그렇게 두질 않죠.","spellSchool":"","portrait":"HS13-025_M.psd:0d9a0e5f62c2fc941ba2e404e7cdbff4","set":"GILNEAS","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":3},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1},{"id":363,"name":"독성","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_607.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-025_M.psd:0d9a0e5f62c2fc941ba2e404e7cdbff4","goldenMaterial":"GIL_607_PremiumCard.mat:146756b0e0b6fb34198c000abfd66ba7","goldenAnimation":"GIL_607_PremiumCard.asset:49aaaec7d1625734b9d57ec34a74bed8"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_607",
+    "dbfId": 47256,
+    "name": "독소 전문가",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "모든 거미가 독성이 있는 건 아닙니다. 하지만 이 녀석이 그렇게 두질 않죠.",
+    "spellSchool": "",
+    "portrait": "HS13-025_M.psd:0d9a0e5f62c2fc941ba2e404e7cdbff4",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_607.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-025_M.psd:0d9a0e5f62c2fc941ba2e404e7cdbff4",
+    "goldenMaterial": "GIL_607_PremiumCard.mat:146756b0e0b6fb34198c000abfd66ba7",
+    "goldenAnimation": "GIL_607_PremiumCard.asset:49aaaec7d1625734b9d57ec34a74bed8"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "attack": 2,
+    "health": 4,
+    "races": [],
+    "race": "",
+    "name": "독소 전문가",
+    "nativeRawText": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.",
+    "text": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.",
+    "id": "GIL_607",
+    "dbfId": 47256,
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": [
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
+    ]
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_607",
+    "dbfId": 47256,
+    "name": "독소 전문가",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "모든 거미가 독성이 있는 건 아닙니다. 하지만 이 녀석이 그렇게 두질 않죠.",
+    "spellSchool": "",
+    "portrait": "HS13-025_M.psd:0d9a0e5f62c2fc941ba2e404e7cdbff4",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_607.png",
+    "referencedTags": [
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다."
+  },
+  "nativeRawText": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "HUNTER",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 4,
+        "attack": 2,
+        "health": 4,
+        "races": [],
+        "race": "",
+        "name": "독소 전문가",
+        "nativeRawText": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.",
+        "text": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.",
+        "id": "GIL_607",
+        "dbfId": 47256
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-012",
+        "topic": "referenced-tag-ownership",
+        "date": null,
+        "cardIds": [
+          "GIL_116",
+          "GIL_188",
+          "GIL_510",
+          "GIL_526",
+          "GIL_557",
+          "GIL_565",
+          "GIL_578",
+          "GIL_580",
+          "GIL_601",
+          "GIL_607",
+          "GIL_618",
+          "GIL_634",
+          "GIL_635",
+          "GIL_648",
+          "GIL_650",
+          "GIL_683",
+          "GIL_685",
+          "GIL_801",
+          "GIL_836",
+          "GIL_905"
+        ],
+        "status": "raw-tag-role-not-card-keyword",
+        "detail": "20개 카드의 25개 참조 태그가 nativeTags에 소유 태그와 섞여 있음. 원시 역할 정보를 별도로 보존하며 참조 대상을 카드 자체 키워드로 해석하지 않음.",
+        "sourceCommits": [
+          "6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226",
+          "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
+    ],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Toxmonger",
+            "nativeRawText": "Toxmonger"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "독소 전문가",
+            "nativeRawText": "독소 전문가"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]Whenever you play a 1-Cost\nminion, give it <b>Poisonous</b>.",
+            "nativeRawText": "[x]Whenever you play a 1-Cost\nminion, give it <b>Poisonous</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.",
+            "nativeRawText": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Toxmonger",
+            "nativeRawText": "Toxmonger"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "독소 전문가",
+            "nativeRawText": "독소 전문가"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "[x]Whenever you play a 1-Cost\nminion, give it <b>Poisonous</b>.",
+            "nativeRawText": "[x]Whenever you play a 1-Cost\nminion, give it <b>Poisonous</b>."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다.",
+            "nativeRawText": "내가 비용이 1인 하수인을 낼 때마다 그 하수인에게 <b>독성</b>을 부여합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-025_M.psd:0d9a0e5f62c2fc941ba2e404e7cdbff4",
+      "goldenMaterial": "GIL_607_PremiumCard.mat:146756b0e0b6fb34198c000abfd66ba7",
+      "goldenAnimation": "GIL_607_PremiumCard.asset:49aaaec7d1625734b9d57ec34a74bed8"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-012"
+    ]
+  }
+}

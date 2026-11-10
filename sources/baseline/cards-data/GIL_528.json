@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_528",
+    "dbfId": 46992,
+    "name": "날쌘 전령",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>속공</b>, 이 하수인은<br></br>내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+    "attack": 2,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "어떤 곳이라도 한 턴에 달려갑니다!",
+    "spellSchool": "",
+    "portrait": "HS13-079_M.psd:e2fff009b0460a8448b6f6c386aee1d6",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 46993
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_528.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-079_M.psd:e2fff009b0460a8448b6f6c386aee1d6",
+    "goldenMaterial": "GIL_528_PremiumCard.mat:81672c1e8df3bec419911ea65aac066b",
+    "goldenAnimation": "GIL_528_PremiumCard.asset:aa0276bbee3a38b46b201e23b59d70a8"
+  }
+}

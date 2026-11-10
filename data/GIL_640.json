@@ -1,1 +1,406 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_640","dbfId":47429,"name":"골동품 수집가","type":"MINION","cardClass":"MAGE","rarity":"RARE","collectible":true,"cost":5,"text":"내가 카드를 뽑을 때마다 +1/+1을 얻습니다.","attack":4,"health":4,"durability":0,"armor":0,"flavor":"가젯잔 경매인과 동업을 하는 친구라는군요.","spellSchool":"","portrait":"HS13-003_M.psd:4bbbd0eb663a1954e88c38219b1fe7d8","set":"GILNEAS","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_640.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-003_M.psd:4bbbd0eb663a1954e88c38219b1fe7d8","goldenMaterial":"GIL_640_PremiumCard.mat:a72188abb371acc499bb1f6919775beb","goldenAnimation":"GIL_640_PremiumCard.asset:835a37019c9a6b342baf569ab9088cb8"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_640",
+    "dbfId": 47429,
+    "name": "골동품 수집가",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "가젯잔 경매인과 동업을 하는 친구라는군요.",
+    "spellSchool": "",
+    "portrait": "HS13-003_M.psd:4bbbd0eb663a1954e88c38219b1fe7d8",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_640.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-003_M.psd:4bbbd0eb663a1954e88c38219b1fe7d8",
+    "goldenMaterial": "GIL_640_PremiumCard.mat:a72188abb371acc499bb1f6919775beb",
+    "goldenAnimation": "GIL_640_PremiumCard.asset:835a37019c9a6b342baf569ab9088cb8"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "races": [],
+    "race": "",
+    "name": "골동품 수집가",
+    "nativeRawText": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다.",
+    "text": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다.",
+    "id": "GIL_640",
+    "dbfId": 47429,
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_640",
+    "dbfId": 47429,
+    "name": "골동품 수집가",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "가젯잔 경매인과 동업을 하는 친구라는군요.",
+    "spellSchool": "",
+    "portrait": "HS13-003_M.psd:4bbbd0eb663a1954e88c38219b1fe7d8",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_640.png",
+    "referencedTags": [],
+    "nativeRawText": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다."
+  },
+  "nativeRawText": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "MAGE",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 5,
+        "attack": 4,
+        "health": 4,
+        "races": [],
+        "race": "",
+        "name": "골동품 수집가",
+        "nativeRawText": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다.",
+        "text": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다.",
+        "id": "GIL_640",
+        "dbfId": 47429
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Curio Collector",
+            "nativeRawText": "Curio Collector"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "골동품 수집가",
+            "nativeRawText": "골동품 수집가"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Whenever you draw a card, gain +1/+1.",
+            "nativeRawText": "Whenever you draw a card, gain +1/+1."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다.",
+            "nativeRawText": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Curio Collector",
+            "nativeRawText": "Curio Collector"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "골동품 수집가",
+            "nativeRawText": "골동품 수집가"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Whenever you draw a card, gain +1/+1.",
+            "nativeRawText": "Whenever you draw a card, gain +1/+1."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다.",
+            "nativeRawText": "내가 카드를 뽑을 때마다 +1/+1을 얻습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-003_M.psd:4bbbd0eb663a1954e88c38219b1fe7d8",
+      "goldenMaterial": "GIL_640_PremiumCard.mat:a72188abb371acc499bb1f6919775beb",
+      "goldenAnimation": "GIL_640_PremiumCard.asset:835a37019c9a6b342baf569ab9088cb8"
+    },
+    "researchObservationIds": []
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_188",
+    "dbfId": 46859,
+    "name": "낫의 드루이드",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>선택 -</b> 4/2 <b>속공</b> 하수인<br></br>또는 2/4 <b>도발</b> 하수인으로<br></br>변신합니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "낫을 가리는 편은 아닙니다.",
+    "spellSchool": "",
+    "portrait": "HS13-035_M.psd:e2370f47d4036db4d98833c99f1e1f90",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 443,
+        "name": "선택",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_188.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-035_M.psd:e2370f47d4036db4d98833c99f1e1f90",
+    "goldenMaterial": "GIL_188_PremiumCard.mat:910075d48e2ea434d97302171c2fdcec",
+    "goldenAnimation": "GIL_188_PremiumCard.asset:311f0d66ba69c7b4c8be5e4cc89180e5"
+  }
+}

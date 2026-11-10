@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_508",
+    "dbfId": 46904,
+    "name": "그늘박쥐",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 이번 턴에 내 영웅이 피해를 받았으면, 1/1 박쥐를 2마리 소환합니다.",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "새끼 둘과 함께 행복한 결혼 생활을 보내고 있습니다. 한 입에 반했다고 하네요.",
+    "spellSchool": "",
+    "portrait": "HS13-230_M.psd:86a76baec5a0a344fb692df5fb82631b",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 48805
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_508.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-230_M.psd:86a76baec5a0a344fb692df5fb82631b",
+    "goldenMaterial": "GIL_508_PremiumCard.mat:2f0581e47f65e7540a7dcd2692f081f1",
+    "goldenAnimation": "GIL_508_PremiumCard.asset:b1e852861e6eb374589cd20abf3fe031"
+  }
+}

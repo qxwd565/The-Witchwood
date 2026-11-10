@@ -1,1 +1,521 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_513","dbfId":46950,"name":"길 잃은 영혼","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":2,"text":"<b>죽음의 메아리:</b><br></br>내 하수인들에게 공격력을<br></br>+1 부여합니다.","attack":1,"health":1,"durability":0,"armor":0,"flavor":"그러게 길을 물으면서 가라고 했는데 말을 통 듣지 않는군요.","spellSchool":"","portrait":"HS13-074_M.psd:305894f7ddf7feb4aa7169ed09ddc3cf","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/GIL_513.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-074_M.psd:305894f7ddf7feb4aa7169ed09ddc3cf","goldenMaterial":"GIL_513_PremiumCard.mat:2410d6632634ce046834ebec3d096804","goldenAnimation":"GIL_513_PremiumCard.asset:e82bde6b1c2382c429c6343ef56f0e57"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_513",
+    "dbfId": 46950,
+    "name": "길 잃은 영혼",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>죽음의 메아리:</b><br></br>내 하수인들에게 공격력을<br></br>+1 부여합니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "그러게 길을 물으면서 가라고 했는데 말을 통 듣지 않는군요.",
+    "spellSchool": "",
+    "portrait": "HS13-074_M.psd:305894f7ddf7feb4aa7169ed09ddc3cf",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_513.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-074_M.psd:305894f7ddf7feb4aa7169ed09ddc3cf",
+    "goldenMaterial": "GIL_513_PremiumCard.mat:2410d6632634ce046834ebec3d096804",
+    "goldenAnimation": "GIL_513_PremiumCard.asset:e82bde6b1c2382c429c6343ef56f0e57"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "attack": 1,
+    "health": 1,
+    "races": [],
+    "race": "",
+    "name": "길 잃은 영혼",
+    "nativeRawText": "[x]<b>죽음의 메아리:</b>\n내 하수인들에게 공격력을\n+1 부여합니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>내 하수인들에게 공격력을<br></br>+1 부여합니다.",
+    "id": "GIL_513",
+    "dbfId": 46950,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "attack": 1,
+        "health": 1,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "길 잃은 영혼",
+        "nativeRawText": "[x]<b>죽음의 메아리:</b>\n내 하수인들에게 공격력을\n+1 부여합니다.",
+        "text": "<b>죽음의 메아리:</b><br></br>내 하수인들에게 공격력을<br></br>+1 부여합니다.",
+        "id": "GIL_513",
+        "dbfId": 46950
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_513",
+    "dbfId": 46950,
+    "name": "길 잃은 영혼",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>죽음의 메아리:</b><br></br>내 하수인들에게 공격력을<br></br>+1 부여합니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "그러게 길을 물으면서 가라고 했는데 말을 통 듣지 않는군요.",
+    "spellSchool": "",
+    "portrait": "HS13-074_M.psd:305894f7ddf7feb4aa7169ed09ddc3cf",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/GIL_513.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]<b>죽음의 메아리:</b>\n내 하수인들에게 공격력을\n+1 부여합니다."
+  },
+  "nativeRawText": "[x]<b>죽음의 메아리:</b>\n내 하수인들에게 공격력을\n+1 부여합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "attack": 1,
+        "health": 1,
+        "races": [],
+        "race": "",
+        "name": "길 잃은 영혼",
+        "nativeRawText": "[x]<b>죽음의 메아리:</b>\n내 하수인들에게 공격력을\n+1 부여합니다.",
+        "text": "<b>죽음의 메아리:</b><br></br>내 하수인들에게 공격력을<br></br>+1 부여합니다.",
+        "id": "GIL_513",
+        "dbfId": 46950,
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 1
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 1
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 217,
+            "name": "죽음의 메아리",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2022-11-30",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "attack": 1,
+        "health": 1,
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "name": "길 잃은 영혼",
+        "nativeRawText": "[x]<b>죽음의 메아리:</b>\n내 하수인들에게 공격력을\n+1 부여합니다.",
+        "text": "<b>죽음의 메아리:</b><br></br>내 하수인들에게 공격력을<br></br>+1 부여합니다.",
+        "id": "GIL_513",
+        "dbfId": 46950
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Lost Spirit",
+            "nativeRawText": "Lost Spirit"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "길 잃은 영혼",
+            "nativeRawText": "길 잃은 영혼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Deathrattle:</b> Give your minions +1 Attack.",
+            "nativeRawText": "<b>Deathrattle:</b> Give your minions +1 Attack."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>죽음의 메아리:</b>\n내 하수인들에게 공격력을\n+1 부여합니다.",
+            "nativeRawText": "[x]<b>죽음의 메아리:</b>\n내 하수인들에게 공격력을\n+1 부여합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Lost Spirit",
+            "nativeRawText": "Lost Spirit"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "길 잃은 영혼",
+            "nativeRawText": "길 잃은 영혼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Deathrattle:</b> Give your minions +1 Attack.",
+            "nativeRawText": "<b>Deathrattle:</b> Give your minions +1 Attack."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>죽음의 메아리:</b>\n내 하수인들에게 공격력을\n+1 부여합니다.",
+            "nativeRawText": "[x]<b>죽음의 메아리:</b>\n내 하수인들에게 공격력을\n+1 부여합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-074_M.psd:305894f7ddf7feb4aa7169ed09ddc3cf",
+      "goldenMaterial": "GIL_513_PremiumCard.mat:2410d6632634ce046834ebec3d096804",
+      "goldenAnimation": "GIL_513_PremiumCard.asset:e82bde6b1c2382c429c6343ef56f0e57"
+    },
+    "researchObservationIds": []
+  }
+}

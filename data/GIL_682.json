@@ -1,1 +1,436 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_682","dbfId":47606,"name":"진흙괴물 사냥꾼","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":5,"text":"<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.","attack":5,"health":8,"durability":0,"armor":0,"flavor":"직업에 귀천이 어딨습니까.","spellSchool":"","portrait":"HS13-257_M.psd:f4065811b42455049836e1f6daa79984","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":8},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":791,"name":"속공","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":47605}],"races":[],"race":"","classes":[],"art":"art/GIL_682.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-257_M.psd:f4065811b42455049836e1f6daa79984","goldenMaterial":"GIL_682_PremiumCard.mat:a8bfabf582f0448438aae1de577d4fb6","goldenAnimation":"GIL_682_PremiumCard.asset:c5cc8de603a141742b9e3e211560ca75"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_682",
+    "dbfId": 47606,
+    "name": "진흙괴물 사냥꾼",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.",
+    "attack": 5,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "직업에 귀천이 어딨습니까.",
+    "spellSchool": "",
+    "portrait": "HS13-257_M.psd:f4065811b42455049836e1f6daa79984",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 47605
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_682.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-257_M.psd:f4065811b42455049836e1f6daa79984",
+    "goldenMaterial": "GIL_682_PremiumCard.mat:a8bfabf582f0448438aae1de577d4fb6",
+    "goldenAnimation": "GIL_682_PremiumCard.asset:c5cc8de603a141742b9e3e211560ca75"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 5,
+    "attack": 5,
+    "health": 8,
+    "races": [],
+    "race": "",
+    "name": "진흙괴물 사냥꾼",
+    "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.",
+    "text": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.",
+    "id": "GIL_682",
+    "dbfId": 47606,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_682",
+    "dbfId": 47606,
+    "name": "진흙괴물 사냥꾼",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.",
+    "attack": 5,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "직업에 귀천이 어딨습니까.",
+    "spellSchool": "",
+    "portrait": "HS13-257_M.psd:f4065811b42455049836e1f6daa79984",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 47605
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_682.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다."
+  },
+  "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 5,
+        "attack": 5,
+        "health": 8,
+        "races": [],
+        "race": "",
+        "name": "진흙괴물 사냥꾼",
+        "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.",
+        "text": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.",
+        "id": "GIL_682",
+        "dbfId": 47606
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Muck Hunter",
+            "nativeRawText": "Muck Hunter"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "진흙괴물 사냥꾼",
+            "nativeRawText": "진흙괴물 사냥꾼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Rush</b>\n<b>Battlecry:</b> Summon two 2/1_Mucklings for your opponent.",
+            "nativeRawText": "<b>Rush</b>\n<b>Battlecry:</b> Summon two 2/1_Mucklings for your opponent."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.",
+            "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Muck Hunter",
+            "nativeRawText": "Muck Hunter"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "진흙괴물 사냥꾼",
+            "nativeRawText": "진흙괴물 사냥꾼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Rush</b>\n<b>Battlecry:</b> Summon two 2/1_Mucklings for your opponent.",
+            "nativeRawText": "<b>Rush</b>\n<b>Battlecry:</b> Summon two 2/1_Mucklings for your opponent."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다.",
+            "nativeRawText": "<b>속공</b>, <b>전투의 함성:</b> 상대편에게 2/1 진흙괴물을 둘 소환해줍니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-257_M.psd:f4065811b42455049836e1f6daa79984",
+      "goldenMaterial": "GIL_682_PremiumCard.mat:a8bfabf582f0448438aae1de577d4fb6",
+      "goldenAnimation": "GIL_682_PremiumCard.asset:c5cc8de603a141742b9e3e211560ca75"
+    },
+    "researchObservationIds": []
+  }
+}

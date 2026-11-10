@@ -1,1 +1,406 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_124","dbfId":46667,"name":"이끼투성이 거인","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":6,"text":"<b>전투의 함성:</b> 공격력이<br></br>2 이하인 다른 <b>모든</b><br></br>하수인을 처치합니다.","attack":2,"health":7,"durability":0,"armor":0,"flavor":"마을에다 꾹꾹이를 할 뿐이지만 피해가 만만찮습니다.","spellSchool":"","portrait":"HS13-016_M.psd:51001cb7d05bdd84facb254bac5a5c13","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":7},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":6},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_124.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-016_M.psd:51001cb7d05bdd84facb254bac5a5c13","goldenMaterial":"GIL_124_PremiumCard.mat:6c4d0a179356d414ea87f555fb3b3ab2","goldenAnimation":"GIL_124_PremiumCard.asset:814d95ef477afe4469e18c1dca23f84b"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_124",
+    "dbfId": 46667,
+    "name": "이끼투성이 거인",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>전투의 함성:</b> 공격력이<br></br>2 이하인 다른 <b>모든</b><br></br>하수인을 처치합니다.",
+    "attack": 2,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "마을에다 꾹꾹이를 할 뿐이지만 피해가 만만찮습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-016_M.psd:51001cb7d05bdd84facb254bac5a5c13",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_124.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-016_M.psd:51001cb7d05bdd84facb254bac5a5c13",
+    "goldenMaterial": "GIL_124_PremiumCard.mat:6c4d0a179356d414ea87f555fb3b3ab2",
+    "goldenAnimation": "GIL_124_PremiumCard.asset:814d95ef477afe4469e18c1dca23f84b"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "attack": 2,
+    "health": 7,
+    "races": [],
+    "race": "",
+    "name": "이끼투성이 거인",
+    "nativeRawText": "[x]<b>전투의 함성:</b> 공격력이\n2 이하인 다른 <b>모든</b>\n하수인을 처치합니다.",
+    "text": "<b>전투의 함성:</b> 공격력이<br></br>2 이하인 다른 <b>모든</b><br></br>하수인을 처치합니다.",
+    "id": "GIL_124",
+    "dbfId": 46667,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_124",
+    "dbfId": 46667,
+    "name": "이끼투성이 거인",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>전투의 함성:</b> 공격력이<br></br>2 이하인 다른 <b>모든</b><br></br>하수인을 처치합니다.",
+    "attack": 2,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "마을에다 꾹꾹이를 할 뿐이지만 피해가 만만찮습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-016_M.psd:51001cb7d05bdd84facb254bac5a5c13",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_124.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]<b>전투의 함성:</b> 공격력이\n2 이하인 다른 <b>모든</b>\n하수인을 처치합니다."
+  },
+  "nativeRawText": "[x]<b>전투의 함성:</b> 공격력이\n2 이하인 다른 <b>모든</b>\n하수인을 처치합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 6,
+        "attack": 2,
+        "health": 7,
+        "races": [],
+        "race": "",
+        "name": "이끼투성이 거인",
+        "nativeRawText": "[x]<b>전투의 함성:</b> 공격력이\n2 이하인 다른 <b>모든</b>\n하수인을 처치합니다.",
+        "text": "<b>전투의 함성:</b> 공격력이<br></br>2 이하인 다른 <b>모든</b><br></br>하수인을 처치합니다.",
+        "id": "GIL_124",
+        "dbfId": 46667
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Mossy Horror",
+            "nativeRawText": "Mossy Horror"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "이끼투성이 거인",
+            "nativeRawText": "이끼투성이 거인"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> Destroy all other_minions with 2_or_less_Attack.",
+            "nativeRawText": "<b>Battlecry:</b> Destroy all other_minions with 2_or_less_Attack."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>전투의 함성:</b> 공격력이\n2 이하인 다른 <b>모든</b>\n하수인을 처치합니다.",
+            "nativeRawText": "[x]<b>전투의 함성:</b> 공격력이\n2 이하인 다른 <b>모든</b>\n하수인을 처치합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Mossy Horror",
+            "nativeRawText": "Mossy Horror"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "이끼투성이 거인",
+            "nativeRawText": "이끼투성이 거인"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> Destroy all other_minions with 2_or_less_Attack.",
+            "nativeRawText": "<b>Battlecry:</b> Destroy all other_minions with 2_or_less_Attack."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>전투의 함성:</b> 공격력이\n2 이하인 다른 <b>모든</b>\n하수인을 처치합니다.",
+            "nativeRawText": "[x]<b>전투의 함성:</b> 공격력이\n2 이하인 다른 <b>모든</b>\n하수인을 처치합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-016_M.psd:51001cb7d05bdd84facb254bac5a5c13",
+      "goldenMaterial": "GIL_124_PremiumCard.mat:6c4d0a179356d414ea87f555fb3b3ab2",
+      "goldenAnimation": "GIL_124_PremiumCard.asset:814d95ef477afe4469e18c1dca23f84b"
+    },
+    "researchObservationIds": []
+  }
+}

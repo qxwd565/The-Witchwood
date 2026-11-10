@@ -1,1 +1,434 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_548","dbfId":47054,"name":"악령의 책","type":"SPELL","cardClass":"MAGE","rarity":"EPIC","collectible":true,"cost":2,"text":"카드를 3장 뽑습니다.<br></br>주문을 뽑으면,<br></br>그 주문을 버립니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"여러 땅에서는 도깨비노미콘이라고도 불립니다.","spellSchool":"SHADOW","portrait":"HS12-195_S.psd:5d96c9d8b4719084c89d89b4f579fb0c","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":6}],"races":[],"race":"","classes":[],"art":"art/GIL_548.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS12-195_S.psd:5d96c9d8b4719084c89d89b4f579fb0c","goldenMaterial":"GIL_548_PremiumCard.mat:e8a48e5092b45694ebcc2655698e9f3b","goldenAnimation":"GIL_548_PremiumCard.asset:a5f985078a533b646a4c6981ff3f9f6b"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_548",
+    "dbfId": 47054,
+    "name": "악령의 책",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "text": "카드를 3장 뽑습니다.<br></br>주문을 뽑으면,<br></br>그 주문을 버립니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "여러 땅에서는 도깨비노미콘이라고도 불립니다.",
+    "spellSchool": "SHADOW",
+    "portrait": "HS12-195_S.psd:5d96c9d8b4719084c89d89b4f579fb0c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_548.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS12-195_S.psd:5d96c9d8b4719084c89d89b4f579fb0c",
+    "goldenMaterial": "GIL_548_PremiumCard.mat:e8a48e5092b45694ebcc2655698e9f3b",
+    "goldenAnimation": "GIL_548_PremiumCard.asset:a5f985078a533b646a4c6981ff3f9f6b"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "name": "악령의 책",
+    "nativeRawText": "[x]카드를 3장 뽑습니다.\n주문을 뽑으면,\n그 주문을 버립니다.",
+    "text": "카드를 3장 뽑습니다.<br></br>주문을 뽑으면,<br></br>그 주문을 버립니다.",
+    "id": "GIL_548",
+    "dbfId": 47054,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "MAGE",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 2,
+        "name": "악령의 책",
+        "nativeRawText": "[x]카드를 3장 뽑습니다.\n주문을 뽑으면,\n그 주문을 버립니다.",
+        "text": "카드를 3장 뽑습니다.<br></br>주문을 뽑으면,<br></br>그 주문을 버립니다.",
+        "id": "GIL_548",
+        "dbfId": 47054,
+        "spellSchool": "SHADOW"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_548",
+    "dbfId": 47054,
+    "name": "악령의 책",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "text": "카드를 3장 뽑습니다.<br></br>주문을 뽑으면,<br></br>그 주문을 버립니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "여러 땅에서는 도깨비노미콘이라고도 불립니다.",
+    "spellSchool": "SHADOW",
+    "portrait": "HS12-195_S.psd:5d96c9d8b4719084c89d89b4f579fb0c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_548.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]카드를 3장 뽑습니다.\n주문을 뽑으면,\n그 주문을 버립니다."
+  },
+  "nativeRawText": "[x]카드를 3장 뽑습니다.\n주문을 뽑으면,\n그 주문을 버립니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "MAGE",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 2,
+        "name": "악령의 책",
+        "nativeRawText": "[x]카드를 3장 뽑습니다.\n주문을 뽑으면,\n그 주문을 버립니다.",
+        "text": "카드를 3장 뽑습니다.<br></br>주문을 뽑으면,<br></br>그 주문을 버립니다.",
+        "id": "GIL_548",
+        "dbfId": 47054,
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 4
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2021-03-26",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "MAGE",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 2,
+        "name": "악령의 책",
+        "nativeRawText": "[x]카드를 3장 뽑습니다.\n주문을 뽑으면,\n그 주문을 버립니다.",
+        "text": "카드를 3장 뽑습니다.<br></br>주문을 뽑으면,<br></br>그 주문을 버립니다.",
+        "id": "GIL_548",
+        "dbfId": 47054,
+        "spellSchool": "SHADOW"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Book of Specters",
+            "nativeRawText": "Book of Specters"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "악령의 책",
+            "nativeRawText": "악령의 책"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Draw 3 cards. Discard any spells drawn.",
+            "nativeRawText": "Draw 3 cards. Discard any spells drawn."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]카드를 3장 뽑습니다.\n주문을 뽑으면,\n그 주문을 버립니다.",
+            "nativeRawText": "[x]카드를 3장 뽑습니다.\n주문을 뽑으면,\n그 주문을 버립니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Book of Specters",
+            "nativeRawText": "Book of Specters"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "악령의 책",
+            "nativeRawText": "악령의 책"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Draw 3 cards. Discard any spells drawn.",
+            "nativeRawText": "Draw 3 cards. Discard any spells drawn."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]카드를 3장 뽑습니다.\n주문을 뽑으면,\n그 주문을 버립니다.",
+            "nativeRawText": "[x]카드를 3장 뽑습니다.\n주문을 뽑으면,\n그 주문을 버립니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS12-195_S.psd:5d96c9d8b4719084c89d89b4f579fb0c",
+      "goldenMaterial": "GIL_548_PremiumCard.mat:e8a48e5092b45694ebcc2655698e9f3b",
+      "goldenAnimation": "GIL_548_PremiumCard.asset:a5f985078a533b646a4c6981ff3f9f6b"
+    },
+    "researchObservationIds": []
+  }
+}

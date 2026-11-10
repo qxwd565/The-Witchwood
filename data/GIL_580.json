@@ -1,1 +1,478 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_580","dbfId":47133,"name":"마을 포고꾼","type":"MINION","cardClass":"WARRIOR","rarity":"EPIC","collectible":true,"cost":1,"text":"<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다.","attack":1,"health":2,"durability":0,"armor":0,"flavor":"어렸을 적에는 마을 울음꾼이었습니다.","spellSchool":"","portrait":"HS13-241_M1.tif:d1ce1fbd95374078ac406d653936172d","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":10},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":791,"name":"속공","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_580.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-241_M1.tif:d1ce1fbd95374078ac406d653936172d","goldenMaterial":"GIL_580_PremiumCard.mat:f9de93e7e9f0a2247a4eb769abb3b7e3","goldenAnimation":"GIL_580_PremiumCard.asset:7d4f6e772ecef7641975144fb1841c1e"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_580",
+    "dbfId": 47133,
+    "name": "마을 포고꾼",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다.",
+    "attack": 1,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "어렸을 적에는 마을 울음꾼이었습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-241_M1.tif:d1ce1fbd95374078ac406d653936172d",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_580.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-241_M1.tif:d1ce1fbd95374078ac406d653936172d",
+    "goldenMaterial": "GIL_580_PremiumCard.mat:f9de93e7e9f0a2247a4eb769abb3b7e3",
+    "goldenAnimation": "GIL_580_PremiumCard.asset:7d4f6e772ecef7641975144fb1841c1e"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "races": [],
+    "race": "",
+    "name": "마을 포고꾼",
+    "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 하나 뽑습니다.",
+    "text": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 하나 뽑습니다.",
+    "id": "GIL_580",
+    "dbfId": 47133,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": [
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ]
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_580",
+    "dbfId": 47133,
+    "name": "마을 포고꾼",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다.",
+    "attack": 1,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "어렸을 적에는 마을 울음꾼이었습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-241_M1.tif:d1ce1fbd95374078ac406d653936172d",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_580.png",
+    "referencedTags": [
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다."
+  },
+  "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "WARRIOR",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "races": [],
+        "race": "",
+        "name": "마을 포고꾼",
+        "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 하나 뽑습니다.",
+        "text": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 하나 뽑습니다.",
+        "id": "GIL_580",
+        "dbfId": 47133
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 하나 뽑습니다.",
+        "after": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 하나 뽑습니다.",
+        "after": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": [
+      {
+        "id": "WITCH-OBS-012",
+        "topic": "referenced-tag-ownership",
+        "date": null,
+        "cardIds": [
+          "GIL_116",
+          "GIL_188",
+          "GIL_510",
+          "GIL_526",
+          "GIL_557",
+          "GIL_565",
+          "GIL_578",
+          "GIL_580",
+          "GIL_601",
+          "GIL_607",
+          "GIL_618",
+          "GIL_634",
+          "GIL_635",
+          "GIL_648",
+          "GIL_650",
+          "GIL_683",
+          "GIL_685",
+          "GIL_801",
+          "GIL_836",
+          "GIL_905"
+        ],
+        "status": "raw-tag-role-not-card-keyword",
+        "detail": "20개 카드의 25개 참조 태그가 nativeTags에 소유 태그와 섞여 있음. 원시 역할 정보를 별도로 보존하며 참조 대상을 카드 자체 키워드로 해석하지 않음.",
+        "sourceCommits": [
+          "6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226",
+          "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Town Crier",
+            "nativeRawText": "Town Crier"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "마을 포고꾼",
+            "nativeRawText": "마을 포고꾼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> Draw a <b>Rush</b> minion from your deck.",
+            "nativeRawText": "<b>Battlecry:</b> Draw a <b>Rush</b> minion from your deck."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 하나 뽑습니다.",
+            "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 하나 뽑습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Town Crier",
+            "nativeRawText": "Town Crier"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "마을 포고꾼",
+            "nativeRawText": "마을 포고꾼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> Draw a <b>Rush</b> minion from your deck.",
+            "nativeRawText": "<b>Battlecry:</b> Draw a <b>Rush</b> minion from your deck."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다.",
+            "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-241_M1.tif:d1ce1fbd95374078ac406d653936172d",
+      "goldenMaterial": "GIL_580_PremiumCard.mat:f9de93e7e9f0a2247a4eb769abb3b7e3",
+      "goldenAnimation": "GIL_580_PremiumCard.asset:7d4f6e772ecef7641975144fb1841c1e"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-012"
+    ]
+  }
+}

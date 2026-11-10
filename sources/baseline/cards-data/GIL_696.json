@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_696",
+    "dbfId": 47799,
+    "name": "훔치기",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>잔상</b>, <i>상대편 직업</i>의 무작위 카드를 내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "누구든 가리지 않고 훔칩니다. 노움들만 빼고요. 허리를 지나치게 많이 숙여야 하거든요.",
+    "spellSchool": "",
+    "portrait": "HS8-159_S.psd:380743df90c317e4497b1548c9e59730",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_696.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS8-159_S.psd:380743df90c317e4497b1548c9e59730",
+    "goldenMaterial": "GIL_696_PremiumCard.mat:7ea304d03769b1e4ba7be72ed88e13eb",
+    "goldenAnimation": "GIL_696_PremiumCard.asset:42af7a5e83ef8b34890b22cedd63ec4d"
+  }
+}

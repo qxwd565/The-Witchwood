@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_580",
+    "dbfId": 47133,
+    "name": "마을 포고꾼",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>전투의 함성:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다.",
+    "attack": 1,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "어렸을 적에는 마을 울음꾼이었습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-241_M1.tif:d1ce1fbd95374078ac406d653936172d",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_580.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-241_M1.tif:d1ce1fbd95374078ac406d653936172d",
+    "goldenMaterial": "GIL_580_PremiumCard.mat:f9de93e7e9f0a2247a4eb769abb3b7e3",
+    "goldenAnimation": "GIL_580_PremiumCard.asset:7d4f6e772ecef7641975144fb1841c1e"
+  }
+}

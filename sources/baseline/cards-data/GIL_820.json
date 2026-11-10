@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_820",
+    "dbfId": 48111,
+    "name": "두억시니",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 9,
+    "text": "<b>전투의 함성:</b> 이번 게임에서<br></br>내가 낸 다른 전투의 함성<br></br>효과들을 반복합니다.<br></br><i>(대상은 무작위로 선택)</i>",
+    "attack": 6,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "죽었니, 살았니, 누구니! 무섭니, 두렵니, 두억시니!",
+    "spellSchool": "",
+    "portrait": "HS13-061_M.psd:b75efc50f1771764d88aebbb493f681f",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 960,
+        "name": "게임 태그 960",
+        "value": 1
+      },
+      {
+        "id": 998,
+        "name": "빠른 전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 1932,
+        "name": "다이아몬드 카드 존재",
+        "value": 1
+      },
+      {
+        "id": 3169,
+        "name": "게임 태그 3169",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_820.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-061_M.psd:b75efc50f1771764d88aebbb493f681f",
+    "goldenMaterial": "GIL_820_PremiumCard.mat:c8b4fcdb03885f849ab527a2a61662d5",
+    "goldenAnimation": "GIL_820_PremiumCard.asset:1ee7a34f9b27d57459647b156e6b0a3f"
+  }
+}

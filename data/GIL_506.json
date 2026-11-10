@@ -1,1 +1,375 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_506","dbfId":46897,"name":"비열한 습격","type":"SPELL","cardClass":"ROGUE","rarity":"COMMON","collectible":true,"cost":2,"text":"<b>잔상</b>, 하수인에게<br></br>피해를 $2 줍니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"때린 곳만 계속 때립니다.","spellSchool":"","portrait":"W9_A051_S.psd:d6a78a67004ef3046ac0deb900af1e9e","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":7},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":846,"name":"잔상","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_506.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W9_A051_S.psd:d6a78a67004ef3046ac0deb900af1e9e","goldenMaterial":"GIL_506_PremiumCard.mat:2eb06671c24aaee4ab5381175a82fd8f","goldenAnimation":"GIL_506_PremiumCard.asset:6d1b1a84af1c2374cb0ee10a522a3a7f"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_506",
+    "dbfId": 46897,
+    "name": "비열한 습격",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>잔상</b>, 하수인에게<br></br>피해를 $2 줍니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "때린 곳만 계속 때립니다.",
+    "spellSchool": "",
+    "portrait": "W9_A051_S.psd:d6a78a67004ef3046ac0deb900af1e9e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_506.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W9_A051_S.psd:d6a78a67004ef3046ac0deb900af1e9e",
+    "goldenMaterial": "GIL_506_PremiumCard.mat:2eb06671c24aaee4ab5381175a82fd8f",
+    "goldenAnimation": "GIL_506_PremiumCard.asset:6d1b1a84af1c2374cb0ee10a522a3a7f"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "name": "비열한 습격",
+    "nativeRawText": "<b>잔상</b>\n하수인 하나에게 피해를 $2 줍니다.",
+    "text": "<b>잔상</b><br></br>하수인 하나에게 피해를 $2 줍니다.",
+    "id": "GIL_506",
+    "dbfId": 46897,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_506",
+    "dbfId": 46897,
+    "name": "비열한 습격",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>잔상</b>, 하수인에게<br></br>피해를 $2 줍니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "때린 곳만 계속 때립니다.",
+    "spellSchool": "",
+    "portrait": "W9_A051_S.psd:d6a78a67004ef3046ac0deb900af1e9e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_506.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]<b>잔상</b>, 하수인에게\n피해를 $2 줍니다."
+  },
+  "nativeRawText": "[x]<b>잔상</b>, 하수인에게\n피해를 $2 줍니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "ROGUE",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "name": "비열한 습격",
+        "nativeRawText": "<b>잔상</b>\n하수인 하나에게 피해를 $2 줍니다.",
+        "text": "<b>잔상</b><br></br>하수인 하나에게 피해를 $2 줍니다.",
+        "id": "GIL_506",
+        "dbfId": 46897
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>잔상</b><br></br>하수인 하나에게 피해를 $2 줍니다.",
+        "after": "<b>잔상</b>, 하수인에게<br></br>피해를 $2 줍니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "<b>잔상</b>\n하수인 하나에게 피해를 $2 줍니다.",
+        "after": "[x]<b>잔상</b>, 하수인에게\n피해를 $2 줍니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Cheap Shot",
+            "nativeRawText": "Cheap Shot"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "비열한 습격",
+            "nativeRawText": "비열한 습격"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Echo</b>\n Deal $2 damage to a_minion.",
+            "nativeRawText": "<b>Echo</b>\n Deal $2 damage to a_minion."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>잔상</b>\n하수인 하나에게 피해를 $2 줍니다.",
+            "nativeRawText": "<b>잔상</b>\n하수인 하나에게 피해를 $2 줍니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Cheap Shot",
+            "nativeRawText": "Cheap Shot"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "비열한 습격",
+            "nativeRawText": "비열한 습격"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Echo</b>\n Deal $2 damage to a_minion.",
+            "nativeRawText": "<b>Echo</b>\n Deal $2 damage to a_minion."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>잔상</b>, 하수인에게\n피해를 $2 줍니다.",
+            "nativeRawText": "[x]<b>잔상</b>, 하수인에게\n피해를 $2 줍니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "W9_A051_S.psd:d6a78a67004ef3046ac0deb900af1e9e",
+      "goldenMaterial": "GIL_506_PremiumCard.mat:2eb06671c24aaee4ab5381175a82fd8f",
+      "goldenAnimation": "GIL_506_PremiumCard.asset:6d1b1a84af1c2374cb0ee10a522a3a7f"
+    },
+    "researchObservationIds": []
+  }
+}

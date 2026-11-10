@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_833",
+    "dbfId": 48286,
+    "name": "숲 속의 안내자",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 턴이 끝날 때,<br></br>두 플레이어 모두<br></br>카드를 뽑습니다.",
+    "attack": 1,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"여기에 서명만 하시면 바로 출발하겠습니다.\"",
+    "spellSchool": "",
+    "portrait": "HS13-029_M.psd:c62f732e5d7116c43acd12bccddcf7e3",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_833.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-029_M.psd:c62f732e5d7116c43acd12bccddcf7e3",
+    "goldenMaterial": "GIL_833_PremiumCard.mat:c103343860e6e8548aa133a05af599cb",
+    "goldenAnimation": "GIL_833_PremiumCard.asset:d8fff9eb61d744e45b35b2a4033636b1"
+  }
+}

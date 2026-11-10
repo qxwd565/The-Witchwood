@@ -1,1 +1,506 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_801","dbfId":47821,"name":"순간 빙결","type":"SPELL","cardClass":"MAGE","rarity":"COMMON","collectible":true,"cost":1,"text":"하수인을 <b>빙결</b> 상태로 만듭니다.<br></br>이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"얼음에 혀를 가져다 대지 마세요. 분명 후회할 겁니다.","spellSchool":"FROST","portrait":"W20_a039_S.tif:c1647869cca4084468f90c60f04cd1b0","set":"GILNEAS","nativeTags":[{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":208,"name":"빙결","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":3}],"races":[],"race":"","classes":[],"art":"art/GIL_801.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W20_a039_S.tif:c1647869cca4084468f90c60f04cd1b0","goldenMaterial":"GIL_801_PremiumCard.mat:42136598a2ed7e043bdee42ff4f35218","goldenAnimation":"GIL_801_PremiumCard.asset:351dbdd17a03ad849b9a124f6963451f"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_801",
+    "dbfId": 47821,
+    "name": "순간 빙결",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "하수인을 <b>빙결</b> 상태로 만듭니다.<br></br>이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "얼음에 혀를 가져다 대지 마세요. 분명 후회할 겁니다.",
+    "spellSchool": "FROST",
+    "portrait": "W20_a039_S.tif:c1647869cca4084468f90c60f04cd1b0",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 3
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_801.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W20_a039_S.tif:c1647869cca4084468f90c60f04cd1b0",
+    "goldenMaterial": "GIL_801_PremiumCard.mat:42136598a2ed7e043bdee42ff4f35218",
+    "goldenAnimation": "GIL_801_PremiumCard.asset:351dbdd17a03ad849b9a124f6963451f"
+  },
+  "initialSpec": {
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "name": "순간 빙결",
+    "nativeRawText": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+    "text": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
+    "id": "GIL_801",
+    "dbfId": 47821,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": [
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      }
+    ]
+  },
+  "patches": [
+    {
+      "date": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "MAGE",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 1,
+        "name": "순간 빙결",
+        "nativeRawText": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+        "text": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
+        "id": "GIL_801",
+        "dbfId": 47821,
+        "spellSchool": "FROST"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_801",
+    "dbfId": 47821,
+    "name": "순간 빙결",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "하수인을 <b>빙결</b> 상태로 만듭니다.<br></br>이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "얼음에 혀를 가져다 대지 마세요. 분명 후회할 겁니다.",
+    "spellSchool": "FROST",
+    "portrait": "W20_a039_S.tif:c1647869cca4084468f90c60f04cd1b0",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 3
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_801.png",
+    "referencedTags": [
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다."
+  },
+  "nativeRawText": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "MAGE",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "name": "순간 빙결",
+        "nativeRawText": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+        "text": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
+        "id": "GIL_801",
+        "dbfId": 47821,
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 1
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 4
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "before": "2021-03-26",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2021-03-26",
+      "changes": {
+        "type": "SPELL",
+        "cardClass": "MAGE",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 1,
+        "name": "순간 빙결",
+        "nativeRawText": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+        "text": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
+        "id": "GIL_801",
+        "dbfId": 47821,
+        "spellSchool": "FROST"
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
+        "after": "하수인을 <b>빙결</b> 상태로 만듭니다.<br></br>이미 <b>빙결</b> 상태라면,<br></br>그 하수인을 처치합니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+        "after": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": [
+      {
+        "id": "WITCH-OBS-012",
+        "topic": "referenced-tag-ownership",
+        "date": null,
+        "cardIds": [
+          "GIL_116",
+          "GIL_188",
+          "GIL_510",
+          "GIL_526",
+          "GIL_557",
+          "GIL_565",
+          "GIL_578",
+          "GIL_580",
+          "GIL_601",
+          "GIL_607",
+          "GIL_618",
+          "GIL_634",
+          "GIL_635",
+          "GIL_648",
+          "GIL_650",
+          "GIL_683",
+          "GIL_685",
+          "GIL_801",
+          "GIL_836",
+          "GIL_905"
+        ],
+        "status": "raw-tag-role-not-card-keyword",
+        "detail": "20개 카드의 25개 참조 태그가 nativeTags에 소유 태그와 섞여 있음. 원시 역할 정보를 별도로 보존하며 참조 대상을 카드 자체 키워드로 해석하지 않음.",
+        "sourceCommits": [
+          "6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226",
+          "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      }
+    ],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Snap Freeze",
+            "nativeRawText": "Snap Freeze"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "순간 빙결",
+            "nativeRawText": "순간 빙결"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Freeze</b> a minion.\nIf it's already <b>Frozen</b>, destroy it.",
+            "nativeRawText": "<b>Freeze</b> a minion.\nIf it's already <b>Frozen</b>, destroy it."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+            "nativeRawText": "하수인 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Snap Freeze",
+            "nativeRawText": "Snap Freeze"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "순간 빙결",
+            "nativeRawText": "순간 빙결"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Freeze</b> a minion.\nIf it's already <b>Frozen</b>, destroy it.",
+            "nativeRawText": "<b>Freeze</b> a minion.\nIf it's already <b>Frozen</b>, destroy it."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다.",
+            "nativeRawText": "하수인을 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면,\n그 하수인을 처치합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "W20_a039_S.tif:c1647869cca4084468f90c60f04cd1b0",
+      "goldenMaterial": "GIL_801_PremiumCard.mat:42136598a2ed7e043bdee42ff4f35218",
+      "goldenAnimation": "GIL_801_PremiumCard.asset:351dbdd17a03ad849b9a124f6963451f"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-012"
+    ]
+  }
+}

@@ -1,1 +1,498 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_634","dbfId":47405,"name":"종탑 보초병","type":"MINION","cardClass":"PALADIN","rarity":"RARE","collectible":true,"cost":4,"text":"<b>전투의 함성과 죽음의 메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다.","attack":3,"health":4,"durability":0,"armor":0,"flavor":"\"너는 누구지? 뭐, 알 필요 없다만.\"","spellSchool":"","portrait":"HS13-022_M.psd:50114ff2b28cc0445babe6b995a8e3e2","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":217,"name":"죽음의 메아리","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":219,"name":"비밀","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_634.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-022_M.psd:50114ff2b28cc0445babe6b995a8e3e2","goldenMaterial":"GIL_634_PremiumCard.mat:578983890d39a2d4fbf1c07fdd9bc3a6","goldenAnimation":"GIL_634_PremiumCard.asset:ce3452269298da546966574526e9a2bf"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_634",
+    "dbfId": 47405,
+    "name": "종탑 보초병",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성과 죽음의 메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다.",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"너는 누구지? 뭐, 알 필요 없다만.\"",
+    "spellSchool": "",
+    "portrait": "HS13-022_M.psd:50114ff2b28cc0445babe6b995a8e3e2",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_634.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-022_M.psd:50114ff2b28cc0445babe6b995a8e3e2",
+    "goldenMaterial": "GIL_634_PremiumCard.mat:578983890d39a2d4fbf1c07fdd9bc3a6",
+    "goldenAnimation": "GIL_634_PremiumCard.asset:ce3452269298da546966574526e9a2bf"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "attack": 3,
+    "health": 4,
+    "races": [],
+    "race": "",
+    "name": "종탑 보초병",
+    "nativeRawText": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다.",
+    "text": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다.",
+    "id": "GIL_634",
+    "dbfId": 47405,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": [
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      }
+    ]
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_634",
+    "dbfId": 47405,
+    "name": "종탑 보초병",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성과 죽음의 메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다.",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"너는 누구지? 뭐, 알 필요 없다만.\"",
+    "spellSchool": "",
+    "portrait": "HS13-022_M.psd:50114ff2b28cc0445babe6b995a8e3e2",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_634.png",
+    "referencedTags": [
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다."
+  },
+  "nativeRawText": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "PALADIN",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 4,
+        "attack": 3,
+        "health": 4,
+        "races": [],
+        "race": "",
+        "name": "종탑 보초병",
+        "nativeRawText": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다.",
+        "text": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다.",
+        "id": "GIL_634",
+        "dbfId": 47405
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다.",
+        "after": "<b>전투의 함성과 죽음의 메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다.",
+        "after": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": [
+      {
+        "id": "WITCH-OBS-012",
+        "topic": "referenced-tag-ownership",
+        "date": null,
+        "cardIds": [
+          "GIL_116",
+          "GIL_188",
+          "GIL_510",
+          "GIL_526",
+          "GIL_557",
+          "GIL_565",
+          "GIL_578",
+          "GIL_580",
+          "GIL_601",
+          "GIL_607",
+          "GIL_618",
+          "GIL_634",
+          "GIL_635",
+          "GIL_648",
+          "GIL_650",
+          "GIL_683",
+          "GIL_685",
+          "GIL_801",
+          "GIL_836",
+          "GIL_905"
+        ],
+        "status": "raw-tag-role-not-card-keyword",
+        "detail": "20개 카드의 25개 참조 태그가 nativeTags에 소유 태그와 섞여 있음. 원시 역할 정보를 별도로 보존하며 참조 대상을 카드 자체 키워드로 해석하지 않음.",
+        "sourceCommits": [
+          "6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226",
+          "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+        ]
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      }
+    ],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Bellringer Sentry",
+            "nativeRawText": "Bellringer Sentry"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "종탑 보초병",
+            "nativeRawText": "종탑 보초병"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry and Deathrattle:</b> Put a <b>Secret</b> from your deck into the battlefield.",
+            "nativeRawText": "<b>Battlecry and Deathrattle:</b> Put a <b>Secret</b> from your deck into the battlefield."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다.",
+            "nativeRawText": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b> 카드 1장을 사용합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Bellringer Sentry",
+            "nativeRawText": "Bellringer Sentry"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "종탑 보초병",
+            "nativeRawText": "종탑 보초병"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry and Deathrattle:</b> Put a <b>Secret</b> from your deck into the battlefield.",
+            "nativeRawText": "<b>Battlecry and Deathrattle:</b> Put a <b>Secret</b> from your deck into the battlefield."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다.",
+            "nativeRawText": "<b>전투의 함성과 죽음의_메아리:</b> 내 덱에 있는 <b>비밀</b>을 시전합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-022_M.psd:50114ff2b28cc0445babe6b995a8e3e2",
+      "goldenMaterial": "GIL_634_PremiumCard.mat:578983890d39a2d4fbf1c07fdd9bc3a6",
+      "goldenAnimation": "GIL_634_PremiumCard.asset:ce3452269298da546966574526e9a2bf"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-012"
+    ]
+  }
+}

@@ -1,1 +1,419 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_833","dbfId":48286,"name":"숲 속의 안내자","type":"MINION","cardClass":"DRUID","rarity":"RARE","collectible":true,"cost":4,"text":"내 턴이 끝날 때,<br></br>두 플레이어 모두<br></br>카드를 뽑습니다.","attack":1,"health":6,"durability":0,"armor":0,"flavor":"\"여기에 서명만 하시면 바로 출발하겠습니다.\"","spellSchool":"","portrait":"HS13-029_M.psd:c62f732e5d7116c43acd12bccddcf7e3","set":"GILNEAS","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":6},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_833.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-029_M.psd:c62f732e5d7116c43acd12bccddcf7e3","goldenMaterial":"GIL_833_PremiumCard.mat:c103343860e6e8548aa133a05af599cb","goldenAnimation":"GIL_833_PremiumCard.asset:d8fff9eb61d744e45b35b2a4033636b1"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_833",
+    "dbfId": 48286,
+    "name": "숲 속의 안내자",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 턴이 끝날 때,<br></br>두 플레이어 모두<br></br>카드를 뽑습니다.",
+    "attack": 1,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"여기에 서명만 하시면 바로 출발하겠습니다.\"",
+    "spellSchool": "",
+    "portrait": "HS13-029_M.psd:c62f732e5d7116c43acd12bccddcf7e3",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_833.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-029_M.psd:c62f732e5d7116c43acd12bccddcf7e3",
+    "goldenMaterial": "GIL_833_PremiumCard.mat:c103343860e6e8548aa133a05af599cb",
+    "goldenAnimation": "GIL_833_PremiumCard.asset:d8fff9eb61d744e45b35b2a4033636b1"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "attack": 1,
+    "health": 6,
+    "races": [],
+    "race": "",
+    "name": "숲 속의 안내자",
+    "nativeRawText": "내 턴이 끝날 때,\n두 플레이어 모두\n카드를 1장 뽑습니다.",
+    "text": "내 턴이 끝날 때,<br></br>두 플레이어 모두<br></br>카드를 1장 뽑습니다.",
+    "id": "GIL_833",
+    "dbfId": 48286,
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_833",
+    "dbfId": 48286,
+    "name": "숲 속의 안내자",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 턴이 끝날 때,<br></br>두 플레이어 모두<br></br>카드를 뽑습니다.",
+    "attack": 1,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"여기에 서명만 하시면 바로 출발하겠습니다.\"",
+    "spellSchool": "",
+    "portrait": "HS13-029_M.psd:c62f732e5d7116c43acd12bccddcf7e3",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_833.png",
+    "referencedTags": [],
+    "nativeRawText": "내 턴이 끝날 때,\n두 플레이어 모두\n카드를 뽑습니다."
+  },
+  "nativeRawText": "내 턴이 끝날 때,\n두 플레이어 모두\n카드를 뽑습니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 4,
+        "attack": 1,
+        "health": 6,
+        "races": [],
+        "race": "",
+        "name": "숲 속의 안내자",
+        "nativeRawText": "내 턴이 끝날 때,\n두 플레이어 모두\n카드를 1장 뽑습니다.",
+        "text": "내 턴이 끝날 때,<br></br>두 플레이어 모두<br></br>카드를 1장 뽑습니다.",
+        "id": "GIL_833",
+        "dbfId": 48286
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "내 턴이 끝날 때,<br></br>두 플레이어 모두<br></br>카드를 1장 뽑습니다.",
+        "after": "내 턴이 끝날 때,<br></br>두 플레이어 모두<br></br>카드를 뽑습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "내 턴이 끝날 때,\n두 플레이어 모두\n카드를 1장 뽑습니다.",
+        "after": "내 턴이 끝날 때,\n두 플레이어 모두\n카드를 뽑습니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Forest Guide",
+            "nativeRawText": "Forest Guide"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "숲 속의 안내자",
+            "nativeRawText": "숲 속의 안내자"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "At the end of your turn, both players draw a card.",
+            "nativeRawText": "At the end of your turn, both players draw a card."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내 턴이 끝날 때,\n두 플레이어 모두\n카드를 1장 뽑습니다.",
+            "nativeRawText": "내 턴이 끝날 때,\n두 플레이어 모두\n카드를 1장 뽑습니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Forest Guide",
+            "nativeRawText": "Forest Guide"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "숲 속의 안내자",
+            "nativeRawText": "숲 속의 안내자"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "At the end of your turn, both players draw a card.",
+            "nativeRawText": "At the end of your turn, both players draw a card."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내 턴이 끝날 때,\n두 플레이어 모두\n카드를 뽑습니다.",
+            "nativeRawText": "내 턴이 끝날 때,\n두 플레이어 모두\n카드를 뽑습니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-029_M.psd:c62f732e5d7116c43acd12bccddcf7e3",
+      "goldenMaterial": "GIL_833_PremiumCard.mat:c103343860e6e8548aa133a05af599cb",
+      "goldenAnimation": "GIL_833_PremiumCard.asset:d8fff9eb61d744e45b35b2a4033636b1"
+    },
+    "researchObservationIds": []
+  }
+}

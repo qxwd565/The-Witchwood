@@ -1,1 +1,502 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_678","dbfId":47600,"name":"유령빛 낚시꾼","type":"MINION","cardClass":"SHAMAN","rarity":"COMMON","collectible":true,"cost":2,"text":"<b>잔상</b>","attack":2,"health":2,"durability":0,"armor":0,"flavor":"메아리인지 진짜 울음소리인지 알 재간이 없습니다.","spellSchool":"","portrait":"HS13-058_M.psd:4c76b9ac9faaa6242a457ce2140028ad","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":8},{"id":200,"name":"종족","value":14},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":846,"name":"잔상","value":1},{"id":2534,"name":"게임 태그 2534","value":1}],"races":["UNDEAD","MURLOC"],"race":"언데드, 멀록","classes":[],"art":"art/GIL_678.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-058_M.psd:4c76b9ac9faaa6242a457ce2140028ad","goldenMaterial":"GIL_678_PremiumCard.mat:a9484bb9f731efe4ea5e8dce3959a595","goldenAnimation":"GIL_678_PremiumCard.asset:7377ed5f89047794d865d357e5408783"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_678",
+    "dbfId": 47600,
+    "name": "유령빛 낚시꾼",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>잔상</b>",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "메아리인지 진짜 울음소리인지 알 재간이 없습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-058_M.psd:4c76b9ac9faaa6242a457ce2140028ad",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 14
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      },
+      {
+        "id": 2534,
+        "name": "게임 태그 2534",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD",
+      "MURLOC"
+    ],
+    "race": "언데드, 멀록",
+    "classes": [],
+    "art": "art/GIL_678.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-058_M.psd:4c76b9ac9faaa6242a457ce2140028ad",
+    "goldenMaterial": "GIL_678_PremiumCard.mat:a9484bb9f731efe4ea5e8dce3959a595",
+    "goldenAnimation": "GIL_678_PremiumCard.asset:7377ed5f89047794d865d357e5408783"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "races": [
+      "MURLOC"
+    ],
+    "race": "멀록",
+    "name": "유령빛 낚시꾼",
+    "nativeRawText": "<b>잔상</b>",
+    "text": "<b>잔상</b>",
+    "id": "GIL_678",
+    "dbfId": 47600,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 14
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "SHAMAN",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "races": [
+          "UNDEAD",
+          "MURLOC"
+        ],
+        "race": "언데드, 멀록",
+        "name": "유령빛 낚시꾼",
+        "nativeRawText": "<b>잔상</b>",
+        "text": "<b>잔상</b>",
+        "id": "GIL_678",
+        "dbfId": 47600
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_678",
+    "dbfId": 47600,
+    "name": "유령빛 낚시꾼",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>잔상</b>",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "메아리인지 진짜 울음소리인지 알 재간이 없습니다.",
+    "spellSchool": "",
+    "portrait": "HS13-058_M.psd:4c76b9ac9faaa6242a457ce2140028ad",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 14
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      },
+      {
+        "id": 2534,
+        "name": "게임 태그 2534",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD",
+      "MURLOC"
+    ],
+    "race": "언데드, 멀록",
+    "classes": [],
+    "art": "art/GIL_678.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>잔상</b>"
+  },
+  "nativeRawText": "<b>잔상</b>",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "SHAMAN",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "races": [
+          "MURLOC"
+        ],
+        "race": "멀록",
+        "name": "유령빛 낚시꾼",
+        "nativeRawText": "<b>잔상</b>",
+        "text": "<b>잔상</b>",
+        "id": "GIL_678",
+        "dbfId": 47600
+      },
+      "before": "2022-11-30",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2022-11-30",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "SHAMAN",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "races": [
+          "UNDEAD",
+          "MURLOC"
+        ],
+        "race": "언데드, 멀록",
+        "name": "유령빛 낚시꾼",
+        "nativeRawText": "<b>잔상</b>",
+        "text": "<b>잔상</b>",
+        "id": "GIL_678",
+        "dbfId": 47600
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 14
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 846,
+        "name": "잔상",
+        "value": 1
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Ghost Light Angler",
+            "nativeRawText": "Ghost Light Angler"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "유령빛 낚시꾼",
+            "nativeRawText": "유령빛 낚시꾼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Echo</b>",
+            "nativeRawText": "<b>Echo</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>잔상</b>",
+            "nativeRawText": "<b>잔상</b>"
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Ghost Light Angler",
+            "nativeRawText": "Ghost Light Angler"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "유령빛 낚시꾼",
+            "nativeRawText": "유령빛 낚시꾼"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Echo</b>",
+            "nativeRawText": "<b>Echo</b>"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>잔상</b>",
+            "nativeRawText": "<b>잔상</b>"
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-058_M.psd:4c76b9ac9faaa6242a457ce2140028ad",
+      "goldenMaterial": "GIL_678_PremiumCard.mat:a9484bb9f731efe4ea5e8dce3959a595",
+      "goldenAnimation": "GIL_678_PremiumCard.asset:7377ed5f89047794d865d357e5408783"
+    },
+    "researchObservationIds": []
+  }
+}

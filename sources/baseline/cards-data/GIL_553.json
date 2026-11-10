@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_553",
+    "dbfId": 47063,
+    "name": "속삭이는 숲",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 손에 있는 카드<br></br>1장당 1/1 위습을<br></br>1마리씩 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "예전에 \"하일 하이드라.\"라고 속삭이던 녀석이 아직도 있나봅니다.",
+    "spellSchool": "NATURE",
+    "portrait": "HS13-033_S.psd:9836eed3c26a4f1488870bc57590587e",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 49149
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 4
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_553.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-033_S.psd:9836eed3c26a4f1488870bc57590587e",
+    "goldenMaterial": "GIL_553_PremiumCard.mat:db46d122b31dce140bd2a538f05de83a",
+    "goldenAnimation": "GIL_553_PremiumCard.asset:efa285b6abafff64f8e596d127dd961c"
+  }
+}

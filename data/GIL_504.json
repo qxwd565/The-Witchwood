@@ -1,1 +1,433 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_504","dbfId":46887,"name":"마녀 하가사","type":"HERO","cardClass":"SHAMAN","rarity":"LEGENDARY","collectible":true,"cost":8,"text":"<b>전투의 함성:</b><br></br><b>모든</b> 하수인에게 피해를 3 줍니다.","attack":0,"health":30,"durability":0,"armor":5,"flavor":"저주를 읊는 자, 나무를 뒤트는 자, 모든 뒤틀린 것들의 어미... 그리고 주캐가 한조입니다.","spellSchool":"","portrait":"HS13-237.psd:d085932396583644fb6b6412dcbec3ab","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":30},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":8},{"id":202,"name":"카드 유형","value":3},{"id":203,"name":"희귀도","value":5},{"id":218,"name":"전투의 함성","value":1},{"id":292,"name":"방어도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":380,"name":"영웅 능력","value":47631}],"races":[],"race":"","classes":[],"art":"art/GIL_504.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-237.psd:d085932396583644fb6b6412dcbec3ab","goldenMaterial":"GIL_504_PremiumCard.mat:dbe0909f3ec57434588510ab5009593b","goldenAnimation":"GIL_504_PremiumCard.asset:22a056a0cf84bd243a4f54ca0a02bcf4"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_504",
+    "dbfId": 46887,
+    "name": "마녀 하가사",
+    "type": "HERO",
+    "cardClass": "SHAMAN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>전투의 함성:</b><br></br><b>모든</b> 하수인에게 피해를 3 줍니다.",
+    "attack": 0,
+    "health": 30,
+    "durability": 0,
+    "armor": 5,
+    "flavor": "저주를 읊는 자, 나무를 뒤트는 자, 모든 뒤틀린 것들의 어미... 그리고 주캐가 한조입니다.",
+    "spellSchool": "",
+    "portrait": "HS13-237.psd:d085932396583644fb6b6412dcbec3ab",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 47631
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_504.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-237.psd:d085932396583644fb6b6412dcbec3ab",
+    "goldenMaterial": "GIL_504_PremiumCard.mat:dbe0909f3ec57434588510ab5009593b",
+    "goldenAnimation": "GIL_504_PremiumCard.asset:22a056a0cf84bd243a4f54ca0a02bcf4"
+  },
+  "initialSpec": {
+    "type": "HERO",
+    "cardClass": "SHAMAN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "armor": 5,
+    "name": "마녀 하가사",
+    "nativeRawText": "<b>전투의 함성:</b>\n<b>모든</b> 하수인에게 피해를 3 줍니다.",
+    "text": "<b>전투의 함성:</b><br></br><b>모든</b> 하수인에게 피해를 3 줍니다.",
+    "id": "GIL_504",
+    "dbfId": 46887,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 380,
+        "name": "게임 태그 380",
+        "value": 47631
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_504",
+    "dbfId": 46887,
+    "name": "마녀 하가사",
+    "type": "HERO",
+    "cardClass": "SHAMAN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>전투의 함성:</b><br></br><b>모든</b> 하수인에게 피해를 3 줍니다.",
+    "attack": 0,
+    "health": 30,
+    "durability": 0,
+    "armor": 5,
+    "flavor": "저주를 읊는 자, 나무를 뒤트는 자, 모든 뒤틀린 것들의 어미... 그리고 주캐가 한조입니다.",
+    "spellSchool": "",
+    "portrait": "HS13-237.psd:d085932396583644fb6b6412dcbec3ab",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 47631
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_504.png",
+    "referencedTags": [],
+    "nativeRawText": "<b>전투의 함성:</b>\n<b>모든</b> 하수인에게 피해를 3 줍니다."
+  },
+  "nativeRawText": "<b>전투의 함성:</b>\n<b>모든</b> 하수인에게 피해를 3 줍니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "HERO",
+        "cardClass": "SHAMAN",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 8,
+        "armor": 5,
+        "name": "마녀 하가사",
+        "nativeRawText": "<b>전투의 함성:</b>\n<b>모든</b> 하수인에게 피해를 3 줍니다.",
+        "text": "<b>전투의 함성:</b><br></br><b>모든</b> 하수인에게 피해를 3 줍니다.",
+        "id": "GIL_504",
+        "dbfId": 46887
+      },
+      "removedFields": [
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      },
+      {
+        "id": 380,
+        "name": "게임 태그 380",
+        "value": 47631
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Hagatha the Witch",
+            "nativeRawText": "Hagatha the Witch"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "마녀 하가사",
+            "nativeRawText": "마녀 하가사"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> Deal 3 damage to all minions.",
+            "nativeRawText": "<b>Battlecry:</b> Deal 3 damage to all minions."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b>\n<b>모든</b> 하수인에게 피해를 3 줍니다.",
+            "nativeRawText": "<b>전투의 함성:</b>\n<b>모든</b> 하수인에게 피해를 3 줍니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Hagatha the Witch",
+            "nativeRawText": "Hagatha the Witch"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "마녀 하가사",
+            "nativeRawText": "마녀 하가사"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Battlecry:</b> Deal 3 damage to all minions.",
+            "nativeRawText": "<b>Battlecry:</b> Deal 3 damage to all minions."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "<b>전투의 함성:</b>\n<b>모든</b> 하수인에게 피해를 3 줍니다.",
+            "nativeRawText": "<b>전투의 함성:</b>\n<b>모든</b> 하수인에게 피해를 3 줍니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-237.psd:d085932396583644fb6b6412dcbec3ab",
+      "goldenMaterial": "GIL_504_PremiumCard.mat:dbe0909f3ec57434588510ab5009593b",
+      "goldenAnimation": "GIL_504_PremiumCard.asset:22a056a0cf84bd243a4f54ca0a02bcf4"
+    },
+    "researchObservationIds": []
+  }
+}

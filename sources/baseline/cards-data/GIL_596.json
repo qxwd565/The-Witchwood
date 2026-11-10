@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_596",
+    "dbfId": 47201,
+    "name": "은장검",
+    "type": "WEAPON",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 8,
+    "text": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+    "attack": 3,
+    "health": 0,
+    "durability": 4,
+    "armor": 0,
+    "flavor": "은장검의 가장 큰 장점은... 반짝인다는 거죠!",
+    "spellSchool": "",
+    "portrait": "HS13-018_W.psd:c6ddaf13a7f4b7044ae34d3357e0d04a",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_596.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-018_W.psd:c6ddaf13a7f4b7044ae34d3357e0d04a",
+    "goldenMaterial": "GIL_596_PremiumCard.mat:4c1d965d6674ebc41aec21712d68d81d",
+    "goldenAnimation": "GIL_596_PremiumCard.asset:ca0b759e0aeadf54b9417f38005e75e4"
+  }
+}

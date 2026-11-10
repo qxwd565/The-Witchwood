@@ -1,1 +1,420 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_596","dbfId":47201,"name":"은장검","type":"WEAPON","cardClass":"PALADIN","rarity":"RARE","collectible":true,"cost":8,"text":"내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.","attack":3,"health":0,"durability":4,"armor":0,"flavor":"은장검의 가장 큰 장점은... 반짝인다는 거죠!","spellSchool":"","portrait":"HS13-018_W.psd:c6ddaf13a7f4b7044ae34d3357e0d04a","set":"GILNEAS","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":7},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/GIL_596.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-018_W.psd:c6ddaf13a7f4b7044ae34d3357e0d04a","goldenMaterial":"GIL_596_PremiumCard.mat:4c1d965d6674ebc41aec21712d68d81d","goldenAnimation":"GIL_596_PremiumCard.asset:ca0b759e0aeadf54b9417f38005e75e4"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_596",
+    "dbfId": 47201,
+    "name": "은장검",
+    "type": "WEAPON",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 8,
+    "text": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+    "attack": 3,
+    "health": 0,
+    "durability": 4,
+    "armor": 0,
+    "flavor": "은장검의 가장 큰 장점은... 반짝인다는 거죠!",
+    "spellSchool": "",
+    "portrait": "HS13-018_W.psd:c6ddaf13a7f4b7044ae34d3357e0d04a",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_596.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-018_W.psd:c6ddaf13a7f4b7044ae34d3357e0d04a",
+    "goldenMaterial": "GIL_596_PremiumCard.mat:4c1d965d6674ebc41aec21712d68d81d",
+    "goldenAnimation": "GIL_596_PremiumCard.asset:ca0b759e0aeadf54b9417f38005e75e4"
+  },
+  "initialSpec": {
+    "type": "WEAPON",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 8,
+    "attack": 3,
+    "durability": 4,
+    "name": "은장검",
+    "nativeRawText": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+    "text": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+    "id": "GIL_596",
+    "dbfId": 47201,
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 187,
+        "name": "내구도",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_596",
+    "dbfId": 47201,
+    "name": "은장검",
+    "type": "WEAPON",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 8,
+    "text": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+    "attack": 3,
+    "health": 0,
+    "durability": 4,
+    "armor": 0,
+    "flavor": "은장검의 가장 큰 장점은... 반짝인다는 거죠!",
+    "spellSchool": "",
+    "portrait": "HS13-018_W.psd:c6ddaf13a7f4b7044ae34d3357e0d04a",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_596.png",
+    "referencedTags": [],
+    "nativeRawText": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다."
+  },
+  "nativeRawText": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "WEAPON",
+        "cardClass": "PALADIN",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 8,
+        "attack": 3,
+        "durability": 4,
+        "name": "은장검",
+        "nativeRawText": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+        "text": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+        "id": "GIL_596",
+        "dbfId": 47201
+      },
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {},
+    "research": [
+      {
+        "id": "WITCH-OBS-004",
+        "topic": "weapon-durability-storage",
+        "date": "2025-03-19",
+        "cardIds": [
+          "GIL_596",
+          "GIL_653",
+          "GIL_672"
+        ],
+        "status": "observed-representation-change",
+        "detail": "DURABILITY(187)가 사라지고 동일 값이 HEALTH(45)로 이동. 논리 내구도는 각각 4,2,2로 유지되므로 무기 생명력 증가나 내구도 변경이 아님.",
+        "source": "https://news.blizzard.com/ko-kr/article/24187196/32-0"
+      }
+    ]
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 187,
+        "name": "내구도",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Silver Sword",
+            "nativeRawText": "Silver Sword"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "은장검",
+            "nativeRawText": "은장검"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "After your hero attacks, give your minions +1/+1.",
+            "nativeRawText": "After your hero attacks, give your minions +1/+1."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+            "nativeRawText": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Silver Sword",
+            "nativeRawText": "Silver Sword"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "은장검",
+            "nativeRawText": "은장검"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "After your hero attacks, give your minions +1/+1.",
+            "nativeRawText": "After your hero attacks, give your minions +1/+1."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+            "nativeRawText": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-018_W.psd:c6ddaf13a7f4b7044ae34d3357e0d04a",
+      "goldenMaterial": "GIL_596_PremiumCard.mat:4c1d965d6674ebc41aec21712d68d81d",
+      "goldenAnimation": "GIL_596_PremiumCard.asset:ca0b759e0aeadf54b9417f38005e75e4"
+    },
+    "researchObservationIds": [
+      "WITCH-OBS-004"
+    ]
+  }
+}

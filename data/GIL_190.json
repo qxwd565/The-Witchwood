@@ -1,1 +1,457 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_190","dbfId":46862,"name":"밤비늘 어미","type":"MINION","cardClass":"PRIEST","rarity":"RARE","collectible":true,"cost":7,"text":"아군 하수인이 치유될 때마다 3/3 새끼용을 소환합니다.","attack":4,"health":9,"durability":0,"armor":0,"flavor":"아가들아, 다들 모이렴!","spellSchool":"","portrait":"HS13-205_M.psd:abb6c3ffeb3f0784f9fb534f54c6dca3","set":"GILNEAS","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":9},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":7},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":6},{"id":200,"name":"종족","value":24},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":48663}],"races":["DRAGON"],"race":"용족","classes":[],"art":"art/GIL_190.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-205_M.psd:abb6c3ffeb3f0784f9fb534f54c6dca3","goldenMaterial":"GIL_190_PremiumCard.mat:72dde3846fffc294bb0c073b39867dcf","goldenAnimation":"GIL_190_PremiumCard.asset:49e47674f873a714a9a755b1866482b4"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_190",
+    "dbfId": 46862,
+    "name": "밤비늘 어미",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 7,
+    "text": "아군 하수인이 치유될 때마다 3/3 새끼용을 소환합니다.",
+    "attack": 4,
+    "health": 9,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "아가들아, 다들 모이렴!",
+    "spellSchool": "",
+    "portrait": "HS13-205_M.psd:abb6c3ffeb3f0784f9fb534f54c6dca3",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 9
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 48663
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/GIL_190.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-205_M.psd:abb6c3ffeb3f0784f9fb534f54c6dca3",
+    "goldenMaterial": "GIL_190_PremiumCard.mat:72dde3846fffc294bb0c073b39867dcf",
+    "goldenAnimation": "GIL_190_PremiumCard.asset:49e47674f873a714a9a755b1866482b4"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 7,
+    "attack": 4,
+    "health": 9,
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "name": "밤비늘 어미",
+    "nativeRawText": "아군 하수인이 치유될 때마다 3/3 새끼용을 1마리 소환합니다.",
+    "text": "아군 하수인이 치유될 때마다 3/3 새끼용을 1마리 소환합니다.",
+    "id": "GIL_190",
+    "dbfId": 46862,
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 9
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [],
+  "current": {
+    "id": "GIL_190",
+    "dbfId": 46862,
+    "name": "밤비늘 어미",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 7,
+    "text": "아군 하수인이 치유될 때마다 3/3 새끼용을 소환합니다.",
+    "attack": 4,
+    "health": 9,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "아가들아, 다들 모이렴!",
+    "spellSchool": "",
+    "portrait": "HS13-205_M.psd:abb6c3ffeb3f0784f9fb534f54c6dca3",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 9
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 48663
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/GIL_190.png",
+    "referencedTags": [],
+    "nativeRawText": "아군 하수인이 치유될 때마다 3/3 새끼용을 소환합니다."
+  },
+  "nativeRawText": "아군 하수인이 치유될 때마다 3/3 새끼용을 소환합니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "PRIEST",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 7,
+        "attack": 4,
+        "health": 9,
+        "races": [
+          "DRAGON"
+        ],
+        "race": "용족",
+        "name": "밤비늘 어미",
+        "nativeRawText": "아군 하수인이 치유될 때마다 3/3 새끼용을 1마리 소환합니다.",
+        "text": "아군 하수인이 치유될 때마다 3/3 새끼용을 1마리 소환합니다.",
+        "id": "GIL_190",
+        "dbfId": 46862
+      },
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "아군 하수인이 치유될 때마다 3/3 새끼용을 1마리 소환합니다.",
+        "after": "아군 하수인이 치유될 때마다 3/3 새끼용을 소환합니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "아군 하수인이 치유될 때마다 3/3 새끼용을 1마리 소환합니다.",
+        "after": "아군 하수인이 치유될 때마다 3/3 새끼용을 소환합니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 9
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Nightscale Matriarch",
+            "nativeRawText": "Nightscale Matriarch"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "밤비늘 어미",
+            "nativeRawText": "밤비늘 어미"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Whenever a friendly minion is healed, summon a 3/3_Whelp.",
+            "nativeRawText": "Whenever a friendly minion is healed, summon a 3/3_Whelp."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "아군 하수인이 치유될 때마다 3/3 새끼용을 1마리 소환합니다.",
+            "nativeRawText": "아군 하수인이 치유될 때마다 3/3 새끼용을 1마리 소환합니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Nightscale Matriarch",
+            "nativeRawText": "Nightscale Matriarch"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "밤비늘 어미",
+            "nativeRawText": "밤비늘 어미"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Whenever a friendly minion is healed, summon a 3/3_Whelp.",
+            "nativeRawText": "Whenever a friendly minion is healed, summon a 3/3_Whelp."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "아군 하수인이 치유될 때마다 3/3 새끼용을 소환합니다.",
+            "nativeRawText": "아군 하수인이 치유될 때마다 3/3 새끼용을 소환합니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-205_M.psd:abb6c3ffeb3f0784f9fb534f54c6dca3",
+      "goldenMaterial": "GIL_190_PremiumCard.mat:72dde3846fffc294bb0c073b39867dcf",
+      "goldenAnimation": "GIL_190_PremiumCard.asset:49e47674f873a714a9a755b1866482b4"
+    },
+    "researchObservationIds": []
+  }
+}

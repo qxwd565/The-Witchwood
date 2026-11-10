@@ -1,1 +1,594 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"GIL_531","dbfId":46998,"name":"마녀의 수습생","type":"MINION","cardClass":"SHAMAN","rarity":"COMMON","collectible":true,"cost":0,"text":"<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문을<br></br>내 손으로 가져옵니다.","attack":0,"health":1,"durability":0,"armor":0,"flavor":"마녀가 된 개구리일까요? 아니면 개구리가 된 마녀일까요?","spellSchool":"","portrait":"HS13-060_M.psd:a7a40dcb620c1fe4ba6c9bdc67260912","set":"GILNEAS","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":114,"name":"전설 속성","value":0},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":8},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/GIL_531.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS13-060_M.psd:a7a40dcb620c1fe4ba6c9bdc67260912","goldenMaterial":"GIL_531_PremiumCard.mat:bc1bc49b73f7c0c4c87aaa350b460e26","goldenAnimation":"GIL_531_PremiumCard.asset:488ead93b9a3c9143805aa8cb14863fe"}}
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_531",
+    "dbfId": 46998,
+    "name": "마녀의 수습생",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 0,
+    "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문을<br></br>내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "마녀가 된 개구리일까요? 아니면 개구리가 된 마녀일까요?",
+    "spellSchool": "",
+    "portrait": "HS13-060_M.psd:a7a40dcb620c1fe4ba6c9bdc67260912",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_531.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-060_M.psd:a7a40dcb620c1fe4ba6c9bdc67260912",
+    "goldenMaterial": "GIL_531_PremiumCard.mat:bc1bc49b73f7c0c4c87aaa350b460e26",
+    "goldenAnimation": "GIL_531_PremiumCard.asset:488ead93b9a3c9143805aa8cb14863fe"
+  },
+  "initialSpec": {
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "health": 1,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "name": "마녀의 수습생",
+    "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
+    "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
+    "id": "GIL_531",
+    "dbfId": 46998,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "referencedTags": []
+  },
+  "patches": [
+    {
+      "date": "2026-04-15",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "SHAMAN",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 0,
+        "health": 1,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "name": "마녀의 수습생",
+        "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
+        "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
+        "id": "GIL_531",
+        "dbfId": 46998,
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 1
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 0
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 190,
+            "name": "도발",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 8
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 20
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "current": {
+    "id": "GIL_531",
+    "dbfId": 46998,
+    "name": "마녀의 수습생",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 0,
+    "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문을<br></br>내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "마녀가 된 개구리일까요? 아니면 개구리가 된 마녀일까요?",
+    "spellSchool": "",
+    "portrait": "HS13-060_M.psd:a7a40dcb620c1fe4ba6c9bdc67260912",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/GIL_531.png",
+    "referencedTags": [],
+    "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다."
+  },
+  "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+  "history": [
+    {
+      "from": "2018-04-13",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "SHAMAN",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 1,
+        "health": 1,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "name": "마녀의 수습생",
+        "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
+        "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
+        "id": "GIL_531",
+        "dbfId": 46998
+      },
+      "before": "2026-04-15",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "spellSchool"
+      ]
+    },
+    {
+      "from": "2026-04-15",
+      "changes": {
+        "type": "MINION",
+        "cardClass": "SHAMAN",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 0,
+        "health": 1,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "name": "마녀의 수습생",
+        "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
+        "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
+        "id": "GIL_531",
+        "dbfId": 46998,
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 1
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 0
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 190,
+            "name": "도발",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 8
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 20
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ]
+      },
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "spellSchool"
+      ]
+    }
+  ],
+  "observations": {
+    "undated": {
+      "text": {
+        "date": null,
+        "before": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
+        "after": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문을<br></br>내 손으로 가져옵니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      },
+      "nativeRawText": {
+        "date": null,
+        "before": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
+        "after": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+        "reason": "current cache differs from dated confirmed events; no date inferred"
+      }
+    },
+    "research": []
+  },
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releasedAt": "2018-04-13",
+    "source": "HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
+    "launchOwnedTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "게임 태그 183",
+        "value": 1125
+      },
+      {
+        "id": 184,
+        "name": "게임 태그 184"
+      },
+      {
+        "id": 185,
+        "name": "게임 태그 185"
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 342,
+        "name": "게임 태그 342"
+      },
+      {
+        "id": 351,
+        "name": "게임 태그 351"
+      }
+    ],
+    "launchReferencedTags": [],
+    "launchStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Witch's Apprentice",
+            "nativeRawText": "Witch's Apprentice"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "마녀의 수습생",
+            "nativeRawText": "마녀의 수습생"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Taunt</b>\n<b>Battlecry:</b> Add a random Shaman spell to your hand.",
+            "nativeRawText": "<b>Taunt</b>\n<b>Battlecry:</b> Add a random Shaman spell to your hand."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
+            "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다."
+          }
+        }
+      }
+    },
+    "currentStrings": {
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Witch's Apprentice",
+            "nativeRawText": "Witch's Apprentice"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "마녀의 수습생",
+            "nativeRawText": "마녀의 수습생"
+          }
+        }
+      },
+      "184": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "<b>Taunt</b>\n<b>Battlecry:</b> Add a random Shaman spell to your hand.",
+            "nativeRawText": "<b>Taunt</b>\n<b>Battlecry:</b> Add a random Shaman spell to your hand."
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다.",
+            "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문을\n내 손으로 가져옵니다."
+          }
+        }
+      }
+    },
+    "mode": "constructed",
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS13-060_M.psd:a7a40dcb620c1fe4ba6c9bdc67260912",
+      "goldenMaterial": "GIL_531_PremiumCard.mat:bc1bc49b73f7c0c4c87aaa350b460e26",
+      "goldenAnimation": "GIL_531_PremiumCard.asset:488ead93b9a3c9143805aa8cb14863fe"
+    },
+    "researchObservationIds": []
+  }
+}

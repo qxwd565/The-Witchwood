@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_547",
+    "dbfId": 47053,
+    "name": "다리우스 크롤리",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>속공</b>, 이 하수인은 공격하여 다른 하수인을 처치한 후에 +2/+2를 얻습니다.",
+    "attack": 4,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "악당으로 죽거나, 영웅이 될 때까지 살아남거나.",
+    "spellSchool": "",
+    "portrait": "HS13-316_M.psd:569a925a942b3334583c46dde11b25a7",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 2,
+        "name": "효과 수치 1",
+        "value": 1
+      },
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_547.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-316_M.psd:569a925a942b3334583c46dde11b25a7",
+    "goldenMaterial": "GIL_547_PremiumCard.mat:b292e331cc5d24949a7c1189a1517b1e",
+    "goldenAnimation": "GIL_547_PremiumCard.asset:8a98a6eda3d1c0b41ae1ddae29647dad"
+  }
+}

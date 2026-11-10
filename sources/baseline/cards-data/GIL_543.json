@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "card": {
+    "id": "GIL_543",
+    "dbfId": 47033,
+    "name": "어둠의 빙의",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 1,
+    "text": "아군 캐릭터에게<br></br>피해를 $2 줍니다.<br></br>악마를 <b>발견</b>합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "왜 악마랑 엮이는 건 꼭 노움일까요?",
+    "spellSchool": "SHADOW",
+    "portrait": "HS13-049_S.psd:646e86aebc6443446a7ec0d95abd601c",
+    "set": "GILNEAS",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 370,
+        "name": "주문 공격력 적용",
+        "value": 1
+      },
+      {
+        "id": 415,
+        "name": "발견",
+        "value": 1
+      },
+      {
+        "id": 1342,
+        "name": "발견 시각 효과",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/GIL_543.png"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS13-049_S.psd:646e86aebc6443446a7ec0d95abd601c",
+    "goldenMaterial": "GIL_543_PremiumCard_NEW.mat:3cd52cd83d886e5479689eba737972b7",
+    "goldenAnimation": "GIL_543_PremiumCard_NEW.asset:811b8497eb732a548a14e5afb609c127"
+  }
+}
