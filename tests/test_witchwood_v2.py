@@ -114,8 +114,17 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
    rows=self.data[item["id"]]["observations"]["undatedRawTags"]
    self.assertTrue(any(x["findingId"]==item["findingId"] and x["tagId"]==item["confirmedTagId"] and x["before"]==item["before"] and x["after"]==item["after"] for x in rows),item["id"]+":"+item["findingId"])
    role=item["role"]+"Tags"; tid=int(item["confirmedTagId"])
+   role_transfers=[]
    for day in (k for k in self.data[item["id"]] if DATE.fullmatch(k) and k!=RELEASE):
-    self.assertFalse(any(x["role"]==role and int(x["id"])==tid for x in self.data[item["id"]][day].get("rawTagDelta",[])),(item["id"],day,tid,"undated promoted"))
+    for event in self.data[item["id"]][day].get("rawTagDelta",[]):
+     if event.get("operation")=="roleTransfer" and int(event["id"])==tid and event.get("from")==role and day=="2026-07-22":
+      role_transfers.append((day,event))
+     else:
+      self.assertFalse(event.get("role")==role and int(event["id"])==tid,(item["id"],day,tid,"undated promoted"))
+   if item["findingId"]=="WITCH-BAL-R005":
+    self.assertEqual(len(role_transfers),1,(item["id"],tid,"dated role transfer missing"))
+   else:
+    self.assertEqual(role_transfers,[])
  def test_40_existing_raw_delta_before_after_values(self):
   self.assertEqual(len(self.audit["existingRawDelta40"]),40)
   for event in self.audit["existingRawDelta40"]:
@@ -160,7 +169,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
     intervals+=1
    self.assertEqual(days,sorted(x["from"] for x in src["history"]),cid+":date/history parity")
   self.assertEqual(intervals,63)
- def test_219_audit_items_217_dated_replays_plus_2_undated_observations(self):
+ def test_219_segments_are_156_release_plus_63_dated_followups(self):
   total=0
   for cid,src in self.data.items():
    current=copy.deepcopy(self.rendered[cid])
