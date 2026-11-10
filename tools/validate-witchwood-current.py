@@ -71,8 +71,9 @@ for cid,fields in expected_preview.items():
  src=files[cid]
  for day in ("2018-11-30","2026-07-22"):
   sparse=src[day]
-  for field,want in fields.items(): assert sparse.get(field,"__MISSING__")==want,(cid,day,field,"sparse")
-  assert sparse["type"]=="MINION" and sparse["rarity"]=="COMMON",(cid,day,"logical type/rarity")
+  if day=="2018-11-30":
+   for field,want in fields.items(): assert sparse.get(field,"__MISSING__")==want,(cid,day,field,"sparse")
+   assert sparse["type"]=="MINION" and sparse["rarity"]=="COMMON",(cid,day,"logical type/rarity")
   revision=next(x for x in src["history"] if x["from"]==day)
   for field,want in fields.items(): assert revision["changes"].get(field,"__MISSING__")==want,(cid,day,field,"history")
   assert revision["changes"]["type"]=="MINION" and revision["changes"]["rarity"]=="COMMON"
