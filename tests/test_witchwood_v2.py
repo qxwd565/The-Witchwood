@@ -62,6 +62,64 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
   state["nativeTags"]=[merged[k] for k in sorted(merged)]
   state["nativeTagOrigins"]=sorted([{"id":int(x["id"]),"role":"owned" if role=="ownedTags" else "referenced"} for role in ("ownedTags","referencedTags") for x in state.get(role,[])],key=lambda x:(x["id"],x["role"]))
   return state
+ def test_all_219_scalar_owned_and_referenced_tag_states_replay(self):
+  self.assertEqual(sum(len(src["history"]) for src in self.data.values()),219)
+  for cid,src in self.data.items():
+   state=copy.deepcopy(src["initialSpec"])
+   days=sorted(k for k in src if DATE.fullmatch(k))
+   self.assertEqual(days[0],RELEASE,cid)
+   def scalar(rows):
+    return {int(x["id"]):str(x["value"]) for x in rows if "value" in x}
+   self.assertEqual(scalar(state["ownedTags"]),scalar(src[RELEASE]["ownedTags"]),(cid,RELEASE,"owned"))
+   self.assertEqual(scalar(state["referencedTags"]),scalar(src[RELEASE]["referencedTags"]),(cid,RELEASE,"referenced"))
+   for day in days[1:]:
+    state=self.apply_sparse(state,src[day],day)
+    expected=self.state(src,day)
+    self.assertEqual(scalar(state["ownedTags"]),scalar(expected["ownedTags"]),(cid,day,"owned scalar replay"))
+    self.assertEqual(scalar(state["referencedTags"]),scalar(expected["referencedTags"]),(cid,day,"referenced scalar replay"))
+   current=src["current"]
+   actual_diff=set()
+   for role in ("ownedTags","referencedTags"):
+    before=scalar(state.get(role,[])); after=scalar(current.get(role,[]))
+    actual_diff.update((role,tid) for tid in set(before)|set(after) if before.get(tid,"ABSENT")!=after.get(tid,"ABSENT"))
+   observations=src.get("observations",{}).get("undatedRawTags",[])
+   observed={(x["role"],int(x["tagId"])) for x in observations}
+   generated={(x["role"],int(x["tagId"])) for x in observations if x.get("findingId") is None}
+   explicit={(x["role"],int(x["tagId"])) for x in observations if x.get("findingId") is not None}
+   self.assertEqual(generated,actual_diff-explicit,(cid,"current-vs-dated null-day raw differences"))
+ def test_r001_choice_ui_raw_transition_and_r005_accumulation(self):
+  expected={
+   "GIL_188a":{"45":"2","47":"4","48":"3","183":"1125","199":"2","200":"20","202":"4","203":"1"},
+   "GIL_188b":{"45":"4","47":"2","48":"3","183":"1125","199":"2","202":"4","203":"1"}
+  }
+  for cid,want in expected.items():
+   src=self.data[cid]
+   release=src["initialSpec"]
+   release_map={str(x["id"]):str(x["value"]) for x in release["ownedTags"] if "value" in x}
+   self.assertEqual(release_map.get("202"),"5",cid+":release SPELL")
+   self.assertNotIn("rarity",release,cid+":release rarity must remain absent")
+   row=src["2018-11-30"]
+   self.assertEqual(row["type"],"MINION")
+   self.assertEqual(row["rarity"],"COMMON")
+   state=self.state(src,"2018-11-30")
+   actual={str(x["id"]):str(x["value"]) for x in state["ownedTags"] if "value" in x}
+   self.assertEqual(actual,want,cid+":R001 exact owned scalar tags")
+   self.assertEqual(state["referencedTags"],[],cid+":R001 referenced empty")
+   for tid in (184,185,342):
+    self.assertTrue(any(int(x["id"])==tid for x in state["ownedTags"]),(cid,tid,"string/internal tag preserved"))
+   self.assertFalse(any(int(x["id"]) in (190,791) for x in state["ownedTags"]),(cid,"modern keyword must not be backdated"))
+   later=self.state(src,"2026-07-22")
+   later_map={str(x["id"]):str(x["value"]) for x in later["ownedTags"] if "value" in x}
+   self.assertEqual(later_map.get("202"),"4",cid+":R005 type tag")
+   self.assertEqual(later.get("rarity"),"COMMON",cid+":R005 rarity")
+   self.assertEqual(later_map.get("45"),want["45"],cid+":R005 health")
+   self.assertEqual(later_map.get("47"),want["47"],cid+":R005 attack")
+   self.assertEqual(later_map.get("48"),"3",cid+":R005 cost")
+   self.assertEqual(later_map.get("203"),"1",cid+":R005 common raw rarity")
+   expected_keyword=791 if cid=="GIL_188a" else 190
+   self.assertEqual(later_map.get(str(expected_keyword)),"1",cid+":R005 owned keyword")
+   self.assertTrue(any(x.get("findingId")=="WITCH-BAL-R001" for x in row["sources"]))
+   self.assertTrue(any(x.get("findingId")=="WITCH-BAL-R005-DATE" for x in src["2026-07-22"]["sources"]))
  def test_156_cards_immutable_current_compatibility(self):
   self.assertEqual(len(self.cards),156); self.assertEqual(len(self.render),156); self.assertEqual(len(self.data),156)
   self.assertEqual(len(self.legacy),156)
