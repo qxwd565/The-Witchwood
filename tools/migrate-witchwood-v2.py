@@ -293,6 +293,8 @@ def main():
         src["_meta"]={"schemaVersion":2,"timezone":"Asia/Seoul","releasedAt":RELEASE,
                       "source":"HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
                       "launchOwnedTags":copy.deepcopy(owned),"launchReferencedTags":copy.deepcopy(refs),
+                      "launchStrings":copy.deepcopy(launch[cid]["strings"]),
+                      "currentStrings":copy.deepcopy(current_entities[cid]["strings"]),
                       "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"])}
         write(ROOT/"data"/(cid+".json"),src)
         # cards.json/render.json preserve existing fields; approved Tag addition only.
