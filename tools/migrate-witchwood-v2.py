@@ -145,6 +145,7 @@ def state_from(entity,cid):
         for f in ("armor","attack","durability","health","race","races","spellSchool"):s.pop(f,None)
     if cid=="GIL_504h":s["collectible"]=False
     if cid=="GIL_504":s["health"]=30
+    if cid=="GIL_616t2" and "text" not in s:s["text"]=""
     return s
 def api_text(s): return s.replace("[x]","").replace("\r\n","<br></br>").replace("\n","<br></br>").replace("\r","<br></br>")
 
