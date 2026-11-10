@@ -74,7 +74,7 @@ jobs:
           REMOTE_HEAD="$(git rev-parse origin/main)"
           CHECKOUT_HEAD="$(git rev-parse HEAD)"
           if [ "$REMOTE_HEAD" != "$CHECKOUT_HEAD" ]; then
-            if git merge-base --is-ancestor "$CHECKOUT_HEAD" "$REMOTE_HEAD" && git diff --quiet "$CHECKOUT_HEAD" "$REMOTE_HEAD" -- cards.json render.json history.json data sources/baseline sources/witchwood-history-v2.json sources/witchwood-research-v1.json sources/witchwood-source-manifest.json sources/witchwood-independent-audit-v2.json.gz.b64; then
+            if git merge-base --is-ancestor "$CHECKOUT_HEAD" "$REMOTE_HEAD" && git diff --quiet "$CHECKOUT_HEAD" "$REMOTE_HEAD" -- cards.json render.json history.json data sources/baseline sources/witchwood-history-v2.json sources/witchwood-research-v1.json sources/witchwood-source-manifest.json sources/witchwood-independent-audit-v2.json.gz.b64 tools/sync-witchwood-history.py; then
               echo "Remote main advanced without changing generated card sources; rebasing pending generated outputs onto $REMOTE_HEAD."
               git reset --mixed "$REMOTE_HEAD"
             else
@@ -98,10 +98,9 @@ jobs:
             seed="$1"
             echo "PYTHONHASHSEED=$seed source SHA: $(git rev-parse HEAD)"
             env PYTHONHASHSEED="$seed" python tools/migrate-witchwood-v2.py
-            env PYTHONHASHSEED="$seed" python tools/migrate-witchwood-v2.py
             env PYTHONHASHSEED="$seed" python tools/sync-witchwood-history.py
             env PYTHONHASHSEED="$seed" python tools/build-witchwood-api.py
-            env PYTHONHASHSEED="$seed" python -m py_compile tools/migrate-witchwood-v2.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
+            env PYTHONHASHSEED="$seed" python -m py_compile tools/migrate-witchwood-v2.py tools/sync-witchwood-history.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
             env PYTHONHASHSEED="$seed" python -m unittest discover -s tests -v
             env PYTHONHASHSEED="$seed" python tools/validate-witchwood-current.py
             find . -type d -name __pycache__ -prune -exec rm -rf {} +
