@@ -119,6 +119,27 @@ def card_history(source):
         full_states.append((day,full,copy.deepcopy(source[day])))
     current=copy.deepcopy(source["current"])
     current_fields={k:copy.deepcopy(v) for k,v in current.items() if k not in TAG_FIELDS}
+    # Recompute null-day raw observations from the final cumulative dated state,
+    # not from the last bootstrap snapshot. Explicit source observations survive.
+    explicit_raw=[copy.deepcopy(x) for x in source.get("observations",{}).get("undatedRawTags",[]) if x.get("findingId")]
+    dated_final=full_states[-1][1]
+    manifest=read(ROOT/"sources/witchwood-source-manifest.json")
+    current_source=manifest["entries"][-1]
+    rebuilt_raw=explicit_raw
+    explicit_keys={(x["role"],int(x["tagId"])) for x in explicit_raw}
+    for role in ("ownedTags","referencedTags"):
+        before_map=tag_index(dated_final.get(role,[]))
+        after_map=tag_index(current.get(role,[]))
+        for tid in sorted(set(before_map)|set(after_map)):
+            if before_map.get(tid)==after_map.get(tid) or (role,tid) in explicit_keys:
+                continue
+            rebuilt_raw.append({"date":None,"findingId":None,"tagId":tid,"role":role,
+                "before":copy.deepcopy(before_map.get(tid,"ABSENT")),
+                "after":copy.deepcopy(after_map.get(tid,"ABSENT")),
+                "build":current_source["build"],"sourceCommit":current_source["commit"],
+                "sourceXmlSha256":current_source["xmlSha256"],
+                "reason":"Current raw XML differs from the final cumulative dated state; no dated transition source was found."})
+    source.setdefault("observations",{})["undatedRawTags"]=rebuilt_raw
     revisions=[]
     for i,(day,full,sparse) in enumerate(full_states):
         removed=sorted(k for k in current_fields if k not in full)
