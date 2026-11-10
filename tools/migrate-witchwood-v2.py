@@ -405,7 +405,8 @@ def main():
         # Legacy history uses a full initialSpec and date patches.
         legacy_patches=[]
         for i,rev in enumerate(revisions[1:]):
-            legacy_patches.append({"date":rev["from"],"changes":copy.deepcopy(rev["changes"]),"removedFields":copy.deepcopy(rev.get("removedFields",[]))})
+            legacy_patches.append({"date":rev["from"],"changes":copy.deepcopy(rev["changes"]),"removedFields":copy.deepcopy(rev.get("removedFields",[])),
+                                  "eventKinds":copy.deepcopy(rev.get("eventKinds",[])),"representation":copy.deepcopy(rev.get("representation",{}))})
     catalog["cards"]=list(records.values())
     # Generate compatibility indexes and a separate explicit date-first canonical source.
     public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","events":{RELEASE:{}},
@@ -419,19 +420,25 @@ def main():
     for card in catalog["cards"]:
         cid=card["id"]; src=read(ROOT/"data"/(cid+".json")); dbf=str(card["dbfId"])
         legacy["cards"][dbf]={"id":cid,"initialSpec":src["initialSpec"],"patches":src["patches"]}
-        initial=copy.deepcopy(src["initialSpec"])
+        date_keys=sorted(k for k in src if DATE.fullmatch(k))
+        if not date_keys or date_keys[0]!=RELEASE: raise ValueError(f"{cid}: missing top-level date-first release snapshot")
+        initial=copy.deepcopy(src[RELEASE])
         public_history["events"][RELEASE][cid]=initial
         previous=copy.deepcopy(initial)
-        for patch in src["patches"]:
-            following=copy.deepcopy(previous)
-            following.update(copy.deepcopy(patch["changes"]))
-            removed=list(patch.get("removedFields",[]))
+        for day in date_keys[1:]:
+            snapshot=copy.deepcopy(src[day])
+            removed=list(snapshot.pop("removedFields",[]))
+            event_kinds=snapshot.pop("eventKinds",[])
+            representation=snapshot.pop("representation",{})
+            event_sources=snapshot.pop("sources",[])
+            following=copy.deepcopy(snapshot)
             for field in removed: following.pop(field,None)
             delta={field:copy.deepcopy(value) for field,value in following.items()
                    if field not in previous or previous[field]!=value}
             removed_delta=sorted(field for field in previous if field not in following)
-            if delta or removed_delta:
-                public_history["events"].setdefault(patch["date"],{})[cid]={"changes":delta,"removedFields":removed_delta}
+            if delta or removed_delta or event_kinds or representation:
+                public_history["events"].setdefault(day,{})[cid]={"changes":delta,"removedFields":removed_delta,
+                    "eventKinds":event_kinds,"representation":representation,"sources":event_sources}
             previous=following
         r={k:copy.deepcopy(v) for k,v in card.items()}
         r["history"]=copy.deepcopy(src["history"])
