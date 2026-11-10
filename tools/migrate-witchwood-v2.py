@@ -134,15 +134,16 @@ def api_text(s): return s.replace("\n","<br></br>").replace("\r\n","<br></br>").
 def main():
     catalog=read(ROOT/"cards.json"); records={c["id"]:c for c in catalog["cards"]}
     assert len(records)==156
-    central=read(ROOT/"data/history.json")
     research=read(ROOT/"sources/witchwood-research-v1.json")
+    baseline_history_path=ROOT/"sources/baseline/data-history.json"
+    baseline_history=read(baseline_history_path) if baseline_history_path.exists() else read(ROOT/"data/history.json")
+    central=baseline_history
     events=central["events"]
     assert len(events["2018-04-13"])==156
     assert sum(len(v) for d,v in events.items() if d!="2018-04-13")==40
     launch=parse_entities(Path("/tmp/CardDefs-witchwood-launch.xml"),set(records))
     current_entities=parse_entities(Path("/tmp/CardDefs-witchwood-current.xml"),set(records))
     baseline_cards=read(ROOT/"sources/baseline/cards.json") if (ROOT/"sources/baseline/cards.json").exists() else copy.deepcopy(catalog)
-    baseline_history=read(ROOT/"sources/baseline/data-history.json") if (ROOT/"sources/baseline/data-history.json").exists() else copy.deepcopy(central)
     # Immutable source guard: baseline copies are captured before first migration and never regenerated.
     if not (ROOT/"sources/baseline/cards.json").exists():
         write(ROOT/"sources/baseline/cards.json",baseline_cards)
@@ -349,6 +350,7 @@ def main():
     write(ROOT/"cards.json",catalog,True)
     write(ROOT/"render.json",{"schema":1,"set":"The Witchwood","cards":render},True)
     write(ROOT/"history.json",legacy,True)
+    write(ROOT/"data/history.json",public_history)
     write(ROOT/"sources/witchwood-history-v2.json",public_history)
     print(json.dumps({"cards":len(records),"release":RELEASE,"legacyEvents":40,"correctedUndead":25,
                       "confirmedGameplayPatchEvents":sum(len(v) for v in PATCHES.values()),
