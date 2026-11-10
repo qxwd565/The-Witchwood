@@ -10,9 +10,11 @@ DATE=re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TYPE={3:"HERO",4:"MINION",5:"SPELL",7:"WEAPON",10:"HERO_POWER"}
 CLASS={2:"DRUID",3:"HUNTER",4:"MAGE",5:"PALADIN",6:"PRIEST",7:"ROGUE",8:"SHAMAN",9:"WARLOCK",10:"WARRIOR",12:"NEUTRAL"}
 RARITY={0:"INVALID",1:"COMMON",2:"FREE",3:"RARE",4:"EPIC",5:"LEGENDARY"}
-RACE={2:"DRAENEI",11:"UNDEAD",14:"MURLOC",15:"DEMON",17:"MECHANICAL",18:"ELEMENTAL",20:"BEAST",21:"TOTEM",22:"QUILBOAR",23:"PIRATE",24:"DRAGON",26:"ALL",92:"NAGA"}
+RACE={2:"DRAENEI",11:"UNDEAD",14:"MURLOC",15:"DEMON",17:"MECHANICAL",18:"ELEMENTAL",20:"BEAST",21:"TOTEM",22:"QUILBOAR",23:"PIRATE",24:"DRAGON",26:"ALL",43:"QUILBOAR",92:"NAGA"}
 RACE_KO={"DRAENEI":"드레나이","UNDEAD":"언데드","MURLOC":"멀록","DEMON":"악마","MECHANICAL":"기계","ELEMENTAL":"정령","BEAST":"야수","TOTEM":"토템","QUILBOAR":"가시멧돼지","PIRATE":"해적","DRAGON":"용족","ALL":"모든 종족","NAGA":"나가"}
 RACE_ID={v:k for k,v in RACE.items()}
+NONCOLLECTIBLE={"GIL_188a","GIL_190t","GIL_191t","GIL_200t","GIL_201t","GIL_202t","GIL_508t","GIL_528t","GIL_529t","GIL_553t","GIL_577t","GIL_616t","GIL_663t","GIL_682t","GIL_683t"}
+EMPTY_TEXT={"GIL_190t","GIL_191t","GIL_508t","GIL_553t","GIL_577t","GIL_663t","GIL_682t"}
 SCHOOL={1:"ARCANE",2:"FIRE",3:"FROST",4:"NATURE",5:"HOLY",6:"SHADOW",7:"FEL"}
 TAG_NAMES={32:"발동 효과 표시",45:"생명력",47:"공격력",48:"마나 비용",114:"전설 속성",187:"내구도",190:"도발",194:"천상의 보호막",199:"직업",200:"종족",202:"카드 유형",203:"희귀도",208:"빙결",217:"죽음의 메아리",218:"전투의 함성",219:"비밀",220:"연계",227:"공격 불가",292:"방어도",321:"수집 가능",330:"효과 생성 시각 효과",331:"효과 지속 시각 효과",363:"독성",415:"발견",685:"생명력 흡수",791:"속공",846:"잔상",1342:"발견 시각 효과",1452:"수집품 관련 카드 데이터베이스 ID",1584:"게임 태그 1584",1635:"주문 속성",1965:"게임 태그 1965",2534:"게임 태그 2534",2542:"게임 태그 2542"}
 
@@ -176,6 +178,11 @@ def main():
                     "category":evidence.get("category"),"sources":copy.deepcopy(evidence.get("sources",[])),
                     "archiveEvidence":copy.deepcopy(evidence.get("archiveEvidence",[]))})
         observations.append(row)
+    for extra in audit["extraUndatedEvidence"]["observations"]:
+        if extra.get("day") is not None: raise ValueError("Extra observation evidence must remain undated")
+        group=next((x for x in observations if x.get("findingId")==extra.get("findingId")),None)
+        if group is None: raise ValueError("Extra evidence has no matching observation group: "+str(extra.get("findingId")))
+        group.setdefault("extraUndatedEvidence",[]).append(copy.deepcopy(extra))
     baseline_history_path=ROOT/"sources/baseline/data-history.json"
     baseline_history=read(baseline_history_path) if baseline_history_path.exists() else read(ROOT/"data/history.json")
     central=baseline_history
