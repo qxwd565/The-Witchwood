@@ -117,6 +117,7 @@ class WitchwoodV2Tests(unittest.TestCase):
   source=read(ROOT/"sources/witchwood-history-v2.json")
   self.assertEqual(source["format"],"date-first-delta")
   self.assertEqual(len(source["events"]["2018-04-13"]),156)
+  self.assertEqual(sum(len(v) for d,v in source["events"].items() if d!="2018-04-13"),53)
   self.assertEqual(len(source["events"]["2022-11-30"]),25)
   self.assertNotIn("2022-12-07",source["events"])
   for cid in ("GIL_557","GIL_678","GIL_902"):
