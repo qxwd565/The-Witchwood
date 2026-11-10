@@ -4,7 +4,7 @@ import base64, copy, gzip, json, re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 RELEASE="2018-04-13"
-DATE=re.compile(r"^\\d{4}-\\d{2}-\\d{2}$")
+DATE=re.compile(r"^\d{4}-\d{2}-\d{2}$")
 def read(p): return json.loads(p.read_text(encoding="utf-8"))
 catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(ROOT/"history.json")
 date_first=read(ROOT/"data/history.json")
