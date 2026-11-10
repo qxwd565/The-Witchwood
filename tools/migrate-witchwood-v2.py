@@ -31,7 +31,7 @@ PATCHES={
 "GIL_531":[("2026-04-15",{"cost":0})],
 }
 REPRESENTATION_PATCHES={
- "GIL_188a":[("2018-11-30",{"type":"MINION","cost":3,"attack":4,"health":2,"races":["BEAST"],"race":"야수","nativeRawText":"<b>속공</b>","text":"<b>속공</b>","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":3},{"id":183,"name":"게임 태그 183","value":1125},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1}],"nativeTagOrigins":[{"id":45,"role":"owned"},{"id":47,"role":"owned"},{"id":48,"role":"owned"},{"id":183,"role":"owned"},{"id":199,"role":"owned"},{"id":200,"role":"owned"},{"id":202,"role":"owned"},{"id":203,"role":"owned"}]})],
+ "GIL_188a":[("2018-11-30",{"type":"MINION","cost":3,"attack":4,"health":2,"races":["BEAST"],"race":"야수","nativeRawText":"<b>속공</b>","text":"<b>속공</b>","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":3},{"id":183,"name":"게임 태그 183","value":1125},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1}],"nativeTagOrigins":[{"id":45,"role":"owned"},{"id":47,"role":"owned"},{"id":48,"role":"owned"},{"id":183,"role":"owned"},{"id":199,"role":"owned"},{"id":200,"role":"owned"},{"id":202,"role":"owned"},{"id":203,"role":"owned"}]}),("2026-07-22",{"nativeTagRoleChange":{"791":"owned"}})],
  "GIL_188b":[("2018-11-30",{"type":"MINION","cost":3,"attack":2,"health":4,"races":[],"race":"","nativeRawText":"<b>도발</b>","text":"<b>도발</b>","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":3},{"id":183,"name":"게임 태그 183","value":1125},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1}],"nativeTagOrigins":[{"id":45,"role":"owned"},{"id":47,"role":"owned"},{"id":48,"role":"owned"},{"id":183,"role":"owned"},{"id":190,"role":"owned"},{"id":199,"role":"owned"},{"id":202,"role":"owned"},{"id":203,"role":"owned"}]})],
  "GIL_681":[("2021-05-13",{"nativeRawText":"<i>모든 종족값을 가집니다.</i>","text":"<i>모든 종족값을 가집니다.</i>","races":["ALL"],"race":"모든 종족"})],
  "GIL_596":[("2025-03-19",{"tagStorage":"DURABILITY_187_TO_HEALTH_45"})],
@@ -39,7 +39,6 @@ REPRESENTATION_PATCHES={
  "GIL_672":[("2025-03-19",{"tagStorage":"DURABILITY_187_TO_HEALTH_45"})],
  "GIL_134":[("2026-03-11",{"nativeRawText":"하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다.","text":"하수인에게 피해를 $4 줍니다. 그 하수인이 죽으면 그 카드를 복사하여 내 손으로 가져옵니다."})],
  "GIL_687":[("2026-03-11",{"nativeRawText":"하수인에게 피해를 $3 줍니다."+chr(10)+"그 하수인이 죽으면 동전을"+chr(10)+"내 손으로 가져옵니다.","text":"하수인에게 피해를 $3 줍니다.<br></br>그 하수인이 죽으면 동전을<br></br>내 손으로 가져옵니다."})],
- "GIL_188a":[("2026-07-22",{"nativeTagRoleChange":{"791":"owned"}})],
  "GIL_188b":[("2026-07-22",{"nativeTagRoleChange":{"190":"owned"}})],
 }
 UNDEAD={"GIL_117","GIL_198","GIL_207","GIL_510","GIL_513","GIL_515","GIL_526","GIL_545","GIL_553t","GIL_557","GIL_616","GIL_616t","GIL_616t2","GIL_618","GIL_635","GIL_655","GIL_658","GIL_667","GIL_678","GIL_694","GIL_805","GIL_815","GIL_825","GIL_840","GIL_902"}
