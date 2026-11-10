@@ -478,11 +478,6 @@
         "dbfId": 47053,
         "ownedTags": [
           {
-            "id": 2,
-            "name": "게임 태그 2",
-            "value": 1
-          },
-          {
             "id": 32,
             "name": "발동 효과 표시",
             "value": 1
@@ -557,11 +552,6 @@
         "referencedTags": [],
         "nativeTags": [
           {
-            "id": 2,
-            "name": "게임 태그 2",
-            "value": 1
-          },
-          {
             "id": 32,
             "name": "발동 효과 표시",
             "value": 1
@@ -634,10 +624,6 @@
           }
         ],
         "nativeTagOrigins": [
-          {
-            "id": 2,
-            "role": "owned"
-          },
           {
             "id": 32,
             "role": "owned"
@@ -1266,11 +1252,6 @@
         "dbfId": 47053,
         "ownedTags": [
           {
-            "id": 2,
-            "name": "게임 태그 2",
-            "value": 1
-          },
-          {
             "id": 32,
             "name": "발동 효과 표시",
             "value": 1
@@ -1345,11 +1326,6 @@
         "referencedTags": [],
         "nativeTags": [
           {
-            "id": 2,
-            "name": "게임 태그 2",
-            "value": 1
-          },
-          {
             "id": 32,
             "name": "발동 효과 표시",
             "value": 1
@@ -1422,10 +1398,6 @@
           }
         ],
         "nativeTagOrigins": [
-          {
-            "id": 2,
-            "role": "owned"
-          },
           {
             "id": 32,
             "role": "owned"

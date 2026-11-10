@@ -31758,6 +31758,190 @@
         "sources": []
       }
     },
+    "2026-07-22": {
+      "GIL_188a": {
+        "changes": {},
+        "removedFields": [],
+        "rawTagDelta": [
+          {
+            "operation": "roleTransfer",
+            "id": 791,
+            "from": "referencedTags",
+            "to": "ownedTags",
+            "value": {
+              "id": 791,
+              "name": "속공",
+              "value": 1
+            },
+            "firstObservedBuild": 208591
+          }
+        ],
+        "eventKinds": [
+          "representation"
+        ],
+        "representation": {
+          "category": "confirmed-non-gameplay-representation",
+          "tagRoleChange": {
+            "id": 791,
+            "from": "referenced",
+            "to": "owned",
+            "firstObservedBuild": 208591,
+            "effectiveDate": "2026-07-22"
+          }
+        },
+        "sources": [
+          {
+            "findingId": "WITCH-BAL-R005-DATE",
+            "date": "2026-07-22",
+            "archiveBefore": {
+              "build": 246003,
+              "commit": "59c1e1229b3e48ecbc4436fda2fb0a22030d3808",
+              "source": "https://github.com/HearthSim/hsdata/blob/59c1e1229b3e48ecbc4436fda2fb0a22030d3808/CardDefs.xml",
+              "xmlSha256": "0ecabaa56386e967fa16f7595a022b391d2627f1e0a7892f4326f6d125232d83",
+              "bytes": 104243761
+            },
+            "archiveAfter": {
+              "build": 247416,
+              "commit": "cc80e8aa220f39632c9c742f8587265f7569c5ef",
+              "source": "https://github.com/HearthSim/hsdata/blob/cc80e8aa220f39632c9c742f8587265f7569c5ef/CardDefs.xml",
+              "xmlSha256": "a3b0e3dcd112626aa47ba16ede1b26506eed175b1fda288c1b6952065c06aac4",
+              "bytes": 104239425
+            },
+            "sourceRefs": [
+              "WITCH-OBS-005-null-day-first-observation"
+            ]
+          }
+        ]
+      },
+      "GIL_188b": {
+        "changes": {},
+        "removedFields": [],
+        "rawTagDelta": [
+          {
+            "operation": "roleTransfer",
+            "id": 190,
+            "from": "referencedTags",
+            "to": "ownedTags",
+            "value": {
+              "id": 190,
+              "name": "도발",
+              "value": 1
+            },
+            "firstObservedBuild": 208591
+          }
+        ],
+        "eventKinds": [
+          "representation"
+        ],
+        "representation": {
+          "category": "confirmed-non-gameplay-representation",
+          "tagRoleChange": {
+            "id": 190,
+            "from": "referenced",
+            "to": "owned",
+            "firstObservedBuild": 208591,
+            "effectiveDate": "2026-07-22"
+          }
+        },
+        "sources": [
+          {
+            "findingId": "WITCH-BAL-R005-DATE",
+            "date": "2026-07-22",
+            "archiveBefore": {
+              "build": 246003,
+              "commit": "59c1e1229b3e48ecbc4436fda2fb0a22030d3808",
+              "source": "https://github.com/HearthSim/hsdata/blob/59c1e1229b3e48ecbc4436fda2fb0a22030d3808/CardDefs.xml",
+              "xmlSha256": "0ecabaa56386e967fa16f7595a022b391d2627f1e0a7892f4326f6d125232d83",
+              "bytes": 104243761
+            },
+            "archiveAfter": {
+              "build": 247416,
+              "commit": "cc80e8aa220f39632c9c742f8587265f7569c5ef",
+              "source": "https://github.com/HearthSim/hsdata/blob/cc80e8aa220f39632c9c742f8587265f7569c5ef/CardDefs.xml",
+              "xmlSha256": "a3b0e3dcd112626aa47ba16ede1b26506eed175b1fda288c1b6952065c06aac4",
+              "bytes": 104239425
+            },
+            "sourceRefs": [
+              "WITCH-OBS-005-null-day-first-observation"
+            ]
+          }
+        ]
+      },
+      "GIL_836": {
+        "changes": {
+          "nativeRawText": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다.",
+          "text": "<b>전투의 함성</b> 하수인을<br></br><b>발견</b>합니다."
+        },
+        "removedFields": [],
+        "rawTagDelta": [],
+        "eventKinds": [
+          "gameplay"
+        ],
+        "representation": {},
+        "sources": [
+          {
+            "findingId": "WITCH-BAL-M013",
+            "fields": {
+              "text": {
+                "expectedBefore": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다.",
+                "expectedAfter": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다.",
+                "recordedBefore": "<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다.",
+                "recordedAfter": "<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다.",
+                "recordedCurrent": "<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다."
+              }
+            },
+            "archiveBefore": {
+              "build": 246003,
+              "source": "https://github.com/HearthSim/hsdata/blob/59c1e1229b3e48ecbc4436fda2fb0a22030d3808/CardDefs.xml",
+              "originalCardId": "GIL_836",
+              "dbfId": 48393,
+              "ownedTags": {
+                "48": "1",
+                "183": "1125",
+                "199": "8",
+                "202": "5",
+                "203": "3",
+                "321": "1",
+                "415": "1",
+                "1342": "1",
+                "1635": "2"
+              },
+              "referencedTags": {
+                "218": "1"
+              },
+              "koreanText": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다.",
+              "englishText": "[x]<b>Discover</b> a <b>Battlecry</b>\nminion. It costs (1) less."
+            },
+            "archiveAfter": {
+              "build": 247416,
+              "source": "https://github.com/HearthSim/hsdata/blob/cc80e8aa220f39632c9c742f8587265f7569c5ef/CardDefs.xml",
+              "originalCardId": "GIL_836",
+              "dbfId": 48393,
+              "ownedTags": {
+                "48": "1",
+                "183": "1125",
+                "199": "8",
+                "202": "5",
+                "203": "3",
+                "321": "1",
+                "415": "1",
+                "1342": "1",
+                "1635": "2"
+              },
+              "referencedTags": {
+                "218": "1"
+              },
+              "koreanText": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다.",
+              "englishText": "[x]<b>Discover</b> a <b>Battlecry</b>\nminion."
+            },
+            "sourceRefs": [
+              "official-36-0-3",
+              "korean-36-0-3-live"
+            ]
+          }
+        ]
+      }
+    },
     "2021-05-13": {
       "GIL_191": {
         "changes": {
@@ -32075,16 +32259,6 @@
         },
         "removedFields": [],
         "rawTagDelta": [
-          {
-            "role": "ownedTags",
-            "id": 2,
-            "before": "ABSENT",
-            "after": {
-              "id": 2,
-              "name": "게임 태그 2",
-              "value": 1
-            }
-          },
           {
             "role": "ownedTags",
             "id": 45,
@@ -32721,16 +32895,6 @@
               "name": "마나 비용",
               "value": 1
             }
-          },
-          {
-            "role": "ownedTags",
-            "id": 2831,
-            "before": "ABSENT",
-            "after": {
-              "id": 2831,
-              "name": "게임 태그 2831",
-              "value": 1
-            }
           }
         ],
         "eventKinds": [
@@ -32887,82 +33051,6 @@
             "sourceRefs": [
               "official-26-2-2",
               "korean-26-2-2-live"
-            ]
-          }
-        ]
-      }
-    },
-    "2026-07-22": {
-      "GIL_836": {
-        "changes": {
-          "nativeRawText": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다.",
-          "text": "<b>전투의 함성</b> 하수인을<br></br><b>발견</b>합니다."
-        },
-        "removedFields": [],
-        "rawTagDelta": [],
-        "eventKinds": [
-          "gameplay"
-        ],
-        "representation": {},
-        "sources": [
-          {
-            "findingId": "WITCH-BAL-M013",
-            "fields": {
-              "text": {
-                "expectedBefore": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다.",
-                "expectedAfter": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다.",
-                "recordedBefore": "<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다.",
-                "recordedAfter": "<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다.",
-                "recordedCurrent": "<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다."
-              }
-            },
-            "archiveBefore": {
-              "build": 246003,
-              "source": "https://github.com/HearthSim/hsdata/blob/59c1e1229b3e48ecbc4436fda2fb0a22030d3808/CardDefs.xml",
-              "originalCardId": "GIL_836",
-              "dbfId": 48393,
-              "ownedTags": {
-                "48": "1",
-                "183": "1125",
-                "199": "8",
-                "202": "5",
-                "203": "3",
-                "321": "1",
-                "415": "1",
-                "1342": "1",
-                "1635": "2"
-              },
-              "referencedTags": {
-                "218": "1"
-              },
-              "koreanText": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다.",
-              "englishText": "[x]<b>Discover</b> a <b>Battlecry</b>\nminion. It costs (1) less."
-            },
-            "archiveAfter": {
-              "build": 247416,
-              "source": "https://github.com/HearthSim/hsdata/blob/cc80e8aa220f39632c9c742f8587265f7569c5ef/CardDefs.xml",
-              "originalCardId": "GIL_836",
-              "dbfId": 48393,
-              "ownedTags": {
-                "48": "1",
-                "183": "1125",
-                "199": "8",
-                "202": "5",
-                "203": "3",
-                "321": "1",
-                "415": "1",
-                "1342": "1",
-                "1635": "2"
-              },
-              "referencedTags": {
-                "218": "1"
-              },
-              "koreanText": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다.",
-              "englishText": "[x]<b>Discover</b> a <b>Battlecry</b>\nminion."
-            },
-            "sourceRefs": [
-              "official-36-0-3",
-              "korean-36-0-3-live"
             ]
           }
         ]
