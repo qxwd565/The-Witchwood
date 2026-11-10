@@ -123,7 +123,8 @@ def main():
     events=central["events"]
     assert len(events["2018-04-13"])==156
     assert sum(len(v) for d,v in events.items() if d!="2018-04-13")==40
-    launch=parse_entities(Path("/tmp/CardDefs-witchwood-launch.xml"),set(records))\n    current_entities=parse_entities(Path("/tmp/CardDefs-witchwood-current.xml"),set(records))
+    launch=parse_entities(Path("/tmp/CardDefs-witchwood-launch.xml"),set(records))
+    current_entities=parse_entities(Path("/tmp/CardDefs-witchwood-current.xml"),set(records))
     baseline_cards=read(ROOT/"sources/baseline/cards.json") if (ROOT/"sources/baseline/cards.json").exists() else copy.deepcopy(catalog)
     baseline_history=read(ROOT/"sources/baseline/data-history.json") if (ROOT/"sources/baseline/data-history.json").exists() else copy.deepcopy(central)
     # Immutable source guard: baseline copies are captured before first migration and never regenerated.
@@ -204,14 +205,16 @@ def main():
             if field in latest and latest[field]!=value:
                 undated[field]={"date":None,"before":copy.deepcopy(latest[field]),"after":copy.deepcopy(value),"reason":"current cache differs from dated confirmed events; no date inferred"}
         # Include exact current tags and separate references; do not infer absence as zero.
-        owned=named(launch[cid]["ownedTags"]); refs=named(launch[cid]["referencedTags"])\n        ref_ids={x["id"] for x in current_refs[cid]}
+        owned=named(launch[cid]["ownedTags"]); refs=named(launch[cid]["referencedTags"])
+        ref_ids={x["id"] for x in current_refs[cid]}
         tag_states={RELEASE:{"nativeTags":owned,"referencedTags":refs}}
         # The old central snapshots are preserved as explicit dated observations for their recorded cards.
         for day,group in corrected.items():
             if cid not in group:continue
             snap=group[cid]
             if "nativeTags" in snap:
-                raw_tags=copy.deepcopy(snap["nativeTags"])\n                tag_states[day]={"nativeTags":[x for x in raw_tags if x.get("id") not in ref_ids],\n                                 "referencedTags":[x for x in raw_tags if x.get("id") in ref_ids]}
+                raw_tags=copy.deepcopy(snap["nativeTags"])
+                tag_states[day]={"nativeTags":[x for x in raw_tags if x.get("id") not in ref_ids],\n                                 "referencedTags":[x for x in raw_tags if x.get("id") in ref_ids]}
         # Build fully self-contained historical overrides against the public current card.
         revisions=[]
         for i,(day,hstate) in enumerate(states):
