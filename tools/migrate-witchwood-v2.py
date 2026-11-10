@@ -159,6 +159,11 @@ def main():
     current_tags={cid:named(current_entities[cid]["ownedTags"]) for cid in records}
     current_refs={cid:named(current_entities[cid]["referencedTags"]) for cid in records}
     assert any(x.get("id")==227 and x.get("value")==1 for x in current_tags["GIL_152"]), "Current XML must contain CANT_ATTACK=1"
+    for cid in records:
+        actual={x["id"]:x.get("value") for x in current_tags[cid]+current_refs[cid]}
+        expected={x["id"]:x.get("value") for x in original[cid].get("nativeTags",[])}
+        if cid=="GIL_152": expected[227]=1
+        if actual!=expected: raise ValueError(f"{cid}: immutable current XML Tag values drift from baseline plus GIL_152 Tag227")
     # Preserve all current non-tag fields byte-for-byte at the JSON-value level.
     for cid,card in records.items():
         src=read(ROOT/"data"/(cid+".json"))
