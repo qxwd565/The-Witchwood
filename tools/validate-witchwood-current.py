@@ -82,7 +82,13 @@ for cid,fields in expected_preview.items():
   for field,want in fields.items(): assert restored.get(field,"__MISSING__")==want,(cid,day,field,"legacy current+changes/removedFields")
   assert restored.get("type")=="MINION" and restored.get("rarity")=="COMMON",(cid,day,"legacy logical")
  assert "rarity" not in src.get("observations",{}).get("undated",{})
- for field in fields: assert field not in src.get("observations",{}).get("undated",{}),(cid,field,"false undated logical observation")
+ for field in ("nativeRawText","text","cost","attack","health"):
+  assert field not in src.get("observations",{}).get("undated",{}),(cid,field,"false undated logical observation")
+ if cid=="GIL_188a":
+  assert "races" not in src.get("observations",{}).get("undated",{}) and "race" not in src.get("observations",{}).get("undated",{})
+ else:
+  assert src["observations"]["undated"]["races"]["date"] is None
+  assert src["observations"]["undated"]["race"]["date"] is None
 for cid,tid in (("GIL_188a",791),("GIL_188b",190)):
  assert "2026-07-22" in files[cid]
  row=files[cid]["2026-07-22"]
