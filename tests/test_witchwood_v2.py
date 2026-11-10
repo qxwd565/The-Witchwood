@@ -149,6 +149,7 @@ class WitchwoodV2Tests(unittest.TestCase):
  def test_research_observations_are_separate_from_gameplay_events(self):
   research=read(ROOT/"sources/witchwood-research-v1.json")
   public=read(ROOT/"sources/witchwood-history-v2.json")
+  self.assertEqual(read(ROOT/"data/history.json"),public)
   self.assertEqual(len(research["observations"]),13)
   self.assertEqual(public["observations"],research["observations"])
   self.assertEqual(public["relationships"],research["relationships"])
