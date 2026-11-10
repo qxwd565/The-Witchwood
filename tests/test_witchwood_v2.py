@@ -35,6 +35,16 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
    self.assertNotEqual(state.get(field,"__MISSING__"),val,(day,field,"not a real delta"))
    state[field]=copy.deepcopy(val)
   for event in sparse.get("rawTagDelta",[]):
+   if event.get("operation")=="roleTransfer":
+    tid=int(event["id"]); from_role=event["from"]; to_role=event["to"]; val=copy.deepcopy(event["value"])
+    self.assertEqual((from_role,to_role),("referencedTags","ownedTags"),(day,tid,"role transfer"))
+    rows={int(x["id"]):copy.deepcopy(x) for x in state.get(from_role,[])}
+    if tid in rows: self.assertEqual(rows[tid],val)
+    rows.pop(tid,None); state[from_role]=[rows[k] for k in sorted(rows)]
+    target={int(x["id"]):copy.deepcopy(x) for x in state.get(to_role,[])}
+    self.assertTrue(tid not in target or target[tid]==val,(day,tid,"role transfer collision"))
+    target[tid]=val; state[to_role]=[target[k] for k in sorted(target)]
+    continue
    role=event["role"]; rows={int(x["id"]):copy.deepcopy(x) for x in state.get(role,[])}; tid=int(event["id"])
    self.assertEqual(rows.get(tid,"ABSENT"),event.get("before","ABSENT"),(day,tid,"raw before"))
    after=event.get("after","ABSENT")
@@ -77,11 +87,15 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
   self.assertEqual(len(self.audit["existingRawDelta40"]),40)
   for event in self.audit["existingRawDelta40"]:
    state=self.state(self.data[event["id"]],event["date"])
+   undated={str(x["tagId"]) for x in self.data[event["id"]]["observations"].get("undatedRawTags",[])}
    for tid,change in event["rawDelta"].items():
+    if str(tid) in undated: continue
     self.assertEqual(value(state["ownedTags"],tid),change["after"],(event["id"],event["date"],tid))
  def test_14_event_archive_before_after_raw_tags(self):
   self.assertEqual(len(self.event_evidence["missingGameplayEvents"]),14)
   undated={(x["id"],int(x["confirmedTagId"]),x["role"]+"Tags") for x in self.audit["extraUndatedEvidence"]["observations"]}
+  for cid,src in self.data.items():
+   for x in src["observations"].get("undatedRawTags",[]): undated.add((cid,int(x["tagId"]),x["role"]))
   def tagmap(rows): return {str(x["id"]):str(x.get("value")) for x in rows if "value" in x}
   for event in self.event_evidence["missingGameplayEvents"]:
    cid=event["id"]; day=event["proposedKoreanDay"]; revisions=self.data[cid]["history"]
@@ -109,7 +123,9 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
    after=next(x["changes"] for x in revisions if x["from"]==day)
    prior=[x for x in revisions if x["from"]<day]
    before=prior[-1]["changes"] if prior else self.data[cid]["initialSpec"]
+   undated={str(x["tagId"]) for x in self.data[cid]["observations"].get("undatedRawTags",[])}
    for tid,change in event["rawDelta"].items():
+    if str(tid) in undated: continue
     self.assertEqual(value(before["ownedTags"],tid),change["before"],(cid,day,tid,"before"))
     self.assertEqual(value(after["ownedTags"],tid),change["after"],(cid,day,tid,"after"))
  def test_22_initial_logical_fields(self):
@@ -143,7 +159,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
      self.assertEqual(state.get(field,"ABSENT"),expected.get(field,"ABSENT"),(cid,day,field))
     intervals+=1
    self.assertEqual(days,sorted(x["from"] for x in src["history"]),cid+":date/history parity")
-  self.assertEqual(intervals,61)
+  self.assertEqual(intervals,63)
  def test_219_audit_items_217_dated_replays_plus_2_undated_observations(self):
   total=0
   for cid,src in self.data.items():
@@ -157,10 +173,14 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
     for field in ("type","cardClass","rarity","collectible","cost","attack","health","durability","armor","text","nativeRawText","races","race","spellSchool","nativeTags","ownedTags","referencedTags","nativeTagOrigins"):
      self.assertEqual(restored.get(field,"ABSENT"),revision["changes"].get(field,"ABSENT"),(cid,revision["from"],field))
     total+=1
-  self.assertEqual(total,217)
-  undated_roles=sum(1 for group in self.central["observations"] for x in group.get("extraUndatedEvidence",[]) if x["findingId"]=="WITCH-BAL-R005")
-  self.assertEqual(undated_roles,2)
-  self.assertEqual(total+undated_roles,219)
+  self.assertEqual(total,219)
+  self.assertEqual(total,156+63)
+  dated_gameplay=sum(1 for cards in self.central["events"].values() for row in cards.values() if set(row.get("eventKinds",[])) & {"gameplay","existing-confirmed"})
+  dated_representation=sum(1 for cards in self.central["events"].values() for row in cards.values() if "representation" in row.get("eventKinds",[]))
+  self.assertEqual(dated_gameplay,53)
+  self.assertEqual(dated_representation,10)
+  self.assertEqual(dated_gameplay+dated_representation,63)
+  self.assertEqual(sum(1 for group in self.central["observations"] for x in group.get("extraUndatedEvidence",[]) if x["findingId"]=="WITCH-BAL-R005"),2)
  def test_135_21_collectible_partition_at_release_and_every_global_date(self):
   states={cid:copy.deepcopy(src["initialSpec"]) for cid,src in self.data.items()}
   dates=sorted({day for src in self.data.values() for day in src if DATE.fullmatch(day)})
@@ -174,7 +194,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
  def test_sparse_canonical_is_the_build_input(self):
   self.assertEqual(self.central["schema"],3); self.assertEqual(self.central["format"],"date-first-delta-v3")
   self.assertEqual(len(self.central["events"][RELEASE]),156)
-  self.assertEqual(sum(len(v) for d,v in self.central["events"].items() if d!=RELEASE),61)
+  self.assertEqual(sum(len(v) for d,v in self.central["events"].items() if d!=RELEASE),63)
   for cid,src in self.data.items():
    for day in sorted(k for k in src if DATE.fullmatch(k) and k!=RELEASE):
     event=self.central["events"][day][cid]
@@ -200,12 +220,17 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
   self.assertEqual(len(self.central["gameplayEvidence"]["missingGameplayEvents"]),14)
   self.assertEqual(len(self.central["gameplayEvidence"]["existingLaterEventChecks"]),40)
   extra=[x for group in self.central["observations"] for x in group.get("extraUndatedEvidence",[])]
-  dated_representation=sum("representation" in row for src in self.data.values() for day,row in src.items() if DATE.fullmatch(day) and day!=RELEASE)
-  undated_role=sum(1 for x in extra if x["findingId"]=="WITCH-BAL-R005")
-  self.assertEqual(dated_representation+undated_role,10)
-  for cid in ("GIL_188a","GIL_188b"):
-   self.assertNotIn("2026-07-22",[x["from"] for x in self.data[cid]["history"]])
+  dated_representation=sum("representation" in row.get("eventKinds",[]) for src in self.data.values() for day,row in src.items() if DATE.fullmatch(day) and day!=RELEASE)
+  self.assertEqual(dated_representation,10)
+  for cid,tid in (("GIL_188a",791),("GIL_188b",190)):
+   self.assertIn("2026-07-22",[x["from"] for x in self.data[cid]["history"]])
+   event=self.data[cid]["2026-07-22"]
+   self.assertEqual(event["rawTagDelta"][0]["operation"],"roleTransfer")
+   self.assertEqual(event["rawTagDelta"][0]["id"],tid)
    self.assertTrue(any(x["findingId"]=="WITCH-BAL-R005" for group in self.data[cid]["observations"]["research"] for x in group.get("extraUndatedEvidence",[])))
+  self.assertTrue(any(x["tagId"]==2 and x["date"] is None for x in self.data["GIL_547"]["observations"]["undatedRawTags"]))
+  self.assertTrue(any(x["tagId"]==2831 and x["date"] is None for x in self.data["GIL_663t"]["observations"]["undatedRawTags"]))
+  self.assertTrue(any(x["tagId"]==1452 and x["date"] is None for x in self.data["GIL_663"]["observations"]["undatedRawTags"]))
  def test_current_line_breaks_and_reference_compatibility(self):
   self.assertEqual(sum("<br></br>" in x.get("text","") for x in self.catalog),81)
   self.assertEqual(sum(len(x.get("referencedTags",[])) for x in self.render),25)
