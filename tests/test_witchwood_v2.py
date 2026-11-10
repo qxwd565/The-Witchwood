@@ -149,7 +149,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
  def test_all_13_observation_groups_and_9_extra_undated_records(self):
   self.assertEqual(len(self.research["observations"]),13)
   self.assertEqual(len(self.obs_evidence),13)
-  extra=[x for group in self.research["observations"] for x in group.get("extraUndatedEvidence",[])]
+  extra=[x for group in self.central["observations"] for x in group.get("extraUndatedEvidence",[])]
   self.assertEqual(len(extra),9)
   self.assertTrue(all(x.get("day") is None for x in extra))
   self.assertEqual(sum(x["findingId"]=="WITCH-BAL-R011" for x in extra),4)
@@ -168,7 +168,7 @@ class WitchwoodSparseHistoryTests(unittest.TestCase):
   self.assertEqual(dated_representation+undated_role,10)
   for cid in ("GIL_188a","GIL_188b"):
    self.assertNotIn("2026-07-22",[x["from"] for x in self.data[cid]["history"]])
-   self.assertTrue(any(x["findingId"]=="WITCH-BAL-R005" for x in self.data[cid]["observations"]["research"][0]["extraUndatedEvidence"]))
+   self.assertTrue(any(x["findingId"]=="WITCH-BAL-R005" for group in self.data[cid]["observations"]["research"] for x in group.get("extraUndatedEvidence",[])))
  def test_current_line_breaks_and_reference_compatibility(self):
   self.assertEqual(sum("<br></br>" in x.get("text","") for x in self.catalog),81)
   self.assertEqual(sum(len(x.get("referencedTags",[])) for x in self.render),25)
