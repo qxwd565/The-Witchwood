@@ -50,7 +50,7 @@ def parse_entities(path,wanted):
     for _,e in ET.iterparse(path,events=("end",)):
         if local(e.tag)=="Entity":
             cid=e.attrib.get("CardID")
-            if cid in wanted:
+            if cid in wanted and cid not in out:
                 owned=[]; refs=[]; strings={}
                 for t in list(e):
                     kind=local(t.tag)
