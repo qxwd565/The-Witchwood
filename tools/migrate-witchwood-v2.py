@@ -145,7 +145,7 @@ def state_from(entity,cid):
     if cid=="GIL_504h":s["collectible"]=False
     if cid=="GIL_504":s["health"]=30
     return s
-def api_text(s): return s.replace("[x]","").replace("\\r\\n","<br></br>").replace("\\n","<br></br>").replace("\\r","<br></br>")
+def api_text(s): return s.replace("[x]","").replace("\r\n","<br></br>").replace("\n","<br></br>").replace("\r","<br></br>")
 
 def main():
     catalog=read(ROOT/"cards.json"); records={c["id"]:c for c in catalog["cards"]}
