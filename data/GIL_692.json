@@ -1022,7 +1022,7 @@
         "build": 256589,
         "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
         "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
-        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+        "reason": "Current raw XML differs from the final cumulative dated state; no dated transition source was found."
       },
       {
         "date": null,
@@ -1038,7 +1038,7 @@
         "build": 256589,
         "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
         "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
-        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+        "reason": "Current raw XML differs from the final cumulative dated state; no dated transition source was found."
       },
       {
         "date": null,
@@ -1054,7 +1054,7 @@
         "build": 256589,
         "sourceCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
         "sourceXmlSha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
-        "reason": "Current raw XML differs from the latest dated confirmed raw state; no dated transition source was found."
+        "reason": "Current raw XML differs from the final cumulative dated state; no dated transition source was found."
       }
     ],
     "research": []
