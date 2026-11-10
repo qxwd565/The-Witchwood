@@ -475,7 +475,12 @@ def main():
             legacy_patches.append({"date":rev["from"],"changes":copy.deepcopy(rev["changes"]),"removedFields":copy.deepcopy(rev.get("removedFields",[])),
                                   "eventKinds":copy.deepcopy(rev.get("eventKinds",[])),"representation":copy.deepcopy(rev.get("representation",{}))})
     catalog["cards"]=list(records.values())
-    # Generate compatibility indexes and a separate explicit date-first canonical source.
+    write(ROOT/"cards.json",catalog,True)
+    print(json.dumps({"cards":len(records),"release":RELEASE,"sparseDateSource":True,
+                      "rawReplayDiffsApplied":len(audit["rawReplayDiffs"]),"initialLogicalCorrections":len(audit["initialLogicalDiffs"]),
+                      "extraUndatedEvidence":len(audit["extraUndatedEvidence"]["observations"])},ensure_ascii=False))
+    return
+    # Compatibility adapters are rebuilt only by tools/sync-witchwood-history.py.
     public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","events":{RELEASE:{}},
                     "sourceManifest":copy.deepcopy(source_manifest),
                     "observations":copy.deepcopy(observations),"gameplayEvidence":copy.deepcopy(event_evidence),
