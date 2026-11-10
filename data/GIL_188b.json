@@ -1738,21 +1738,6 @@
       }
     ],
     "launchStrings": {
-      "185": {
-        "present": true,
-        "locales": {
-          "enUS": {
-            "present": true,
-            "xmlText": "Dire Wolf Form",
-            "nativeRawText": "Dire Wolf Form"
-          },
-          "koKR": {
-            "present": true,
-            "xmlText": "광포한 늑대 변신",
-            "nativeRawText": "광포한 늑대 변신"
-          }
-        }
-      },
       "184": {
         "present": true,
         "locales": {
@@ -1767,9 +1752,7 @@
             "nativeRawText": "생명력 +2, <b>도발</b>"
           }
         }
-      }
-    },
-    "currentStrings": {
+      },
       "185": {
         "present": true,
         "locales": {
@@ -1784,7 +1767,9 @@
             "nativeRawText": "광포한 늑대 변신"
           }
         }
-      },
+      }
+    },
+    "currentStrings": {
       "184": {
         "present": true,
         "locales": {
@@ -1797,6 +1782,21 @@
             "present": true,
             "xmlText": "<b>도발</b>",
             "nativeRawText": "<b>도발</b>"
+          }
+        }
+      },
+      "185": {
+        "present": true,
+        "locales": {
+          "enUS": {
+            "present": true,
+            "xmlText": "Dire Wolf Form",
+            "nativeRawText": "Dire Wolf Form"
+          },
+          "koKR": {
+            "present": true,
+            "xmlText": "광포한 늑대 변신",
+            "nativeRawText": "광포한 늑대 변신"
           }
         }
       }
@@ -2296,5 +2296,57 @@
       "missing": [],
       "existing": []
     }
+  },
+  "2026-07-22": {
+    "rawTagDelta": [
+      {
+        "operation": "roleTransfer",
+        "id": 190,
+        "from": "referencedTags",
+        "to": "ownedTags",
+        "value": {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        "firstObservedBuild": 208591
+      }
+    ],
+    "eventKinds": [
+      "representation"
+    ],
+    "representation": {
+      "category": "confirmed-non-gameplay-representation",
+      "tagRoleChange": {
+        "id": 190,
+        "from": "referenced",
+        "to": "owned",
+        "firstObservedBuild": 208591,
+        "effectiveDate": "2026-07-22"
+      }
+    },
+    "sources": [
+      {
+        "findingId": "WITCH-BAL-R005-DATE",
+        "date": "2026-07-22",
+        "archiveBefore": {
+          "build": 246003,
+          "commit": "59c1e1229b3e48ecbc4436fda2fb0a22030d3808",
+          "source": "https://github.com/HearthSim/hsdata/blob/59c1e1229b3e48ecbc4436fda2fb0a22030d3808/CardDefs.xml",
+          "xmlSha256": "0ecabaa56386e967fa16f7595a022b391d2627f1e0a7892f4326f6d125232d83",
+          "bytes": 104243761
+        },
+        "archiveAfter": {
+          "build": 247416,
+          "commit": "cc80e8aa220f39632c9c742f8587265f7569c5ef",
+          "source": "https://github.com/HearthSim/hsdata/blob/cc80e8aa220f39632c9c742f8587265f7569c5ef/CardDefs.xml",
+          "xmlSha256": "a3b0e3dcd112626aa47ba16ede1b26506eed175b1fda288c1b6952065c06aac4",
+          "bytes": 104239425
+        },
+        "sourceRefs": [
+          "WITCH-OBS-005-null-day-first-observation"
+        ]
+      }
+    ]
   }
 }
