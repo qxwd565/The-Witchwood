@@ -151,6 +151,7 @@ def main():
     catalog=read(ROOT/"cards.json"); records={c["id"]:c for c in catalog["cards"]}
     assert len(records)==156
     research=read(ROOT/"sources/witchwood-research-v1.json")
+    source_manifest=read(ROOT/"sources/witchwood-source-manifest.json")
     baseline_history_path=ROOT/"sources/baseline/data-history.json"
     baseline_history=read(baseline_history_path) if baseline_history_path.exists() else read(ROOT/"data/history.json")
     central=baseline_history
@@ -394,7 +395,7 @@ def main():
                       "currentStrings":copy.deepcopy(current_entities[cid]["strings"]),
                       "portrait":copy.deepcopy(old_current.get("portrait")),"art":copy.deepcopy(old_current.get("art")),
                       "relations":copy.deepcopy(old_current.get("relations",old_current.get("relationships",[]))),
-                      "relationships":copy.deepcopy(research["relationships"]),
+                      "relationships":copy.deepcopy(research["relationships"]),"sourceManifest":copy.deepcopy(source_manifest),
                       "current":copy.deepcopy(src["current"]),
                       "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"]),
                       "researchObservationIds":[x["id"] for x in research["observations"] if cid in x.get("cardIds",[])]}
@@ -412,7 +413,7 @@ def main():
     catalog["cards"]=list(records.values())
     # Generate compatibility indexes and a separate explicit date-first canonical source.
     public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","events":{RELEASE:{}},
-                    "sourceManifest":copy.deepcopy(research.get("sourceManifest",[])),
+                    "sourceManifest":copy.deepcopy(source_manifest),
                     "observations":copy.deepcopy(research["observations"]),
                     "schemaPolicy":copy.deepcopy(research["schemaPolicy"]),
                     "rawTagAudit":copy.deepcopy(research["rawTagAudit"]),
