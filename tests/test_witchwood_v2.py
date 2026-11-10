@@ -88,14 +88,32 @@ class WitchwoodV2Tests(unittest.TestCase):
     restored=copy.deepcopy(card)
     restored.update(copy.deepcopy(revision["changes"]))
     for field in revision.get("removedFields",[]): restored.pop(field,None)
-    self.assertEqual(restored["nativeTags"],revision["changes"]["nativeTags"],cid+":"+revision["from"]+":owned")
-    self.assertEqual(restored["referencedTags"],revision["changes"]["referencedTags"],cid+":"+revision["from"]+":referenced")
+    self.assertEqual(restored["nativeTags"],revision["changes"].get("nativeTags",card["nativeTags"]),cid+":"+revision["from"]+":owned")
+    self.assertEqual(restored["referencedTags"],revision["changes"].get("referencedTags",card.get("referencedTags",[])),cid+":"+revision["from"]+":referenced")
     for field,value in revision["changes"].items(): self.assertEqual(restored[field],value,cid+":"+revision["from"]+":"+field)
  def test_81_display_breaks_and_current_data_unchanged(self):
   count=sum("<br></br>" in x.get("text","") for x in self.cards)
   self.assertEqual(count,81)
   for c in self.cards:
    self.assertNotIn("\\n",c.get("text","")); self.assertNotIn("/n",c.get("text",""))
+ def test_date_first_canonical_source_and_sparse_tag_deltas(self):
+  source=read(ROOT/"sources/witchwood-history-v2.json")
+  self.assertEqual(source["format"],"date-first-delta")
+  self.assertEqual(len(source["events"]["2018-04-13"]),156)
+  self.assertEqual(len(source["events"]["2022-11-30"]),25)
+  self.assertNotIn("2022-12-07",source["events"])
+  for cid in ("GIL_557","GIL_678","GIL_902"):
+   event=source["events"]["2022-11-30"][cid]
+   self.assertNotIn("nativeTags",event["changes"])
+  for cid,src in self.data.items():
+   state=copy.deepcopy(source["events"]["2018-04-13"][cid])
+   for day in sorted(d for d in source["events"] if d!="2018-04-13"):
+    entry=source["events"][day].get(cid)
+    if not entry: continue
+    state.update(copy.deepcopy(entry.get("changes",{})))
+    for field in entry.get("removedFields",[]): state.pop(field,None)
+   self.assertEqual(state["id"],cid)
+   self.assertEqual(state["dbfId"],src["current"]["dbfId"])
  def test_no_editorial_or_undated_observation_promoted(self):
   for src in self.data.values():
    for obs in src["observations"]["undated"].values(): self.assertIsNone(obs["date"])
