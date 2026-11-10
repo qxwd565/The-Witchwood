@@ -19,6 +19,9 @@ intervals=sum(len(x["history"]) for x in files.values())
 assert intervals==217,intervals
 date_rows=sum(sum(1 for k in x if re.fullmatch(r"\d{4}-\d{2}-\d{2}",k) and k!="2018-04-13") for x in files.values())
 assert date_rows==61,date_rows
+undated_r005=sum(1 for group in central["observations"] for item in group.get("extraUndatedEvidence",[]) if item.get("findingId")=="WITCH-BAL-R005")
+assert undated_r005==2
+assert intervals+undated_r005==219
 for d in audit["rawReplayDiffs"]:
  rev=next(x for x in files[d["id"]]["history"] if x["from"]==d["day"])
  tag=next((x for x in rev["changes"][d["role"]] if int(x["id"])==int(d["tag"])),None)
