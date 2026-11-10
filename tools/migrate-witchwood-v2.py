@@ -170,8 +170,7 @@ def main():
     if len(audit["rawReplayDiffs"])!=51 or len(audit["initialLogicalDiffs"])!=22 or len(audit["existingRawDelta40"])!=40 or len(audit["extraUndatedEvidence"]["observations"])!=9: raise ValueError("Independent audit evidence counts mismatch")
     if len(evidence_observations)!=13 or len(research["observations"])!=13: raise ValueError("Witchwood observation evidence must contain all 13 groups")
     if len(event_evidence["missingGameplayEvents"])!=14 or len(event_evidence["existingLaterEventChecks"])!=40: raise ValueError("Witchwood event evidence must contain 14 missing and 40 existing checks")
-    for ev in event_evidence["missingGameplayEvents"]:
-        print("MISSING_EVENT_RAW_EVIDENCE",json.dumps(ev,ensure_ascii=False))
+    if len(event_evidence["missingGameplayEvents"])!=14: raise ValueError("Expected all 14 event evidence records")
     observations=[]
     for summary,evidence in zip(research["observations"],evidence_observations):
         if summary.get("cardIds")!=evidence.get("ids"): raise ValueError("Observation card list mismatch: "+str(summary.get("id")))
