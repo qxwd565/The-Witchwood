@@ -352,7 +352,17 @@ def main():
             merged={}
             for row in list(owned_state.values())+list(refs_state.values()): merged[row["id"]]=copy.deepcopy(row)
             return [merged[k] for k in sorted(merged)]
-        raw_delta_map={(x["id"],x["date"]):x["rawDelta"] for x in audit["existingRawDelta40"]}
+        raw_delta_map={(x["id"],x["date"]):{("ownedTags",int(tid)):copy.deepcopy(change) for tid,change in x["rawDelta"].items()} for x in audit["existingRawDelta40"]}
+        for ev in event_evidence["missingGameplayEvents"]:
+            before=ev.get("archiveBefore") or {}; after=ev.get("archiveAfter") or {}
+            day=ev.get("proposedKoreanDay"); event_cid=ev.get("id")
+            if not day or not event_cid: continue
+            slot=raw_delta_map.setdefault((event_cid,day),{})
+            for role in ("ownedTags","referencedTags"):
+                before_tags=before.get(role,{}) or {}; after_tags=after.get(role,{}) or {}
+                for tid_text in set(before_tags)|set(after_tags):
+                    old_value=before_tags.get(tid_text,"ABSENT"); new_value=after_tags.get(tid_text,"ABSENT")
+                    if old_value!=new_value: slot[(role,int(tid_text))]={"before":old_value,"after":new_value}
         for day in dates:
             rep=timeline[day].get("representation",{})
             for tid_text,change in raw_delta_map.get((cid,day),{}).items():
