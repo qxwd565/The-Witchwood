@@ -188,7 +188,7 @@ def main():
         raise ValueError("Current referenced-tag role audit must resolve exactly 25 tags across 20 cards")
     # Preserve all current non-tag fields byte-for-byte at the JSON-value level.
     for cid,card in records.items():
-        src=read(ROOT/"data"/(cid+".json"))
+        src=read(ROOT/"sources/baseline/cards-data"/(cid+".json"))
         if src.get("schemaVersion")!=1 or src.get("mode") is None or not isinstance(src.get("artworkProvenance"),dict):
             raise ValueError(f"{cid}: legacy source metadata missing")
         if src["card"].get("portrait")!=original[cid].get("portrait"):raise ValueError(f"{cid}: portrait drift")
