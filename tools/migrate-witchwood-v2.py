@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 RELEASE="2018-04-13"
-DATE=re.compile(r"^\\d{4}-\\d{2}-\\d{2}$")
+DATE=re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TYPE={3:"HERO",4:"MINION",5:"SPELL",7:"WEAPON",10:"HERO_POWER"}
 CLASS={2:"DRUID",3:"HUNTER",4:"MAGE",5:"PALADIN",6:"PRIEST",7:"ROGUE",8:"SHAMAN",9:"WARLOCK",10:"WARRIOR",12:"NEUTRAL"}
 RARITY={0:"INVALID",1:"COMMON",2:"FREE",3:"RARE",4:"EPIC",5:"LEGENDARY"}
@@ -23,11 +23,11 @@ PATCHES={
 "GIL_191":[("2021-05-13",{"cost":3})],
 "GIL_547":[("2022-04-06",{"health":5})],
 "GIL_598":[("2022-05-20",{"cost":7})],
-"GIL_653":[("2023-04-05",{"text":"<b>죽음의 메아리:</b>\\n무작위 아군 하수인에게 +2/+1을 부여합니다."})],
+"GIL_653":[("2023-04-05",{"text":"<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다."})],
 "GIL_663":[("2023-04-05",{"cost":1,"text":"2/2 나무정령 둘을 내 손으로 가져옵니다."})],
 "GIL_663t":[("2023-04-05",{"cost":1})],
-"GIL_667":[("2023-05-20",{"health":6,"text":"[x]<b>도발</b>, <b>죽음의 메아리:</b>\\n내 영웅의 생명력을\\n#6 회복시킵니다."})],
-"GIL_836":[("2025-03-19",{"text":"[x]<b>전투의 함성</b> 하수인을\\n<b>발견</b>합니다. 그 하수인의\\n비용이 (1) 감소합니다."}),("2026-07-22",{"text":"[x]<b>전투의 함성</b> 하수인을\\n<b>발견</b>합니다."}),("2026-08-19",{"text":"[x]<b>전투의 함성</b> 하수인을\\n<b>발견</b>합니다. 그 하수인의\\n비용이 (1) 감소합니다."})],
+"GIL_667":[("2023-05-20",{"health":6,"text":"[x]<b>도발</b>, <b>죽음의 메아리:</b>\n내 영웅의 생명력을\n#6 회복시킵니다."})],
+"GIL_836":[("2025-03-19",{"text":"[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다."}),("2026-07-22",{"text":"[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다."}),("2026-08-19",{"text":"[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다."})],
 "GIL_531":[("2026-04-15",{"cost":0})],
 }
 UNDEAD={"GIL_117","GIL_198","GIL_207","GIL_510","GIL_513","GIL_515","GIL_526","GIL_545","GIL_553t","GIL_557","GIL_616","GIL_616t","GIL_616t2","GIL_618","GIL_635","GIL_655","GIL_658","GIL_667","GIL_678","GIL_694","GIL_805","GIL_815","GIL_825","GIL_840","GIL_902"}
@@ -35,15 +35,15 @@ UNDEAD={"GIL_117","GIL_198","GIL_207","GIL_510","GIL_513","GIL_515","GIL_526","G
 def read(p): return json.loads(p.read_text(encoding="utf-8"))
 def write(p,obj,compact=False):
     p.parent.mkdir(parents=True,exist_ok=True)
-    s=json.dumps(obj,ensure_ascii=False,separators=(",",":") if compact else None,indent=None if compact else 2)+"\\n"
+    s=json.dumps(obj,ensure_ascii=False,separators=(",",":") if compact else None,indent=None if compact else 2)+"\n"
     if not p.exists() or p.read_text(encoding="utf-8")!=s:
-        p.write_text(s,encoding="utf-8",newline="\\n"); return True
+        p.write_text(s,encoding="utf-8",newline="\n"); return True
     return False
 def local(tag): return tag.rsplit("}",1)[-1]
 def scalar(v):
     if v is None:return None
-    if re.fullmatch(r"-?\\d+",v):return int(v)
-    if re.fullmatch(r"-?\\d+\\.\\d+",v):return float(v)
+    if re.fullmatch(r"-?\d+",v):return int(v)
+    if re.fullmatch(r"-?\d+\.\d+",v):return float(v)
     return v
 def parse_entities(path,wanted):
     out={}
@@ -65,7 +65,7 @@ def parse_entities(path,wanted):
                             name=local(child.tag)
                             if name in ("koKR","enUS"):
                                 xmltext=child.text or ""
-                                loc[name]={"present":True,"xmlText":xmltext,"nativeRawText":xmltext.replace("\\\\n","\\n")}
+                                loc[name]={"present":True,"xmlText":xmltext,"nativeRawText":xmltext.replace("\\n","\n")}
                         strings[str(tid)]={"present":True,"locales":loc}
                 out[cid]={"ownedTags":owned,"referencedTags":refs,"strings":strings}
             e.clear()
@@ -102,7 +102,7 @@ def state_from(entity,cid):
         entry=entity["strings"].get(str(tid),{}).get("locales",{}).get("koKR")
         if entry and entry.get("present"):
             s[field]=entry.get("nativeRawText","")
-            if tid==184:s["text"]=s[field].replace("[x]","").replace("\\n","<br></br>")
+            if tid==184:s["text"]=s[field].replace("[x]","").replace("\n","<br></br>")
     # Canonical applied fields only. HERO native health remains in raw Tag evidence.
     if kind=="SPELL":
         for f in ("attack","health","durability","armor","race","races"):s.pop(f,None)
@@ -114,7 +114,7 @@ def state_from(entity,cid):
     if kind=="HERO_POWER":
         for f in ("health","durability","race","races","spellSchool"):s.pop(f,None)
     return s
-def api_text(s): return s.replace("\\n","<br></br>").replace("\r\\n","<br></br>").replace("\r","<br></br>")
+def api_text(s): return s.replace("\n","<br></br>").replace("\r\n","<br></br>").replace("\r","<br></br>")
 
 def main():
     catalog=read(ROOT/"cards.json"); records={c["id"]:c for c in catalog["cards"]}
@@ -244,7 +244,6 @@ def main():
         legacy_patches=[]
         for i,rev in enumerate(revisions[1:]):
             legacy_patches.append({"date":rev["from"],"changes":copy.deepcopy(rev["changes"]),"removedFields":copy.deepcopy(rev.get("removedFields",[]))})
-        legacy.setdefault("cards",{})[dbf]={"id":cid,"initialSpec":copy.deepcopy(initial),"patches":legacy_patches}
     catalog["cards"]=list(records.values())
     # Generate compatibility indexes and a separate explicit date-first canonical source.
     public_history={"schema":2,"timezone":"Asia/Seoul","format":"date-first-delta","cards":{}}
