@@ -10,7 +10,7 @@ DATE=re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TYPE={3:"HERO",4:"MINION",5:"SPELL",7:"WEAPON",10:"HERO_POWER"}
 CLASS={2:"DRUID",3:"HUNTER",4:"MAGE",5:"PALADIN",6:"PRIEST",7:"ROGUE",8:"SHAMAN",9:"WARLOCK",10:"WARRIOR",12:"NEUTRAL"}
 RARITY={0:"INVALID",1:"COMMON",2:"FREE",3:"RARE",4:"EPIC",5:"LEGENDARY"}
-RACE={2:"DRAENEI",11:"UNDEAD",14:"MURLOC",15:"DEMON",17:"MECHANICAL",18:"ELEMENTAL",20:"BEAST",21:"TOTEM",22:"QUILBOAR",23:"PIRATE",24:"DRAGON",26:"ALL",43:"QUILBOAR",92:"NAGA"}
+RACE={2:"DRAENEI",11:"UNDEAD",14:"MURLOC",15:"DEMON",17:"MECHANICAL",18:"ELEMENTAL",20:"BEAST",21:"TOTEM",23:"PIRATE",24:"DRAGON",26:"ALL",43:"QUILBOAR",92:"NAGA"}
 RACE_KO={"DRAENEI":"드레나이","UNDEAD":"언데드","MURLOC":"멀록","DEMON":"악마","MECHANICAL":"기계","ELEMENTAL":"정령","BEAST":"야수","TOTEM":"토템","QUILBOAR":"가시멧돼지","PIRATE":"해적","DRAGON":"용족","ALL":"모든 종족","NAGA":"나가"}
 RACE_ID={v:k for k,v in RACE.items()}
 NONCOLLECTIBLE={"GIL_188a","GIL_190t","GIL_191t","GIL_200t","GIL_201t","GIL_202t","GIL_508t","GIL_528t","GIL_529t","GIL_553t","GIL_577t","GIL_616t","GIL_663t","GIL_682t","GIL_683t"}
@@ -318,8 +318,8 @@ def main():
             if check.get("id")==cid:
                 day=check["proposedKoreanDay"]
                 timeline.setdefault(day,{"changes":{},"sources":[],"eventKinds":[]})
-                timeline[day].setdefault("sources",[]).append({"findingId":check["findingId"],
-                    "before":copy.deepcopy(check.get("archiveBefore",{}).get("source")),"after":copy.deepcopy(check.get("archiveAfter",{}).get("source")),
+                timeline[day].setdefault("sources",[]).append({"findingId":check["findingId"],"fields":copy.deepcopy(check.get("fields",{})),
+                    "archiveBefore":copy.deepcopy(check.get("archiveBefore",{})),"archiveAfter":copy.deepcopy(check.get("archiveAfter",{})),
                     "sourceRefs":copy.deepcopy(check.get("sourceRefs",[]))})
         for day in timeline:
             if day!=RELEASE: timeline[day].setdefault("sources",[])
