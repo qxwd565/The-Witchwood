@@ -281,37 +281,57 @@ def main():
         for field,value in current_state.items():
             if field in latest and latest[field]!=value:
                 undated[field]={"date":None,"before":copy.deepcopy(latest[field]),"after":copy.deepcopy(value),"reason":"current cache differs from dated confirmed events; no date inferred"}
-        # Replay owned and referenced raw tags independently from immutable launch state.
-        owned_state={x["id"]:copy.deepcopy(x) for x in named(launch[cid]["ownedTags"])}
-        refs_state={x["id"]:copy.deepcopy(x) for x in named(launch[cid]["referencedTags"])}
-        ref_ids=set(refs_state)
+        # Reconstruct dated raw tags from launch XML and confirmed field deltas only.
+        owned_state={x["id"]:copy.deepcopy(x) for x in launch_owned}
+        refs_state={x["id"]:copy.deepcopy(x) for x in launch_refs}
+        current_owned_by_id={x["id"]:copy.deepcopy(x) for x in current_owned[cid]}
+        current_refs_by_id={x["id"]:copy.deepcopy(x) for x in current_refs[cid]}
         tag_states={}
         def set_owned(tag_id,value):
             owned_state[tag_id]={"id":tag_id,"name":TAG_NAMES.get(tag_id,f"게임 태그 {tag_id}"),"value":copy.deepcopy(value)}
         def remove_owned(tag_id): owned_state.pop(tag_id,None)
+        def flat_tags():
+            merged={}
+            for row in list(owned_state.values())+list(refs_state.values()): merged[row["id"]]=copy.deepcopy(row)
+            return [merged[k] for k in sorted(merged)]
         for day in dates:
-            if day in corrected and cid in corrected[day] and "nativeTags" in corrected[day][cid]:
-                raw_tags=copy.deepcopy(corrected[day][cid]["nativeTags"])
-                if cid=="GIL_191" and day=="2021-03-26":
-                    for tag in raw_tags:
-                        if tag.get("id")==48: tag["value"]=4
-                if cid=="GIL_663" and day=="2021-03-26":
-                    for tag in raw_tags:
-                        if tag.get("id")==48: tag["value"]=2
-                if cid=="GIL_667" and day=="2022-11-30":
-                    for tag in raw_tags:
-                        if tag.get("id")==45: tag["value"]=5
-                owned_state={x["id"]:copy.deepcopy(x) for x in raw_tags if x.get("id") not in ref_ids}
-                refs_state={x["id"]:copy.deepcopy(x) for x in raw_tags if x.get("id") in ref_ids}
             changes=timeline[day].get("changes",{})
             for field,tag_id in (("cost",48),("attack",47),("health",45),("durability",187),("armor",292)):
                 if field in changes: set_owned(tag_id,changes[field])
-            if "races" in changes and cid in ("GIL_584","GIL_545"):
+            if "spellSchool" in changes:
+                school_id={v:k for k,v in SCHOOL.items()}.get(changes["spellSchool"])
+                if school_id is not None: set_owned(1635,school_id)
+            if "races" in changes:
+                races=changes["races"]
                 if cid=="GIL_584": set_owned(200,15)
-                else: remove_owned(200)
-            tag_states[day]={"nativeTags":[copy.deepcopy(owned_state[k]) for k in sorted(owned_state)],
-                             "referencedTags":[copy.deepcopy(refs_state[k]) for k in sorted(refs_state)]}
-        owned=named(launch[cid]["ownedTags"]); refs=named(launch[cid]["referencedTags"])
+                elif cid=="GIL_545" and day=="2018-08-03": remove_owned(200)
+                elif cid=="GIL_534": set_owned(200,22)
+                elif "ALL" in races: set_owned(200,26)
+                if "UNDEAD" in races: set_owned(2534,1)
+            if "nativeTags" in changes:
+                owned_state={x["id"]:copy.deepcopy(x) for x in changes["nativeTags"]}
+                refs_state={}
+            rep=timeline[day].get("representation",{})
+            if rep.get("tagStorage")=="DURABILITY_187_TO_HEALTH_45":
+                raw_after={
+                 "GIL_596":[(32,1),(45,4),(47,3),(48,8),(183,1125),(199,5),(202,7),(203,3),(321,1)],
+                 "GIL_653":[(32,1),(45,2),(47,2),(48,2),(183,1125),(199,10),(202,7),(203,1),(217,1),(321,1)],
+                 "GIL_672":[(45,2),(47,2),(48,4),(183,1125),(199,7),(202,7),(203,4),(321,1),(685,1)]
+                }[cid]
+                owned_state={tid:{"id":tid,"name":TAG_NAMES.get(tid,f"게임 태그 {tid}"),"value":value} for tid,value in raw_after}
+            if rep.get("nativeTagRoleChange"):
+                for tid_text,role in rep["nativeTagRoleChange"].items():
+                    tid=int(tid_text)
+                    if role=="owned":
+                        row=refs_state.pop(tid,None) or current_refs_by_id.get(tid) or current_owned_by_id.get(tid)
+                        if row: owned_state[tid]=copy.deepcopy(row)
+                    elif role=="referenced":
+                        row=owned_state.pop(tid,None) or current_refs_by_id.get(tid) or current_owned_by_id.get(tid)
+                        if row: refs_state[tid]=copy.deepcopy(row)
+            flat=flat_tags()
+            roles=[{"id":tid,"role":"owned"} for tid in sorted(owned_state)]+[{"id":tid,"role":"referenced"} for tid in sorted(refs_state)]
+            tag_states[day]={"nativeTags":flat,"ownedTags":[copy.deepcopy(owned_state[k]) for k in sorted(owned_state)],
+                             "referencedTags":[copy.deepcopy(refs_state[k]) for k in sorted(refs_state)],"nativeTagOrigins":sorted(roles,key=lambda x:(x["id"],x["role"]))}
         # Build fully self-contained historical overrides against the public current card.
         revisions=[]
         for i,(day,hstate) in enumerate(states):
