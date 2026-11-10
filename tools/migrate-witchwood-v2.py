@@ -319,9 +319,15 @@ def main():
         src["observations"]={"undated":undated,"research":[copy.deepcopy(x) for x in research["observations"] if cid in x.get("cardIds",[])]}
         src["_meta"]={"schemaVersion":2,"timezone":"Asia/Seoul","releasedAt":RELEASE,
                       "source":"HearthSim hsdata immutable launch XML 6317434bee453ec6e8267cbf45277c0a13da90f8",
-                      "launchOwnedTags":copy.deepcopy(owned),"launchReferencedTags":copy.deepcopy(refs),
+                      "launchOwnedTags":copy.deepcopy(launch_owned),"launchReferencedTags":copy.deepcopy(launch_refs),
+                      "currentOwnedTags":copy.deepcopy(current_owned[cid]),
+                      "currentReferencedTags":copy.deepcopy(current_refs[cid]),
+                      "currentNativeTagOrigins":copy.deepcopy(current_origins[cid]),
                       "launchStrings":copy.deepcopy(launch[cid]["strings"]),
                       "currentStrings":copy.deepcopy(current_entities[cid]["strings"]),
+                      "portrait":copy.deepcopy(old_current.get("portrait")),"art":copy.deepcopy(old_current.get("art")),
+                      "relations":copy.deepcopy(old_current.get("relations",old_current.get("relationships",[]))),
+                      "current":copy.deepcopy(src["current"]),
                       "mode":src["mode"],"artworkProvenance":copy.deepcopy(src["artworkProvenance"]),
                       "researchObservationIds":[x["id"] for x in research["observations"] if cid in x.get("cardIds",[])]}
         write(ROOT/"data"/(cid+".json"),src)
