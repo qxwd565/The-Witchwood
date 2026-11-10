@@ -235,9 +235,18 @@ def main():
         timeline={RELEASE:{"state":initial,"ownedTags":named(launch[cid]["ownedTags"]),"referencedTags":named(launch[cid]["referencedTags"])}}
         # Confirmed gameplay changes, with full-state deltas built from launch forward.
         for day,changes in PATCHES.get(cid,[]):
-            timeline.setdefault(day,{"changes":{},"sources":[]})
+            timeline.setdefault(day,{"changes":{},"sources":[],"eventKinds":[]})
             timeline[day]["changes"].update(copy.deepcopy(changes))
-        # Existing race/tag events retain their exact dates after the approved correction.
+            timeline[day]["eventKinds"].append("gameplay")
+        for day,changes in REPRESENTATION_PATCHES.get(cid,[]):
+            timeline.setdefault(day,{"changes":{},"sources":[],"eventKinds":[],"representation":{}})
+            clean=copy.deepcopy(changes)
+            if "tagStorage" in clean or "nativeTagRoleChange" in clean:
+                timeline[day]["representation"].update(clean)
+                clean={k:v for k,v in clean.items() if k not in ("tagStorage","nativeTagRoleChange")}
+            timeline[day]["changes"].update(clean)
+            timeline[day]["eventKinds"].append("representation")
+        # Existing race/school events retain only their confirmed logical deltas.
         for day,group in corrected.items():
             if day==RELEASE or cid not in group:continue
             entry=group[cid]
@@ -246,9 +255,14 @@ def main():
                 changes["races"]=copy.deepcopy(entry["races"])
                 changes["race"]=copy.deepcopy(entry.get("race",""))
             if "spellSchool" in entry:changes["spellSchool"]=entry["spellSchool"]
+            if cid=="GIL_191" and day=="2021-03-26":changes["cost"]=4
+            if cid=="GIL_663" and day=="2021-03-26":changes["cost"]=2
+            if cid=="GIL_600" and day=="2021-03-26":changes["cost"]=0
+            if cid=="GIL_667" and day=="2022-11-30":changes["health"]=5
             if changes:
-                timeline.setdefault(day,{"changes":{},"sources":[]})
+                timeline.setdefault(day,{"changes":{},"sources":[],"eventKinds":[]})
                 timeline[day]["changes"].update(changes)
+                timeline[day]["eventKinds"].append("existing-confirmed")
         for day in timeline:
             if day!=RELEASE: timeline[day].setdefault("sources",[])
         # Initial field repairs are asserted against immutable launch parsing.
