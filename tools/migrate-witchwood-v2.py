@@ -182,23 +182,27 @@ def main():
             target[cid]=copy.deepcopy(value)
     if len(corrected["2022-11-30"])!=25: raise ValueError("Undead date correction count mismatch")
     # Apply the only approved current-data addition: CANT_ATTACK=1 on GIL_152.
-    current_tags={}; current_refs={}
+    current_tags={}; current_refs={}; current_owned={}; current_origins={}
     for cid in records:
-        original_rows=copy.deepcopy(original[cid].get("nativeTags",[]))
-        ref_ids={x["id"] for x in current_entities[cid]["referencedTags"]}
-        current_tags[cid]=[copy.deepcopy(x) for x in original_rows if x.get("id") not in ref_ids]
-        current_refs[cid]=[copy.deepcopy(x) for x in original_rows if x.get("id") in ref_ids]
+        legacy_rows=copy.deepcopy(original[cid].get("nativeTags",[]))
+        if cid=="GIL_152" and not any(x.get("id")==227 for x in legacy_rows):
+            legacy_rows.append({"id":227,"name":"공격 불가","value":1})
+        legacy_rows.sort(key=lambda x:x["id"])
+        current_tags[cid]=legacy_rows
+        current_owned[cid]=named(current_entities[cid]["ownedTags"])
+        current_refs[cid]=named(current_entities[cid]["referencedTags"])
+        ref_ids={x["id"] for x in current_refs[cid]}
+        current_origins[cid]=[{"id":x["id"],"role":"referenced" if x["id"] in ref_ids else "owned"} for x in legacy_rows]
         if cid=="GIL_152":
             xml_tag=next((x for x in current_entities[cid]["ownedTags"] if x["id"]==227),None)
             if not xml_tag or xml_tag.get("value")!=1: raise ValueError("Current XML does not contain owned GIL_152 CANT_ATTACK=1")
-            if not any(x.get("id")==227 for x in current_tags[cid]): current_tags[cid].append({"id":227,"name":"공격 불가","value":1})
-        current_tags[cid].sort(key=lambda x:x["id"]); current_refs[cid].sort(key=lambda x:x["id"])
-        merged={x["id"]:x.get("value") for x in current_tags[cid]+current_refs[cid]}
-        expected={x["id"]:x.get("value") for x in original_rows}
-        if cid=="GIL_152": expected[227]=1
-        if merged!=expected: raise ValueError(f"{cid}: public current tag set differs from immutable baseline plus approved Tag227")
+        expected=copy.deepcopy(original[cid].get("nativeTags",[]))
+        if cid=="GIL_152" and not any(x.get("id")==227 for x in expected): expected.append({"id":227,"name":"공격 불가","value":1})
+        expected.sort(key=lambda x:x["id"])
+        if current_tags[cid]!=expected: raise ValueError(f"{cid}: public legacy nativeTags changed beyond approved Tag227")
     if sum(len(v) for v in current_refs.values())!=25 or sum(bool(v) for v in current_refs.values())!=20:
         raise ValueError("Current referenced-tag role audit must resolve exactly 25 tags across 20 cards")
+    # Preserve all current non-tag fields byte-for-byte at the JSON-value level.
     # Preserve all current non-tag fields byte-for-byte at the JSON-value level.
     for cid,card in records.items():
         src=read(ROOT/"sources/baseline/cards-data"/(cid+".json"))
