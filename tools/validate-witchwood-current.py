@@ -5,6 +5,9 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def read(p): return json.loads(p.read_text(encoding="utf-8"))
 catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(ROOT/"history.json")
+date_first=read(ROOT/"data/history.json")
+assert date_first["format"]=="date-first-delta"
+assert date_first==read(ROOT/"sources/witchwood-history-v2.json")
 base=read(ROOT/"sources/baseline/cards.json")
 records={x["id"]:x for x in catalog["cards"]}
 rendered={x["id"]:x for x in render["cards"]}
