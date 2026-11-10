@@ -445,6 +445,7 @@ def main():
             role=item["role"]+"Tags"; tid=int(item["confirmedTagId"]); explicit_keys.add((role,tid))
             undated_raw_tags.append({"date":None,"findingId":item["findingId"],"tagId":tid,"role":role,
                 "before":copy.deepcopy(item["before"]),"after":copy.deepcopy(item["after"]),
+                "sources":copy.deepcopy(audit["extraUndatedEvidence"]["sources"]),
                 "reason":"First observed across the preserved builds; no Korean effective date is confirmed, so this transition remains outside the dated timeline."})
         current_role_maps={"ownedTags":current_owned_by_id,"referencedTags":current_refs_by_id}
         latest_role_maps={"ownedTags":{x["id"]:x for x in latest_raw["ownedTags"]},"referencedTags":{x["id"]:x for x in latest_raw["referencedTags"]}}
