@@ -174,8 +174,10 @@ def main():
     # Current values are frozen to baseline except the single approved owned Tag 227 addition.
     for cid,card in records.items():
         normalized=copy.deepcopy(card); baseline=copy.deepcopy(original[cid])
-        normalized_tags=copy.deepcopy(normalized.pop("nativeTags",[]))+copy.deepcopy(normalized.pop("referencedTags",[]))
-        baseline_tags=copy.deepcopy(baseline.pop("nativeTags",[]))+copy.deepcopy(baseline.pop("referencedTags",[]))
+        normalized_tags=copy.deepcopy(normalized.pop("nativeTags",[]))
+        normalized.pop("referencedTags",None); normalized.pop("ownedTags",None); normalized.pop("nativeTagOrigins",None)
+        baseline_tags=copy.deepcopy(baseline.pop("nativeTags",[]))
+        baseline.pop("referencedTags",None); baseline.pop("ownedTags",None); baseline.pop("nativeTagOrigins",None)
         if cid=="GIL_152" and any(x.get("id")==227 for x in normalized_tags): baseline_tags.append({"id":227,"name":"공격 불가","value":1})
         normalized_tags.sort(key=lambda x:x["id"]); baseline_tags.sort(key=lambda x:x["id"])
         if normalized_tags!=baseline_tags:
