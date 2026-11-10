@@ -68,7 +68,7 @@ jobs:
           REMOTE_HEAD="$(git rev-parse origin/main)"
           CHECKOUT_HEAD="$(git rev-parse HEAD)"
           if [ "$REMOTE_HEAD" != "$CHECKOUT_HEAD" ]; then
-            if git merge-base --is-ancestor "$CHECKOUT_HEAD" "$REMOTE_HEAD" && git diff --quiet "$CHECKOUT_HEAD" "$REMOTE_HEAD" -- cards.json render.json history.json data sources/baseline sources/witchwood-history-v2.json sources/witchwood-research-v1.json; then
+            if git merge-base --is-ancestor "$CHECKOUT_HEAD" "$REMOTE_HEAD" && git diff --quiet "$CHECKOUT_HEAD" "$REMOTE_HEAD" -- cards.json render.json history.json data sources/baseline sources/witchwood-history-v2.json sources/witchwood-research-v1.json sources/witchwood-source-manifest.json; then
               echo "Remote main advanced without changing generated card sources; rebasing pending generated outputs onto $REMOTE_HEAD."
               git reset --mixed "$REMOTE_HEAD"
             else
