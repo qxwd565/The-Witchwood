@@ -31716,7 +31716,16 @@
       "GIL_188a": {
         "changes": {
           "type": "MINION",
-          "rarity": "COMMON"
+          "rarity": "COMMON",
+          "nativeRawText": "<b>속공</b>",
+          "text": "<b>속공</b>",
+          "cost": 3,
+          "attack": 4,
+          "health": 2,
+          "races": [
+            "BEAST"
+          ],
+          "race": "야수"
         },
         "removedFields": [],
         "rawTagDelta": [
@@ -31850,7 +31859,14 @@
       "GIL_188b": {
         "changes": {
           "type": "MINION",
-          "rarity": "COMMON"
+          "rarity": "COMMON",
+          "nativeRawText": "<b>도발</b>",
+          "text": "<b>도발</b>",
+          "cost": 3,
+          "attack": 2,
+          "health": 4,
+          "races": [],
+          "race": ""
         },
         "removedFields": [],
         "rawTagDelta": [

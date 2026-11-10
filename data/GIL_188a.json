@@ -310,8 +310,8 @@
         "type": "MINION",
         "cardClass": "DRUID",
         "name": "광포한 표범 변신",
-        "nativeRawText": "공격력 +2, <b>속공</b>",
-        "text": "공격력 +2, <b>속공</b>",
+        "nativeRawText": "<b>속공</b>",
+        "text": "<b>속공</b>",
         "id": "GIL_188a",
         "dbfId": 47048,
         "collectible": false,
@@ -470,20 +470,22 @@
             "role": "owned"
           }
         ],
-        "rarity": "COMMON"
+        "rarity": "COMMON",
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수"
       },
       "removedFields": [
         "armor",
         "art",
-        "attack",
         "classes",
-        "cost",
         "durability",
         "flavor",
-        "health",
         "portrait",
-        "race",
-        "races",
         "set",
         "spellSchool"
       ],
@@ -555,8 +557,8 @@
         "type": "MINION",
         "cardClass": "DRUID",
         "name": "광포한 표범 변신",
-        "nativeRawText": "공격력 +2, <b>속공</b>",
-        "text": "공격력 +2, <b>속공</b>",
+        "nativeRawText": "<b>속공</b>",
+        "text": "<b>속공</b>",
         "id": "GIL_188a",
         "dbfId": 47048,
         "collectible": false,
@@ -729,20 +731,22 @@
             "role": "owned"
           }
         ],
-        "rarity": "COMMON"
+        "rarity": "COMMON",
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수"
       },
       "removedFields": [
         "armor",
         "art",
-        "attack",
         "classes",
-        "cost",
         "durability",
         "flavor",
-        "health",
         "portrait",
-        "race",
-        "races",
         "set",
         "spellSchool"
       ],
@@ -1109,8 +1113,8 @@
         "type": "MINION",
         "cardClass": "DRUID",
         "name": "광포한 표범 변신",
-        "nativeRawText": "공격력 +2, <b>속공</b>",
-        "text": "공격력 +2, <b>속공</b>",
+        "nativeRawText": "<b>속공</b>",
+        "text": "<b>속공</b>",
         "id": "GIL_188a",
         "dbfId": 47048,
         "collectible": false,
@@ -1269,7 +1273,14 @@
             "role": "owned"
           }
         ],
-        "rarity": "COMMON"
+        "rarity": "COMMON",
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수"
       },
       "eventKinds": [
         "representation"
@@ -1336,15 +1347,10 @@
       "removedFields": [
         "armor",
         "art",
-        "attack",
         "classes",
-        "cost",
         "durability",
         "flavor",
-        "health",
         "portrait",
-        "race",
-        "races",
         "set",
         "spellSchool"
       ]
@@ -1355,8 +1361,8 @@
         "type": "MINION",
         "cardClass": "DRUID",
         "name": "광포한 표범 변신",
-        "nativeRawText": "공격력 +2, <b>속공</b>",
-        "text": "공격력 +2, <b>속공</b>",
+        "nativeRawText": "<b>속공</b>",
+        "text": "<b>속공</b>",
         "id": "GIL_188a",
         "dbfId": 47048,
         "collectible": false,
@@ -1529,7 +1535,14 @@
             "role": "owned"
           }
         ],
-        "rarity": "COMMON"
+        "rarity": "COMMON",
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수"
       },
       "eventKinds": [
         "representation"
@@ -1570,15 +1583,10 @@
       "removedFields": [
         "armor",
         "art",
-        "attack",
         "classes",
-        "cost",
         "durability",
         "flavor",
-        "health",
         "portrait",
-        "race",
-        "races",
         "set",
         "spellSchool"
       ]

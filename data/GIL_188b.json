@@ -296,8 +296,8 @@
         "type": "MINION",
         "cardClass": "DRUID",
         "name": "광포한 늑대 변신",
-        "nativeRawText": "생명력 +2, <b>도발</b>",
-        "text": "생명력 +2, <b>도발</b>",
+        "nativeRawText": "<b>도발</b>",
+        "text": "<b>도발</b>",
         "id": "GIL_188b",
         "dbfId": 47049,
         "collectible": false,
@@ -442,20 +442,20 @@
             "role": "owned"
           }
         ],
-        "rarity": "COMMON"
+        "rarity": "COMMON",
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "races": [],
+        "race": ""
       },
       "removedFields": [
         "armor",
         "art",
-        "attack",
         "classes",
-        "cost",
         "durability",
         "flavor",
-        "health",
         "portrait",
-        "race",
-        "races",
         "set",
         "spellSchool"
       ],
@@ -526,8 +526,8 @@
         "type": "MINION",
         "cardClass": "DRUID",
         "name": "광포한 늑대 변신",
-        "nativeRawText": "생명력 +2, <b>도발</b>",
-        "text": "생명력 +2, <b>도발</b>",
+        "nativeRawText": "<b>도발</b>",
+        "text": "<b>도발</b>",
         "id": "GIL_188b",
         "dbfId": 47049,
         "collectible": false,
@@ -686,20 +686,20 @@
             "role": "owned"
           }
         ],
-        "rarity": "COMMON"
+        "rarity": "COMMON",
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "races": [],
+        "race": ""
       },
       "removedFields": [
         "armor",
         "art",
-        "attack",
         "classes",
-        "cost",
         "durability",
         "flavor",
-        "health",
         "portrait",
-        "race",
-        "races",
         "set",
         "spellSchool"
       ],
@@ -1052,8 +1052,8 @@
         "type": "MINION",
         "cardClass": "DRUID",
         "name": "광포한 늑대 변신",
-        "nativeRawText": "생명력 +2, <b>도발</b>",
-        "text": "생명력 +2, <b>도발</b>",
+        "nativeRawText": "<b>도발</b>",
+        "text": "<b>도발</b>",
         "id": "GIL_188b",
         "dbfId": 47049,
         "collectible": false,
@@ -1198,7 +1198,12 @@
             "role": "owned"
           }
         ],
-        "rarity": "COMMON"
+        "rarity": "COMMON",
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "races": [],
+        "race": ""
       },
       "eventKinds": [
         "representation"
@@ -1264,15 +1269,10 @@
       "removedFields": [
         "armor",
         "art",
-        "attack",
         "classes",
-        "cost",
         "durability",
         "flavor",
-        "health",
         "portrait",
-        "race",
-        "races",
         "set",
         "spellSchool"
       ]
@@ -1283,8 +1283,8 @@
         "type": "MINION",
         "cardClass": "DRUID",
         "name": "광포한 늑대 변신",
-        "nativeRawText": "생명력 +2, <b>도발</b>",
-        "text": "생명력 +2, <b>도발</b>",
+        "nativeRawText": "<b>도발</b>",
+        "text": "<b>도발</b>",
         "id": "GIL_188b",
         "dbfId": 47049,
         "collectible": false,
@@ -1443,7 +1443,12 @@
             "role": "owned"
           }
         ],
-        "rarity": "COMMON"
+        "rarity": "COMMON",
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "races": [],
+        "race": ""
       },
       "eventKinds": [
         "representation"
@@ -1484,15 +1489,10 @@
       "removedFields": [
         "armor",
         "art",
-        "attack",
         "classes",
-        "cost",
         "durability",
         "flavor",
-        "health",
         "portrait",
-        "race",
-        "races",
         "set",
         "spellSchool"
       ]
