@@ -30,11 +30,32 @@ jobs:
           python /tmp/flatten-dates-v1.py --root . --strict
           python /tmp/flatten-dates-v1.py --root . --strict --check
           git diff --check
+      - name: Verify first-playable day against all 156 dated card documents
+        run: |
+          python - <<'PYRELEASE'
+          import json
+          from pathlib import Path
+          p=Path("cards.json")
+          payload=json.loads(p.read_text(encoding="utf-8"))
+          if len(payload.get("cards", []))!=156: raise SystemExit("Unexpected catalog size")
+          for card in payload["cards"]:
+              path=Path("data")/(card["id"]+".json")
+              doc=json.loads(path.read_text(encoding="utf-8"))
+              dates=sorted(k for k in doc if len(k)==10 and k[4]=="-" and k[7]=="-")
+              if not dates: raise SystemExit("Missing dated source: "+card["id"])
+              first=doc[dates[0]]
+              if first.get("id")!=card["id"] or first.get("dbfId")!=card["dbfId"]: raise SystemExit("Card identity mismatch "+card["id"])
+              if dates[0]!="2018-04-13": raise SystemExit("Unexpected first-playable day "+card["id"]+" "+dates[0])
+              if card.get("releasedAt") not in (None,dates[0]): raise SystemExit("Contradictory date "+card["id"])
+              card["releasedAt"]=dates[0]
+              card["releaseStatus"]="verified"
+          p.write_text(json.dumps(payload,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+          PYRELEASE
       - name: Commit only dates-v1 card documents
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -u -- data/
+          git add -u -- data/ cards.json
           if ! git diff --cached --quiet; then
             git commit -m 'Unify Witchwood card history as public dates-v1 [skip ci]'
             git push origin HEAD:main
