@@ -1,142 +1,41 @@
-name: Sync and validate The Witchwood sparse history
-
+name: Validate HSdeck unified Witchwood card history
 on:
   push:
     branches: [main]
+    paths:
+      - 'data/**'
+      - 'cards.json'
+      - '.github/workflows/validate-build.yml'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 concurrency:
-  group: witchwood-api-${{ github.ref }}
+  group: hsdeck-witchwood-dates-v1
   cancel-in-progress: false
-
 jobs:
-  sync-build-verify:
+  normalize:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.sha }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-      - name: Fetch and verify the original immutable repository baseline
+          python-version: '3.12'
+      - name: Read immutable migration converter
         run: |
-          git fetch --no-tags origin 0a849efcc23669bcb3929246d9de62e7ce85837b
-          python tools/verify-witchwood-baseline.py
-      - name: Fetch immutable launch, current, and historical CardDefs snapshots
+          curl -fsSL --retry 3 'https://raw.githubusercontent.com/qxwd565/legacy/c7622bd48972ff3b79f095533e6bdb4ffcc01cf0/tools/flatten-date-sources.py' -o /tmp/flatten-dates-v1.py
+      - name: Convert and verify 156 card histories
         run: |
-          git init /tmp/hsdata
-          git -C /tmp/hsdata remote add origin https://github.com/HearthSim/hsdata.git
-          git -C /tmp/hsdata fetch --depth=1 origin 6317434bee453ec6e8267cbf45277c0a13da90f8 31b034c26f24b8a66ece845ffd03c1ca397b9a02 9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62 54141c4a6bf3efeedaf69d7510b987f216ff00e6 242423aeeeccda4c86a9aed57780d682faf6d044 0565689bc30e7fe550053066d033958f1f90033f
-          git -C /tmp/hsdata show 6317434bee453ec6e8267cbf45277c0a13da90f8:CardDefs.xml > /tmp/CardDefs-witchwood-launch.xml
-          git -C /tmp/hsdata show 31b034c26f24b8a66ece845ffd03c1ca397b9a02:CardDefs.xml > /tmp/CardDefs-witchwood-current.xml
-          git -C /tmp/hsdata show 9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62:CardDefs.xml > /tmp/CardDefs-witchwood-2021.xml
-          git -C /tmp/hsdata show 54141c4a6bf3efeedaf69d7510b987f216ff00e6:CardDefs.xml > /tmp/CardDefs-witchwood-2022.xml
-          git -C /tmp/hsdata show 242423aeeeccda4c86a9aed57780d682faf6d044:CardDefs.xml > /tmp/CardDefs-witchwood-2018-11-30-before.xml
-          git -C /tmp/hsdata show 0565689bc30e7fe550053066d033958f1f90033f:CardDefs.xml > /tmp/CardDefs-witchwood-2018-11-30-after.xml
-          echo '4353a7eb1c36c99ccfc3817eb30cccb3a7c14c810a043c82e980957864a09d94  /tmp/CardDefs-witchwood-launch.xml' | sha256sum --check
-          echo '420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c  /tmp/CardDefs-witchwood-current.xml' | sha256sum --check
-          echo '95d75205c7c6235d90933f568cdae52cb9714842c5ae21a9d689a7eb66b0290c  /tmp/CardDefs-witchwood-2018-11-30-before.xml' | sha256sum --check
-          echo 'dc2fa518bc000ad5aa4d54dbde40e29f67aed75c19705b8799893d0916046d4a  /tmp/CardDefs-witchwood-2018-11-30-after.xml' | sha256sum --check
-      - name: Verify immutable historical raw tag evidence
+          python /tmp/flatten-dates-v1.py --root . --strict
+          python /tmp/flatten-dates-v1.py --root . --strict --check
+          git diff --check
+      - name: Commit only dates-v1 card documents
         run: |
-          python - <<'PY'
-          import xml.etree.ElementTree as ET
-          def tag(path,cid,tid):
-              for _,e in ET.iterparse(path,events=("end",)):
-                  if e.tag.rsplit("}",1)[-1]=="Entity" and e.attrib.get("CardID")==cid:
-                      for t in list(e):
-                          if t.tag.rsplit("}",1)[-1]=="Tag" and t.attrib.get("enumID")==str(tid):
-                              return int(t.attrib["value"])
-              raise AssertionError((path,cid,tid,"missing owned Tag"))
-          assert tag("/tmp/CardDefs-witchwood-2021.xml","GIL_191",48)==4
-          assert tag("/tmp/CardDefs-witchwood-2021.xml","GIL_663",48)==2
-          assert tag("/tmp/CardDefs-witchwood-2022.xml","GIL_667",45)==5
-          assert tag("/tmp/CardDefs-witchwood-current.xml","GIL_152",227)==1
-          def entity(path,cid):
-              result=None
-              for _,e in ET.iterparse(path,events=("end",)):
-                  if e.tag.rsplit("}",1)[-1]=="Entity" and e.attrib.get("CardID")==cid:
-                      owned={}; refs={}
-                      for t in list(e):
-                          kind=t.tag.rsplit("}",1)[-1]
-                          if kind not in ("Tag","ReferencedTag") or "enumID" not in t.attrib: continue
-                          target=owned if kind=="Tag" else refs
-                          if "value" in t.attrib: target[t.attrib["enumID"]]=t.attrib["value"]
-                          else: target.setdefault("__nonScalar__",[]).append(t.attrib["enumID"])
-                      result=(owned,refs)
-              if result is None: raise AssertionError((path,cid,"missing entity"))
-              return result
-          before={
-            "GIL_188a":{"183":"1125","199":"2","202":"5"},
-            "GIL_188b":{"183":"1125","199":"2","202":"5"}}
-          after={
-            "GIL_188a":{"45":"2","47":"4","48":"3","183":"1125","199":"2","200":"20","202":"4","203":"1"},
-            "GIL_188b":{"45":"4","47":"2","48":"3","183":"1125","199":"2","202":"4","203":"1"}}
-          for cid in before:
-              b,br=entity("/tmp/CardDefs-witchwood-2018-11-30-before.xml",cid)
-              a,ar=entity("/tmp/CardDefs-witchwood-2018-11-30-after.xml",cid)
-              assert {k:v for k,v in b.items() if k!="__nonScalar__"}==before[cid] and br=={},(cid,"R001 before",b,br)
-              assert {k:v for k,v in a.items() if k!="__nonScalar__"}==after[cid] and ar=={},(cid,"R001 after",a,ar)
-              assert set(a.get("__nonScalar__",[])) >= {"184","185","342"},(cid,"R001 preserved string/internal tags",a.get("__nonScalar__"))
-          print("Historical raw tags verified: R001 GIL_188a/b before and after exact; launch/current tags also verified")
-          PY
-      - name: Sync compatibility APIs from sparse date-first canonical source
-        run: python tools/sync-witchwood-history.py
-      - name: Build cards, render, and legacy history compatibility endpoints
-        run: python tools/build-witchwood-api.py
-      - name: Run full regression suite and current API validation
-        run: |
-          python -m py_compile tools/migrate-witchwood-v2.py tools/sync-witchwood-history.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
-          python -m unittest discover -s tests -v
-          python tools/validate-witchwood-current.py
-      - name: Commit synchronized sparse source and generated compatibility APIs
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          REMOTE_HEAD="$(git rev-parse origin/main)"
-          CHECKOUT_HEAD="$(git rev-parse HEAD)"
-          if [ "$REMOTE_HEAD" != "$CHECKOUT_HEAD" ]; then
-            if git merge-base --is-ancestor "$CHECKOUT_HEAD" "$REMOTE_HEAD" && git diff --quiet "$CHECKOUT_HEAD" "$REMOTE_HEAD" -- cards.json render.json history.json data sources/baseline sources/witchwood-history-v2.json sources/witchwood-research-v1.json sources/witchwood-source-manifest.json sources/witchwood-independent-audit-v2.json.gz.b64 tools/sync-witchwood-history.py tools/migrate-witchwood-v2.py tools/build-witchwood-api.py tests/test_witchwood_v2.py tools/validate-witchwood-current.py .github/workflows/validate-build.yml; then
-              echo "Remote main advanced without changing generated card sources; rebasing pending generated outputs onto $REMOTE_HEAD."
-              git reset --mixed "$REMOTE_HEAD"
-            else
-              echo "Remote main changed generated card sources or diverged; refusing stale push." >&2
-              exit 1
-            fi
-          fi
-          git add cards.json data/*.json sources/baseline sources/witchwood-history-v2.json sources/witchwood-source-manifest.json sources/witchwood-independent-audit-v2.json.gz.b64 tools/sync-witchwood-history.py
-          if git diff --cached --quiet; then
-            echo "No generated source changes."
-          else
-            git commit -m "Migrate Witchwood cards to date-first history v2"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -u -- data/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Unify Witchwood card history as public dates-v1 [skip ci]'
             git push origin HEAD:main
           fi
-          echo "Final generated-source checkout SHA: $(git rev-parse HEAD)"
-          git fetch origin main
-          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
-      - name: Re-run full sparse sync, build, tests, and current validation with independent hash seeds
-        run: |
-          run_pipeline() {
-            seed="$1"
-            echo "PYTHONHASHSEED=$seed source SHA: $(git rev-parse HEAD)"
-            env PYTHONHASHSEED="$seed" python tools/sync-witchwood-history.py
-            env PYTHONHASHSEED="$seed" python tools/build-witchwood-api.py
-            env PYTHONHASHSEED="$seed" python -m py_compile tools/migrate-witchwood-v2.py tools/sync-witchwood-history.py tools/build-witchwood-api.py tests/test_witchwood_v2.py
-            env PYTHONHASHSEED="$seed" python -m unittest discover -s tests -v
-            env PYTHONHASHSEED="$seed" python tools/validate-witchwood-current.py
-            find . -type d -name __pycache__ -prune -exec rm -rf {} +
-            find . -type f -name "*.pyc" -delete
-            git diff --exit-code
-            git status --short
-            test -z "$(git status --porcelain --untracked-files=all)"
-            echo "PYTHONHASHSEED=$seed: sparse-sync/build/tests/current clean at $(git rev-parse HEAD)"
-          }
-          run_pipeline 1
-          run_pipeline 8675309
-          echo "Verified final SHA: $(git rev-parse HEAD)"
