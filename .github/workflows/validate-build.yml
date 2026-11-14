@@ -110,7 +110,7 @@ jobs:
               exit 1
             fi
           fi
-          git add cards.json render.json history.json data/*.json sources/baseline sources/witchwood-history-v2.json sources/witchwood-source-manifest.json sources/witchwood-independent-audit-v2.json.gz.b64 tools/sync-witchwood-history.py
+          git add cards.json data/*.json sources/baseline sources/witchwood-history-v2.json sources/witchwood-source-manifest.json sources/witchwood-independent-audit-v2.json.gz.b64 tools/sync-witchwood-history.py
           if git diff --cached --quiet; then
             echo "No generated source changes."
           else
