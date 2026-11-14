@@ -1,0 +1,87 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "GIL_202",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2018-04-13",
+    "status": "unverified"
+  },
+  "baselineStatus": "partially-verified",
+  "normalization": {
+    "datedExcludedFields": {
+      "2018-04-13": {
+        "nativeRawText": "<b>천상의 보호막</b>, <b>속공</b>\n이 하수인은 내 손에 있으면 내 턴마다 공격력과 생명력을 바꿉니다.",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 8
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 8
+          },
+          {
+            "id": 183,
+            "name": "게임 태그 183",
+            "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
+            "id": 194,
+            "name": "천상의 보호막",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
+          },
+          {
+            "id": 791,
+            "name": "속공",
+            "value": 1
+          }
+        ],
+        "set": "GILNEAS",
+        "art": "art/GIL_202.png"
+      }
+    }
+  }
+}

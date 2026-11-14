@@ -1,0 +1,113 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "GIL_596",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2018-04-13",
+    "status": "unverified"
+  },
+  "baselineStatus": "partially-verified",
+  "normalization": {
+    "datedExcludedFields": {
+      "2018-04-13": {
+        "nativeRawText": "내 영웅이 공격한 후에 내 하수인들에게 +1/+1을 부여합니다.",
+        "nativeTags": [
+          {
+            "id": 32,
+            "name": "발동 효과 표시",
+            "value": 1
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 8
+          },
+          {
+            "id": 183,
+            "name": "게임 태그 183",
+            "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
+            "id": 187,
+            "name": "내구도",
+            "value": 4
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 5
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 7
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
+          }
+        ],
+        "set": "GILNEAS",
+        "art": "art/GIL_596.png"
+      },
+      "2025-03-19": {
+        "rawTagDelta": [
+          {
+            "role": "ownedTags",
+            "id": 45,
+            "before": "ABSENT",
+            "after": {
+              "id": 45,
+              "name": "생명력",
+              "value": 4
+            }
+          },
+          {
+            "role": "ownedTags",
+            "id": 187,
+            "before": {
+              "id": 187,
+              "name": "내구도",
+              "value": 4
+            },
+            "after": "ABSENT"
+          }
+        ],
+        "eventKinds": [
+          "representation"
+        ],
+        "representation": {
+          "tagStorage": "DURABILITY_187_TO_HEALTH_45",
+          "category": "confirmed-non-gameplay-representation"
+        }
+      }
+    }
+  }
+}

@@ -6,108 +6,20 @@
     "collectible": true,
     "cost": 1,
     "name": "타오르는 기원",
-    "nativeRawText": "[x]<b>전투의 함성</b> 하수인을\n하나 <b>발견</b>합니다.",
     "text": "<b>전투의 함성</b> 하수인을<br></br>하나 <b>발견</b>합니다.",
     "id": "GIL_836",
-    "dbfId": 48393,
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 415,
-        "name": "발견",
-        "value": 1
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_836.png"
+    "dbfId": 48393
   },
   "2021-03-26": {
-    "spellSchool": "FIRE",
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 1635,
-        "before": "ABSENT",
-        "after": {
-          "id": 1635,
-          "name": "주문 속성",
-          "value": 2
-        }
-      }
-    ],
-    "eventKinds": [
-      "existing-confirmed"
-    ]
+    "spellSchool": "FIRE"
   },
   "2025-03-19": {
-    "nativeRawText": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다.",
-    "text": "<b>전투의 함성</b> 하수인을<br></br><b>발견</b>합니다. 그 하수인의<br></br>비용이 (1) 감소합니다.",
-    "eventKinds": [
-      "gameplay"
-    ]
+    "text": "<b>전투의 함성</b> 하수인을<br></br><b>발견</b>합니다. 그 하수인의<br></br>비용이 (1) 감소합니다."
   },
   "2026-07-22": {
-    "nativeRawText": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다.",
-    "text": "<b>전투의 함성</b> 하수인을<br></br><b>발견</b>합니다.",
-    "eventKinds": [
-      "gameplay"
-    ]
+    "text": "<b>전투의 함성</b> 하수인을<br></br><b>발견</b>합니다."
   },
   "2026-08-19": {
-    "nativeRawText": "[x]<b>전투의 함성</b> 하수인을\n<b>발견</b>합니다. 그 하수인의\n비용이 (1) 감소합니다.",
-    "text": "<b>전투의 함성</b> 하수인을<br></br><b>발견</b>합니다. 그 하수인의<br></br>비용이 (1) 감소합니다.",
-    "eventKinds": [
-      "gameplay"
-    ]
+    "text": "<b>전투의 함성</b> 하수인을<br></br><b>발견</b>합니다. 그 하수인의<br></br>비용이 (1) 감소합니다."
   }
 }

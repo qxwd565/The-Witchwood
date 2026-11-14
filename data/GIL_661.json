@@ -6,77 +6,11 @@
     "collectible": true,
     "cost": 2,
     "name": "천상의 찬가",
-    "nativeRawText": "모든 아군 캐릭터의 생명력을\n#6 회복시킵니다.",
     "text": "모든 아군 캐릭터의 생명력을<br></br>#6 회복시킵니다.",
     "id": "GIL_661",
-    "dbfId": 47549,
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 6
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_661.png"
+    "dbfId": 47549
   },
   "2021-03-26": {
-    "spellSchool": "HOLY",
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 1635,
-        "before": "ABSENT",
-        "after": {
-          "id": 1635,
-          "name": "주문 속성",
-          "value": 5
-        }
-      }
-    ],
-    "eventKinds": [
-      "existing-confirmed"
-    ]
+    "spellSchool": "HOLY"
   }
 }

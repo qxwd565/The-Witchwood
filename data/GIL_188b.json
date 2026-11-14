@@ -3,144 +3,17 @@
     "type": "SPELL",
     "cardClass": "DRUID",
     "name": "광포한 늑대 변신",
-    "nativeRawText": "생명력 +2, <b>도발</b>",
     "text": "생명력 +2, <b>도발</b>",
     "id": "GIL_188b",
     "dbfId": 47049,
-    "collectible": false,
-    "nativeTags": [
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_188b.png"
+    "collectible": false
   },
   "2018-11-30": {
     "type": "MINION",
-    "rarity": "COMMON",
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 202,
-        "before": {
-          "id": 202,
-          "name": "카드 유형",
-          "value": 5
-        },
-        "after": {
-          "id": 202,
-          "name": "카드 유형",
-          "value": 4
-        }
-      },
-      {
-        "role": "ownedTags",
-        "id": 45,
-        "before": "ABSENT",
-        "after": {
-          "id": 45,
-          "name": "생명력",
-          "value": 4
-        }
-      },
-      {
-        "role": "ownedTags",
-        "id": 47,
-        "before": "ABSENT",
-        "after": {
-          "id": 47,
-          "name": "공격력",
-          "value": 2
-        }
-      },
-      {
-        "role": "ownedTags",
-        "id": 48,
-        "before": "ABSENT",
-        "after": {
-          "id": 48,
-          "name": "마나 비용",
-          "value": 3
-        }
-      },
-      {
-        "role": "ownedTags",
-        "id": 203,
-        "before": "ABSENT",
-        "after": {
-          "id": 203,
-          "name": "희귀도",
-          "value": 1
-        }
-      }
-    ],
-    "eventKinds": [
-      "representation"
-    ],
-    "representation": {
-      "category": "confirmed-non-gameplay-representation",
-      "findingId": "WITCH-BAL-R001"
-    },
-    "nativeRawText": "<b>도발</b>",
     "text": "<b>도발</b>",
+    "rarity": "COMMON",
     "cost": 3,
     "attack": 2,
-    "health": 4,
-    "races": [],
-    "race": ""
-  },
-  "2026-07-22": {
-    "rawTagDelta": [
-      {
-        "operation": "roleTransfer",
-        "id": 190,
-        "from": "referencedTags",
-        "to": "ownedTags",
-        "value": {
-          "id": 190,
-          "name": "도발",
-          "value": 1
-        },
-        "firstObservedBuild": 208591
-      }
-    ],
-    "eventKinds": [
-      "representation"
-    ],
-    "representation": {
-      "category": "confirmed-non-gameplay-representation",
-      "tagRoleChange": {
-        "id": 190,
-        "from": "referenced",
-        "to": "owned",
-        "firstObservedBuild": 208591,
-        "effectiveDate": "2026-07-22"
-      }
-    }
+    "health": 4
   }
 }

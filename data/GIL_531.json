@@ -12,97 +12,11 @@
     ],
     "race": "야수",
     "name": "마녀의 수습생",
-    "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n무작위 주술사 주문 하나를\n내 손으로 가져옵니다.",
     "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>무작위 주술사 주문 하나를<br></br>내 손으로 가져옵니다.",
     "id": "GIL_531",
-    "dbfId": 46998,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 20
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_531.png"
+    "dbfId": 46998
   },
   "2026-04-15": {
-    "cost": 0,
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 48,
-        "before": {
-          "id": 48,
-          "name": "마나 비용",
-          "value": 1
-        },
-        "after": "ABSENT"
-      }
-    ],
-    "eventKinds": [
-      "gameplay"
-    ]
+    "cost": 0
   }
 }

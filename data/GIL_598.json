@@ -7,104 +7,12 @@
     "cost": 8,
     "attack": 6,
     "health": 6,
-    "races": [],
-    "race": "",
     "name": "테스 그레이메인",
-    "nativeRawText": "[x]<b>전투의 함성:</b> 이번 게임에서\n내가 낸 다른 직업의\n카드들을 다시 사용합니다.\n<i>(대상은 무작위로 선택)</i>",
     "text": "<b>전투의 함성:</b> 이번 게임에서<br></br>내가 낸 다른 직업의<br></br>카드들을 다시 사용합니다.<br></br><i>(대상은 무작위로 선택)</i>",
     "id": "GIL_598",
-    "dbfId": 47211,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 6
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 6
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 8
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 7
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_598.png"
+    "dbfId": 47211
   },
   "2022-05-20": {
-    "cost": 7,
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 48,
-        "before": {
-          "id": 48,
-          "name": "마나 비용",
-          "value": 8
-        },
-        "after": {
-          "id": 48,
-          "name": "마나 비용",
-          "value": 7
-        }
-      }
-    ],
-    "eventKinds": [
-      "gameplay"
-    ]
+    "cost": 7
   }
 }

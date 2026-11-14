@@ -1,0 +1,136 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "GIL_653",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2018-04-13",
+    "status": "unverified"
+  },
+  "baselineStatus": "partially-verified",
+  "normalization": {
+    "datedExcludedFields": {
+      "2018-04-13": {
+        "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 <b>속공</b> 하수인 하나에게 +2/+1을 부여합니다.",
+        "nativeTags": [
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 2
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 183,
+            "name": "게임 태그 183",
+            "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
+            "id": 187,
+            "name": "내구도",
+            "value": 2
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 10
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 7
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 217,
+            "name": "죽음의 메아리",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
+          },
+          {
+            "id": 791,
+            "name": "속공",
+            "value": 1
+          }
+        ],
+        "set": "GILNEAS",
+        "art": "art/GIL_653.png"
+      },
+      "2023-04-05": {
+        "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 아군 하수인에게 +2/+1을 부여합니다.",
+        "rawTagDelta": [
+          {
+            "role": "referencedTags",
+            "id": 791,
+            "before": {
+              "id": 791,
+              "name": "속공",
+              "value": 1
+            },
+            "after": "ABSENT"
+          }
+        ],
+        "eventKinds": [
+          "gameplay"
+        ]
+      },
+      "2025-03-19": {
+        "rawTagDelta": [
+          {
+            "role": "ownedTags",
+            "id": 45,
+            "before": "ABSENT",
+            "after": {
+              "id": 45,
+              "name": "생명력",
+              "value": 2
+            }
+          },
+          {
+            "role": "ownedTags",
+            "id": 187,
+            "before": {
+              "id": 187,
+              "name": "내구도",
+              "value": 2
+            },
+            "after": "ABSENT"
+          }
+        ],
+        "eventKinds": [
+          "representation"
+        ],
+        "representation": {
+          "tagStorage": "DURABILITY_187_TO_HEALTH_45",
+          "category": "confirmed-non-gameplay-representation"
+        }
+      }
+    }
+  }
+}

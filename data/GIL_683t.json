@@ -5,64 +5,10 @@
     "cost": 1,
     "attack": 2,
     "health": 1,
-    "races": [],
-    "race": "",
     "name": "비룡 사냥꾼",
-    "nativeRawText": "<b>독성</b>",
     "text": "<b>독성</b>",
     "id": "GIL_683t",
     "dbfId": 47603,
-    "collectible": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 363,
-        "name": "독성",
-        "value": 1
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_683t.png"
+    "collectible": false
   }
 }

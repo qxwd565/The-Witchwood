@@ -6,82 +6,11 @@
     "collectible": true,
     "cost": 2,
     "name": "무력화 저주",
-    "nativeRawText": "<b>잔상</b>\n내 다음 턴까지 모든\n적 하수인에게 공격력을 -2 부여합니다.",
     "text": "<b>잔상</b><br></br>내 다음 턴까지 모든<br></br>적 하수인에게 공격력을 -2 부여합니다.",
     "id": "GIL_665",
-    "dbfId": 47555,
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 9
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 846,
-        "name": "잔상",
-        "value": 1
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_665.png"
+    "dbfId": 47555
   },
   "2021-03-26": {
-    "spellSchool": "SHADOW",
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 1635,
-        "before": "ABSENT",
-        "after": {
-          "id": 1635,
-          "name": "주문 속성",
-          "value": 6
-        }
-      }
-    ],
-    "eventKinds": [
-      "existing-confirmed"
-    ]
+    "spellSchool": "SHADOW"
   }
 }

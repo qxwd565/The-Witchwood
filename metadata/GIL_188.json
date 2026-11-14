@@ -1,0 +1,92 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "GIL_188",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2018-04-13",
+    "status": "unverified"
+  },
+  "baselineStatus": "partially-verified",
+  "normalization": {
+    "datedExcludedFields": {
+      "2018-04-13": {
+        "nativeRawText": "[x]<b>선택 -</b> 4/2 <b>속공</b> 하수인\n또는 2/4 <b>도발</b> 하수인으로\n변신합니다.",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 2
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 2
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 183,
+            "name": "게임 태그 183",
+            "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
+            "id": 190,
+            "name": "도발",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 2
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
+          },
+          {
+            "id": 443,
+            "name": "게임 태그 443",
+            "value": 1
+          },
+          {
+            "id": 791,
+            "name": "속공",
+            "value": 1
+          }
+        ],
+        "set": "GILNEAS",
+        "art": "art/GIL_188.png"
+      }
+    }
+  }
+}

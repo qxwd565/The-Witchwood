@@ -1,0 +1,84 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "GIL_553",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2018-04-13",
+    "status": "unverified"
+  },
+  "baselineStatus": "partially-verified",
+  "normalization": {
+    "datedExcludedFields": {
+      "2018-04-13": {
+        "nativeRawText": "내 손에 있는 카드 1장당 1/1_위습을 소환합니다.",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 183,
+            "name": "게임 태그 183",
+            "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 2
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
+          }
+        ],
+        "set": "GILNEAS",
+        "art": "art/GIL_553.png"
+      },
+      "2021-03-26": {
+        "rawTagDelta": [
+          {
+            "role": "ownedTags",
+            "id": 1635,
+            "before": "ABSENT",
+            "after": {
+              "id": 1635,
+              "name": "주문 속성",
+              "value": 4
+            }
+          }
+        ],
+        "eventKinds": [
+          "existing-confirmed"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "GIL_635",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2018-04-13",
+    "status": "unverified"
+  },
+  "baselineStatus": "partially-verified",
+  "normalization": {
+    "datedExcludedFields": {
+      "2018-04-13": {
+        "nativeRawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 2
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 2
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 183,
+            "name": "게임 태그 183",
+            "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
+            "id": 190,
+            "name": "도발",
+            "value": 1
+          },
+          {
+            "id": 194,
+            "name": "천상의 보호막",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 5
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
+          }
+        ],
+        "set": "GILNEAS",
+        "art": "art/GIL_635.png"
+      },
+      "2022-11-30": {
+        "rawTagDelta": [
+          {
+            "role": "ownedTags",
+            "id": 200,
+            "before": "ABSENT",
+            "after": {
+              "id": 200,
+              "name": "종족",
+              "value": 11
+            }
+          }
+        ],
+        "eventKinds": [
+          "existing-confirmed"
+        ]
+      }
+    }
+  }
+}

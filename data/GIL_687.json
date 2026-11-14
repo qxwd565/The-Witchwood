@@ -6,69 +6,11 @@
     "collectible": true,
     "cost": 4,
     "name": "현상 수배!",
-    "nativeRawText": "하수인 하나에게 피해를 $3 줍니다. 이 피해로 하수인이 죽으면, 동전을\n내 손으로 가져옵니다.",
     "text": "하수인 하나에게 피해를 $3 줍니다. 이 피해로 하수인이 죽으면, 동전을<br></br>내 손으로 가져옵니다.",
     "id": "GIL_687",
-    "dbfId": 47625,
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 7
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_687.png"
+    "dbfId": 47625
   },
   "2026-03-11": {
-    "nativeRawText": "하수인에게 피해를 $3 줍니다.\n그 하수인이 죽으면 동전을\n내 손으로 가져옵니다.",
-    "text": "하수인에게 피해를 $3 줍니다.<br></br>그 하수인이 죽으면 동전을<br></br>내 손으로 가져옵니다.",
-    "eventKinds": [
-      "representation"
-    ],
-    "representation": {
-      "category": "confirmed-non-gameplay-representation"
-    }
+    "text": "하수인에게 피해를 $3 줍니다.<br></br>그 하수인이 죽으면 동전을<br></br>내 손으로 가져옵니다."
   }
 }

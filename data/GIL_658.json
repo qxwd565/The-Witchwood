@@ -7,107 +7,15 @@
     "cost": 8,
     "attack": 8,
     "health": 8,
-    "races": [],
-    "race": "",
     "name": "뾰족가지",
-    "nativeRawText": "<b>전투의 함성:</b> 아군 하수인 하나를 선택합니다. 그 하수인을 비용이 (10)인 10/10 하수인으로 복사하여 내 손으로 가져옵니다.",
     "text": "<b>전투의 함성:</b> 아군 하수인 하나를 선택합니다. 그 하수인을 비용이 (10)인 10/10 하수인으로 복사하여 내 손으로 가져옵니다.",
     "id": "GIL_658",
-    "dbfId": 47520,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 8
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 8
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 8
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 325,
-        "name": "게임 태그 325"
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_658.png"
+    "dbfId": 47520
   },
   "2022-11-30": {
     "races": [
       "UNDEAD"
     ],
-    "race": "언데드",
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 200,
-        "before": "ABSENT",
-        "after": {
-          "id": 200,
-          "name": "종족",
-          "value": 11
-        }
-      }
-    ],
-    "eventKinds": [
-      "existing-confirmed"
-    ]
+    "race": "언데드"
   }
 }

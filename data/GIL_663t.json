@@ -5,76 +5,13 @@
     "cost": 2,
     "attack": 2,
     "health": 2,
-    "races": [],
-    "race": "",
     "name": "나무정령",
     "id": "GIL_663t",
     "dbfId": 48911,
     "collectible": false,
-    "text": "",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_663t.png"
+    "text": ""
   },
   "2023-04-05": {
-    "cost": 1,
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 48,
-        "before": {
-          "id": 48,
-          "name": "마나 비용",
-          "value": 2
-        },
-        "after": {
-          "id": 48,
-          "name": "마나 비용",
-          "value": 1
-        }
-      }
-    ],
-    "eventKinds": [
-      "gameplay"
-    ]
+    "cost": 1
   }
 }

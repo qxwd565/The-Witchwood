@@ -7,98 +7,15 @@
     "cost": 7,
     "attack": 6,
     "health": 6,
-    "races": [],
-    "race": "",
     "name": "늑대인간 누더기골렘",
-    "nativeRawText": "내 턴이 끝날 때,\n피해를 받은 다른 <b>모든</b> 하수인에게 피해를 2 줍니다.",
     "text": "내 턴이 끝날 때,<br></br>피해를 받은 다른 <b>모든</b> 하수인에게 피해를 2 줍니다.",
     "id": "GIL_117",
-    "dbfId": 46655,
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "발동 효과 표시",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 6
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 6
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 7
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_117.png"
+    "dbfId": 46655
   },
   "2022-11-30": {
     "races": [
       "UNDEAD"
     ],
-    "race": "언데드",
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 200,
-        "before": "ABSENT",
-        "after": {
-          "id": 200,
-          "name": "종족",
-          "value": 11
-        }
-      }
-    ],
-    "eventKinds": [
-      "existing-confirmed"
-    ]
+    "race": "언데드"
   }
 }

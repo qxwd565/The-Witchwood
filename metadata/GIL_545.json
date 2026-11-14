@@ -1,0 +1,136 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "GIL_545",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2018-04-13",
+    "status": "unverified"
+  },
+  "baselineStatus": "partially-verified",
+  "normalization": {
+    "datedExcludedFields": {
+      "2018-04-13": {
+        "nativeRawText": "<b>천상의 보호막</b>\n<b>속공</b>",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 4
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 5
+          },
+          {
+            "id": 183,
+            "name": "게임 태그 183",
+            "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
+            "id": 194,
+            "name": "천상의 보호막",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 5
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 20
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
+          },
+          {
+            "id": 791,
+            "name": "속공",
+            "value": 1
+          }
+        ],
+        "set": "GILNEAS",
+        "art": "art/GIL_545.png"
+      },
+      "2018-08-03": {
+        "rawTagDelta": [
+          {
+            "role": "ownedTags",
+            "id": 200,
+            "before": {
+              "id": 200,
+              "name": "종족",
+              "value": 20
+            },
+            "after": "ABSENT"
+          }
+        ],
+        "eventKinds": [
+          "gameplay"
+        ]
+      },
+      "2022-11-30": {
+        "rawTagDelta": [
+          {
+            "role": "ownedTags",
+            "id": 200,
+            "before": "ABSENT",
+            "after": {
+              "id": 200,
+              "name": "종족",
+              "value": 11
+            }
+          },
+          {
+            "role": "ownedTags",
+            "id": 2542,
+            "before": "ABSENT",
+            "after": {
+              "id": 2542,
+              "name": "게임 태그 2542",
+              "value": 1
+            }
+          }
+        ],
+        "eventKinds": [
+          "existing-confirmed"
+        ]
+      }
+    }
+  }
+}

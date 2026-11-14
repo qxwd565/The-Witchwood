@@ -5,75 +5,16 @@
     "cost": 1,
     "attack": 1,
     "health": 1,
-    "races": [],
-    "race": "",
     "name": "나뭇조각",
     "text": "",
     "id": "GIL_616t2",
     "dbfId": 47290,
-    "collectible": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_616t2.png"
+    "collectible": false
   },
   "2022-11-30": {
     "races": [
       "UNDEAD"
     ],
-    "race": "언데드",
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 200,
-        "before": "ABSENT",
-        "after": {
-          "id": 200,
-          "name": "종족",
-          "value": 11
-        }
-      }
-    ],
-    "eventKinds": [
-      "existing-confirmed"
-    ]
+    "race": "언데드"
   }
 }

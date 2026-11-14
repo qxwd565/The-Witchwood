@@ -1,0 +1,99 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "GIL_584",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2018-04-13",
+    "status": "unverified"
+  },
+  "baselineStatus": "partially-verified",
+  "normalization": {
+    "datedExcludedFields": {
+      "2018-04-13": {
+        "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 비용이 가장 낮은 하수인을 하나 뽑습니다.",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 3
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 183,
+            "name": "게임 태그 183",
+            "value": 1125
+          },
+          {
+            "id": 184,
+            "name": "게임 태그 184"
+          },
+          {
+            "id": 185,
+            "name": "게임 태그 185"
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 342,
+            "name": "게임 태그 342"
+          },
+          {
+            "id": 351,
+            "name": "게임 태그 351"
+          }
+        ],
+        "set": "GILNEAS",
+        "art": "art/GIL_584.png"
+      },
+      "2018-07-11": {
+        "rawTagDelta": [
+          {
+            "role": "ownedTags",
+            "id": 200,
+            "before": "ABSENT",
+            "after": {
+              "id": 200,
+              "name": "종족",
+              "value": 15
+            }
+          }
+        ],
+        "eventKinds": [
+          "gameplay"
+        ]
+      }
+    }
+  }
+}

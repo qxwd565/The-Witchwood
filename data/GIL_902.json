@@ -12,101 +12,15 @@
     ],
     "race": "해적",
     "name": "흉악한 해적단원",
-    "nativeRawText": "<b>연계:</b> 내 무기에 공격력을 +1 부여합니다.",
     "text": "<b>연계:</b> 내 무기에 공격력을 +1 부여합니다.",
     "id": "GIL_902",
-    "dbfId": 48585,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 7
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 23
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 220,
-        "name": "연계",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_902.png"
+    "dbfId": 48585
   },
   "2022-11-30": {
     "races": [
       "UNDEAD",
       "PIRATE"
     ],
-    "race": "언데드, 해적",
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 2534,
-        "before": "ABSENT",
-        "after": {
-          "id": 2534,
-          "name": "게임 태그 2534",
-          "value": 1
-        }
-      }
-    ],
-    "eventKinds": [
-      "existing-confirmed"
-    ]
+    "race": "언데드, 해적"
   }
 }

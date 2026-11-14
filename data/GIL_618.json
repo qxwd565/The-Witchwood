@@ -7,108 +7,15 @@
     "cost": 6,
     "attack": 3,
     "health": 7,
-    "races": [],
-    "race": "",
     "name": "글린다 크로우스킨",
-    "nativeRawText": "내 손에 있는\n모든 하수인이\n<b>잔상</b>을 얻습니다.",
     "text": "내 손에 있는<br></br>모든 하수인이<br></br><b>잔상</b>을 얻습니다.",
     "id": "GIL_618",
-    "dbfId": 47295,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 7
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 6
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 183,
-        "name": "게임 태그 183",
-        "value": 1125
-      },
-      {
-        "id": 184,
-        "name": "게임 태그 184"
-      },
-      {
-        "id": 185,
-        "name": "게임 태그 185"
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 9
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 342,
-        "name": "게임 태그 342"
-      },
-      {
-        "id": 351,
-        "name": "게임 태그 351"
-      },
-      {
-        "id": 362,
-        "name": "게임 태그 362",
-        "value": 1
-      },
-      {
-        "id": 846,
-        "name": "잔상",
-        "value": 1
-      }
-    ],
-    "set": "GILNEAS",
-    "art": "art/GIL_618.png"
+    "dbfId": 47295
   },
   "2022-11-30": {
     "races": [
       "UNDEAD"
     ],
-    "race": "언데드",
-    "rawTagDelta": [
-      {
-        "role": "ownedTags",
-        "id": 200,
-        "before": "ABSENT",
-        "after": {
-          "id": 200,
-          "name": "종족",
-          "value": 11
-        }
-      }
-    ],
-    "eventKinds": [
-      "existing-confirmed"
-    ]
+    "race": "언데드"
   }
 }
